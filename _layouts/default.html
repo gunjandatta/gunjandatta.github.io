@@ -34,7 +34,7 @@
     {% for item in site.data.nav.items %}
     <div class="nav-item">
       {% if item.isLink %}
-      <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+      <a href="/{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
       {% else %}
       <a href="#" alt="{{ item.title }}">{{ item.title }}</a>
       {% endif %} {% if item.items %}
