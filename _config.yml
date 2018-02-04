@@ -4,4 +4,4 @@ description: An easy way to develop against the SharePoint 2013/Online REST API
 google_analytics: UA-88636936-1
 show_downloads: false
 github:
- - repository_url: "https://github.com/gunjandatta/sprest"
+  repository_url: "https://github.com/gunjandatta/sprest"
