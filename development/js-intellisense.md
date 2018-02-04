@@ -4,7 +4,9 @@ layout: default
 ## JavaScript Intellisense
 ### Importing the Library
 ![Lib](/assets/images/intellisense-js.png)
-
+```
+var $REST = require("gd-sprest");
+```
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
 
 **REST API EndPoints**
