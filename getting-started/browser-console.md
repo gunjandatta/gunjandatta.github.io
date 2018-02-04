@@ -7,19 +7,19 @@ The library will need to be referenced. The latest version of the library can be
 
 **_SharePoint Designer_**
 Using SharePoint designer, add a script tag referencing the file:
-```
+```html
 <script type="text/javascript" src="/sites/dev/SiteAssets/gd-sprest.min.js"></script>
 ```
 
 **_WebPart_**
 Edit a webpart or wiki page, and add a Script Editor webpart to the page. Once added, edit the source and add a script tag reference to the webpart:
-```
+```html
 <script type="text/javascript" src="/sites/dev/SiteAssets/gd-sprest.min.js"></script>
 ```
 
 **_Manual_**
 To manually reference the script file, press F-12 to access the browser development tools and access the browser console. Type in the following to reference the script file.
-```
+```js
 var script = document.createElement("script");
 script.src = "/sites/dev/SiteAssets/gd-sprest.min.js";
 document.head.appendChild(script);
@@ -30,7 +30,7 @@ The library allows the developer to execute both synchronous and asynchronous re
 
 #### Code Example
 Reference the [[$REST|Development $REST Global Variable]] page for details on the $REST variable.
-```
+```js
 var webInfo = $REST.Web().query({ Expand: ["Lists", "Fields", "RootFolder"] }).executeAndWait();
 ```
 

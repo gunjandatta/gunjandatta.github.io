@@ -4,13 +4,13 @@ layout: default
 ## JavaScript Development
 ### Reference the Script
 Reference the [[$REST|Development $REST Global Variable]] page for details on the $REST variable.
-```
+```js
 var $REST = require("gd-sprest");
 ```
 
 ### Code Example
 This example will get the current web, including the lists.
-```
+```js
 // Get the current web and lists
 $REST.Web().query({
     Expand: ["Lists"]
