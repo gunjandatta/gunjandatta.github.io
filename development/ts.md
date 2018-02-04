@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+[Back](/development)
 ## TypeScript Development
 ### Reference the Script
 Reference the [$REST global variable](/getting-started/global-variable) for details on the available libraries.

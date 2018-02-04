@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+[Back](/development)
 ## Request Execution
 The library's base object contains an "execute" method. This method has been designed to provide intellisense to the requested object, and reduce the amount of code required to get and post data from SharePoint 2013/Online.
 
@@ -23,7 +24,7 @@ The execution method is designed to automatically determine the type interface, 
 ### Request Execution Logic
 [<img src="/assets/images/execution-method.png" alt="Execute Method" style="max-width:100%" />](/assets/images/execution-method.png)
 
-### [Server-Side Like Experience](/development/request-execution-code)
+### [Server-Side Code Conversion Guide](serverside-conversion-guide)
 The execution method was designed to give a server-side like experience. Having a SharePoint development background going back to SharePoint 2007, server-side was basically the only way back then. This library will hopefully help SharePoint developers with wsp solution backgrounds an easy way into the new modern web stack.
 
 #### Blog Series
