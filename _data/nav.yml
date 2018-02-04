@@ -27,8 +27,6 @@ items:
  - title: REST API
    url: "api"
    items:
-    - title: Application Lifecycle Management
-      url: "alm"
     - title: List
       url: "list"
     - title: Navigation
@@ -69,6 +67,8 @@ items:
  - title: Advanced Topics
    url: "topics"
    items:
+    - title: Application Lifecycle Management
+      url: "alm"
     - title: Automation
       url: "automation"
     - title: Batch Operations

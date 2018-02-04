@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/api)
+[Back](/topics)
 ## Application Lifecycle Management (ALM)
 ### Tenant App Catalog
 The tenant app catalog is available from the 'Web' property.
