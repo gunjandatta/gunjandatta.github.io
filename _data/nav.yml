@@ -1,125 +1,86 @@
 title: Developer Guide
 items:
  - title: Home
-   isLink: true
    url: ""
  - title: Getting Started
-   isLink: true
    url: "getting-started"
    items:
    - title: Installation
-     isLink: true
      url: "installation"
    - title: Global Variable
-     isLink: true
      url: "global-variable"
    - title: Browser Console
-     isLink: true
      url: "browser-console"
  - title: Development
-   isLink: false
    url: "development"
    items:
     - title: JavaScript Development
-      isLink: true
       url: "js"
     - title: TypeScript Development
-      isLink: true
       url: "ts"
     - title: "NodeJS"
-      isLink: true
       url: "nodejs"
     - title: "Request Execution"
-      isLink: true
       url: "request-execution"
     - title: OData Requests
-      isLink: true
       url: "odata"
  - title: REST API
-   isLink: false
    url: "api"
    items:
     - title: Application Lifecycle Management
-      isLink: true
       url: "alm"
     - title: List
-      isLink: true
       url: "list"
     - title: Navigation
-      isLink: true
       url: "navigation"
     - title: People Manager
-      isLink: false
       url: "people-manager"
     - title: People Picker
-      isLink: false
       url: "people-picker"
     - title: Profile Loader
-      isLink: false
       url: "profile-loader"
     - title: Search
-      isLink: false
       url: "search"
     - title: Site
-      isLink: true
       url: "site"
     - title: "Social Feed"
-      isLink: false
       url: "social-feed"
     - title: "User Profile"
-      isLink: false
       url: "user-profile"
     - title: Utility
-      isLink: true
       url: "utility"
     - title: Web
-      isLink: true
       url: "web"
  - title: Helper
-   isLink: false
    url: "helpers"
    items:
     - title: Add-In Model
-      isLink: true
       url: "add-in-model"
     - title: List Form
-      isLink: true
       url: "list-form"
     - title: List Form Field
-      isLink: true
       url: "list-form-field"
     - title: Taxonomy
-      isLink: true
       url: "taxonomy"
     - title: WebPart
-      isLink: true
       url: "webpart"
  - title: Advanced Topics
-   isLink: false
    url: "topics"
    items:
     - title: Automation
-      isLink: true
       url: "spconfig"
     - title: Batch Operations
-      isLink: true
       url: "batch-operations"
     - title: Caching
-      isLink: true
       url: "caching"
     - title: Context Information
-      isLink: true
       url: "context-info"
     - title: Cross-Site Collection Requests
-      isLink: true
       url: "cross-sc"
     - title: JSLink
-      isLink: true
       url: "jslink"
  - title: React
-   isLink: true
    url: "react"
    items:
     - title: Field
-      isLink: true
       url: "field"
