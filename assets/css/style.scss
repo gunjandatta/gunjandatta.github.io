@@ -32,7 +32,9 @@
         }
     }
     // Hover Event
-    .nav-item:hover > .sub-nav {
+    .nav-item:hover > .sub-nav,
+    .nav-item > a:hover,
+    .nav-item > button:hover {
         display: block !important;
     }
 }
