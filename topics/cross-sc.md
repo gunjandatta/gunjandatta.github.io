@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/topics)
-## Cross-Site Collection Requests
+## Cross Site-Collection Requests
 When making requests to other site collections, it's important to note that GET requests will work without any issues. When making a POST request, the request digest must be provided in order for the request to be completed. The [ContextInfo](context-info) class contains a helper method for getting this information.
 ### Domain Limitation
 In order to use the REST api against other site collections, the domain **MUST** be the same. The only exception is an app web, where the REST api is allowed to make requests from the app domain to the SharePoint domain.
@@ -19,3 +19,6 @@ document.querySelector("#__REQUESTDIGEST").value
 ```
 
 If you are executing a POST request to a different site collection, we will need to get the context information of the target web first. Below is an example of getting the list information using CAML query on the root web.
+
+#### Helper Class
+The [Context Information](/topics/context-info) helper class contains a **getWeb** method. This method will return the request digest of the target web, so we can pass it to the request. Refer to the [Code Examples](cross-sc-code) for additional details of how to make cross site-collection requests.

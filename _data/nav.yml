@@ -77,7 +77,7 @@ items:
       url: "caching"
     - title: Context Information
       url: "context-info"
-    - title: Cross-Site Collection Requests
+    - title: Cross Site-Collection Requests
       url: "cross-sc"
  - title: React
    url: "react"
