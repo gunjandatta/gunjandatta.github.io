@@ -2,6 +2,15 @@
 ---
 
 @import "jekyll-theme-slate";
+// Main Content
 .inner {
     max-width: 85%;
+}
+
+// Navigation
+nav > ul {
+    list-style-type: none;
+}
+nav > ul > li {
+    float: left;
 }
