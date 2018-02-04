@@ -43,7 +43,7 @@
         {% for subItem in item.items %}
         <div>
             {% if subItem.isLink %}
-            <a href="{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
+            <a href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
             {% else %}
               {{ subItem.title }}
             {% endif %}
