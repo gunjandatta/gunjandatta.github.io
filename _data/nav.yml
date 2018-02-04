@@ -68,7 +68,7 @@ items:
    url: "topics"
    items:
     - title: Automation
-      url: "spconfig"
+      url: "automation"
     - title: Batch Operations
       url: "batch-operations"
     - title: Caching

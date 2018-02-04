@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+[Back](/)
 ## Development
 - [JavaScript](js)
 - [TypeScript](ts)
