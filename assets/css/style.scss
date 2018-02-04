@@ -25,13 +25,12 @@
         .sub-nav {
             display: none;
         }
-        
-        // Hover Event
-        :hover {
-            .sub-nav {
-                border-top: 1px solid white;
-                display: block;
-            }
+    }
+    // Hover Event
+    .nav-link:hover {
+        .sub-nav {
+            border-top: 1px solid white;
+            display: block;
         }
     }
 }
