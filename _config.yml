@@ -1,5 +1,5 @@
 theme: jekyll-theme-modernist
-title: gd-sprest
-description: SharePoint REST Framework designed to work in 2013 and Online.
+title: SharePoint REST Framework
+description: An easy way to develop against the SharePoint REST API
 show_downloads: false
 google_analytics: UA-88636936-1
