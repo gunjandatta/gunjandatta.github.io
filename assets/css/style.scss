@@ -30,16 +30,12 @@
                 display: block;
                 font-size: larger;
             }
-            // Hover
-            &:hover {
-                display: block !important;
-            }
         }
-        // Hover
-        &:hover {
-            .sub-nav {
-                display: block !important;
-            }
+    }
+    // Hover Event
+    .nav-item:hover {
+        > .sub-nav {
+            display: block !important;
         }
     }
 }
