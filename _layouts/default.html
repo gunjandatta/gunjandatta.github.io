@@ -34,7 +34,9 @@
       <nav>
         {% for item in site.data.nav.toc %}
           <li>
-            <a href="{{item.url}}" alt="{{item.title}}">{{ item.title }}</a>
+            {% if item.url %}
+              <a href="{{item.url}}" alt="{{item.title}}">{{ item.title }}</a>
+            {% endif %}
           </li>
         {% endfor %}
       </nav>

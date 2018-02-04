@@ -1,5 +1,7 @@
-toc:
+nav_title: gd-sprest
+nav_items:
 - title: Home
+  url: "/index.md"
 - title: Developer Guide
   - subfolderitems:
     - page: Getting Started
