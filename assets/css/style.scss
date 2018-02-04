@@ -21,13 +21,13 @@
         }
 
         // Sub-Navigation
-        div {
+        .sub-nav {
             display: none;
         }
     }
-    span:hover {
-        // Sub-Navigation
-        div {
+    // Show the sub-navigation on hover
+    :hover {
+        .sub-nav {
             border-top: 1px solid white;
             display: block;
         }
