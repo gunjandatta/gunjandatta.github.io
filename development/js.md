@@ -24,6 +24,7 @@ $REST.Web().query({
 
 ### Intellisense
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
+
 ![Lib](/assets/images/intellisense-js.png)
 
 #### Executing Requests
@@ -31,6 +32,7 @@ The intellisense is designed to automatically detect the appropriate properties 
 
 ##### Object Example
 The methods and properties are available for the web object. Any collections, "Fields" for example, are methods.
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-js-web.png)
 
 ##### Query Example
@@ -38,16 +40,20 @@ The ability to query objects is very powerful, and can reduce the amount of requ
 
 ##### OData Request
 The query method is available, and contains the intellisense for the [OData Request](/development/odata).
+
 ![OData Request](/assets/images/intellisense-js-query.png)
 
 ##### Collection Properties
 The intellisense for the collection properties are no longer methods, and contain the appropriate methods and results.
+
 ![Collection Properties](/assets/images/intellisense-js-query-fields.png)
 
 ##### Collection Item
 The intellisense is also available for the collection items. The above example shows the available list method and properties.
+
 ![List Intellisense](/assets/images/intellisense-js-query-list.png)
 
 #### SharePoint Types
 When developing SharePoint solutions, it's handy to have the correct enumerators available when coding. It's required in some cases, so the SPTypes helper class contains various enumerator types.
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-js-sptypes.png)

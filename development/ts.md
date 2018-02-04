@@ -51,6 +51,7 @@ import { List }
 ```
 ### Intellisense
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
+
 ![Lib](/assets/images/intellisense-ts.png)
 
 #### Executing Requests
@@ -58,6 +59,7 @@ The intellisense is designed to automatically detect the appropriate properties 
 
 ##### Object Example
 The methods and properties are available for the web object. Any collections, "Fields" for example, are methods.
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-ts-web.png)
 
 ##### Query Example
@@ -65,33 +67,38 @@ The ability to query objects is very powerful, and can reduce the amount of requ
 
 ##### OData Request
 The query method is available, and contains the intellisense for the [[OData Request|OData]].
+
 ![OData Request](/assets/images/intellisense-ts-query.png)
 
 ##### Collection Properties
 The intellisense for the collection properties are no longer methods, and contain the appropriate methods and results.
+
 ![Collection Properties](/assets/images/intellisense-ts-query-fields.png)
 
 ##### Collection Item
 The intellisense is also available for the collection items. The above example shows the available list method and properties.
+
 ![List Intellisense](/assets/images/intellisense-ts-query-list.png)
 
 #### SharePoint Types
 When developing SharePoint solutions, it's handy to have the correct enumerators available when coding. It's required in some cases, so the SPTypes helper class contains various enumerator types.
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-ts-sptypes.png)
 
 #### Types
 TypeScript gives the ability to define the type of variables. Referencing the types can be done in various ways.
 
 ##### Main Types
-![Types](/assets/images/intellisense-ts-types.png)
-
 The "Types" interfaces can be imported from the main library. It contains all of the available types:
 - Helper - The helper types
 - SP - The SharePoint types
 - Util - The utility types (Internal)
 
+![Types](/assets/images/intellisense-ts-types.png)
+
 ##### SharePoint Types
 All interfaces for this REST API objects are listed under the SharePoint "SP" reference.
+
 ![Main Types](/assets/images/intellisense-ts-types-sp.png)
 
 ##### Class Types
