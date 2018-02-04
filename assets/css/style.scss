@@ -13,7 +13,7 @@
     // Navigation Item
     .nav-item {
         cursor: pointer;
-        float: left;
+        display: inline-block;
         a, button {
             background-color: #0090ff;
             color: white;
@@ -24,6 +24,7 @@
         > .sub-nav {
             // Hide by default
             display: none;
+            position: absolute;
             // Sub-Navigation Link
             a {
                 border-top: 1px solid white;
@@ -36,7 +37,7 @@
     // Hover Event
     .nav-item:hover {
         > .sub-nav {
-            display: block !important;
+            display: inherit;
         }
     }
 }
