@@ -16,5 +16,20 @@
         float: left;
         font-size: larger;
         padding: 5px 10px;
+        a {
+            color: white;
+        }
+
+        // Sub-Navigation
+        div {
+            display: none;
+        }
+    }
+    span:hover {
+        // Sub-Navigation
+        div {
+            border-top: 1px solid white;
+            display: block;
+        }
     }
 }
