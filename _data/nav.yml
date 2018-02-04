@@ -23,12 +23,12 @@ items:
     - title: JavaScript Intellisense
       isLink: true
       url: "js-intellisense"
-    - title: TypeScript Intellisense
-      isLink: true
-      url: "ts-intellisense"
     - title: JavaScript Development
       isLink: true
       url: "js-development"
+    - title: TypeScript Intellisense
+      isLink: true
+      url: "ts-intellisense"
     - title: "TypeScript Development"
       isLink: true
       url: "ts-development"
