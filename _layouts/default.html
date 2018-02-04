@@ -34,8 +34,10 @@
     {% for item in site.data.nav.items %}
     <div class="nav-item">
       {% if item.isLink %}
-      <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
-      {% else %} {{ item.title }} {% endif %} {% if item.items %}
+      <a href="{{ item.url }}" alt="{{ item.title }}">
+        {% endif %} {{ item.title }} {% if item.isLink %}
+      </a>
+      {% endif %} {% if item.items %}
       <div class="sub-nav">
         {% for subItem in item.items %}
         <a href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
