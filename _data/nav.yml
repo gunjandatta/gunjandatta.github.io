@@ -35,16 +35,13 @@ items:
     - title: OData Requests
       isLink: true
       url: "odata"
- - title: "REST API"
+ - title: REST API
    isLink: false
    url: "api"
    items:
-    - title: ALM
+    - title: Application Lifecycle Management
       isLink: true
       url: "alm"
-    - title: Context Information
-      isLink: true
-      url: "context-info"
     - title: List
       isLink: true
       url: "list"
@@ -78,3 +75,50 @@ items:
     - title: Web
       isLink: true
       url: "web"
+ - title: Helper
+   isLink: false
+   url: "helpers"
+   items:
+    - title: Add-In Model
+      isLink: true
+      url: "add-in-model"
+    - title: List Form
+      isLink: true
+      url: "list-form"
+    - title: List Form Field
+      isLink: true
+      url: "list-form-field"
+    - title: Taxonomy
+      isLink: true
+      url: "taxonomy"
+    - title: WebPart
+      isLink: true
+      url: "webpart"
+ - title: Advanced Topics
+   isLink: false
+   url: "topics"
+    - title: Batch Operations
+      isLink: true
+      url: "batch-operations"
+    - title: Caching
+      isLink: true
+      url: "caching"
+    - title: Context Information
+      isLink: true
+      url: "context-info"
+    - title: 
+      isLink: true
+      url: ""
+    - title: 
+      isLink: true
+      url: ""
+    - title: 
+      isLink: true
+      url: ""
+ - title: React
+   isLink: true
+   url: "react"
+   items:
+    - title: Field
+      isLink: true
+      url: "field"
