@@ -19,22 +19,27 @@
             font-size: larger;
             padding: 5px 10px;
         }
-    }
-
-    // Sub-Navigation
-    .nav-item > .sub-nav {
-        // Hide by default
-        display: none;
-        // Sub-Navigation Link
-        a {
-            border-top: 1px solid white;
-            color: white;
-            display: block;
-            font-size: larger;
+        // Sub-Navigation
+        > .sub-nav {
+            // Hide by default
+            display: none;
+            // Sub-Navigation Link
+            a {
+                border-top: 1px solid white;
+                color: white;
+                display: block;
+                font-size: larger;
+            }
+            // Hover
+            &:hover {
+                display: block !important;
+            }
         }
         // Hover
         &:hover {
-            display: block !important;
+            .sub-nav {
+                display: block !important;
+            }
         }
     }
 }
