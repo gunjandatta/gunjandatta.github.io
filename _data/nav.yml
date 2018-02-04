@@ -97,6 +97,7 @@ items:
  - title: Advanced Topics
    isLink: false
    url: "topics"
+   items:
     - title: Automation
       isLink: true
       url: "spconfig"
