@@ -3,6 +3,6 @@ items:
 - title: Home
  url: "/index.md"
 - title: Developer Guide
- - subfolderitems:
+  subfolderitems:
   - page: Getting Started
     url: /pages/gettingStarted.md
