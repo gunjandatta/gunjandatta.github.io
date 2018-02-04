@@ -84,3 +84,19 @@ items:
    items:
     - title: Field
       url: "field"
+    - title: Item Form
+      url: "item-form"
+    - title: Panel
+      url: "panel"
+    - title: People Picker
+      url: "people-picker"
+    - title: WebPart
+      url: "wp"
+    - title: WebPart Configuration
+      url: "wp-cfg"
+    - title: WebPart List Template
+      url: "wp-list"
+    - title: WebPart Search Template
+      url: "wp-search"
+    - title: WebPart Tabs
+      url: "wp-tabs"

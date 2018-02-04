@@ -28,20 +28,21 @@ The REST API allows for OData requests to be made to each request. This will all
     * 5000 is the max limit
     * Setting the "GetAllItems" flag will get past the 5k limit
 
-## Browser Console
-#### Get the web, expanding the field, lists and root folder
+### Code Examples
+#### Browser Console
+##### Get the web, expanding the field, lists and root folder
 ```js
 var web = $REST.Web().query({ Expand: ["Fields", "Lists", "RootFolder"] }).executeAndWait();
 var fields = web.Fields.results;
 var lists = web.Lists.results;
 var rootFolder = web.RootFolder;
 ```
-## JavaScript
-#### Reference the library
+#### JavaScript
+##### Reference the library
 ```js
 var $REST = require("gd-sprest");
 ```
-#### Get the web, expanding the field, lists and root folder
+##### Get the web, expanding the field, lists and root folder
 ```js
 // Get the current web
 $REST.Web()
@@ -56,7 +57,7 @@ $REST.Web()
         var rootFolder = web.RootFolder;
     });
 ```
-#### Query for picture libraries, including their items
+##### Query for picture libraries, including their items
 ```js
 // Get the current web
 $REST.Web()
@@ -78,12 +79,12 @@ $REST.Web()
         }
     });
 ```
-## TypeScript
-#### Reference the library
+#### TypeScript
+##### Reference the library
 ```ts
 import { Web } from "gd-sprest";
 ```
-#### Get the web, expanding the field, lists and root folder
+##### Get the web, expanding the field, lists and root folder
 ```ts
 // Get the current web
 (new Web())
@@ -98,7 +99,7 @@ import { Web } from "gd-sprest";
         let rootFolder = web.RootFolder;
     });
 ```
-#### Query for picture libraries, including their items
+##### Query for picture libraries, including their items
 ```ts
 // Get the current web
 (new Web())
