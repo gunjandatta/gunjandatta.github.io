@@ -1,8 +1,5 @@
 title: gd-sprest
 items:
-- title: Home
- url: "/index.md"
-- title: Developer Guide
-  subfolderitems:
-  - page: Getting Started
-    url: /pages/gettingStarted.md
+ - title: Home
+   url: "/index.md"
+ - title: Developer Guide
