@@ -1,5 +1,5 @@
 theme: jekyll-theme-modernist
 title: SharePoint REST Framework
 description: An easy way to develop against the SharePoint REST API
-show_downloads: false
 google_analytics: UA-88636936-1
+show_downloads: false

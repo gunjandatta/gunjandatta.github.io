@@ -1,6 +1,6 @@
 ---
 ---
-@import "jekyll-theme-modernist";
-.wrapper {
-  max-width: 85%;
+@import "{{ site.theme }}";
+.main {
+  width: 85%;
 }
