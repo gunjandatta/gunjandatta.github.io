@@ -32,6 +32,9 @@ items:
     - title: "Request Execution"
       isLink: true
       url: "request-execution"
+    - title: OData Requests
+      isLink: true
+      url: "odata"
  - title: "REST API"
    isLink: false
    url: "api"
@@ -48,9 +51,6 @@ items:
     - title: Navigation
       isLink: true
       url: "navigation"
-    - title: OData
-      isLink: true
-      url: "odata"
     - title: People Manager
       isLink: false
       url: "people-manager"
