@@ -36,7 +36,7 @@
       {% if item.isLink %}
       <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
       {% else %}
-      <button>{{ item.title }}</button>
+      <a href="#" alt="{{ item.title }}">{{ item.title }}</a>
       {% endif %} {% if item.items %}
       <div class="sub-nav">
         {% for subItem in item.items %}
