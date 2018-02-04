@@ -27,6 +27,11 @@
     .nav-item > .sub-nav {
         border-top: 1px solid white;
         display: none;
+        a {
+            color: white;
+            display: block;
+            font-size: larger;
+        }
     }
     // Hover Event
     .nav-item:hover > .sub-nav {
