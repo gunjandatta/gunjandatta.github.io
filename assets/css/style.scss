@@ -8,15 +8,20 @@
 }
 
 // Navigation
-nav > ul {
-    list-style-type: none;
-    margin-left: 6%;
-    li {
-        background-color: #0090ff;
-        float: left;
-        a {
+.nav {
+    margin-left: 15%;
+    ul {
+        list-style-type: none;
+        li {
+            background-color: #0090ff;
             color: white;
+            float: left;
             font-size: larger;
+            padding: 5px 10px;
+            a {
+                color: white;
+                font-size: larger;
+            }
         }
     }
 }
