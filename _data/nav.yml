@@ -20,12 +20,9 @@ items:
    isLink: false
    url: "development"
    items:
-    - title: JavaScript Intellisense
-      isLink: true
-      url: "js-intellisense"
     - title: JavaScript Development
       isLink: true
-      url: "js-development"
+      url: "js"
     - title: TypeScript Intellisense
       isLink: true
       url: "ts-intellisense"

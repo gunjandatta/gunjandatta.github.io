@@ -1,15 +1,32 @@
 ---
 layout: default
 ---
-## JavaScript Intellisense
-### Importing the Library
-![Lib](/assets/images/intellisense-js.png)
+## JavaScript Development
+### Reference the Script
+Reference the [[$REST|Development $REST Global Variable]] page for details on the $REST variable.
 ```
 var $REST = require("gd-sprest");
 ```
+
+### Code Example
+This example will get the current web, including the lists.
+```
+// Get the current web and lists
+$REST.Web().query({
+    Expand: ["Lists"]
+}).execute(function(web) {
+    // Parse the lists
+    for(var i=0; i<web.Lists.results.length; i++) {
+        var list = web.Lists.results[i];
+    }
+});
+```
+
+### Intellisense
+![Lib](/assets/images/intellisense-js.png)
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
 
-**REST API EndPoints**
+#### REST API EndPoints
 - [List](/code/list)
 - [Navigation](/code/navigation)
 - People Manager
@@ -22,7 +39,7 @@ The intellisense of the library will display the available entry point of the Sh
 - [Utility](/code/utility)
 - [Web](/code/web)
 
-**Helper Libraries**
+#### Helper Libraries
 - Context Information - A reference to the _spPageContextInformation object
 - Helpers
     - App - Methods for developing within an App web
