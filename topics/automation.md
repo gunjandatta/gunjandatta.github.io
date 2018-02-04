@@ -4,12 +4,16 @@ layout: default
 [Back](/topics)
 ## SharePoint Automation
 The "SharePoint Configuration" class allows the developer to define configuration files, to automate the installation/unintallation of SharePoint assets. The configuration options are available through the built-in intellisense, shown below. This configuration class contains built-in methods to install and uninstall the SharePoint assets. Refer to the [Code Examples](automation-code) for examples of using this class.
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-ts-types-cfg-type.png)
+
 ### [Code Examples](automation-code)
 ### Demo
 ![Automation](/assets/images/demo-spcfg.gif)
+
 ### [Configuration File](automation-cfg-file)
 Intellisense is available for defining the custom properties of the various field types.
+
 ### SPConfig Class
 #### Constructor
 * configuration:ISPConfigProps
