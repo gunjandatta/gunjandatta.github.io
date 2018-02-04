@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/api/automation)
+[Back](/topics/automation)
 ## SharePoint Field Configuration Example
 ### TypeScript
 ```ts

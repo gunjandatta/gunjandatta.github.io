@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/api/automation)
+[Back](/topics/automation)
 ## SharePoint Automation Code Examples
 ### JavaScript
 ```js
