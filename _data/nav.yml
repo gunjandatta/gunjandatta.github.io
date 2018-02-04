@@ -2,7 +2,7 @@ title: Developer Guide
 items:
  - title: Home
    isLink: true
-   url: "/"
+   url: ""
  - title: Getting Started
    isLink: false
    url: "getting-started"
