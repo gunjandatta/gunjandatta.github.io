@@ -23,18 +23,18 @@
 
     // Sub-Navigation
     .nav-item > .sub-nav {
+        // Hide by default
         display: none;
+        // Sub-Navigation Link
         a {
             border-top: 1px solid white;
             color: white;
             display: block;
             font-size: larger;
         }
-    }
-    // Hover Event
-    .nav-item:hover > .sub-nav,
-    .nav-item > a:hover,
-    .nav-item > button:hover {
-        display: block !important;
+        // Hover
+        &:hover {
+            display: block !important;
+        }
     }
 }
