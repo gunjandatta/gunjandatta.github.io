@@ -9,20 +9,20 @@
 
 // Navigation
 .nav {
-    margin-left: 6%;
+    margin: 0% 6%;
     // Navigation Item
     .nav-item {
+        background-color: #0090ff;
         cursor: pointer;
         display: inline-block;
         a, button {
-            background-color: #0090ff;
             color: white;
             font-size: larger;
             padding: 5px 10px;
         }
         // Sub-Navigation
         > .sub-nav {
-            // Hide by default
+            background-color: #0090ff;
             display: none;
             position: absolute;
             // Sub-Navigation Link
@@ -31,6 +31,7 @@
                 color: white;
                 display: block;
                 font-size: larger;
+                text-decoration: none;
             }
         }
     }
