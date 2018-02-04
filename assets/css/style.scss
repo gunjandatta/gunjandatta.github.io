@@ -25,6 +25,7 @@
             background-color: #0090ff;
             display: none;
             position: absolute;
+            z-index: 999;
             // Sub-Navigation Link
             a {
                 border-top: 1px solid white;
