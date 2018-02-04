@@ -1,4 +1,18 @@
+title: Developer Guide
 items:
  - title: Home
+   isLink: true
    url: "/"
- - title: Developer Guide
+ - title: Getting Started
+   isLink: false
+   url: "getting-started"
+   items:
+   - title: Installation
+     isLink: true
+     url: "installation"
+   - title: Global Variable
+     isLink: true
+     url: "global-variable"
+   - title: Browser Console
+     isLink: true
+     url: "browser-console"
