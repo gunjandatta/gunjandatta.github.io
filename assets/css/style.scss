@@ -15,10 +15,11 @@
     .nav-item {
         cursor: pointer;
         display: inline-block;
-        a, button {
+        a {
             color: white;
             font-size: larger;
             padding: 5px 10px;
+            text-decoration: none;
         }
         // Sub-Navigation
         > .sub-nav {
