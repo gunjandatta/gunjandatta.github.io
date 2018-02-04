@@ -35,4 +35,4 @@ var webInfo = $REST.Web().query({ Expand: ["Lists", "Fields", "RootFolder"] }).e
 ```
 
 #### Demo
-![PowerShell](https://github.com/gunjandatta/sprest/wiki/images/demo-Browser.gif)
+![PowerShell](/assets/images/demo-browser.gif)
