@@ -11,15 +11,12 @@
 .nav {
     margin-left: 6%;
     // Navigation Link
-    .nav-link {
+    .nav-link > span, .nav-link > a {
         background-color: #0090ff;
         color: white;
         float: left;
         font-size: larger;
         padding: 5px 10px;
-        a {
-            color: white;
-        }
 
         // Sub-Navigation
         .sub-nav {

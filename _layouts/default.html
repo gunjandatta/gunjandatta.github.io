@@ -36,18 +36,11 @@
       {% if item.isLink %}
       <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
       {% else %}
-      {{ item.title }}
-      {% endif %}
-      {% if item.items %}
+      <span>{{ item.title }}</span>
+      {% endif %} {% if item.items %}
       <div class="sub-nav">
         {% for subItem in item.items %}
-        <div>
-            {% if subItem.isLink %}
-            <a href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
-            {% else %}
-              {{ subItem.title }}
-            {% endif %}
-        </div>
+        <a href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
         {% endfor %}
       </div>
       {% endif %}
