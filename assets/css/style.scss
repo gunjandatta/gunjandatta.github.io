@@ -2,6 +2,13 @@
 ---
 
 @import "jekyll-theme-modernist";
+header .title, header .description {
+    width: 85%;
+}
+header .view-link {
+    width: 15%;
+}
+
 .wrapper {
     width: 85%;
 }
