@@ -11,25 +11,21 @@
 .nav {
     margin-left: 6%;
     // Navigation Item
-    .nav-item {
-        > span, > a {
-            background-color: #0090ff;
-            color: white;
-            float: left;
-            font-size: larger;
-            padding: 5px 10px;
-        }
+    .nav-item, .nav-item a {
+        background-color: #0090ff;
+        color: white;
+        float: left;
+        font-size: larger;
+        padding: 5px 10px;
+    }
 
-        // Sub-Navigation
-        .sub-nav {
-            border-top: 1px solid white;
-            display: none;
-        }
+    // Sub-Navigation
+    .nav-item > .sub-nav {
+        border-top: 1px solid white;
+        display: none;
     }
     // Hover Event
-    .nav-item:hover {
-        .sub-nav {
-            display: block !important;
-        }
+    .nav-item:hover > .sub-nav {
+        display: block !important;
     }
 }
