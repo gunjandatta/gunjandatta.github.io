@@ -10,8 +10,8 @@
 // Navigation
 .nav {
     margin-left: 6%;
-    // Navigation Link
-    .nav-link {
+    // Navigation Item
+    .nav-item {
         > span, > a {
             background-color: #0090ff;
             color: white;
@@ -27,7 +27,7 @@
         }
     }
     // Hover Event
-    .nav-link:hover {
+    .nav-item:hover {
         .sub-nav {
             display: block !important;
         }
