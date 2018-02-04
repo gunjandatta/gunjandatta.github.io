@@ -23,14 +23,14 @@
 
         // Sub-Navigation
         .sub-nav {
+            border-top: 1px solid white;
             display: none;
         }
     }
     // Hover Event
     .nav-link:hover {
         .sub-nav {
-            border-top: 1px solid white;
-            display: block;
+            display: block !important;
         }
     }
 }
