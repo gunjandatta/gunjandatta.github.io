@@ -36,6 +36,9 @@
           <li>
             {{ site.data.nav.title }}
           </li>
+          {% for item in site.data.nav.items %}
+            <li>{{ item.title }}</li>
+          {% endfor %}
         </ul>
       </nav>
       <section>
