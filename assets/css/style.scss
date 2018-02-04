@@ -23,9 +23,9 @@
 
     // Sub-Navigation
     .nav-item > .sub-nav {
-        border-top: 1px solid white;
         display: none;
         a {
+            border-top: 1px solid white;
             color: white;
             display: block;
             font-size: larger;
