@@ -4,7 +4,7 @@ items:
    isLink: true
    url: ""
  - title: Getting Started
-   isLink: false
+   isLink: true
    url: "getting-started"
    items:
    - title: Installation
@@ -97,6 +97,9 @@ items:
  - title: Advanced Topics
    isLink: false
    url: "topics"
+    - title: Automation
+      isLink: true
+      url: "spconfig"
     - title: Batch Operations
       isLink: true
       url: "batch-operations"
@@ -106,15 +109,12 @@ items:
     - title: Context Information
       isLink: true
       url: "context-info"
-    - title: 
+    - title: Cross-Site Collection Requests
       isLink: true
-      url: ""
-    - title: 
+      url: "cross-sc"
+    - title: JSLink
       isLink: true
-      url: ""
-    - title: 
-      isLink: true
-      url: ""
+      url: "jslink"
  - title: React
    isLink: true
    url: "react"
