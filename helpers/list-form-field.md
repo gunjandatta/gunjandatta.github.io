@@ -10,9 +10,9 @@ The input parameters use the _IListFormFieldInfo_ interface.
 
 | Name | Return Type | Description |
 | --- | --- | --- |
-| loadLookupData(_info: IListFormLookupFieldInfo, queryTop?: number_) | _PromiseLike\<Array\<Types.SP.IListItemQueryResult\>\>_ | Loads the lookup reference data. |
-| loadMMSData(_info: IListFormMMSFieldInfo_) | _PromiseLike\<Array\<ITermInfo\>\>_ | Loads the MMS reference data. |
-| loadMMSValueField(_info: IListFormMMSFieldInfo_) | _PromiseLike\<Types.SP.IFieldManagedMetadata\>_ | Loads the MMS hidden note field. |
+| loadLookupData(_info: IListFormLookupFieldInfo, queryTop?: number_) | _PromiseLike&lt;Array&lt;Types.SP.IListItemQueryResult&gt;&gt;_ | Loads the lookup reference data. |
+| loadMMSData(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Loads the MMS reference data. |
+| loadMMSValueField(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Types.SP.IFieldManagedMetadata&gt;_ | Loads the MMS hidden note field. |
 
 #### Interfaces
 ##### IListFormFieldInfo
@@ -34,7 +34,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 
 | Property | Type | Description |
 | --- | --- | --- |
-| choices | _Array\<string\>_ | The choices. |
+| choices | _Array&lt;string&gt;_ | The choices. |
 | field | _IFieldChoice \| IFieldMultiChoice_ | The choice field. |
 | multi | _boolean_ | True if this is a multi-choice field. |
 

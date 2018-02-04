@@ -10,7 +10,7 @@ The list form class is designed to handle the interactions with reading, updatin
 | Property | Type | Required | Default Value | Description |
 | --- | --- | --- | --- | --- |
 | cacheKey | _string_ | No | "" | The key to store the list information in session storage. |
-| fields | _Array\<string\>_ | No | [] | An array of internal field names. If null, the default form fields are returned. |
+| fields | _Array&lt;string&gt;_ | No | [] | An array of internal field names. If null, the default form fields are returned. |
 | item | _IListItemQueryResult_ \| IListItemResult | No | null | The target list item reference. |
 | itemId | _number_ | No | 0 | The item id to get as part of the request. |
 | listName | _string_ | Yes | "" | The list name. |
@@ -22,11 +22,11 @@ The list form class is designed to handle the interactions with reading, updatin
 
 | Name | Return Type | Description |
 | --- | --- | --- |
-| loadAttachments(_listInfo: IListFormProps_) | _PromiseLike\<Array\<Types.SP.IAttachment\>\>_ | Loads the item attachments. |
-| refreshItem(_listInfo: IListFormResult_) | _PromiseLike\<IListFormResult\>_ | Refreshes the list item. |
-| removeAttachments(_listInfo: IListFormProps, attachmentInfo: _Array\<Types.SP.IAttachment\>_) | _PromiseLike\<void\>_ | Removes the attachments. |
-| saveAttachments(_listInfo: IListFormProps, attachmentInfo: Array\<IListFormAttachmentInfo\>_) | _PromiseLike\<Array\<Types.SP.IAttachment\>\>_ | Saves the attachments. |
-| saveItem(_info: IListFormResult, formValues: any_) | _PromiseLike\<IListFormResult\>_ | Saves the list item. |
+| loadAttachments(_listInfo: IListFormProps_) | _PromiseLike&lt;Array&lt;Types.SP.IAttachment&gt;&gt;_ | Loads the item attachments. |
+| refreshItem(_listInfo: IListFormResult_) | _PromiseLike&lt;IListFormResult&gt;_ | Refreshes the list item. |
+| removeAttachments(_listInfo: IListFormProps, attachmentInfo: _Array&lt;Types.SP.IAttachment&gt;_) | _PromiseLike&lt;void&gt;_ | Removes the attachments. |
+| saveAttachments(_listInfo: IListFormProps, attachmentInfo: Array&lt;IListFormAttachmentInfo&gt;_) | _PromiseLike&lt;Array&lt;Types.SP.IAttachment&gt;&gt;_ | Saves the attachments. |
+| saveItem(_info: IListFormResult, formValues: any_) | _PromiseLike&lt;IListFormResult&gt;_ | Saves the list item. |
 
 #### IListFormAttachmentInfo
 
@@ -40,7 +40,7 @@ The list form class is designed to handle the interactions with reading, updatin
 
 | Property | Type | Description |
 | --- | --- | --- |
-| attachments | _Array\<IAttachment\>_ | The list item attachments. |
+| attachments | _Array&lt;IAttachment&gt;_ | The list item attachments. |
 | fields | _{ [key: string]: IFieldResult }_ | The list fields. |
 | item | _IListItemQueryResult \| IListItemResult_ | The list item. |
 | query | _ODataQuery_ | The odata query used when querying for the item. |
