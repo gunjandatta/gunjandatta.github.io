@@ -22,11 +22,11 @@ The list form class is designed to handle the interactions with reading, updatin
 
 | Name | Return Type | Description |
 | --- | --- | --- |
-| loadAttachments(listInfo: _IListFormProps_) | _PromiseLike<Array<Types.SP.IAttachment>>_ | Loads the item attachments. |
-| refreshItem(listInfo: _IListFormResult_) | _PromiseLike<IListFormResult>_ | Refreshes the list item. |
-| removeAttachments(listInfo: _IListFormProps_, attachmentInfo: _Array<Types.SP.IAttachment>_) | _PromiseLike<void>_ | Removes the attachments. |
-| saveAttachments(listInfo: _IListFormProps_, attachmentInfo: _Array<IListFormAttachmentInfo>_) | _PromiseLike<Array<Types.SP.IAttachment>>_ | Saves the attachments. |
-| saveItem(info: _IListFormResult_, formValues: _any_) | _PromiseLike<IListFormResult>_ | Saves the list item. |
+| loadAttachments(_listInfo: IListFormProps_) | _PromiseLike<Array<Types.SP.IAttachment>>_ | Loads the item attachments. |
+| refreshItem(_listInfo: IListFormResult_) | _PromiseLike<IListFormResult>_ | Refreshes the list item. |
+| removeAttachments(_listInfo: IListFormProps, attachmentInfo: _Array<Types.SP.IAttachment>_) | _PromiseLike<void>_ | Removes the attachments. |
+| saveAttachments(_listInfo: IListFormProps, attachmentInfo: Array<IListFormAttachmentInfo>_) | _PromiseLike<Array<Types.SP.IAttachment>>_ | Saves the attachments. |
+| saveItem(_info: IListFormResult, formValues: any_) | _PromiseLike<IListFormResult>_ | Saves the list item. |
 
 #### IListFormAttachmentInfo
 

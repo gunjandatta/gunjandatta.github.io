@@ -5,6 +5,7 @@ layout: default
 ## Taxonomy
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.
 ### Helper Methods
+
 | **Name** | **Return Type** | **Description** |
 | --- | --- | --- |
 | **findById(_term: ITerm, termId: string_)** | _ITerm_ | Searches a term for the specified id. |
@@ -19,13 +20,17 @@ The taxonomy class is designed to return the managed metadata term set data as a
 | **toFieldValue(_term: ITerm \| ITermInfo_)** | _any_ | Converts the term to the field value, formatted for updating an item in the REST API. |
 | **toFieldMultiValue(_term: Array<ITerm \| ITermInfo>_)** | _any_ | Converts an array of terms to the multi-field value, formatted for updating an item in the REST API. |
 | **toObject(_Array<ITermInfo>_)** | _ITerm_ | Converts an array of term information to a term. |
+
 ### Interfaces
 #### ITerm
+
 | **Property** | **Type** | **Description** |
 | --- | --- | --- |
 | info | _ITermInfo_ | The term information. |
 | parent | _ITerm_ | The parent term. |
+
 #### ITermInfo
+
 | **Property** | **Type** | **Description** |
 | --- | --- | --- |
 | **description** | _string_ | The term description |
