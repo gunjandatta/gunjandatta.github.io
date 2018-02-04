@@ -31,15 +31,13 @@
 
   <!-- Navigation -->
   <div class="nav">
-    <ul>
-      {% for item in site.data.nav.items %}
-      <li>
-        {% if item.url %}
-        <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
-        {% else %} {{ item.title }} {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
+    {% for item in site.data.nav.items %}
+    <span>
+      {% if item.url %}
+      <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+      {% else %} {{ item.title }} {% endif %}
+    </span>
+    {% endfor %}
   </div>
 
   <!-- MAIN Container -->
