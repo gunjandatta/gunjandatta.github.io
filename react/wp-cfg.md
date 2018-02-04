@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/react)
 ## React WebPart Configuration Component
-This component is used with the [[WebPart|React WebPart]] component. This component renders a button to the page, displaying a configuration panel displaying the webpart's custom properties. This component can be extended for further customizations.
+This component is used with the [WebPart](wp) component. This component renders a button to the page, displaying a configuration panel displaying the webpart's custom properties. This component can be extended for further customizations.
 
 ### Available Components
 * _WebPartCfgPanel_
@@ -43,9 +43,9 @@ Reference this [blog post](http://dattabase.com/sharepoint-react-webparts/) for 
     * A reference to the configuration panel element.
 * onRenderContents:(cfg:IWebPartCfg) => JSX.Element | Array<JSX.Element>
     * The render contents event.
-* onRenderFooter:() => JSX.Element | Array<JSX.Element>
+* onRenderFooter:() => JSX.Element \| Array<JSX.Element>
     * The render footer event.
-* onRenderHeader:() => JSX.Element | Array<JSX.Element>
+* onRenderHeader:() => JSX.Element \| Array<JSX.Element>
     * The render header event.
 * saveConfiguration:(wpCfg:IWebPartCfg) => void
     * Method to save the webpart configuration.
