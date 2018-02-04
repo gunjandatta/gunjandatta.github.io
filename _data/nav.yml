@@ -16,3 +16,25 @@ items:
    - title: Browser Console
      isLink: true
      url: "browser-console"
+ - title: Development
+   isLink: false
+   url: "development"
+   items:
+    - title: JavaScript Intellisense
+      isLink: true
+      url: "js-intellisense"
+    - title: TypeScript Intellisense
+      isLink: true
+      url: "ts-intellisense"
+    - title: JavaScript Development
+      isLink: true
+      url: "js-development"
+    - title: "TypeScript Development"
+      isLink: true
+      url: "ts-development"
+    - title: "NodeJS"
+      isLink: true
+      url: "nodejs"
+    - title: "Request Execution"
+      isLink: true
+      url: "request-execution"
