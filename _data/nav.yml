@@ -23,12 +23,9 @@ items:
     - title: JavaScript Development
       isLink: true
       url: "js"
-    - title: TypeScript Intellisense
+    - title: TypeScript Development
       isLink: true
-      url: "ts-intellisense"
-    - title: "TypeScript Development"
-      isLink: true
-      url: "ts-development"
+      url: "ts"
     - title: "NodeJS"
       isLink: true
       url: "nodejs"
