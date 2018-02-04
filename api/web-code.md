@@ -35,7 +35,7 @@ $REST.Web()
 #### Get the root web
 ```js
 // Get the root web
-$REST.Web("/")
+$REST.Web($REST.ContextInfo.siteServerRelativeUrl)
     // Execute the request
     .execute(function(web) {
         // Code goes here
@@ -44,7 +44,7 @@ $REST.Web("/")
 #### Query the root web, expanding the fields and content types
 ```js
 // Get the root web
-$REST.Web("/")
+$REST.Web($REST.ContextInfo.siteServerRelativeUrl)
     // Expand the content types and fields
     .query({
         Expand: ["ContentTypes", "Fields"]
@@ -60,7 +60,7 @@ $REST.Web("/")
 ### TypeScript
 #### Reference the library
 ```ts
-import { Web } from "gd-sprest";
+import { ContextInfo, Web } from "gd-sprest";
 ```
 #### Get the current web
 ```ts
@@ -74,7 +74,7 @@ import { Web } from "gd-sprest";
 #### Get the root web
 ```ts
 // Get the root web
-(new Web())
+(new Web(ContextInfo.siteServerRelativeUrl))
     // Execute the request
     .execute(web => {
         // Code goes here
@@ -83,7 +83,7 @@ import { Web } from "gd-sprest";
 #### Query the root web, expanding the fields and content types
 ```ts
 // Get the root web
-(new Web())
+(new Web(ContextInfo.siteServerRelativeUrl))
     // Expand the content types and fields
     .query({
         Expand: ["ContentTypes", "Fields"]
