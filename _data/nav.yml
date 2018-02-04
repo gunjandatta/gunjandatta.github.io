@@ -1,0 +1,6 @@
+toc:
+- title: Home
+- title: Developer Guide
+  - subfolderitems:
+    - page: Getting Started
+      url: /pages/gettingStarted.md
