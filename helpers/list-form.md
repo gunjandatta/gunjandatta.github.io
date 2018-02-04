@@ -6,6 +6,7 @@ layout: default
 The list form class is designed to handle the interactions with reading, updating and saving to a list.
 ### Class
 #### Constructor
+
 | Property | Required | Default Value | Description |
 | --- | --- | --- | --- |
 | cacheKey: _string_ | No | "" | The key to store the list information in session storage. |
@@ -18,6 +19,7 @@ The list form class is designed to handle the interactions with reading, updatin
 | webUrl: _string_ | No | "" | The relative url containing the list. If blank, the current web is used. |
 
 #### Methods
+
 | Name | Return Type | Description |
 | --- | --- | --- |
 | loadAttachments(listInfo: IListFormProps) | _PromiseLike<Array<Types.SP.IAttachment>>_ | Loads the item attachments. |
@@ -27,6 +29,7 @@ The list form class is designed to handle the interactions with reading, updatin
 | saveItem(info: IListFormResult, formValues: any) | _PromiseLike<IListFormResult>_ | Saves the list item. |
 
 #### IListFormAttachmentInfo
+
 | Property | Type | Description |
 | --- | --- | --- |
 | data | _any_ | The file content. |
@@ -34,6 +37,7 @@ The list form class is designed to handle the interactions with reading, updatin
 
 #### Interfaces
 ##### IListFormResult
+
 | Property | Type | Description |
 | --- | --- | --- |
 | attachments | _Array<IAttachment>_ | The list item attachments. |
