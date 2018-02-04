@@ -17,9 +17,9 @@ The webpart component allows the developer to easialy assign react components to
 Although this is designed for SharePoint 2013, this is also designed to work for SharePoint Online.
 #### [Blog Series](http://dattabase.com/sharepoint-2013-modern-webpart/)
 A series of blog posts have been created to help give an overview of creating webparts in SharePoint 2013. WebPart templates have been created in the [gd-sprest-react](https://github.com/gunjandatta/sprest-react) library, to help the developer focus on the code rendered to the page.
-- [[JavaScript Example|http://dattabase.com/sharepoint-2013-modern-webpart-1-4/]]
-- [[TypeScript Example|http://dattabase.com/sharepoint-2013-modern-webpart-1-4/]]
-- [[React Example|http://dattabase.com/sharepoint-2013-modern-webpart-1-4/]]
-- [[VueJS Example|http://dattabase.com/sharepoint-2013-modern-webpart-1-4/]]
-- [[Angular|http://dattabase.com/sharepoint-2013-modern-webpart-1-4/]]
+- [JavaScript Example](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)
+- [TypeScript Example](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)
+- [React Example](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)
+- [VueJS Example](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)
+- [Angular](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)
     _This post is still TBD (to be developed)_
