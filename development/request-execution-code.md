@@ -5,7 +5,7 @@ layout: default
 The execution method was designed to give a server-side like experience. This will help transition server-side coded wsp solutions to client-side solutions, using the gd-sprest SharePoint REST Framework. The built-in intellisense will also help with the transition, since a server-side developer is used to having this feature in Visual Studio.
 
 ### Server-Side Code Example
-```
+```cs
 // Get the current web
 SPWeb web = SPContext.Current.Web;
 
@@ -26,8 +26,8 @@ for (int i = 0; i < 10; i++)
 RenderList(list);
 ```
 
-### JavaScript Code Example
-```
+### JavaScript Converted Code
+```js
 var $REST = require("gd-sprest");
 
 // Get the current web
@@ -65,8 +65,8 @@ web.done(function() {
 });
 ```
 
-### TypeScript Code Example
-```
+### TypeScript Converted Code
+```ts
 import { SPTypes, Web } from "gd-sprest";
 
 // Get the current web
