@@ -13,13 +13,11 @@
     // Navigation Item
     .nav-item {
         background-color: #0090ff;
-        color: white;
         float: left;
-        font-size: larger;
-        padding: 5px 10px;
-        a {
+        a, button {
             color: white;
             font-size: larger;
+            padding: 5px 10px;
         }
     }
 
