@@ -26,7 +26,7 @@ document.head.appendChild(script);
 ```
 
 ### PowerShell-Like Experience
-The library allows the developer to execute both synchronous and asynchronous requests. To be clear, *asynchronous requests* are always recommended over synchronous requests. Using synchronous requests in the browser's console window can give a powershell like experience.
+The library allows the developer to execute both synchronous and asynchronous requests. To be clear, *asynchronous requests* are always recommended over synchronous requests. Using synchronous requests in the browser's console window can give a powershell like experience. This will allow developers to create script files that can be tested and executed w/out having to go through a server administrator. This is helpful when the developer doesn't have access to the server farm for powershell access.
 
 #### Code Example
 Reference the [[$REST|Development $REST Global Variable]] page for details on the $REST variable.
