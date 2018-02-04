@@ -34,7 +34,7 @@ items:
       url: "request-execution"
  - title: "REST API"
    isLink: false
-   url: "sprest"
+   url: "api"
    items:
     - title: ALM
       isLink: true
