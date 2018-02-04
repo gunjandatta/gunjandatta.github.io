@@ -32,3 +32,49 @@ items:
     - title: "Request Execution"
       isLink: true
       url: "request-execution"
+ - title: "REST API"
+   isLink: false
+   url: "sprest"
+   items:
+    - title: ALM
+      isLink: true
+      url: "alm"
+    - title: Context Information
+      isLink: true
+      url: "context-info"
+    - title: List
+      isLink: true
+      url: "list"
+    - title: Navigation
+      isLink: true
+      url: "navigation"
+    - title: OData
+      isLink: true
+      url: "odata"
+    - title: People Manager
+      isLink: false
+      url: "people-manager"
+    - title: People Picker
+      isLink: false
+      url: "people-picker"
+    - title: Profile Loader
+      isLink: false
+      url: "profile-loader"
+    - title: Search
+      isLink: false
+      url: "search"
+    - title: Site
+      isLink: true
+      url: "site"
+    - title: "Social Feed"
+      isLink: false
+      url: "social-feed"
+    - title: "User Profile"
+      isLink: false
+      url: "user-profile"
+    - title: Utility
+      isLink: true
+      url: "utility"
+    - title: Web
+      isLink: true
+      url: "web"
