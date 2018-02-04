@@ -32,10 +32,15 @@
         </ul>
       </header>
       <nav>
-        {% for item in site.data.nav.toc %}
+        <li>
+          {{ site.data.nav.title }}
+        </li>
+        {% for item in site.data.nav.items %}
           <li>
             {% if item.url %}
               <a href="{{item.url}}" alt="{{item.title}}">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
             {% endif %}
           </li>
         {% endfor %}

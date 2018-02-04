@@ -1,5 +1,5 @@
-nav_title: gd-sprest
-nav_items:
+title: gd-sprest
+items:
 - title: Home
  url: "/index.md"
 - title: Developer Guide
