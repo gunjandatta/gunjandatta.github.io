@@ -56,6 +56,8 @@ items:
    items:
     - title: Add-In Model
       url: "add-in-model"
+    - title: JSLink
+      url: "jslink"
     - title: List Form
       url: "list-form"
     - title: List Form Field
@@ -77,8 +79,6 @@ items:
       url: "context-info"
     - title: Cross-Site Collection Requests
       url: "cross-sc"
-    - title: JSLink
-      url: "jslink"
  - title: React
    url: "react"
    items:
