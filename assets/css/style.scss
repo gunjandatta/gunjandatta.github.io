@@ -3,14 +3,20 @@
 
 @import "jekyll-theme-slate";
 // Main Content Width
-nav, .inner {
+.inner {
     max-width: 85%;
 }
 
 // Navigation
 nav > ul {
     list-style-type: none;
-}
-nav > ul > li {
-    float: left;
+    margin-left: 6%;
+    li {
+        background: url("../images/blacktocat.png") #0090ff no-repeat 95% 50%;
+        float: left;
+        a {
+            color: white;
+            font-size: larger;
+        }
+    }
 }
