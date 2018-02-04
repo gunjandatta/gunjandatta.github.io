@@ -1,14 +1,7 @@
 ---
 ---
 
-@import "jekyll-theme-modernist";
-header .title, header .description {
-    width: 85%;
-}
-header .view-link {
-    max-width: 15%;
-}
-
-.wrapper {
+@import "jekyll-theme-slate";
+.inner {
     width: 85%;
 }
