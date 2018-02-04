@@ -32,7 +32,7 @@ items:
     - title: List
       url: "list"
     - title: Navigation
-      url: "navigation"
+      url: "nav"
     - title: People Manager
       url: "people-manager"
     - title: People Picker
