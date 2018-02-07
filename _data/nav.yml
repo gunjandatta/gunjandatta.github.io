@@ -61,7 +61,7 @@ items:
     - title: List Form Field
       url: "list-form-field"
     - title: SharePoint Core JavaScript
-      ur: "sp"
+      url: "sp"
     - title: Taxonomy
       url: "taxonomy"
     - title: WebPart
