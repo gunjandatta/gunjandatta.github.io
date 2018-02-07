@@ -10,11 +10,11 @@ SharePoint contains many core javascript files that can be used to customize the
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.Helper.ModalDialog
+$REST.Helper.SP.ModalDialog
 
 // TypeScript
 import { Helper } from "gd-sprest";
-Helper.ModalDialog
+Helper.SP.ModalDialog
 ```
 #### Dialog Options
 
@@ -54,11 +54,11 @@ Helper.ModalDialog
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.Helper.Notify
+$REST.Helper.SP.Notify
 
 // TypeScript
 import { Helper } from "gd-sprest";
-Helper.Notify
+Helper.SP.Notify
 ```
 #### Methods
 
@@ -73,11 +73,11 @@ Helper.Notify
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.Helper.Status
+$REST.Helper.SP.Status
 
 // TypeScript
 import { Helper } from "gd-sprest";
-Helper.Status
+Helper.SP.Status
 ```
 #### Methods
 
