@@ -7,6 +7,7 @@ SharePoint contains many core javascript files that can be used to customize the
 
 ### [Modal Dialog](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
 #### Dialog Options
+
 | Property | Type | Description |
 | --- | --- | --- |
 | allowMaximize | _boolean_ | A Boolean value that specifies whether the dialog can be maximized. true if the Maximize button is shown; otherwise, false. |
@@ -24,6 +25,7 @@ SharePoint contains many core javascript files that can be used to customize the
 | y | number | An integer value that specifies the y-offset of the dialog. This value works like the CSS top value. |
 
 #### Methods
+
 | Name | Parameters | Description |
 | --- | --- | --- |
 | close | _(dialogResult?: number)_ | Closes the most recently opened modal dialog with the specified dialog result. |
@@ -39,6 +41,7 @@ SharePoint contains many core javascript files that can be used to customize the
 
 ### [Notify](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
 #### Methods
+
 | Name | Parameters | Description |
 | --- | --- | --- |
 | addNotification | _(html: string, sticky?: boolean)_ | Adds a notification to the page. By default, notifications appear for five seconds. |
@@ -46,6 +49,7 @@ SharePoint contains many core javascript files that can be used to customize the
 | removeNotification | _(id: string)_ | Removes the specified notification from the page. |
 
 ### [Status](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
+
 | Name | Parameters | Description |
 | --- | --- | --- |
 | addStatus | _(title: string, html?: string, prepend?: boolean)_ | Adds a status message to the page. |
