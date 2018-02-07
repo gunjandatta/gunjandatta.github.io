@@ -6,6 +6,16 @@ layout: default
 SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](http://dattabase.com/sharepoint-javascript-libraries/) for additional details.
 
 ### [Modal Dialog](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
+#### Code Reference
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+$REST.Helper.ModalDialog
+
+// TypeScript
+import { Helper } from "gd-sprest";
+Helper.ModalDialog
+```
 #### Dialog Options
 
 | Property | Type | Description |
@@ -40,6 +50,16 @@ SharePoint contains many core javascript files that can be used to customize the
 | showWaitScreenWithNoClose | _(title: string, message: string, height: number, width: number)_ | Displays a wait screen dialog that does not have a Cancel button using the specified parameters. |
 
 ### [Notify](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
+#### Code Reference
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+$REST.Helper.Notify
+
+// TypeScript
+import { Helper } from "gd-sprest";
+Helper.Notify
+```
 #### Methods
 
 | Name | Parameters | Description |
@@ -49,6 +69,17 @@ SharePoint contains many core javascript files that can be used to customize the
 | removeNotification | _(id: string)_ | Removes the specified notification from the page. |
 
 ### [Status](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
+#### Code Reference
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+$REST.Helper.Status
+
+// TypeScript
+import { Helper } from "gd-sprest";
+Helper.Status
+```
+#### Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
