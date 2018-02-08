@@ -4,7 +4,7 @@ layout: default
 [Back](/helpers)
 ## Taxonomy
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree. Refer to this [blog post](http://dattabase.com/new-taxonomy-list-helper-classes/) for additional details and code examples.
-#### Code Reference
+### Code Reference
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");

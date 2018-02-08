@@ -3,7 +3,17 @@ layout: default
 ---
 [Back](/api)
 ## List
-### [Code Examples](list-code)
+### Code Reference
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+$REST.List()
+
+// TypeScript
+import { List } from "gd-sprest";
+new List()
+```
+#### [Code Examples](list-code)
 ### Properties
 
 | Property | Type | Description |
@@ -63,13 +73,13 @@ layout: default
 | --- | --- | --- |
 | ContentTypes() | _ContentTypes_ | Gets the content types that are associated with the list. |
 | ContentTypes(id: string) | _ContentType_ | Gets the content types that are associated with the list. |
-| DataSource() | _Array<string>_ | Gets the data source associated with the list, or null if the list is not a virtual list. Returns null if the HasExternalDataSource property is false. |
+| DataSource() | _Array\<string\>_ | Gets the data source associated with the list, or null if the list is not a virtual list. Returns null if the HasExternalDataSource property is false. |
 | DefaultDisplayFormUrl() | _string_ | Gets a value that specifies the location of the default display form for the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
 | DefaultEditFormUrl() | _string_ | Gets a value that specifies the URL of the edit form to use for list items in the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
 | DefaultNewFormUrl() | _string_ | Gets a value that specifies the location of the default new form for the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
 | DefaultView() | _View_ | Gets the default list view. |
 | DefaultViewUrl() | _string_ | Gets the URL of the default view for the list. |
-| DescriptionResouce() | _ResourcePath |
+| DescriptionResouce() | _ResourcePath_ |
 | EffectiveBasePermissions() | _BasePermissions_ | Gets a value that specifies the effective permissions on the list that are assigned to the current user. |
 | EffectiveBasePermissionsForUI() | _BasePermissions_ | Gets a value that specifies the effective permissions on the list that are for the user export interface. |
 | EventReceivers() | _EventReceivers_ | Gets the event receivers associated with the list. |
@@ -77,24 +87,24 @@ layout: default
 | Fields() | _Fields_ | Gets the fields in the list. |
 | Fields(internalNameOrTitle: string) | Field_ | Gets the field in the list. |
 | FirstUniqueAncestorSecurableObject() | _string_ | Gets the object where role assignments for this object are defined. If role assignments are defined directly on the current object, the current object is returned. |
-| Forms()** | Gets the list forms in the list. |
-| Forms(id: string)**_ | Gets the list form in the list. |
-| HasUniqueRoleAssignments() | Gets a value that specifies whether the role assignments are uniquely defined for this securable object or inherited from a parent securable object. |
-| InformationRightsManagementSettings() | Gets a value that specifies the information rights management settings. |
+| Forms() | | Gets the list forms in the list. |
+| Forms(id: string) | | Gets the list form in the list. |
+| HasUniqueRoleAssignments() | | Gets a value that specifies whether the role assignments are uniquely defined for this securable object or inherited from a parent securable object. |
+| InformationRightsManagementSettings() | | Gets a value that specifies the information rights management settings. |
 | IsSiteAssetsLibrary() | _boolean_ | Gets a value that indicates whether the list is designated as a default asset location for images or other files which the users upload to their wiki pages. |
 | Items() | _ListItems_ | Gets the list items in the list. |
 | Items(id: number) | ListItem_ | Gets the list item in the list. |
 | OnQuickLaunch() | _boolean_ | Gets or sets a value that specifies whether the list appears on the Quick Launch of the site. If true, the server sets the Hidden property to false. |
 | ParentWeb() | _Web_ | Gets a value that specifies the site that contains the list. |
 | RoleAssignments() | _RoleAssignments_ | Gets the role assignments for the securable object. |
-| RoleAssignments(id | string)_ | Gets the role assignments for the securable object. |
+| RoleAssignments(id \| string)_ | | Gets the role assignments for the securable object. |
 | RootFolder() | _Folder_ | Gets the root folder of the list. |
 | RootFolder(url: string) | File_ | Gets the file in the root folder of the list. |
 | SchemaXml() | _string_ | Gets a value that specifies the list schema of the list. |
 | Subscriptions() |
 | TitleResource() | _ResourcePath |
 | UserCustomActions() | _UserCustomActions_ | Gets the user custom actions for the list. |
-| UserCustomActions(id: string) | UserCustomAction_ | Gets the user custom action(s) for the list. |
+| UserCustomActions(id: string) | _UserCustomAction_ | Gets the user custom action(s) for the list. |
 | ValidationFormula() | _string_ | Gets or sets a value that specifies the data validation criteria for a list item. (_Length must be <= 1023_) |
 | ValidationMessage() | _string_ | Gets or sets a value that specifies the error message returned when data validation fails for a list item. (_Length must be <= 1023_) |
 | Views() | _Views_ | Gets the list views. |
