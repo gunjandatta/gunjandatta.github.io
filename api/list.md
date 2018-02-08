@@ -5,6 +5,7 @@ layout: default
 ## List
 ### [Code Examples](list-code)
 ### Properties
+
 | Property | Type | Description |
 | --- | --- | --- |
 | AllowContentTypes | _boolean_ | Gets a value that specifies whether the list supports content types. |
@@ -123,6 +124,7 @@ layout: default
 | update(props) | Updates the object properties. |
 
 #### List Creation Information
+
 | Name | Type | Description |
 | --- | --- | --- |
 | BaseTemplate | _Types.SPTypes.ListTemplateType_ | The list template type. |
@@ -135,6 +137,7 @@ layout: default
 | Title | _string_ | The list name. |
 
 #### List Template
+
 | Name | Type |
 | --- | --- |
 | AllowsFolderCreation | _boolean_ |
@@ -150,6 +153,7 @@ layout: default
 | Unique | _boolean_ |
 
 #### List Template Types
+
 | Name | Value |
 | --- | --- |
 | AccessRequest | _160_ |
