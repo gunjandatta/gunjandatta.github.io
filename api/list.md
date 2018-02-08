@@ -4,7 +4,7 @@ layout: default
 [Back](/api)
 ## List
 ### [Code Examples](list-code)
-#### Properties
+### Properties
 | Property | Type | Description |
 | --- | --- | --- |
 | AllowContentTypes | _boolean_ | Gets a value that specifies whether the list supports content types. |
@@ -56,7 +56,7 @@ layout: default
 | TemplateFeatureId | _string_ | Gets a value that specifies the feature identifier of the feature that contains the list schema for the list. Returns an empty GUID if the list schema is not contained within a feature. |
 | Title | _string_ | Gets or sets the displayed title for the list. (_Length must be <= 255 characters_) |
 
-#### Queryable Properties
+### Queryable Properties
 
 | Method | Type | Description |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ layout: default
 | WorkflowAssociations() | _string_ | Gets a value that specifies the collection of all workflow associations for the list. |
 | WriteSecurity() | _number_ |
 
-#### Methods
+### Methods
 
 | Method | Description |
 | breakRoleInheritance(copyRoleAssignments, clearSubScopes) | Creates unique role assignments for the securable object. |
@@ -149,7 +149,7 @@ layout: default
 | OnQuickLaunch | _boolean_ |
 | Unique | _boolean_ |
 
-### Templates
+#### List Template Types
 | Name | Value |
 | --- | --- |
 | AccessRequest | _160_ |
