@@ -62,7 +62,7 @@ new Site()
 | Url | _string_ | Gets the full URL to the root Web site of the site collection, including host name, port number, and path. |
 | Usage | _UsageInfo_ | Gets a value that specifies usage information about the site, including bandwidth, storage, and the number of visits to the site collection. |
 
-#### Queryable Properties
+### Queryable Properties
 
 | Method | Type | Description |
 | --- | --- | --- |
@@ -77,7 +77,7 @@ new Site()
 | UserCustomActions() | _UserCustomActions_ | Gets the user custom action for the list. |
 | UserCustomActions(id: string) | _UserCustomAction_ | Gets the user custom action(s) for the list. |
 
-#### Methods
+### Methods
 
 | Name | Description |
 | createPreviewSPSite(upgrade, sendEmail) | Creates a temporary evaluation SPSite for this SPSite, for the purposes of determining whether an upgrade is likely to be successful. |
