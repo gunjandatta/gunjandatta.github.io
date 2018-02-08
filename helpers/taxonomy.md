@@ -3,8 +3,18 @@ layout: default
 ---
 [Back](/helpers)
 ## Taxonomy
-The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.
-### Helper Methods
+The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree. Refer to this [blog post](http://dattabase.com/new-taxonomy-list-helper-classes/) for additional details and code examples.
+#### Code Reference
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+$REST.Helper.Taxonomy
+
+// TypeScript
+import { Helper } from "gd-sprest";
+Helper.Taxonomy
+```
+### Methods
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -21,7 +31,6 @@ The taxonomy class is designed to return the managed metadata term set data as a
 | toFieldMultiValue(_term: Array&lt;ITerm \| ITermInfo&gt;_) | _any_ | Converts an array of terms to the multi-field value, formatted for updating an item in the REST API. |
 | toObject(_Array&lt;ITermInfo&gt;_) | _ITerm_ | Converts an array of term information to a term. |
 
-### Interfaces
 #### ITerm
 
 | Property | Type | Description |
