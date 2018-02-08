@@ -31,7 +31,7 @@ new Navigation()
 | Name | Type | Description |
 | --- | --- | --- |
 | FriendlyUrlPrefix | _string_ | The URL of the navigation node relative to the URL of the parent navigation node. |
-| Nodes | _IResults<IMenuNode>_ | The child nodes. |
+| Nodes | _IResults&lt;IMenuNode&gt;_ | The child nodes. |
 | SimpleUrl | _string_ | The relative or absolute URL of the navigation node. Site-relative URLs can begin with the "~site" URL token and site collection-relative URLs can begin with the "~sitecollection" URL token. Applies only to SimpleLink node types. |
 | SPSitePrefix | _string_ | The string that replaces the "~sitecollection" token in site collection-relative links. For example, to get the Try Link command to work with the relative link ~sitecollection/Pages/MyPage.aspx, this value might be http://contoso.com/sites/site1/. |
 | SPWebPrefix | _string_ | The string that replaces the "~site" token in site-relative links. For example, to get the Try Link command to work with the relative link ~site/Pages/MyPage.aspx, this value might be http://contoso.com/sites/site1/web1. |

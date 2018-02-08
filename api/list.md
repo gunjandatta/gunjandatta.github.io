@@ -73,7 +73,7 @@ new List()
 | --- | --- | --- |
 | ContentTypes() | _ContentTypes_ | Gets the content types that are associated with the list. |
 | ContentTypes(id: string) | _ContentType_ | Gets the content types that are associated with the list. |
-| DataSource() | _Array\<string\>_ | Gets the data source associated with the list, or null if the list is not a virtual list. Returns null if the HasExternalDataSource property is false. |
+| DataSource() | _Array&lt;string&gt;_ | Gets the data source associated with the list, or null if the list is not a virtual list. Returns null if the HasExternalDataSource property is false. |
 | DefaultDisplayFormUrl() | _string_ | Gets a value that specifies the location of the default display form for the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
 | DefaultEditFormUrl() | _string_ | Gets a value that specifies the URL of the edit form to use for list items in the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
 | DefaultNewFormUrl() | _string_ | Gets a value that specifies the location of the default new form for the list. Clients specify a server-relative URL, and the server returns a site-relative URL. |
@@ -139,7 +139,7 @@ new List()
 | --- | --- | --- |
 | BaseTemplate | _Types.SPTypes.ListTemplateType_ | The list template type. |
 | CustomSchemaXml | _string_ | The list schema xml. |
-| DataSourceProperties | _Array<string>_ | The list of data source properties. |
+| DataSourceProperties | _Array&lt;string&gt;_ | The list of data source properties. |
 | Description | _string_ | The list description. |
 | DocumentTemplateType | _number_ | The list document template type. |
 | QuickLaunchOption | _number_ | Option to display the list on the quick launch. |
