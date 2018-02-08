@@ -115,6 +115,7 @@ new List()
 ### Methods
 
 | Method | Description |
+| --- | --- |
 | breakRoleInheritance(copyRoleAssignments, clearSubScopes) | Creates unique role assignments for the securable object. |
 | delete() | Deletes the list. |
 | getByEntityName(entityTypeName, callback) | A static method to get the list by the entity name. |

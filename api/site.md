@@ -80,6 +80,7 @@ new Site()
 ### Methods
 
 | Name | Description |
+| --- | --- |
 | createPreviewSPSite(upgrade, sendEmail) | Creates a temporary evaluation SPSite for this SPSite, for the purposes of determining whether an upgrade is likely to be successful. |
 | extendUpgradeReminderDate() | Extend the upgrade reminder date for this SPSite by the days specified at WebApplication.UpgradeReminderDelay. |
 | getCatalog(typeCatalog) | Specifies the list template gallery, site template gallery, Web Part gallery, master page gallery, or other galleries from the site collection, including custom galleries that are defined by users. |

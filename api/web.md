@@ -17,6 +17,7 @@ new Web()
 ### Properties
 
 | Name | Type | Description |
+| --- | --- | --- |
 | AllowRssFeeds | _boolean_ | Gets a value that specifies whether the site allows RSS feeds. |
 | AppInstanceId | _string_ | The instance Id of the App Instance that this web represents. |
 | Configuration | _number_ | Gets either the identifier (ID) of the site definition configuration that was used to create the site, or the ID of the site definition configuration from which the site template used to create the site was derived. |
@@ -177,6 +178,7 @@ new Web()
 #### Web Information
 
 | Name | Type |
+| --- | --- |
 | Configuration | _number_ |
 | Created | _string_ |
 | Description | _string_ |
