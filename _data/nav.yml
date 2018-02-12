@@ -82,7 +82,7 @@ items:
     - title: Cross Site-Collection Requests
       url: "cross-sc"
  - title: JavaScript
-   url: "javascript"
+   url: "js"
  - title: React
    url: "react"
    items:
