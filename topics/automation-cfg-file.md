@@ -2,11 +2,85 @@
 layout: default
 ---
 [Back](/topics/automation)
-## SharePoint Field Configuration Example
-### TypeScript
+## SharePoint Field Configuration Examples
+### Custom Action
+#### TypeScript
 ```ts
-import { Helper, Types } from "gd-sprest";
+// Export the configuration
+export const Configuration = new Helper.SPConfig({
+    // Custom Action Configuration
+    CustomActionCfg: {
+        // Targets the site collection
+        Site: [
+            // Example for deploying a script link against the site collection
+            {
+                Description: "References my library.",
+                Location: "ScriptLink",
+                Name: "MyGlobalLib",
+                ScriptSrc: "~sitecollection/style library/mygloballib/mygloballib.js",
+                Title: "My Global Library"
+            }
+        ],
 
+        // Targets the web
+        Web: [
+            // Example for deploying custom script against the web
+            {
+                Description: "Initializes my solution.",
+                Location: "ScriptLink",
+                Name: "MySolution",
+                ScriptBlock: "SP.SOD.executeOrDelayUntilScriptLoaded(function() { new MyGlobalLibrary.MySolution(); }, 'mygloballib.js');",
+                Title: "My Solution"
+            }
+        ]
+    }
+});
+```
+
+### List
+#### TypeScript
+```ts
+// Export the configuration
+export const Configuration = new Helper.SPConfig({
+    // List Configuration
+    ListCfg: [
+        {
+            ContentTypes: [
+                {
+                Description: "",
+                FieldRefs: ["Title", "InternalFieldName"],
+                JSLink: "~sitecollection/style library/mygloballib/jslink.js",
+                Name: "CT Item",
+                ParentName: "Item"
+                }
+            ],
+            CustomFields: [
+                // See Site Field Example
+            ],
+            ListInformation: {
+                BaseTemplate: SPTypes.ListTemplateType.GenericList,
+                Description: "",
+                Title: "My Custom List",
+            },
+            UserCustomActions: [
+                // See Custom Action Example
+            ],
+            ViewInformation: [
+                {
+                    JSLink: "~sitecollection/style library/mygloballib/jslink.js",
+                    ViewFields: ["ID", "Title", "InternalFieldName"],
+                    ViewName: "All Items",
+                    ViewQuery: "<Query></Query>"
+                }
+            ]
+        }
+    ]
+});
+```
+
+### Site Field
+#### TypeScript
+```ts
 // Export the configuration
 export const Configuration = new Helper.SPConfig({
     // Site Fields

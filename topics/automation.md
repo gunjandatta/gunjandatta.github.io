@@ -13,6 +13,37 @@ The "SharePoint Configuration" class allows the developer to define configuratio
 
 ### [Configuration File](automation-cfg-file)
 Intellisense is available for defining the custom properties of the various field types.
+#### Separate Components
+The ability to bundle the entire configuration can be done in a single component, but I find it better to seperate them out. This helps with debugging, and allows the solution to be flexible. The best example is creating a solution to target either the web or site collection.
+```ts
+/**
+ * Test Configuration
+ */
+export const Configuration = {
+    // Custom Action
+    CustomAction: (targetSiteCollection:boolean = true) => {
+      // See if we are deploying this against the site collection
+      if(targetSiteCollection) {
+        // Target the site
+        return new Helpler.SPConfig({
+          CustomActionCfg: {
+            Site: [
+              { ... }
+            ]
+          }
+        });
+      }
+
+      // Target the web
+      return new Helpler.SPConfig({
+        CustomActionCfg: {
+          Web: [
+            { ... }
+          ]
+        }
+      });
+    }
+```
 
 ### SPConfig Class
 #### Constructor
