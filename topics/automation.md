@@ -14,7 +14,7 @@ The "SharePoint Configuration" class allows the developer to define configuratio
 ### [Configuration File](automation-cfg-file)
 Intellisense is available for defining the custom properties of the various field types.
 #### Separate Components
-The ability to bundle the entire configuration can be done in a single component, but I find it better to seperate them out. This helps with debugging, and allows the solution to be flexible. The best example is creating a solution to target either the web or site collection.
+The ability to bundle or seperate the asset configurations is easy to setup. This allows the configuration to target all components or a single type. This allows the solution to be flexible to support various requirements. The configuration below, allows the solution to target either the web or site collection.
 ```ts
 /**
  * Test Configuration
