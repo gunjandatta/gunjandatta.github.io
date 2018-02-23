@@ -6,7 +6,7 @@ layout: default
 ### Browser Console
 #### Send an email
 ```js
-$REST.Utility().sendEmail({ To: "user@sharepoint.com", Subject: "Test Email", Body: "<p>The email content</p>" }).executeAndWait();
+$REST.Utility().sendEmail({ To: ["user@sharepoint.com"], Subject: "Test Email", Body: "<p>The email content</p>" }).executeAndWait();
 ```
 #### Resolve a principal
 ```js
@@ -25,7 +25,7 @@ var $REST = require("gd-sprest");
 ```js
 // Send the email
 $REST.Utility().sendEmail({
-    To: "user@sharepoint.com",
+    To: ["user@sharepoint.com"],
     Subject: "Test Email",
     Body: "<p>The email content</p>"
 }).execute(function() => {
@@ -66,7 +66,7 @@ import { Utility } from "gd-sprest";
 ```ts
 // Send the email
 (new Utility()).sendEmail({
-    To: "user@sharepoint.com",
+    To: ["user@sharepoint.com"],
     Subject: "Test Email",
     Body: "<p>The email content</p>"
 }).execute(() => {
