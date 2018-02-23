@@ -24,7 +24,7 @@ var $REST = require("gd-sprest");
 #### Send an email
 ```js
 // Send the email
-(new Utility()).sendEmail({
+$REST.Utility().sendEmail({
     To: "user@sharepoint.com",
     Subject: "Test Email",
     Body: "<p>The email content</p>"
@@ -35,7 +35,7 @@ var $REST = require("gd-sprest");
 #### Resolve a principal user
 ```js
 // Resolve a principal user
-(new Utility()).resolvePrincipal({
+$REST.Utility().resolvePrincipal({
     input: "user@sharepoint.com",
     scopes: $REST.SPTypes.PrincipalTypes.All,
     sources: $REST.SPTypes.PrincipalSources.All
@@ -48,7 +48,7 @@ var $REST = require("gd-sprest");
 #### Search principals
 ```js
 // Search the principals
-(new Utility()).searchPrincipals({
+$REST.Utility().searchPrincipals({
     input: "user@sharepoint.com",
     maxCount: 50
 }).execute(function(response) {
