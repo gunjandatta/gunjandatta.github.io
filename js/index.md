@@ -4,6 +4,39 @@ layout: default
 [Back](/)
 ## JavaScript
 The [gd-sprest-js](https://github.com/gunjandatta/sprest-js) library contains JavaScript components designed for SharePoint 2013/Online, using the [Office Fabric UI JavaScript Framework](https://dev.office.com/fabric-js) to create an Office 365 modern experience.
-
-### Coming Soon
-The react library is being converted into a JS library, so it can be referenced from Angular, React, JavaScript, VueJS, etc frameworks.
+### Code Examples
+The [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) github repository contains various webpart examples.
+### Components
+- [Components](components)
+    - [Field](field)
+    - [List Form](listform)
+    - [List Form Field](listformfield)
+    - [List Form Panel](listformpanel)
+- [Fabric](fabric)
+    - [Button](button)
+    - [Callout](callout)
+    - [Checkbox](checkbox)
+    - [Command Bar](commandbar)
+    - [Command Button](commandbtn)
+    - [Contextual Menu](contextualmenu)
+    - [Date Picker](datepicker)
+    - [Dialog](dialog)
+    - [Dropdown](dropdown)
+    - [Fabric](fabric)
+    - [Link Field](linkfield)
+    - [List](list)
+    - [List Item](listitem)
+    - [Number Field](numberfield)
+    - [Overlay](overlay)
+    - [Panel](panel)
+    - [People Picker](peoplepicker)
+    - [Pivot](pivot)
+    - [Spinner](spinner)
+    - [Table](table)
+    - [Text Field](textfield)
+    - [Toggle](toggle)
+- [WebParts](webparts)
+    - [WebPart](wp)
+    - [List](wp-list)
+    - [Search](wp-search)
+    - [Tabs](wp-tabs)
