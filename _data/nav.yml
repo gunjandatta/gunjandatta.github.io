@@ -83,6 +83,13 @@ items:
       url: "cross-sc"
  - title: JavaScript
    url: "js"
+   items:
+   - title: Components
+     url: "components"
+   - title: Fabric
+     url: "fabric"
+   - title: WebParts
+     url: "webparts"
  - title: React
    url: "react"
    items:
