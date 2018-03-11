@@ -12,7 +12,6 @@ layout: default
 - [Date Picker](datepicker)
 - [Dialog](dialog)
 - [Dropdown](dropdown)
-- [Fabric](fabric)
 - [Link Field](linkfield)
 - [List](list)
 - [List Item](listitem)

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/js)
+[Back](/js/components)
 ## Field
 ### Supported Types
 The field components currently supported are:

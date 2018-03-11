@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/js)
+[Back](/js/components)
 ## List Form
 ### Properties
 * cacheKey - If defined, the data will be cached to the session storage.
