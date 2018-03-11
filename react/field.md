@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/react)
-## Field Component
+## Field
 ### Supported Types
 The field components currently supported are:
 * Attachments

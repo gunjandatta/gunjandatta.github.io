@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/js)
-## Field Component
+## Field
 ### Supported Types
 The field components currently supported are:
 * Attachments
