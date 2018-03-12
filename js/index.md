@@ -4,8 +4,6 @@ layout: default
 [Back](/)
 ## JavaScript
 The [gd-sprest-js](https://github.com/gunjandatta/sprest-js) library contains JavaScript components designed for SharePoint 2013/Online, using the [Office Fabric UI JavaScript Framework](https://dev.office.com/fabric-js) to create an Office 365 modern experience.
-### Code Examples
-The [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) github repository contains various webpart examples.
 ### [Components](components)
 - [Field](components/field)
 - [List Form](components/listform)
