@@ -23,7 +23,7 @@ layout: default
 | create | _props: IListFormProps_ | Creates an instance of the list form. |
 | loadAttachments | _listInfo: IListFormProps_ | Method to load the item attachments. |
 | refreshItem | _listInfo: IListFormResult_ | Method to refresh the item. |
-| removeAttachments | _listInfo: IListFormProps, attachmentInfo: Array&lt;Types.SP.IAttachment&gt;_ | Method to remove attachments from an item. |
+| removeAttachments | _listInfo: IListFormProps, attachmentInfo: Array&lt;IAttachment&gt;_ | Method to remove attachments from an item. |
 | renderDisplayForm | _props: IListFormDisplayProps_ | Method to render the display form template. |
 | renderEditForm | _props: IListFormEditProps_ | Method to render the edit/new form. |
 | renderFormTemplate | _props: IListFormDisplayProps_ | Method to render the form template. |
@@ -35,11 +35,11 @@ layout: default
 
 | Name | Type | Description |
 | --- | --- | --- |
-| attachments | _Array&lt;Types.SP.IAttachment&gt;_ | The item attachments. |
-| fields | _{ [key: string]: Types.SP.IFieldResult }_ | The form fields. |
-| item | _Types.SP.IListItemQueryResult or Types.SP.IListItemResult_ | The list item. |
-| query | _Types.SP.ODataQuery_ | The item query. |
-| list | _Types.SP.IListResult | The list. |
+| attachments | _Array&lt;IAttachment&gt;_ | The item attachments. |
+| fields | _{ [key: string]: IFieldResult }_ | The form fields. |
+| item | _IListItemQueryResult or IListItemResult_ | The list item. |
+| query | _ODataQuery_ | The item query. |
+| list | _IListResult_ | The list. |
 
 ### Code Example
 #### JavaScript
