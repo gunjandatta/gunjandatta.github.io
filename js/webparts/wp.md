@@ -16,6 +16,17 @@ layout: default
 | onRenderDisplay | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Display' mode. |
 | onRenderEdit | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Edit' mode. |
 
+#### WebPart Edit Panel
+
+| Name | Type | Description |
+| --- | --- | --- |
+| listQuery | _ODataQuery_ | The OData query to apply to the query for getting the lists. |
+| onListChanged | _(wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The list changed event. |
+| onListsRendering | _(wpInfo: IWPInfo, lists?: Array&lt;IListQueryResult | IListResult&gt;) | The lists rendering event. |
+| onRenderFooter | _(el:HTMLDivElement, wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The render footer event. |
+| onRenderHeader | _(el:HTMLDivElement, wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The render header event. |
+| onSave | _(wpCfg: IWPCfg)_ | The save event. |
+
 ### Code Example
 #### JavaScript
 ```js
