@@ -7,11 +7,21 @@ layout: default
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | The class name to apply to the element. |
+| mainCommands | _Array&lt;ICommandButtonProps&gt;_ | The main area commands. |
+| sideCommands | _Array&lt;ICommandButtonProps&gt;_ | The side area commands. |
 
-### Interface
+### ICommandBar Interface
 
-| Name | Type | Description |
-| --- | --- | --- |
+| Name | Type/Description |
+| --- | --- |
+| get() | Returns the fabric object. |
+
+#### Fabric Command Bar Interface
+
+| Name | Type/Description |
+| --- | --- |
+| \_container | The main container element. |
 
 ### Code Examples
 #### JavaScript

@@ -16,14 +16,14 @@ layout: default
 | title | _string_ | The callout title. |
 | type | _number_ | The callout type. |
 
-### ICallout Interface
+### Fabric Callout Interface
 
 | Name | Type | Description |
 | --- | --- | --- |
 | \_addTarget | _HTMLDivElement_ |
 | \_closeButton | _HTMLButtonElement_ |
 | \_container | _HTMLDivElement_ |
-| \_contextualHost | _IContextualHost |
+| \_contextualHost | _IContextualHost_ |
 | \_position | _string_ |
 
 ### Code Examples
