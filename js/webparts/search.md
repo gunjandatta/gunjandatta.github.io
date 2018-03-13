@@ -12,7 +12,8 @@ layout: default
 | className | _string_ | The class name. |
 | elementId | _string_ | The target element id to render the webpart to |
 | editPanel | _IWebPartEditPanel_ | The edit panel. |
-| helpProps | _{ title?: string, url: string }_ | The optional help link. | listQuery | _ODataQuery_ | The OData query to apply to the query for getting the list. |
+| helpProps | _{ title?: string, url: string }_ | The optional help link. |
+| listQuery | _ODataQuery_ | The OData query to apply to the query for getting the list. |
 | oData | _ODataQuery_ | The OData query to apply to the query for getting the list items. |
 | onExecutingCAMLQuery | _(wpInfo: IWPSearchInfo, caml: string) => string_ | The render CAML query event executed before getting the list items. | 
 | onExecutingODATAQuery | _(wpInfo: IWPSearchInfo, odata: ODataQuery) => ODataQuery_ | The render CAML query event executed before getting the list items. |

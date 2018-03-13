@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/js/webparts)
-## WebPart
+## WebPart Tabs
 ### Input Parameters
 
 | Name | Type | Description |
