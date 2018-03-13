@@ -3,43 +3,50 @@ layout: default
 ---
 [Back](/js/components)
 ## Field
+The field component will render the appropriate element type, based on the field type and control mode.
 ### Supported Types
 The field components currently supported are:
-* Attachments
-* Boolean
-* Choice
-* Date
-* Date/Time
-* Lookup
-* Managed Metadata
-* Multi-Choice
-* Multi-User
-* Note (Plain Text)
-* Number
-* Text
-* Url
-* User
+- Attachments
+- Boolean
+- Choice
+- Date
+- Date/Time
+- Lookup
+- Managed Metadata
+- Multi-Choice
+- Multi-User
+- Note (Plain Text)
+- Number
+- Text
+- Url
+- User
 
-### Properties
-* className - The class name.
-* controlMode - The control mode of the form.
-* disabled - True to disable the field, when in edit/new mode.
-* el - The element to render the field to.
-* fieldInfo - The field information.
-* onChange - The change event.
-* value - The field value.
+### Input Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| className | _string_ | The class name.
+| controlMode | _number_ | The control mode of the form.
+| disabled | _boolean_ | True to disable the field, when in edit/new mode.
+| el | _HtmlElement_ | The element to render the field to.
+| fieldInfo | _IListFormFieldInfo_ | The field information.
+| onChange | _(value) => void_ | The change event.
+| value | _any_ | The field value.
 
 #### Field Information
-* defaultValue - The default value.
-* field - The list field.
-* listName - The list name.
-* name - The internal name of the field.
-* readOnly - Flag indicating if the field is read-only.
-* required - True indicates a required field type.
-* title - The display name of the field.
-* type - The field type.
-* typeAsString - The field type as a string.
-* webUrl - The relative web url containing the list.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| defaultValue | _any_ | The default value.
+| field | _IFieldResult or IFieldQueryResult_ | The list field.
+| listName | _string_ | The list name.
+| name | _string_ | The internal name of the field.
+| readOnly | _boolean_ | Flag indicating if the field is read-only.
+| required | _boolean_ | True indicates a required field type.
+| title | _string_ | The display name of the field.
+| type | _number_ | The field type.
+| typeAsString | _string_ | The field type as a string.
+| webUrl | _string_ | The relative web url containing the list.
 
 ### Code Example
 #### JavaScript

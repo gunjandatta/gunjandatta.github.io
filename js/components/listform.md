@@ -3,7 +3,8 @@ layout: default
 ---
 [Back](/js/components)
 ## List Form
-### Properties
+The list form component will load the list information, and render the elements based on the input parameters. If no fields are specified, then the default content type is loaded to deteremine the field order.
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -30,6 +31,40 @@ layout: default
 | saveAttachments | _listInfo: IListFormProps, attachmentInfo: Array&lt;IListFormAttachmentInfo&gt;_ | Method to save attachments to the item. |
 | saveItem | _info: IListFormResult, formValues: any_ | Method to save the item. |
 | showFileDialog | _info: IListFormResult_ | Method to show the file dialog. |
+
+#### renderDisplayForm
+##### Input Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| el | _HtmlElement | The element to render the form to. |
+| excludeFields | _Array&lt;string&gt;_ | The fields to exclude from the form. |
+| includeFields |  _Array&lt;string&gt;_ | The fields to include in the form. |
+| info | _IListFormResult_ | The list form information. |
+
+##### List Form Display
+
+| Name | Parameters | Description |
+| --- | --- | --- |
+| getFields | | Returns the form fields. |
+
+#### renderEditForm
+##### Input Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controlMode | _number_ | The form control mode. |
+| el | _HtmlElement | The element to render the form to. |
+| excludeFields | _Array&lt;string&gt;_ | The fields to exclude from the form. |
+| includeFields |  _Array&lt;string&gt;_ | The fields to include in the form. |
+| info | _IListFormResult_ | The list form information. |
+
+##### List Form Edit
+
+| Name | Parameters | Description |
+| --- | --- | --- |
+| getFields | | Returns the form fields. |
+| getValues | | Returns the form values. |
 
 #### List Result
 
