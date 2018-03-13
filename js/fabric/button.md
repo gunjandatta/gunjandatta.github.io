@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [Button](https://dev.office.com/fabric-js/Components/Button/Button.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |

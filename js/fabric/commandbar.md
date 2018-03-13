@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [Command Bar](https://dev.office.com/fabric-js/Components/CommandBar/CommandBar.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |

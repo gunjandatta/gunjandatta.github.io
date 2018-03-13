@@ -3,22 +3,27 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [Table](https://dev.office.com/fabric-js/Components/Table/Table.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 
 ### Interface
 
-| Name | Type | Description |
-| --- | --- | --- |
+| Name | Type/Description |
+| --- | --- |
+
+### Fabric Interface
+
+| Name | Type/Description |
+| --- | --- |
 
 ### Code Examples
 #### JavaScript
 ```js
 var $REST = require("gd-sprest-js");
 
-// Create the button
+// Create the 
 var el = document.querySelector("#");
 $REST.JS.Fabric.({
     el: el,
@@ -28,9 +33,9 @@ $REST.JS.Fabric.({
 ```ts
 import { Fabric } from "gd-sprest-js";
 
-// Create the button
+// Create the 
 let el = document.querySelector("#");
-Fabric.Button({
+Fabric.({
     el,
 });
 ```

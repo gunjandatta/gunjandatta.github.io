@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [Callout](https://dev.office.com/fabric-js/Components/Callout/Callout.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |

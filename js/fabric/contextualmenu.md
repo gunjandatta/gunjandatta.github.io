@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [Contextual Menu](https://dev.office.com/fabric-js/Components/ContextualMenu/ContextualMenu.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |

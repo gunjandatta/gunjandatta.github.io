@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/fabric)
 ## [CheckBox](https://dev.office.com/fabric-js/Components/CheckBox/CheckBox.html)
-### Input Properties
+### Input Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
