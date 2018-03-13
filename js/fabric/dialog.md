@@ -9,59 +9,82 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
-
-/** The dialog actions. */
-actions?: Array<IButtonProps>;
-
-/** The dialog content. */
-content?: string;
-
-/** True for blocking dialogs. */
-isBlocking?: boolean;
-
-/** True for dialogs with large headers. */
-isLargeHeader?: boolean;
-
-/** True for multi-line dialogs. */
-isMultiLine?: boolean;
-
-/** True to show the close button. */
-showCloseButton?: boolean;
-
-/** The dialog sub text. */
-subText?: string;
-
-/** The dialog title. */
-title?: string;
+| actions | _Array&lt;IButtonProps&gt; | The dialog actions. |
+| content | _string_ |  The dialog content. |
+| isBlocking | _boolean_ |  True for blocking dialogs. |
+| isLargeHeader | _boolean |  True for dialogs with large headers. |
+| isMultiLine | _boolean_ |  True for multi-line dialogs. |
+| showCloseButton | _boolean_ |  True to show the close button. |
+| subText | _string_ |  The dialog sub text. |
+| title | _string_ |  The dialog title. |
 
 ### Interface
 
 | Name | Type/Description |
 | --- | --- |
+| get() | Returns the fabric component. |
+| getActions() | Returns the actions container. |
+| getContent() | Returns the content container. |
+| getTitle() | Returns the title container. |
 
 ### Fabric Interface
 
 | Name | Type/Description |
 | --- | --- |
+| \_actionButtonElements | The action button elements. |
+| \_closeButtonElement | The close button element. |
+| \_dialog | The dialog element. |
+| close() | Hides the dialog. |
+| open() | Shows the dialog. |
 
 ### Code Examples
 #### JavaScript
 ```js
 var $REST = require("gd-sprest-js");
 
-// Create the 
-var el = document.querySelector("#");
-$REST.JS.Fabric.({
-    el: el,
+// Create the template
+var el = document.querySelector("#dlg");
+el.innerHTML = "<div></div><div></div>";
+
+// Render the dialog
+var dlg = $REST.JS.Fabric.Dialog({
+    content: "<p>This is the dialog content.</p>",
+    el: el.children[0],
+    title: "My Dialog"
+});
+
+// Render the button
+$REST.JS.Fabric.Button({
+    el: el.children[1],
+    text: "Show Dialog",
+    onClick: function() {
+        // Display the dialog
+        dlg.get().open();
+    }
 });
 ```
 #### TypeScript
 ```ts
 import { Fabric } from "gd-sprest-js";
 
-// Create the 
-let el = document.querySelector("#");
-Fabric.({
-    el,
+// Create the template
+var el = document.querySelector("#dlg");
+el.innerHTML = "<div></div><div></div>";
+
+// Render the dialog
+var dlg = Fabric.Dialog({
+    content: "<p>This is the dialog content.</p>",
+    el: el.children[0],
+    title: "My Dialog"
+});
+
+// Render the button
+Fabric.Button({
+    el: el.children[1],
+    text: "Show Dialog",
+    onClick: () => {
+        // Display the dialog
+        dlg.get().open();
+    }
 });
 ```
