@@ -37,7 +37,7 @@ layout: default
 | \_selectedCount | _HTMLDivElement_ |
 | \_selectedPeople | _HTMLDivElement_ |
 | \_selectedPlural | _HTMLDivElement_ |
-| \_selectResult(_ev | _Event_) | Selects the result. |
+| \_selectResult(_ev: _Event_) | Selects the result. |
 
 ### Code Examples
 #### JavaScript
