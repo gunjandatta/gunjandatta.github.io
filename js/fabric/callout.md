@@ -18,8 +18,8 @@ layout: default
 
 ### Fabric Callout Interface
 
-| Name | Type | Description |
-| --- | --- | --- |
+| Name | Type/Description |
+| --- | --- |
 | \_addTarget | _HTMLDivElement_ |
 | \_closeButton | _HTMLButtonElement_ |
 | \_container | _HTMLDivElement_ |
