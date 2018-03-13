@@ -12,7 +12,7 @@ layout: default
 | elementId | _string_ | The target element id to render the webpart to |
 | editPanel | _IWebPartEditPanel_ | The edit panel. |
 | helpProps | _{ title?: string, url: string }_ | The optional help link. |
-| onPostRender | _(wpInfo: IWebPartInfo, ...args)_ | The post render event. |
+| onPostRender | _(wpInfo: IWebPartInfo)_ | The post render event. |
 | onRenderDisplay | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Display' mode. |
 | onRenderEdit | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Edit' mode. |
 
