@@ -9,19 +9,14 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
-headerText?: string;
-/** The header text. */
-isBlocking?: boolean;
-/** True for blocking panels. */
-panelContent?: string;
-/** The panel content. */
-panelFooter?: string;
-/** The panel footer content. */
-panelHeader?: string;
-/** The panel header content. */
-| panelType | _number_ | The panel type
-showCloseButton | _boolean_ | True to show the close button.
-visible | _boolean_ | Flag to display it by default.
+| headerText | _string_ | The header text. |
+| isBlocking | _boolean_ | True for blocking panels. |
+| panelContent | _string_ | The panel content. |
+| panelFooter | _string_ | The panel footer content. |
+| panelHeader | _string_ | The panel header content. |
+| panelType | _number_ | The panel type. |
+| showCloseButton | _boolean_ | True to show the close button.
+| visible | _boolean_ | Flag to display it by default.
 
 ### Panel Interface
 
