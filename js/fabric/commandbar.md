@@ -32,6 +32,21 @@ var $REST = require("gd-sprest-js");
 var el = document.querySelector("#");
 $REST.JS.Fabric.({
     el: el,
+    mainCommands: [
+        {
+            icon: "Add",
+            text: "New Item",
+            onClick: function() {
+                // Code goes here
+            }
+        },
+        {
+            text: "Filter",
+            onClick: function() {
+                // Code goes here
+            }
+        },
+    ]
 });
 ```
 #### TypeScript
@@ -42,5 +57,20 @@ import { Fabric } from "gd-sprest-js";
 let el = document.querySelector("#");
 Fabric.Button({
     el,
+    mainCommands: [
+        {
+            icon: "Add",
+            text: "New Item",
+            onClick: () => {
+                // Code goes here
+            }
+        },
+        {
+            text: "Filter",
+            onClick: () => {
+                // Code goes here
+            }
+        },
+    ]
 });
 ```
