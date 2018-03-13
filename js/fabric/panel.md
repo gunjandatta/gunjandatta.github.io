@@ -80,7 +80,7 @@ import { Fabric } from "gd-sprest-js";
 // Display a panel
 var el = document.querySelector("#panel");
 var panel = abric.Panel({
-    el: el,
+    el,
     headerText: "My Panel",
     isBlocking: true,
     panelType: Fabric.PanelTypes.Large

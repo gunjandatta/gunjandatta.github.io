@@ -60,7 +60,7 @@ import { Fabric } from "gd-sprest-js";
 let el = document.querySelector("#picker");
 Fabric.PeoplePicker({
     allowGroups: false,
-    el: el,
+    el,
     label: "My People Picker:"
 });
 ```

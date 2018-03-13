@@ -74,7 +74,7 @@ import { Fabric } from "gd-sprest-js";
 // Create the tabs
 var el = document.querySelector("#tabs");
 Fabric.Pivot({
-    el: el,
+    el,
     tabs: [
         {
             name: "Tab 1",
