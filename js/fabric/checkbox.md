@@ -21,6 +21,7 @@ layout: default
 #### Fabric CheckBox Interface
 
 | Name | Type/Description |
+| --- | --- |
 | \_choiceField | _HTMLLabelElement_ |
 | \_choiceInput | HTMLInputElement |
 | \_container | HTMLDivElement |
