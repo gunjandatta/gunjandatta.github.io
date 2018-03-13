@@ -33,7 +33,7 @@ The list form field component is used to load the appropriate field information 
 ```js
 var $REST = require("gd-sprest-js");
 
-export const MyField = () => {
+export const MyField = function(){
     // Get the target element
     let el = document.querySelector("#myfield");
     if(el) {

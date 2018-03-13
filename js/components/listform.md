@@ -81,7 +81,7 @@ The list form component will load the list information, and render the elements 
 ```js
 var $REST = require("gd-sprest-js");
 
-export const MyForm = () => {
+export const MyForm = function(){
     // Get the target element
     var el = document.querySelector("#myform");
     if(el) {

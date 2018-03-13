@@ -24,12 +24,11 @@ The list form panel component will render a list form within a panel, based on t
 | show | _controlMode: number_ | Displays the list form panel. |
 
 ### Code Example
-### Code Example
 #### JavaScript
 ```js
 var $REST = require("gd-sprest-js");
 
-export const MyPanel = () => {
+export const MyPanel = function() {
     // Get the target element
     var el = document.querySelector("#myform");
     if(el) {
