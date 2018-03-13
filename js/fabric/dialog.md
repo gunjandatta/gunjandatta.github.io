@@ -9,7 +9,7 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
-| actions | _Array&lt;IButtonProps&gt; | The dialog actions. |
+| actions | _Array&lt;IButtonProps&gt;_ | The dialog actions. |
 | content | _string_ |  The dialog content. |
 | isBlocking | _boolean_ |  True for blocking dialogs. |
 | isLargeHeader | _boolean |  True for dialogs with large headers. |
@@ -18,7 +18,7 @@ layout: default
 | subText | _string_ |  The dialog sub text. |
 | title | _string_ |  The dialog title. |
 
-### Interface
+### IDialog Interface
 
 | Name | Type/Description |
 | --- | --- |
@@ -27,7 +27,7 @@ layout: default
 | getContent() | Returns the content container. |
 | getTitle() | Returns the title container. |
 
-### Fabric Interface
+### Fabric Dialog Interface
 
 | Name | Type/Description |
 | --- | --- |
