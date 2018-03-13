@@ -8,7 +8,9 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | actions | _string_ | The callout actions. |
+| className | _string_ | The class name to apply to the main element. |
 | content | _string_ | The callout content. |
+| el | _HTMLElement_ | The element to render the panel to. |
 | elTarget | _HTMLElement_ | The target element to apply the callout to. |
 | position | _string_ | The callout position. |
 | showCloseButton | _boolean_ | True to show the close button. |

@@ -7,6 +7,8 @@ layout: default
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | The class name to apply to the main element. |
+| el | _HTMLElement_ | The element to render the panel to. |
 | items | _Array&lt;IContextualMenuItem&gt;_ | The menu items. |
 | icon | _string_ | The button icon. |
 | elTarget | _HTMLElement_ | The target element to associate the menu with. |

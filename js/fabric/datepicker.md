@@ -7,6 +7,8 @@ layout: default
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | The class name to apply to the main element. |
+| el | _HTMLElement_ | The element to render the panel to. |
 /** The field description. */
 description?: string;
 
@@ -24,38 +26,54 @@ value?: Date;
 
 ### IDatePicker Interface
 
-| Name | Type | Description |
-| --- | --- | --- |
-/** Returns the date picker element. */
-getDate(): HTMLElement;
+| Name | Type/Description |
+| --- | --- |
+| getDate() | Returns the date picker element. |
+| getTime() |Returns the time picker element. |
+| getFabricComponent() | Returns the fabric component. |
+| getValue() | Returns the datetime value. |
 
-/** Returns the time picker element. */
-getTime(): HTMLElement;
+### Fabric Date Picker Interface
 
-/** Returns the fabric component. */
-getFabricComponent(): any;
+| Name | Type/Description |
+| --- | --- |
+| picker | The datepicker uses the [Pick a Date](amsul.ca/pickadate.js/) library. }
 
-/** Returns the datetime value. */
-getValue(): Date;
+#### Picker
+
+| Name | Type |
+| --- | --- |
+| component | _{ formats: any; item: any; key: any; queue: any; settings: any; }_ |
+| clear | _Function_ |
+| close | _Function_ |
+| get | _Function_ |
+| off | _Function_ |
+| on | _Function_ |
+| open | _Function_ |
+| set | _Function_ |
+| start | _Function_ |
+| stop | _Function_ |
 
 ### Code Examples
 #### JavaScript
 ```js
 var $REST = require("gd-sprest-js");
 
-// Create the button
-var el = document.querySelector("#");
-$REST.JS.Fabric.({
+// Create the date picker
+var el = document.querySelector("#dt");
+$REST.JS.Fabric.DatePicker({
     el: el,
+    showTime: false
 });
 ```
 #### TypeScript
 ```ts
 import { Fabric } from "gd-sprest-js";
 
-// Create the button
-let el = document.querySelector("#");
-Fabric.Button({
+// Create the date picker
+let el = document.querySelector("#dt");
+Fabric.DatePicker({
     el,
+    showTime: false
 });
 ```

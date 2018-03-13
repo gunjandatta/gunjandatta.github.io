@@ -7,6 +7,32 @@ layout: default
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | The class name to apply to the main element. |
+| el | _HTMLElement_ | The element to render the panel to. |
+
+/** The dialog actions. */
+actions?: Array<IButtonProps>;
+
+/** The dialog content. */
+content?: string;
+
+/** True for blocking dialogs. */
+isBlocking?: boolean;
+
+/** True for dialogs with large headers. */
+isLargeHeader?: boolean;
+
+/** True for multi-line dialogs. */
+isMultiLine?: boolean;
+
+/** True to show the close button. */
+showCloseButton?: boolean;
+
+/** The dialog sub text. */
+subText?: string;
+
+/** The dialog title. */
+title?: string;
 
 ### Interface
 
