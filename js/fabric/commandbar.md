@@ -28,9 +28,9 @@ layout: default
 ```js
 var $REST = require("gd-sprest-js");
 
-// Create the button
-var el = document.querySelector("#");
-$REST.JS.Fabric.({
+// Create the command bar
+var el = document.querySelector("#cmdbar");
+$REST.JS.Fabric.CommandBar({
     el: el,
     mainCommands: [
         {
@@ -53,9 +53,9 @@ $REST.JS.Fabric.({
 ```ts
 import { Fabric } from "gd-sprest-js";
 
-// Create the button
-let el = document.querySelector("#");
-Fabric.Button({
+// Create the command bar
+let el = document.querySelector("#cmdbar");
+Fabric.CommandBar({
     el,
     mainCommands: [
         {
