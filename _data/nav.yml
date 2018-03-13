@@ -84,6 +84,8 @@ items:
  - title: JavaScript
    url: "js"
    items:
+   - title: Getting Started
+     url: "getting-started"
    - title: Components
      url: "components"
    - title: Fabric
