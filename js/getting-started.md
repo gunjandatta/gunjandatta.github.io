@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Back](/)
+[Back](/js)
 ## Getting Started
 The library supports various ways of SharePoint development. The Office Fabric-UI css will need to be referenced, if it's not already available on the page.
 
