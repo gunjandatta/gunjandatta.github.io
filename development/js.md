@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/development)
-## List## JavaScript Development
+## JavaScript Development
 ### Reference the Script
 Reference the [$REST global variable](/getting-started/global-variable) for details on the $REST variable.
 ```js
