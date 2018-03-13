@@ -28,10 +28,10 @@ layout: default
 | --- | --- | --- |
 | listQuery | _ODataQuery_ | The OData query to apply to the query for getting the lists. |
 | onListChanged | _(wpInfo: IWPListInfo, list?: IListQueryResult or IListResult)_ | The list changed event. |
-| onListsRendering | _(wpInfo: IWPListInfo, lists?: Array&lt;IListQueryResult | IListResult&gt;) => Array&lt;IListQueryResult | IListResult&gt;_ | The lists rendering event. |
+| onListsRendering | _(wpInfo: IWPListInfo, lists?: Array&lt;IListQueryResult | IListResult&gt;)_ | The lists rendering event. |
 | onRenderFooter | _(el:HTMLDivElement, wpInfo: IWPListInfo, list?: IListQueryResult or IListResult)_ | The render footer event. |
 | onRenderHeader | _(el:HTMLDivElement, wpInfo: IWPListInfo, list?: IListQueryResult or IListResult)_ | The render header event. |
-| onSave | _(wpCfg: IWPListCfg) => IWPListCfg_ | The save event. |
+| onSave | _(wpCfg: IWPListCfg)_ | The save event. |
 
 ### Code Example
 #### JavaScript

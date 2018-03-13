@@ -15,9 +15,9 @@ layout: default
 | isLarge | _boolean_ | True to make the tabs large. |
 | isTabs | _boolean_ | True to render the tabs as "blocks" vs "underlined". |
 | type | number | The tab type. |
-| onPostRender | _(wpInfo: IWebPartInfo, ...args) => void_ | The post render event. |
-| onRenderDisplay | _(wpInfo: IWebPartInfo) => any_ | The render event triggered when the page is in 'Display' mode. |
-| onRenderEdit | _(wpInfo: IWebPartInfo) => any_ | The render event triggered when the page is in 'Edit' mode. |
+| onPostRender | _(wpInfo: IWebPartInfo, ...args)_ | The post render event. |
+| onRenderDisplay | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Display' mode. |
+| onRenderEdit | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Edit' mode. |
 
 ### Code Example
 #### JavaScript
