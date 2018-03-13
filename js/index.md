@@ -16,8 +16,9 @@ Download the minified version of the library:
 
 ##### Step 2
 Add a script editor webpart to the page, and set the content
-```js
+```html
 <div id="#tb"></tb>
+<script type="text/javascript">
 // Wait for the script to be loaded
 SP.SOD.executeOrDelayUntilScriptLoaded(function() {
     // Render a text field
@@ -25,6 +26,7 @@ SP.SOD.executeOrDelayUntilScriptLoaded(function() {
         el: document.querySelector("#tb")
     });
 }, "gd-sprest-js.js");
+</script>
 ```
 
 #### JavaScript Library References
