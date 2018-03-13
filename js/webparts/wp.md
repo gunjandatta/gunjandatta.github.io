@@ -22,7 +22,7 @@ layout: default
 | --- | --- | --- |
 | listQuery | _ODataQuery_ | The OData query to apply to the query for getting the lists. |
 | onListChanged | _(wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The list changed event. |
-| onListsRendering | _(wpInfo: IWPInfo, lists?: Array&lt;IListQueryResult or IListResult&gt;) | The lists rendering event. |
+| onListsRendering | _(wpInfo: IWPInfo, lists?: Array&lt;IListQueryResult or IListResult&gt;)_ | The lists rendering event. |
 | onRenderFooter | _(el:HTMLDivElement, wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The render footer event. |
 | onRenderHeader | _(el:HTMLDivElement, wpInfo: IWPInfo, list?: IListQueryResult or IListResult)_ | The render header event. |
 | onSave | _(wpCfg: IWPCfg)_ | The save event. |
