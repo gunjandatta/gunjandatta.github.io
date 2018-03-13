@@ -19,7 +19,7 @@ The number field extends the textfield and formats it based on the type.
 | type | _number_ | The textfield type. |
 | value | _string_ | The textfield value. |
 
-### Interface
+### Number Field Interface
 
 | Name | Type/Description |
 | --- | --- |
@@ -27,14 +27,6 @@ The number field extends the textfield and formats it based on the type.
 | getValue() | Returns the textfield value. |
 | setErrorMessage(_message: string_) | Sets the error message. |
 | setValue(_value: string_) | Sets the textfield value. |
-
-### Fabric Interface
-
-| Name | Type/Description |
-| --- | --- |
-| \_container | _HTMLDivElement_ |
-| \_textField | _HTMLInputElement_ |
-| \_textFieldLabel | _HTMLLabelElement_ |
 
 ### Code Examples
 #### JavaScript

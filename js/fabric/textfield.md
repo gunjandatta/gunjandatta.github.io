@@ -15,7 +15,7 @@ layout: default
 | type | _number_ | The textfield type. |
 | value | _string_ | The textfield value. |
 
-### Interface
+### Text Field Interface
 
 | Name | Type/Description |
 | --- | --- |
@@ -24,7 +24,7 @@ layout: default
 | setErrorMessage(_message: string_) | Sets the error message. |
 | setValue(_value: string_) | Sets the textfield value. |
 
-### Fabric Interface
+### Fabric Text Field Interface
 
 | Name | Type/Description |
 | --- | --- |

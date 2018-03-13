@@ -9,35 +9,37 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
+| isDark | _boolean_ | True to create a dark overlay. |
 
-### Interface
-
-| Name | Type/Description |
-| --- | --- |
-
-### Fabric Interface
+### Overlay Interface
 
 | Name | Type/Description |
 | --- | --- |
+| get() | Returns the fabric component. |
+
+### Fabric Overlay Interface
+
+| Name | Type/Description |
+| --- | --- |
+| overlayElement | The overlay element. |
+| hide() | Hides the overlay. |
+| remove() | Removes the overlay. |
+| show() | Shows the overlay. |
 
 ### Code Examples
 #### JavaScript
 ```js
 var $REST = require("gd-sprest-js");
 
-// Create the 
-var el = document.querySelector("#");
-$REST.JS.Fabric.({
-    el: el,
-});
+// Create the overlay
+var el = document.querySelector("#overlay");
+$REST.JS.Fabric.Overlay({ el: el });
 ```
 #### TypeScript
 ```ts
 import { Fabric } from "gd-sprest-js";
 
-// Create the 
-let el = document.querySelector("#");
-Fabric.({
-    el,
-});
+// Create the overlay
+let el = document.querySelector("#overlay");
+Fabric.Overlay({ el });
 ```
