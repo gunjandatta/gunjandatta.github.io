@@ -37,7 +37,7 @@ The list form component will load the list information, and render the elements 
 
 | Name | Type | Description |
 | --- | --- | --- |
-| el | _HtmlElement | The element to render the form to. |
+| el | _HtmlElement_ | The element to render the form to. |
 | excludeFields | _Array&lt;string&gt;_ | The fields to exclude from the form. |
 | includeFields |  _Array&lt;string&gt;_ | The fields to include in the form. |
 | info | _IListFormResult_ | The list form information. |
@@ -54,7 +54,7 @@ The list form component will load the list information, and render the elements 
 | Name | Type | Description |
 | --- | --- | --- |
 | controlMode | _number_ | The form control mode. |
-| el | _HtmlElement | The element to render the form to. |
+| el | _HtmlElement_ | The element to render the form to. |
 | excludeFields | _Array&lt;string&gt;_ | The fields to exclude from the form. |
 | includeFields |  _Array&lt;string&gt;_ | The fields to include in the form. |
 | info | _IListFormResult_ | The list form information. |
@@ -81,19 +81,15 @@ The list form component will load the list information, and render the elements 
 ```js
 var $REST = require("gd-sprest-js");
 
-export const MyField = () => {
+export const MyForm = () => {
     // Get the target element
-    let el = document.querySelector("#myfield");
+    var el = document.querySelector("#myform");
     if(el) {
-        // Render a loading dialog
-        $REST.JS.Fabric.Spinner({
-            el,
-            text: "Loading the list information..."
-        });
-
-        // Get the list information
-        (new $REST.JS.Components.ListInfo({ listName: "My List" })).then(info => {
-            // Code goes here
+        // Render the form
+        var newForm = $REST.JS.Components.ListForm({
+            controlMode: $REST.SPTypes.ControlMode.New,
+            el: el,
+            listName: "My List"            
         });
     }
 }
@@ -101,21 +97,17 @@ export const MyField = () => {
 #### TypeScript
 ```tsx
 import { SPTypes } "gd-sprest";
-import { Fabric, Field, ListForm } from "gd-sprest-js";
+import { ListForm } from "gd-sprest-js";
 
 export const MyField = () => {
     // Get the target element
-    let el = document.querySelector("#myfield");
+    let el = document.querySelector("#myform");
     if(el) {
-        // Render a loading dialog
-        Fabric.Spinner({
-            el,
-            text: "Loading the list information..."
-        });
-
-        // Get the list information
-        (new ListInfo({ listName: "My List" })).then(info => {
-            // Code goes here
+        // Render the form
+        ListForm({
+            controlMode: SPTypes.ControlMode.New,
+            el: el.children[0],
+            listName: "My List"            
         });
     }
 }

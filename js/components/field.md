@@ -83,7 +83,7 @@ export const MyField = () => {
 #### TypeScript
 ```tsx
 import { SPTypes } "gd-sprest";
-import { Fabric, Field, ListForm } from "gd-sprest-js";
+import { Fabric, Field, ListInfo } from "gd-sprest-js";
 
 export const MyField = () => {
     // Get the target element

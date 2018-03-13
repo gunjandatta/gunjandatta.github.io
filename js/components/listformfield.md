@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/js/components)
 ## List Form Field
-The list form field component is used by the field component to render the appropriate element, based on the field type.
+The list form field component is used to load the appropriate field information to render a list form, based on the field type.
 ### Input Parameters (List Form Field Information)
 
 | Name | Type | Description |
@@ -43,23 +43,31 @@ export const MyField = () => {
             text: "Loading the field..."
         });
 
-        // Get the list information
-        (new $REST.JS.Components.ListInfo({ listName: "My List" })).then(info => {
-            // Render the field to the element
-            Field({
-                el,
-                controlMode: SPTypes.ControlMode.Display,
-                fieldInfo: {
-                    field: info.fields["MyFieldInternalName"],
-                    listName: "My List",
-                    name: "MyFieldInternalName"
-                },
-                value: "Default Value"
-            });
+        // Load my field
+        (new $REST.JS.Components.ListFormField({ listName: "My List", name: "MyFieldInternalName" })).then(function(fieldInfo) {
+            // Code goes here
         });
     }
 }
 ```
 #### TypeScript
 ```ts
+import { Components } from "gd-sprest";
+
+export const MyField = () => {
+    // Get the target element
+    let el = document.querySelector("#myfield");
+    if(el) {
+        // Render a loading dialog
+        $REST.JS.Fabric.Spinner({
+            el,
+            text: "Loading the field..."
+        });
+
+        // Load my field
+        (new Components.ListFormField({ listName: "My List", name: "MyFieldInternalName" })).then(fieldInfo => {
+            // Code goes here
+        });
+    }
+}
 ```

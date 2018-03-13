@@ -24,5 +24,63 @@ The list form panel component will render a list form within a panel, based on t
 | show | _controlMode: number_ | Displays the list form panel. |
 
 ### Code Example
+### Code Example
 #### JavaScript
+```js
+var $REST = require("gd-sprest-js");
+
+export const MyPanel = () => {
+    // Get the target element
+    var el = document.querySelector("#myform");
+    if(el) {
+        // Render the template
+        el.innerHTML = "<div></div><div></div>";
+
+        // Render the panel
+        var newForm = $REST.JS.Components.ListFormPanel({
+            el: el.children[0],
+            listName: "My List"            
+        });
+
+        // Render a button
+        $REST.JS.Fabric.Button({
+            el: el.children[1],
+            text: "New Item",
+            onClick: () => {
+                // Show the panel
+                newForm.show();
+            }
+        })
+    }
+}
+```
 #### TypeScript
+```tsx
+import { SPTypes } "gd-sprest";
+import { Fabric, ListFormPanel } from "gd-sprest-js";
+
+export const MyPanel = () => {
+    // Get the target element
+    let el = document.querySelector("#myform");
+    if(el) {
+        // Render the template
+        el.innerHTML = "<div></div><div></div>";
+
+        // Render the panel
+        let newForm = ListFormPanel({
+            el: el.children[0],
+            listName: "My List"            
+        });
+
+        // Render a button
+        Fabric.Button({
+            el: el.children[1],
+            text: "New Item",
+            onClick: () => {
+                // Show the form
+                newForm.show(SPTypes.ControlMode.New);
+            }
+        });
+    }
+}
+```
