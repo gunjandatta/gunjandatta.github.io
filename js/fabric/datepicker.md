@@ -9,20 +9,11 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
-/** The field description. */
-description?: string;
-
-/** The change event */
-onChange?: (value: Date) => void;
-
-/** Flag to show the time */
-showTime?: boolean;
-
-/** The time picker type. */
-timePickerType?: number;
-
-/** The datetime value */
-value?: Date;
+| description | _string_ | The field description. |
+| onChange | _(value: Date)_ | The change event. |
+| showTime | _boolean_ | Flag to show the time. |
+| timePickerType | _number_ | The time picker type. |
+| value | _Date_ | The datetime value. |
 
 ### IDatePicker Interface
 
