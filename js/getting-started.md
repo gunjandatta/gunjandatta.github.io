@@ -32,9 +32,9 @@ SP.SOD.executeOrDelayUntilScriptLoaded(function() {
 var $REST = require("gd-sprest-js");
 
 // Import the css libraries
-require("node_modules/gd-sprest-js/build/lib/css/fabric.min.css");
-require("node_modules/gd-sprest-js/build/lib/css/fabric.components.min.css");
-require("node_modules/gd-sprest-js/build/lib/css/gd-sprest-js.css");
+require("gd-sprest-js/build/lib/css/fabric.min.css");
+require("gd-sprest-js/build/lib/css/fabric.components.min.css");
+require("gd-sprest-js/build/lib/css/gd-sprest-js.css");
 ```
 
 ### TypeScript Library References
@@ -43,7 +43,7 @@ require("node_modules/gd-sprest-js/build/lib/css/gd-sprest-js.css");
 import { Components, Fabric, WebParts } from "gd-sprest-js";
 
 // Import the css libraries
-import "node_modules/gd-sprest-js/build/lib/css/fabric.min.css";
-import "node_modules/gd-sprest-js/build/lib/css/fabric.components.min.css";
-import "node_modules/gd-sprest-js/build/lib/css/gd-sprest-js.css";
+import "gd-sprest-js/build/lib/css/fabric.min.css";
+import "gd-sprest-js/build/lib/css/fabric.components.min.css";
+import "gd-sprest-js/build/lib/css/gd-sprest-js.css";
 ```
