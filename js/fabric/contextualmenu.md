@@ -67,7 +67,8 @@ $REST.JS.Fabric.ContextualMenu({
 import { Fabric } from "gd-sprest-js";
 
 // Create the menu
-let el = document.querySelector("#");
+let el = document.querySelector("#elMenu");
+let elTarget = document.querySelector("#elTarget");
 Fabric.ContextualMenu({
     el,
     elTarget,
