@@ -21,4 +21,77 @@ document.querySelector("#__REQUESTDIGEST").value
 If you are executing a POST request to a different site collection, we will need to get the context information of the target web first. Below is an example of getting the list information using CAML query on the root web.
 
 #### Helper Class
-The [Context Information](/topics/context-info) helper class contains a **getWeb** method. This method will return the request digest of the target web, so we can pass it to the request. Refer to the [Code Examples](cross-sc-code) for additional details of how to make cross site-collection requests.
+The [Context Information](/topics/context-info) helper class contains a **getWeb** method. This method will return the request digest of the target web, so we can pass it to the request.
+
+##### Browser Console
+###### Query List/Library in the root web using CAML
+```js
+var contextInfo = $REST.ContextInfo.getWeb("/").executeAndWait();
+var requestDigest = contextInfo.GetContextWebInformation.FormDigestValue;
+
+// Query the root web for items
+var web = $REST.Web("/", { requestDigest: requestDigest });
+
+// Get the 'Site Assets' library
+var list = web.Lists("Site Assets");
+
+// Query for the items
+var items = list.getItemsByQuery("<Query><OrderBy><FieldRef Name='ID' /></OrderBy></Query>").executeAndWait();
+
+/** OR */
+
+// Query for the items
+var items = $REST.Web("/", { requestDigest: requestDigest }).Lists("Site Assets").getItemsByQuery("<Query><OrderBy><FieldRef Name='ID' /></OrderBy></Query>").executeAndWait();
+
+// Parse the items
+if(items.results) {
+    // Parse the items
+    for(var i=0; i<items.results; i++) {
+        var item = items.results[i];
+    }
+}
+```
+##### JavaScript
+###### Query List/Library in the root web using CAML
+```js
+var $REST = require("gd-sprest");
+
+// Get the context information of the root web
+$REST.ContextInfo.getWeb("/").execute((contextInfo) => {
+    // Get the root web
+    $REST.Web("/", { requestDigest: contextInfo.GetContextWebInformation.FormDigestValue })
+        // Get the 'Site Assets' library
+        .Lists("Site Assets")
+        // Query for the items
+        .getItemsByQuery("<Query><OrderBy><FieldRef Name='ID' /></OrderBy></Query>")
+        // Execute the request
+        .execute((items) => {
+            // Parse the items
+            for(let i=0; i<items.results.length; i++) {
+                var item = items.results[i];
+            }
+        });
+});
+```
+##### TypeScript
+###### Query List/Library in the root web using CAML
+```ts
+import { ContextInfo, Web } from "gd-sprest";
+
+// Get the context information of the root web
+ContextInfo.getWeb("/").execute((contextInfo) => {
+    // Get the root web
+    (new Web("/", { requestDigest: contextInfo.GetContextWebInformation.FormDigestValue }))
+        // Get the 'Site Assets' library
+        .Lists("Site Assets")
+        // Query for the items
+        .getItemsByQuery("<Query><OrderBy><FieldRef Name='ID' /></OrderBy></Query>")
+        // Execute the request
+        .execute(items => {
+            // Parse the items
+            for(let i=0; i<items.results.length; i++) {
+                let item = items.results[i];
+            }
+        });
+});
+```
