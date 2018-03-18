@@ -8,8 +8,8 @@ The JSLink feature allows the developer to customize list forms and views. Refer
 ### Template Overrides
 To create a list template override, simply create an instance of the JSLink class.
 
-#### Template
-- BaseViewID: number | string
+#### Configuration
+- BaseViewID: number \| string
 - ListTemplateType: number
 - OnPostRender
 - onPreRender
@@ -37,6 +37,7 @@ The library contains helper methods for JSLinks.
 - getListViewSelectedItems(ctx) - Returns the selected list items.
 - getWebPart(ctx) - Returns the webpart element.
 - hideField(ctx, field) - Hides the field element.
+- register(IJSLinkCfg) - Registers the JSLink template override(s).
 - removeField(ctx, field, formType) - Removes the field element from the DOM.
 - renderField(ctx, field, formType) - Renders the default html for the field.
 
@@ -44,25 +45,32 @@ The library contains helper methods for JSLinks.
 #### JavaScript
 ```js
 var $REST = require("gd-sprest");
-var jsLink = new $REST.JSLink({
-Fields: [
-    {
-        Name: "Title",
-        EditForm: (ctx, field) => { $REST.Helper.JSLink.hideField(ctx, field, true); },
-        View: $REST.Helper.JSLink.disableQuickEdit
+
+// Register the JSLink templates
+$REST.JSLink.register({
+    Templates: {
+        Fields: {
+            Title: {
+                EditForm: (ctx, field) => { $REST.Helper.JSLink.hideField(ctx, field, true); },
+                View: $REST.Helper.JSLink.disableQuickEdit
+            }
+        }
     }
-]});
+});
 ```
 #### TypeScript
 ```ts
-import { Helper, JSLink } from "gd-sprest";
+import { Helper } from "gd-sprest";
 
-var jsLink = new JSLink({
-Fields: [
-    {
-        Name: "Title",
-        EditForm: (ctx, field) => { Helper.JSLink.hideField(ctx, field, true); },
-        View: Helper.JSLink.disableQuickEdit
+// Register the JSLink templates
+Helper.JSLink.register({
+    Templates: {
+        Fields: {
+            Title: {
+                EditForm: (ctx, field) => { $REST.Helper.JSLink.hideField(ctx, field, true); },
+                View: $REST.Helper.JSLink.disableQuickEdit
+            }
+        }
     }
-]});
+});
 ```
