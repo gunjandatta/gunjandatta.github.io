@@ -43,12 +43,12 @@ new Navigation()
 
 | Name | Type | Description |
 | --- | --- | --- |
-| CustomProperties | _IResults<any>_ | The node properties. |
+| CustomProperties | _IResults&lt;any&gt;_ | The node properties. |
 | FriendlyUrlSegment | _string_ | The URL of the navigation node relative to the URL of the parent navigation node. |
 | IsDeleted | _boolean_ | Not part of documentation. |
 | IsHidden | _boolean_ | Indicates whether the node is hidden in the navigation menu. During editing, all nodes temporarily become visible. |
 | Key | _string_ | The identifier for the navigation node in the menu tree. |
-| Nodes | _IResults\<IMenuNode\>_ | The child nodes. |
+| Nodes | _IResults&lt;IMenuNode&gt;_ | The child nodes. |
 | NodeType | _SPTypes.NodeType_ | The type of the navigation node. |
 | SimpleUrl | _string_ | The relative or absolute URL of the navigation node. Site-relative URLs can start with the "~site" token and site collection-relative URLs can start with the "~sitecollection" token. Applies only to SimpleLink node types. |
 | Title | _string_ | The title of the navigation node. |
