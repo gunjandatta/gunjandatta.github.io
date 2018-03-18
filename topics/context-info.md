@@ -8,7 +8,7 @@ layout: default
 | Name | Description |
 | --- | --- |
 | generateGUID | Method to generate a guid. |
-| getWeb(_url | _string_) | Method to get the web context information. |
+| getWeb(_url \| _string_) | Method to get the web context information. |
 
 ### Properties
 
