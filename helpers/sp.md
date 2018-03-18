@@ -25,7 +25,7 @@ Helper.SP.ModalDialog
 | autoSize | _boolean_ | A Boolean value that specifies whether the dialog platform handles dialog sizing. |
 | dialogReturnValueCallback | _(dialogResult: number, returnVal: any) => void_ | A function pointer that specifies the return callback function. The function takes two parameters, a dialogResult of type SP.UI.DialogResult Enumeration and a returnValue of type object that contains any data returned by the dialog. |
 | height | _number_ | An integer value that specifies the height of the dialog. If height is not specified, the height of the dialog is autosized by default. If autosize is false, the dialog height is set to 576 pixels. |
-| html | _string_ | A string that contains the HTML of the page that appears in the dialog. If both html and url are specified, url takes precedence. Either url or html must be specified. |
+| html | _HtmlElement_ | An html element to appear in the dialog. If both html and url are specified, url takes precedence. Either url or html must be specified. _The html element is removed from the DOM after the dialog closes._ |
 | showClose | _boolean_ | A Boolean value that specifies whether the Close button appears on the dialog. |
 | showMaximized | _boolean_ | A Boolean value that specifies whether the dialog opens in a maximized state. true the dialog opens maximized. Otherwise, the dialog is opened at the requested sized if specified; otherwise, the default size, if specified; otherwise, the autosized size. |
 | title | _string_ | A string that contains the title of the dialog. |
