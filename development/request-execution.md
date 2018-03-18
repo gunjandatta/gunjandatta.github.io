@@ -11,12 +11,12 @@ The execution method is designed to automatically determine the type interface, 
 - [TypeScript](/development/ts)
 
 ### Execution Options
-- execute(resolve:function)
-- execute(waitFl:boolean)
-- execute(resolve:function, waitFl:boolean)
+- **execute(_resolve:function_)**
+- **execute(_waitFl:boolean_)**
+- **execute(_resolve:function, waitFl:boolean_)**
     - Executes the request asynchronously
     - The resolve method is executed after the request execution is completed
-- executeAndWait()
+- **executeAndWait()**
     - Executes the request synchronously
     - This is not recommended to use in production solutions, unless absolutely necessary.
     - This method was designed to be used to create scripts and to execute live requests in the browser console.

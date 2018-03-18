@@ -8,7 +8,7 @@ The REST API allows for OData requests to be made to each request. This will all
 ### OData Query
 * Custom: _string_
     * Appended to the querystring
-* Expand: _Array<string>_
+* Expand: _Array&lt;string&gt;_
     * The properties to expand
 * Filter: _string_
     * The filter
@@ -16,10 +16,10 @@ The REST API allows for OData requests to be made to each request. This will all
     * Flag to get all items (False by default)
     * Use this flag to get past the 5k limit
     * The result is still limited to the threshold defined for the web application
-* OrderBy: _Array<string>_
+* OrderBy: _Array&lt;string&gt;_
     * An array of properties to order by
     * Add " desc" to the property, to reverse the order
-* Select: _Array<string>_
+* Select: _Array&lt;string&gt;_
     * An array of properties to be selected
 * Skip: _number_
     * The number of results to skip
