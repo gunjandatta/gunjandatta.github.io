@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/helpers)
 ## List Form
-The list form class is designed to handle the interactions with reading, updating and saving to a list.
+The list form class is designed to help with rendering custom list forms, including saving and getting advanced details for complex field types.
 ### Class
 #### Constructor
 
