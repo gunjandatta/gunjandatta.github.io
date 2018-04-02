@@ -29,7 +29,7 @@ The [gd-sprest-js](https://github.com/gunjandatta/sprest-js) library contains Ja
     - [Panel](fabric/panel)
     - [People Picker](fabric/peoplepicker)
     - [Pivot](fabric/pivot)
-    - [Search Box](searchbox)
+    - [Search Box](fabric/searchbox)
     - [Spinner](fabric/spinner)
     - [Table](fabric/table)
     - [Text Field](fabric/textfield)
