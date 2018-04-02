@@ -20,6 +20,7 @@ layout: default
 - [Panel](panel)
 - [People Picker](peoplepicker)
 - [Pivot](pivot)
+- [Search Box](searchbox)
 - [Spinner](spinner)
 - [Table](table)
 - [Text Field](textfield)
