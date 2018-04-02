@@ -39,7 +39,7 @@ layout: default
 var $REST = require("gd-sprest-js");
 
 // Create the search box
-var el = document.querySelector("#loader");
+var el = document.querySelector("#searchbox");
 $REST.JS.Fabric.SearchBox({
     el: el,
     onClick: function(filterText) {
@@ -52,7 +52,7 @@ $REST.JS.Fabric.SearchBox({
 import { Fabric } from "gd-sprest-js";
 
 // Create the search box
-let el = document.querySelector("#loader");
+let el = document.querySelector("#searchbox");
 Fabric.SearchBox({
     el,
     type: Fabric.SearchBoxTypes.Collapsed,
