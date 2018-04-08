@@ -31,6 +31,7 @@ import { PeoplePicker } from "gd-sprest";
 ### Interfaces
 
 #### People Picker Query
+
 | Name | Type | Description |
 | --- | --- | --- |
 AllowEmailAddresses | _boolean_ | True to allow the email address. |
