@@ -22,6 +22,7 @@ import { Search } from "gd-sprest";
 });
 ```
 ### Methods
+
 | Method | Description |
 | --- | --- |
 | postQuery(_parameters: SearchRequest_) | Executes a POST request against the _/\_api/search/postquery_ endpoint. |
@@ -41,6 +42,7 @@ import { Search } from "gd-sprest";
 | SpecialTermResults | SpecialTermResults |
 
 #### Query Suggestion Query
+
 | Property | Type | Description |
 | --- | --- | --- |
 | IsPersonal | boolean |
