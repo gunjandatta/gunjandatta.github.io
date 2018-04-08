@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api)
-## People Picker
+## [People Picker](http://dattabase.com/sharepoint-people-picker-rest-api/)
 ### Code Reference
 ```ts
 // JavaScript
