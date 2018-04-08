@@ -7,16 +7,23 @@ layout: default
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.PeoplePicker().postQuery({
-    // Search parameters go here
+// Search for users
+$REST.PeoplePicker().clientPeoplePickerSearchUser({
+    MaximumEntitySuggestions: 10,
+    PrincipalSource: 15,
+    PrincipalType: 15,
+    QueryString: "gunjan"
 }).execute(function(results) {
     // Code goes here
 });
 
 // TypeScript
 import { PeoplePicker } from "gd-sprest";
-(new PeoplePicker()).postQuery({
-    // Search parameters go here
+(new PeoplePicker()).clientPeoplePickerSearchUser({
+    MaximumEntitySuggestions: 10,
+    PrincipalSource: 15,
+    PrincipalType: 15,
+    QueryString: "gunjan"
 }).execute(results => {
     // Code goes here
 });
