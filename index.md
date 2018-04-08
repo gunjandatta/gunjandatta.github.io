@@ -9,10 +9,9 @@ layout: default
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
 
 ## Overview:
-The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/2016 and Office 365. This framework is designed to remove a lot of the overhead required for SharePoint development, allowing the developer to focus on the client requirements.
+The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/Online (Classic). This framework is designed to remove a lot of the overhead required for SharePoint development, allowing the developer to focus on the client requirements.
 
 ### References
-- [HomePage](https://gunjandatta.github.io) - An overview of the framework.
 - [SharePoint 2013 Modern WebPart](http://dattabase.com/sharepoint-2013-modern-webpart/) - A series of blog posts for creating a SharePoint 2013 modern webparts using:
     - JavaScript (No Build)
     - TypeScript
@@ -25,7 +24,7 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 - [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) - SharePoint 2013 modern react webpart examples.
 
 ### gd-sprest vs pnp-js-core
-The gd-sprest library is similar to the pnp-js-core, with the main difference being the ability to be used within the browser console window. This feature provides a "Powershell-Like" experience within the browser console window. This feature was designed for developers working in restricted SharePoint environments, and do not have access to the server or powershell access. Some additional benefits of the library are listed below:
+The gd-sprest library is similar to the pnp-js-core, with the main difference being the ability to be used within the browser console window. This feature provides a "Powershell-Like" experience within the browser console window. This feature was designed for developers working in restricted SharePoint environments, or do not have access to the server or powershell access. Some additional benefits of the library are listed below:
 - Designed to work in restricted SharePoint environments with limited access to the SharePoint Farm, Web App, Site Collection, Root Web, etc.
 - No powershell or admin access to the server
 - Ability to create resusable scripts/solutions
