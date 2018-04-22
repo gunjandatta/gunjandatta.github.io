@@ -24,6 +24,8 @@ items:
       url: "request-execution"
     - title: OData Requests
       url: "odata"
+    - title: SPFX
+      url: "spfx"
  - title: REST API
    url: "api"
    items:
