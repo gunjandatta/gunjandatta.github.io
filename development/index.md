@@ -9,3 +9,4 @@ layout: default
 - [Request Execution](request-execution)
 - [Server-Side Code Conversion Guide](serverside-conversion-guide)
 - [OData Requests](odata)
+- [SPFX](spfx)
