@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/development)
-## SPFX
+## SharePoint Framework (SPFX)
 ### Project Creation
 After creating a SPFX project using the yomen generator `yo @microsoft/sharepoint`, install the library using this command: `npm i --save gd-sprest`.
 
