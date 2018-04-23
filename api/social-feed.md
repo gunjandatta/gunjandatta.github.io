@@ -36,5 +36,5 @@ SocialFeed.my().execute(function(profile) {
 | myNews() | Gets the feed of activity by the current user and by people and content the user is following, sorted by last modified date (News feed type). |
 | myTimelineFeed() | Gets the feed of activity by the current user and by people and content the user is following, sorted by created date (Timeline feed type). |
 | myUnreadMentionCount() | Gets the count of unread mentions for the current user. |
-| postToFeed(accountName: string, postInfo | Creates a root post in the specified site feed. |
-| postToMyFeed(creationData: Types.SP.ComplexTypes.SocialPostCreationData) | Creates a root post in the current user's feed. |
+| postToFeed(_accountName: string, postInfo: SocialPostCreationData_) | Creates a root post in the specified site feed. |
+| postToMyFeed(_creationData: SocialPostCreationData_) | Creates a root post in the current user's feed. |
