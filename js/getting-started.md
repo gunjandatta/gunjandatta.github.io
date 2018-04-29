@@ -27,7 +27,7 @@ The dist directory contains the js references:
 
 ### Office Fabric-UI CSS References
 
-The build directory contains the css references for importing. The build/lib/css folder contains the following files:
+The build directory contains the css references for importing. The Office Fabric-UI Core version used by the latest Office Fabric-UI JavaScript is 5.0.1. There is a [github issue](https://github.com/OfficeDev/office-ui-fabric-js/issues/346) with a request to update it. Feel free to post a comment there to help keep that framework updated.
 
 - (349 KB) [fabric.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.css) - The Office Fabric-UI Core + Office Fabric-UI JavaScript Components styling.
 - (294 KB) [fabric.min.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.min.css) - The minified version of the fabric.css file.
