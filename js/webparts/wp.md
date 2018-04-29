@@ -36,6 +36,7 @@ export const MyWebPart = function(){
     // Create the webpart
     $REST.JS.WebParts.WebPart({
         elementId: "myElementId",
+        wpClassName: "fabric",
         onRenderDisplay: function(el, wpInfo) {
             // Render the webpart
             $REST.JS.Fabric.Button({

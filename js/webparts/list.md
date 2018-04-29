@@ -44,6 +44,7 @@ export const MyListWebPart = function(){
     $REST.JS.WebParts.WPList({
         elementId: "wp-list",
         cfgElementId: "wp-list-cfg",
+        wpClassName: "fabric",
         onRenderItems: function(wpInfo, items) {
             // Render the webpart
         }
@@ -59,6 +60,7 @@ export const MyListWebPart = function(){
     WebParts.WPList({
         elementId: "wp-list",
         cfgElementId: "wp-list-cfg",
+        wpClassName: "fabric",
         onRenderItems: function(wpInfo, items) {
             // Render the webpart
         }

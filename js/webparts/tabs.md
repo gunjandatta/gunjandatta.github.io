@@ -27,7 +27,8 @@ var $REST = require("gd-sprest-js");
 export const MyWebPartTabs = function(){
     // Create the webpart tabs
     $REST.JS.WPTabs.WebPart({
-        elementId: "myTabs"
+        elementId: "myTabs",
+        wpClassName: "fabric"
     });
 }
 ```
@@ -38,7 +39,8 @@ import { Fabric, WebParts } from "gd-sprest";
 export const MyWebPartTabs = () => {
     // Create the webpart tabs
     WebParts.WPTabs({
-        elementId: "myTabs"
+        elementId: "myTabs",
+        wpClassName: "fabric"
     });
 }
 ```

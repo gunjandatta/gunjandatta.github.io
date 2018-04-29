@@ -44,6 +44,7 @@ export const MySearchWebPart = function(){
     $REST.JS.WebParts.WPSearch({
         elementId: "wp-list",
         cfgElementId: "wp-list-cfg",
+        wpClassName: "fabric",
         onRenderItems: function(wpInfo, items) {
             // Render the webpart
         }
@@ -59,6 +60,7 @@ export const MyListWebPart = function(){
     WebParts.WPSearch({
         elementId: "wp-list",
         cfgElementId: "wp-list-cfg",
+        wpClassName: "fabric",
         onRenderItems: function(wpInfo, items) {
             // Render the webpart
         }
