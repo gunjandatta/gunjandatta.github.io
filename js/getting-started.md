@@ -45,7 +45,7 @@ Download the minified version of the library from above.
 Add a script editor webpart to the page, and set the content
 
 ```html
-<div id="#tb" class="fabric"></tb>
+<div id="tb" class="fabric"></tb>
 <script type="text/javascript">
 // Wait for the script to be loaded
 SP.SOD.executeOrDelayUntilScriptLoaded(function() {
