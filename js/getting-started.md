@@ -2,19 +2,50 @@
 layout: default
 ---
 [Back](/js)
+
 ## Getting Started
+
 The library supports various ways of SharePoint development. The Office Fabric-UI css will need to be referenced, if it's not already available on the page.
 
+### Fabric Element
+
+To ensure the styling doesn't conflict with other customizations, this library will require a "Fabric" element.
+```html
+<div class="fabric">
+  <!-- styling applied here -->
+</div>
+```
+
+### gd-sprest-js JavaScript References
+
+The dist directory contains the js references:
+
+- (1.12 MB) [gd-sprest-fabric.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-fabric.js) - Includes the Office Fabric-UI Core styling.
+- (680 KB) [gd-sprest-fabric.min.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-fabric.min.js) - The minified version of the gd-sprest-fabric.js file.
+- (945 KB) [gd-sprest-js.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-js.js) - Excludes the Office Fabric-UI Core styling.
+- (507 KB) [gd-sprest-js.min.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-js.min.js) - The minified version of the gd-sprest-js.js file.
+
+### Office Fabric-UI CSS References
+
+The build directory contains the css references for importing. The build/lib/css folder contains the following files:
+
+- (349 KB) [fabric.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.css) - The Office Fabric-UI Core + Office Fabric-UI JavaScript Components styling.
+- (294 KB) [fabric.min.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.min.css) - The minified version of the fabric.css file.
+- (155 KB) [fabric.components.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.components.css) - The Office Fabric-UI JavaScript Components styling.
+- (122 KB) [fabric.components.min.css](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/build/lib/css/fabric.components.min.css) - The minified version of the fabric.components.css file.
+
 ### No Build Example
+
 #### Step 1
-Download the minified version of the library:
-- [gd-sprest-fabric.min.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-fabric.min.js) - Includes the fabric core css.
-- [gd-sprest-js.min.js](https://raw.githubusercontent.com/gunjandatta/sprest-js/master/dist/gd-sprest-js.min.js) - Does not include the fabric core css.
+
+Download the minified version of the library from above.
 
 #### Step 2
+
 Add a script editor webpart to the page, and set the content
+
 ```html
-<div id="#tb"></tb>
+<div id="#tb" class="fabric"></tb>
 <script type="text/javascript">
 // Wait for the script to be loaded
 SP.SOD.executeOrDelayUntilScriptLoaded(function() {
@@ -27,23 +58,21 @@ SP.SOD.executeOrDelayUntilScriptLoaded(function() {
 ```
 
 ### JavaScript Library References
+
 ```js
 // Import the library
 var $REST = require("gd-sprest-js");
 
-// Import the css libraries
+// Import the office fabric-ui core + fabric-ui js components styling
 require("gd-sprest-js/build/lib/css/fabric.min.css");
-require("gd-sprest-js/build/lib/css/fabric.components.min.css");
-require("gd-sprest-js/build/lib/css/gd-sprest-js.css");
 ```
 
 ### TypeScript Library References
+
 ```ts
 // Import the components
 import { Components, Fabric, WebParts } from "gd-sprest-js";
 
-// Import the css libraries
-import "gd-sprest-js/build/lib/css/fabric.min.css";
+// Import the office fabric-ui js components styling
 import "gd-sprest-js/build/lib/css/fabric.components.min.css";
-import "gd-sprest-js/build/lib/css/gd-sprest-js.css";
 ```
