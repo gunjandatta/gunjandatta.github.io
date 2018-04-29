@@ -59,6 +59,7 @@ export const MyWebPart = () => {
     // Create the webpart
     WebParts.WebPart({
         elementId: "myElementId",
+        wpClassName: "fabric",
         onRenderDisplay: (el, wpInfo) => {
             // Render the webpart
             Fabric.Button({
