@@ -9,7 +9,7 @@ layout: default
 | --- | --- | --- |
 | camlQuery | _string_ | The CAML query to apply to the query for getting the list items. |
 | cfgElementId | _string_ | The optional configuration element id |
-| className | _string_ | The class name. |
+| className | _string_ | The class name to apply to the target element. |
 | elementId | _string_ | The target element id to render the webpart to |
 | editPanel | _IWebPartEditPanel_ | The edit panel. |
 | helpProps | _{ title?: string, url: string }_ | The optional help link. |
@@ -22,6 +22,7 @@ layout: default
 | onRenderEdit | _(wpInfo: IWebPartInfo)_ | The render event triggered when the page is in 'Edit' mode. |
 | onRenderItems | _(wpInfo: IWebPartInfo, items: Array&lt;IListItemQueryResult or IListItemResult&gt;)_ | The render event triggered after the items query executes. |
 | onSave | _(cfg: IWPListCfg)_ | The save configuration event. |
+| wpClassName | string | The class name to apply to the div element containing the webpartid property. |
 
 #### WebPart Edit Panel
 
