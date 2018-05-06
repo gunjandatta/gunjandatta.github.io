@@ -9,7 +9,7 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | el | _HTMLElement_ | The element to render the panel to. |
-| items | _Array&lt;string&gt;_ | The list items. |
+| items | _Array&lt;[IListItemProps](listitem)&gt;_ | The list items. |
 | onClick | _(ev: MouseEvent)_ | The item click event. |
 
 ### Fabric Interface
@@ -28,10 +28,10 @@ var $REST = require("gd-sprest-js");
 var items = [];
 for(var i=0; i<10; i++) {
     // Add an item
-    items.push($REST.JS.Fabric.Templates.ListItem({
+    items.push({
         primaryText: "Item " + i,
         metaText: i
-    }));
+    });
 }
 
 // Create the list
@@ -49,10 +49,10 @@ import { Fabric } from "gd-sprest-js";
 var items = [];
 for(var i=0; i<10; i++) {
     // Add an item
-    items.push(Fabric.Templates.ListItem({
+    items.push({
         primaryText: "Item " + i,
         metaText: i
-    }));
+    });
 }
 
 // Create the list
