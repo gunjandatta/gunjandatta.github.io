@@ -24,7 +24,6 @@ layout: default
 | options | _Array&lt;IDropdownOption&gt;_ | The option children. |
 | text | _string_ | The option text. |
 | value | _any_ | The option value. |
-| type | _number_ | The option type. |
 
 ### IDropdown Interface
 
