@@ -12,7 +12,7 @@ layout: default
 | description | _string_ | The drop down description. |
 | isUnsorted | _boolean_ | Flag determining if the selected options are sorted alphabetically. |
 | multi | _boolean_ | Allow multiple values. |
-| onChange | _(value: IDropdownOption | Array&lt;IDropdownOption&gt;) => void_ | The change event |
+| onChange | _(value: Array&lt;IDropdownOption&gt;) => void_ | The change event |
 | options | _Array&lt;IDropdownOption&gt;_ | The dropdown options. |
 | placeholder | _string_ | The placeholder text. |
 | value | _string | Array&lt;string&gt;_ | The dropdown value(s). |
