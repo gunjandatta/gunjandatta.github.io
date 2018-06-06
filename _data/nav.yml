@@ -31,6 +31,8 @@ items:
    items:
     - title: List
       url: "list"
+    - title: List Data As Stream
+      url: "list-data"
     - title: Navigation
       url: "nav"
     - title: People Manager
