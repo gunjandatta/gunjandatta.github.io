@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api)
-## List Data as Service
+## List Data as Stream
 The list data as service allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint.
 ### Code Reference
 
