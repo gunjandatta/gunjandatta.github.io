@@ -4,6 +4,7 @@ layout: default
 [Back](/)
 ## REST API Libraries
 - [List](list) - _/\_api/web/lists/getbytitle('List Name')_
+- [List Data](list-data) - _/\_api/SP.List.getDataAsStream_
 - [Navigation](nav) - _/\_api/navigation_
 - [People Manager](people-manager) - _/\_api/sp.userprofiles.peoplemanager_
 - [People Picker](people-picker) - _/\_api/SP.UI.ApplicationPages.ClientPeoplePickerWebServiceInterface_
