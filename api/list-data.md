@@ -5,7 +5,10 @@ layout: default
 ## List Data as Service
 The list data as service allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint.
 ### Code Reference
-```ts
+
+#### JavaScript
+
+```js
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.ListDataAsStream("https://[tenant].sharepoint.com/sites/dev/lists/tasks", {
@@ -17,7 +20,11 @@ $REST.ListDataAsStream("https://[tenant].sharepoint.com/sites/dev/lists/tasks", 
         var item = data.Row[i];
     }
 });
+```
 
+#### TypeScript
+
+```ts
 // TypeScript
 import { List } from "gd-sprest";
 
