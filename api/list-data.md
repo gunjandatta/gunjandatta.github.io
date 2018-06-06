@@ -3,7 +3,13 @@ layout: default
 ---
 [Back](/api)
 ## List Data as Stream
-The list data as service allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint.
+The list data as stream allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint. Since the absolute url of the list is required, data can be retrieved from other site collections. The context information of the other site collection is not required with this api.
+
+#### Properties
+
+- listFullUrl - The absolute url of the list.
+- parameters - The optional list data parameters.
+
 ### Code Reference
 
 #### JavaScript
