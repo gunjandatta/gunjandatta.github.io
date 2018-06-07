@@ -13,7 +13,10 @@ $REST.Site()
 import { Site } from "gd-sprest";
 new Site()
 ```
+
 #### [Code Examples](site-code)
+#### [Site Exists](site-exists) REST API
+
 ### Properties
 
 | Name | Type | Description |

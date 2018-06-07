@@ -11,6 +11,7 @@ layout: default
 - [Profile Loader](profile-loader) - _/\_api/sp.userprofiles.profileloader.getprofileloader_
 - [Search](search) - _/\_api/search_
 - [Site](site) - _/\_api/site_
+- [Site Exists](site-exists) - _/\_api/SP.Site.Exists_
 - [Social Feed](social-feed) - _/\_api/social.feed_
 - [User Profile](user-profile) - _/\_api/sp.userprofiles.profileloader.getprofileloader/getUserProfile_
 - [Utility](utility) - _/\_api/SP.Utilities.Utility_

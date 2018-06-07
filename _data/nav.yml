@@ -45,6 +45,8 @@ items:
       url: "search"
     - title: Site
       url: "site"
+    - title: "Site Exists"
+      url: "site-exists"
     - title: "Social Feed"
       url: "social-feed"
     - title: "User Profile"
