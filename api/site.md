@@ -15,7 +15,7 @@ new Site()
 ```
 
 #### [Code Examples](site-code)
-#### [Site Exists](site-exists) REST API
+#### [Site Exists REST API](site-exists)
 
 ### Properties
 
