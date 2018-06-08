@@ -41,15 +41,19 @@ items:
       url: "people-picker"
     - title: Profile Loader
       url: "profile-loader"
+    - title: Remote Web
+      url: "web-remote"
     - title: Search
       url: "search"
     - title: Site
       url: "site"
-    - title: "Site Exists"
+    - title: Site Exists
       url: "site-exists"
-    - title: "Social Feed"
+    - title: Site Url By Id
+      url: "site-getUrlById"
+    - title: Social Feed
       url: "social-feed"
-    - title: "User Profile"
+    - title: User Profile
       url: "user-profile"
     - title: Utility
       url: "utility"

@@ -15,6 +15,7 @@ new Site()
 ```
 
 #### [Code Examples](site-code)
+#### [Get Site URL by ID](site-getUrlById)
 #### [Site Exists REST API](site-exists)
 
 ### Properties
