@@ -8,11 +8,25 @@ The taxonomy class is designed to return the managed metadata term set data as a
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.Helper.Taxonomy
+
+// Get the term groups
+$REST.Helper.Taxonomy.getTermGroups().then(function(groups) {
+    // Parse the groups
+    for(var i=0; i<groups.length; i++) {
+        // Code goes here
+    }
+});
 
 // TypeScript
 import { Helper } from "gd-sprest";
-Helper.Taxonomy
+
+// Get the term groups
+Helper.Taxonomy.getTermGroups().then(groups => {
+    // Parse the groups
+    for(let i=0; i<groups.length; i++) {
+        // Code goes here
+    }
+});
 ```
 ### Methods
 
