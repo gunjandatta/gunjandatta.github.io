@@ -34,11 +34,11 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | --- | --- | --- |
 | findById(_term: ITerm, termId: string_) | _ITerm_ | Searches a term for the specified id. |
 | findByName(_term: ITerm, termName: string_) | _ITerm_ | Searches a term for the specified name. |
-| getTermGroups() | _PromiseLike&lt;Array&lt;ITermGroupInfo&gt;&gt; | Gets the term groups from the available term stores. |
-| getTermSets(_groupName: string_) | _PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt; | Gets the term sets for a specified term group name. |
-| getTermSetsFromDefaultSC() | _PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt; | Gets the term sets, from the site collection's term store. |
+| getTermGroups() | _PromiseLike&lt;Array&lt;ITermGroupInfo&gt;&gt;_ | Gets the term groups from the available term stores. |
+| getTermSets(_groupName: string_) | _PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt;_ | Gets the term sets for a specified term group name. |
+| getTermSetsFromDefaultSC() | _PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt;_ | Gets the term sets, from the site collection's term store. |
 | getTermsById(_termStoreId: string, termSetId: string_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Gets the terms of a terms set. |
-| getTermSetById(_termStoreId: string, termSetId: string_) | _PromiseLike&lt;ArraITerm&gt;_ | Gets the terms of a terms set. |
+| getTermSetById(_termStoreId: string, termSetId: string_) | _PromiseLike&lt;Array&lt;ITerm&gt;&gt;_ | Gets the terms of a terms set. |
 | getTermsFromDefaultSC(_termSetName: string_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Gets the terms of a term set, from the site collection's term store. |
 | getTermSetFromDefaultSC(_termSetName: string_) | _PromiseLike&lt;ITerm&gt;_ | Gets the terms of a term set, from the site collection's term store. |
 | getTermsByGroupName(_termSetName: string, groupName: string_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Gets the terms of a term set. |
