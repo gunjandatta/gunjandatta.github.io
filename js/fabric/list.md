@@ -46,8 +46,8 @@ $REST.JS.Fabric.List({
 import { Fabric } from "gd-sprest-js";
 
 // Create the list items
-var items = [];
-for(var i=0; i<10; i++) {
+let items: Array<Fabric.Types.IListItemProps> = [];
+for(let i=0; i<10; i++) {
     // Add an item
     items.push({
         primaryText: "Item " + i,
@@ -56,7 +56,7 @@ for(var i=0; i<10; i++) {
 }
 
 // Create the list
-var el = document.querySelector("#list");
+let el = document.querySelector("#list");
 Fabric.List({
     el: el,
     items: items
