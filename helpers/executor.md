@@ -37,8 +37,7 @@ interface IMethodParam {
 // The method parameters
 let methodParams = [
     { src: "/", srcList: "Style Library", dst: "/sites/dev", dstList: "Style Library" },
-    ...
-    { src: "/", srcList: "Site Assets", dst: "/sites/dev", dstList: "Site Assets" },
+    { src: "/", srcList: "Site Assets", dst: "/sites/dev", dstList: "Site Assets" }
 ];
 ```
 
