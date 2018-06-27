@@ -64,6 +64,8 @@ items:
    items:
     - title: Add-In Model
       url: "add-in-model"
+    - title: Executor
+      url: "executor"
     - title: JSLink
       url: "jslink"
     - title: List Form
