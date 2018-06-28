@@ -119,11 +119,8 @@ Helper.Executor<IMethodParam>(methodParams,
     },
     // Method triggered after the main method completes
     methodParam => {
-        // Return a promise
-        return new Promise((resolve, reject) => {
-            // Copy the files
-            return copyFiles(methodParam).then(resolve);
-        });
+        // Copy the files
+        return copyFiles(methodParam);
     }
 );
 ```
