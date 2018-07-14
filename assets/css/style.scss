@@ -52,8 +52,16 @@
 
     // Style the tab
     .tab-item {
-        padding: 10px 5px;
-        
+        background-color: #0090ff;
+        color: gray;
+        font-size: medium;
+        font-weight: bolder;
+        padding: 5px 10px;
+    }
+
+    // Style the selected tab
+    .tab-item.selected {
+        color: white;
     }
     
     // Hide the content by default
