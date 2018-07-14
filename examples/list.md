@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/list)
-## List Code Examples
+## List
 ### Browser Console
 #### Get a list from the current web
 ```js

@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/web)
-## Web Code Examples
+## Web
 ### Browser Console
 #### Get the current web
 ```js

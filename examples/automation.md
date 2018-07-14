@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/topics/automation)
-## SharePoint Automation Code Examples
+## SharePoint Automation
 ### JavaScript
 ```js
 var $REST = require("gd-sprest");

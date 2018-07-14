@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/utility)
-## Utility Code Examples
+## Utility
 ### Browser Console
 #### Send an email
 ```js

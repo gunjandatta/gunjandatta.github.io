@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/alm)
-## Application Lifecycle Code Examples
+## Application Lifecycle
 ### Browser Console
 #### Add App to Catalog
 ```js

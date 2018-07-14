@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/nav)
-## Navigation Code Examples
+## Navigation
 ### Browser Console
 #### Get the navigation
 ```js

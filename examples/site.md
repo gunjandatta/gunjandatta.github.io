@@ -2,7 +2,7 @@
 layout: default
 ---
 [Back](/api/site)
-## Site Code Examples
+## Site
 ### Browser Console
 #### Get the site collection
 ```js
