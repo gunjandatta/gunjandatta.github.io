@@ -27,7 +27,19 @@ for (int i = 0; i < 10; i++)
 RenderList(list);
 ```
 
-### JavaScript Converted Code
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">JavaScript Conversion</div>
+    <div class="tab-item">TypeScript Conversion</div>
+</div>
+
+<!-- Tab Content -->
+
+<!-- JavaScript Conversion -->
+<div class="tab-content" markdown="1">
+
 ```js
 var $REST = require("gd-sprest");
 
@@ -65,8 +77,10 @@ web.done(function() {
     this.renderItems(items);
 });
 ```
+</div>
+<!-- TypeScript Conversion -->
+<div class="tab-content" markdown="1">
 
-### TypeScript Converted Code
 ```ts
 import { SPTypes, Web } from "gd-sprest";
 
@@ -104,3 +118,6 @@ web.done(() => {
     this.renderItems(items);
 });
 ```
+
+</div>
+</div>
