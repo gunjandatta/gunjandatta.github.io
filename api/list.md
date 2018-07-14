@@ -4,7 +4,6 @@ layout: default
 [Back](/api)
 ## [List](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
 
-
 <!-- Tabs -->
 <div class="tabs">
 <!-- Tab Items -->
