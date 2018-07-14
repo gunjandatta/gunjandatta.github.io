@@ -8,7 +8,7 @@ function initTabs(elTab) {
     let selectedTab = elTab.querySelector(".tab-item.selected");
     if (selectedTab == null) { elTabItems[0].classList.add("selected"); }
     let selectedTabContent = elTab.querySelector(".tab-content.selected");
-    if (selectedTabContent == null) { elTabItems[0].classList.add("selected"); }
+    if (selectedTabContent == null) { elTabContent[0].classList.add("selected"); }
 
     // Parse the tab items
     for (var i = 0; i < elTabItems.length; i++) {
