@@ -6,7 +6,6 @@ layout: default
 
 The library's base object contains an "execute" method. This method has been designed to provide intellisense to the requested object, and reduce the amount of code required to get and post data from SharePoint 2013/Online.
 
-
 <!-- Tabs -->
 <div class="tabs">
 <!-- Tab Items -->
