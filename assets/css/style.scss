@@ -44,3 +44,20 @@
         }
     }
 }
+
+// Tabs
+.tabs {
+    // Hide the content by default
+    .tab-item > .content {
+        left: -1000vw;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    // Show the content when selected
+    .tab-item.selected > .content {
+        left: inherit;
+        position: inherit;
+        overflow: inherit;
+    }
+}

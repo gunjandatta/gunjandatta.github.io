@@ -3,6 +3,22 @@ layout: default
 ---
 [Back](/api/web)
 ## Web
+
+<div class="tabs">
+    <div class="tab-item selected">
+        <div class="title">Browser Console</div>
+        <div class="content">Content for browser console.</div>
+    </div>
+    <div class="tab-item">
+        <div class="title">JavaScript</div>
+        <div class="content">Content for JS.</div>
+    </div>
+    <div class="tab-item">
+        <div class="title">TypeScript</div>
+        <div class="content">Content for TS.</div>
+    </div>
+</div>
+
 ### Browser Console
 #### Get the current web
 ```js
