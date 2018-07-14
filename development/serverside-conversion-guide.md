@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
+
+<div class="page-info" markdown="1">
+
 [Back](/development)
 ## Server-Side to Client-Side Code Conversion
+
+</div>
+
 The execution method was designed to give a server-side like experience. This will help transition server-side coded wsp solutions to client-side solutions, using the gd-sprest SharePoint REST Framework. The built-in intellisense will also help with the transition, since a server-side developer is used to having this feature in Visual Studio.
 
 ### Server-Side Code Example
