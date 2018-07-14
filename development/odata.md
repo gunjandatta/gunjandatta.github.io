@@ -3,9 +3,22 @@ layout: default
 ---
 [Back](/development)
 ## OData Requests
+
 The REST API allows for OData requests to be made to each request. This will allow us to expand collections of the target object, to help reduce the number of requests made to the server.
 
-### OData Query
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Query Properties</div>
+    <div class="tab-item">Browser Console</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Tab Content -->
+<div class="tab-content" markdown="1">
+
 * Custom: _string_
     * Appended to the querystring
 * Expand: _Array&lt;string&gt;_
@@ -28,8 +41,9 @@ The REST API allows for OData requests to be made to each request. This will all
     * 5000 is the max limit
     * Setting the "GetAllItems" flag will get past the 5k limit
 
-### Code Examples
-#### Browser Console
+</div>
+<div class="tab-content" markdown="1">
+
 ##### Get the web, expanding the field, lists and root folder
 ```js
 var web = $REST.Web().query({ Expand: ["Fields", "Lists", "RootFolder"] }).executeAndWait();
@@ -37,7 +51,11 @@ var fields = web.Fields.results;
 var lists = web.Lists.results;
 var rootFolder = web.RootFolder;
 ```
-#### JavaScript
+
+
+</div>
+<div class="tab-content" markdown="1">
+
 ##### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -79,7 +97,10 @@ $REST.Web()
         }
     });
 ```
-#### TypeScript
+
+</div>
+<div class="tab-content" markdown="1">
+
 ##### Reference the library
 ```ts
 import { Web } from "gd-sprest";
@@ -121,3 +142,6 @@ import { Web } from "gd-sprest";
         }
     });
 ```
+
+</div>
+</div>
