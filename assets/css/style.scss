@@ -45,11 +45,28 @@
     }
 }
 
+// Page Info
+.page-info {
+    align-items: center;
+    display: flex;
+
+    // Style the back button
+    > p > a {
+        color: #0f79d0;
+        font-weight: bold;
+        margin-right: 10px;
+        padding: 5px 10px;
+
+        ::before {
+            content: "<-"
+        }
+    }
+}
+
 // Tabs
 .tabs {
     // Tab Items
     .tab-items {
-        // Wrap the tabs
         display: flex;
 
         // Style the tab
