@@ -1,10 +1,28 @@
 ---
 layout: default
 ---
-## Global Variable
-The gd-sprest library will add a $REST global varible to the DOM. The $REST variable contains the following properties and helper libraries, shown below.
+<div class="page-info" markdown="1">
 
-### Properties
+[Back](/)
+## Global Variable
+
+</div>
+
+The gd-sprest library will add a *$REST global* varible to the DOM. The $REST variable contains the following properties and helper libraries, shown below.
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Properties</div>
+    <div class="tab-item">Libraries</div>
+    <div class="tab-item">Versioning</div>
+</div>
+
+<!-- Tab Content -->
+
+<!-- Properties -->
+<div class="tab-content" markdown="1">
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -12,7 +30,9 @@ The gd-sprest library will add a $REST global varible to the DOM. The $REST vari
 | [ContextInfo](/topics/context-info) | _IContextInfo_ | A reference to the _spPageContextInfo global variable. |
 | [DefaultRequestToHostFl](/helpers/add-in-model) | _boolean_ | Flag to target the app-web or host web for requests. _(false by default)_ |
 
-### Libraries
+</div>
+<!-- Libraries -->
+<div class="tab-content" markdown="1">
 
 | Class Name | Description |
 | --- | --- |
@@ -44,5 +64,11 @@ The gd-sprest library will add a $REST global varible to the DOM. The $REST vari
 | Utility | Library for developing against the _/\_api/SP.Utilities.Utility_ api endpoint. |
 | Web | Library for developing against the _/\_api/web_ api endpoint. |
 
-#### Version Control
+</div>
+<!-- Version Control -->
+<div class="tab-content" markdown="1">
+
 The __ver number is used to ensure the latest library is loaded as the global variable.
+
+</div>
+</div>
