@@ -4,10 +4,18 @@ layout: default
 [Back](/api/web)
 ## Web
 
+<!-- Tabs -->
 <div class="tabs">
-    <!-- Browser Console -->
+<!-- Tab Items -->
+<div class="tab-items">
     <div class="tab-item selected">Browser Console</div>
-    <div class="tab-content" markdown="1">
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Browser Console -->
+<div class="tab-content" markdown="1">
+
 #### Get the current web
 ```js
 var web = $REST.Web().executeAndWait();
@@ -22,10 +30,11 @@ var web = $REST.Web("/").query({ Expand: ["ContentTypes", "Fields"] }).executeAn
 var contentTypes = web.ContentTypes.results;
 var fields = web.Fields.results;
 ```
-    </div>
-    <!-- JavaScript -->
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-content" markdown="1">
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -64,10 +73,11 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
-    </div>
-    <!-- TypeScript -->
-    <div class="tab-item">TypeScript</div>
-    <div class="tab-content" markdown="1">
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```ts
 import { ContextInfo, Web } from "gd-sprest";
@@ -106,5 +116,5 @@ import { ContextInfo, Web } from "gd-sprest";
         // Code goes here
     });
 ```
-    </div>
+</div>
 </div>

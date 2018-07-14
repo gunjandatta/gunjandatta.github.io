@@ -47,35 +47,33 @@
 
 // Tabs
 .tabs {
-    // Wrap the tabs
-    display: flex;
+    // Tab Items
+    .tab-items {
+        // Wrap the tabs
+        display: flex;
 
-    // Style the tab
-    .tab-item {
-        background-color: #0090ff;
-        color: gray;
-        font-size: medium;
-        font-weight: bolder;
-        padding: 5px 10px;
-    }
+        // Style the tab
+        .tab-item {
+            background-color: #0090ff;
+            color: black;
+            font-size: medium;
+            font-weight: bolder;
+            padding: 5px 10px;
+        }
 
-    // Style the selected tab
-    .tab-item.selected {
-        color: white;
+        // Style the selected tab
+        .tab-item.selected {
+            color: white;
+        }
     }
     
     // Hide the content by default
-    .tab-item + .tab-content {
-        left: -1000vw;
-        position: absolute;
-        overflow: hidden;
+    .tab-content {
+        display: none;
     }
 
     // Show the content when selected
-    .tab-item.selected + .tab-content {
-        left: inherit;
-        margin-top: 35px;
-        position: absolute;
-        overflow: inherit;
+    .tab-content.selected {
+        display: inherit;
     }
 }
