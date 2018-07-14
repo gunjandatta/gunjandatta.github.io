@@ -8,7 +8,7 @@ layout: default
 
 </div>
 
-The gd-sprest library will add a *$REST global* varible to the DOM. The $REST variable contains the following properties and helper libraries, shown below.
+The gd-sprest library will add a **$REST** global variable to the DOM. The **$REST** variable contains the following properties and helper libraries, shown below.
 
 <!-- Tabs -->
 <div class="tabs">
