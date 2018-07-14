@@ -4,8 +4,12 @@
 @import "jekyll-theme-slate";
 // Main Content
 #main_content {
-    max-width: 85%;
     padding-top: 0px;
+}
+
+// Inner Width
+.inner {
+    max-width: 85%;
 }
 
 // Navigation
