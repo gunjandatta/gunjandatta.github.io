@@ -5,18 +5,12 @@ layout: default
 ## Web
 
 <div class="tabs">
-    <div class="tab-item selected">
-        <div class="title">Browser Console</div>
-        <div class="content">Content for browser console.</div>
-    </div>
-    <div class="tab-item">
-        <div class="title">JavaScript</div>
-        <div class="content">Content for JS.</div>
-    </div>
-    <div class="tab-item">
-        <div class="title">TypeScript</div>
-        <div class="content">Content for TS.</div>
-    </div>
+    <div class="tab-item selected">Browser Console</div>
+    <div class="tab-content">Content for browser console.</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-content">Content for JS.</div>
+    <div class="tab-item">TypeScript</div>
+    <div class="tab-content">Content for TS.</div>
 </div>
 
 ### Browser Console

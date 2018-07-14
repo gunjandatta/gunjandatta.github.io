@@ -48,14 +48,14 @@
 // Tabs
 .tabs {
     // Hide the content by default
-    .tab-item > .content {
+    .tab-item + .tab-content {
         left: -1000vw;
         position: absolute;
         overflow: hidden;
     }
 
     // Show the content when selected
-    .tab-item.selected > .content {
+    .tab-item.selected + .tab-content {
         left: inherit;
         position: inherit;
         overflow: inherit;
