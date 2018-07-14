@@ -5,15 +5,10 @@ layout: default
 ## Web
 
 <div class="tabs">
+    <!-- Browser Console -->
     <div class="tab-item selected">Browser Console</div>
-    <div class="tab-content">Content for browser console.</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-content">Content for JS.</div>
-    <div class="tab-item">TypeScript</div>
-    <div class="tab-content">Content for TS.</div>
-</div>
+    <div class="tab-content">
 
-### Browser Console
 #### Get the current web
 ```js
 var web = $REST.Web().executeAndWait();
@@ -28,7 +23,12 @@ var web = $REST.Web("/").query({ Expand: ["ContentTypes", "Fields"] }).executeAn
 var contentTypes = web.ContentTypes.results;
 var fields = web.Fields.results;
 ```
-### JavaScript
+
+    </div>
+    <!-- JavaScript -->
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-content">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -67,7 +67,12 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
-### TypeScript
+
+    </div>
+    <!-- TypeScript -->
+    <div class="tab-item">TypeScript</div>
+    <div class="tab-content">
+
 #### Reference the library
 ```ts
 import { ContextInfo, Web } from "gd-sprest";
@@ -106,3 +111,6 @@ import { ContextInfo, Web } from "gd-sprest";
         // Code goes here
     });
 ```
+
+    </div>
+</div>

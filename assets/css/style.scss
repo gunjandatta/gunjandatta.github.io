@@ -49,6 +49,12 @@
 .tabs {
     // Wrap the tabs
     display: flex;
+
+    // Style the tab
+    .tab-item {
+        padding: 10px 5px;
+        
+    }
     
     // Hide the content by default
     .tab-item + .tab-content {
