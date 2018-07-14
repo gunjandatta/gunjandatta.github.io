@@ -154,6 +154,13 @@ export const Configuration = new Helper.SPConfig({
             type: Helper.Types.SPCfgFieldType.Lookup
         } as Types.SPConfig.ISPConfigFieldInfoLookup,
 
+        // Managed Metadata Field
+        {
+            name: "TestMMS",
+            title: "MMS",
+            type: Helper.SPCfgFieldType.MMS
+        },
+
         // Note Field
         {
             name: "TestNote",
