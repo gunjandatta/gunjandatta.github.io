@@ -4,11 +4,12 @@ layout: default
 [Back](/api/web)
 ## Web
 
-<div class="tabs">
-    <!-- Browser Console -->
-    <div class="tab-item selected">Browser Console</div>
-    <div class="tab-content">
+&lt;!-- Tabs --&gt;
+&lt;div class="tabs"&gt;
 
+&lt;!-- Browser Console --&gt;
+&lt;div class="tab-item selected"&gt;Browser Console&lt;/div&gt;
+&lt;div class="tab-content"&gt;
 #### Get the current web
 ```js
 var web = $REST.Web().executeAndWait();
@@ -23,12 +24,11 @@ var web = $REST.Web("/").query({ Expand: ["ContentTypes", "Fields"] }).executeAn
 var contentTypes = web.ContentTypes.results;
 var fields = web.Fields.results;
 ```
+&lt;/div&gt;
 
-    </div>
-    <!-- JavaScript -->
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-content">
-
+&lt;!-- JavaScript --&gt;
+&lt;div class="tab-item"&gt;JavaScript&lt;/div&gt;
+&lt;div class="tab-content"&gt;
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -67,12 +67,11 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
+&lt;/div&gt;
 
-    </div>
-    <!-- TypeScript -->
-    <div class="tab-item">TypeScript</div>
-    <div class="tab-content">
-
+&lt;!-- TypeScript --&gt;
+&lt;div class="tab-item"&gt;TypeScript&lt;/div&gt;
+&lt;div class="tab-content"&gt;
 #### Reference the library
 ```ts
 import { ContextInfo, Web } from "gd-sprest";
@@ -111,6 +110,5 @@ import { ContextInfo, Web } from "gd-sprest";
         // Code goes here
     });
 ```
-
-    </div>
-</div>
+&lt;/div&gt;
+&lt;/div&gt;
