@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## [List](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
+
+</div>
 
 <!-- Tabs -->
 <div class="tabs">

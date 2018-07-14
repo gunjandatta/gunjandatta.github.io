@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/development)
 ## NodeJS Development
+
+</div>
+
 The library contains a "getInfo" method, returning the request information of the request.
 
 ### Reference the Script

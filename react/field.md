@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## Field
+
+</div>
+
 ### Supported Types
 The field components currently supported are:
 * Attachments

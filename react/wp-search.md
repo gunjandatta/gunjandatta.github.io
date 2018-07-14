@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React WebPart Search Component
+
+</div>
+
 This webpart component inherits the list webpart, and includes the ability to search item columns. A textbox will allow the user to quickly filter for results, based on the searchable columns.
 
 ### Constructor

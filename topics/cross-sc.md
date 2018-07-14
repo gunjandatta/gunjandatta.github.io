@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/topics)
 ## Cross Site-Collection Requests
+
+</div>
+
 When making requests to other site collections, it's important to note that GET requests will work without any issues. When making a POST request, the request digest must be provided in order for the request to be completed. The [ContextInfo](context-info) class contains a helper method for getting this information.
 ### Domain Limitation
 In order to use the REST api against other site collections, the domain **MUST** be the same. The only exception is an app web, where the REST api is allowed to make requests from the app domain to the SharePoint domain.

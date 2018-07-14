@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React Item Component
+
+</div>
+
 The item form component queries the target list's default content type, in order to render the form fields based on the configuration.
 
 ### Configuration

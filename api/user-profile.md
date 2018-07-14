@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## [User Profile](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx)
+
+</div>
+
 ### Code Reference
 ```ts
 // JavaScript

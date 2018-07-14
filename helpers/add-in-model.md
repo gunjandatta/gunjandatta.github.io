@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## Add-In Model
+
+</div>
+
 The following helper methods are available for solutions utilizing the Add-In Model.
 
 ### App Web vs Host Web

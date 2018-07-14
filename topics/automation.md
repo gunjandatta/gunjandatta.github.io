@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/topics)
 ## SharePoint Automation
+
+</div>
+
 The "SharePoint Configuration" class allows the developer to define configuration files, to automate the installation/unintallation of SharePoint assets. The configuration options are available through the built-in intellisense, shown below. This configuration class contains built-in methods to install and uninstall the SharePoint assets. Refer to the [Code Examples](/examples/automation) for examples of using this class.
 
 ### [Code Examples](/examples/automation)

@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## [People Manager](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_PeopleManager)
+
+</div>
+
 ### Code Example
 ```ts
 // JavaScript

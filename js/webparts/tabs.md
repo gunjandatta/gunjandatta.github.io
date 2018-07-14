@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/webparts)
 ## WebPart Tabs
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

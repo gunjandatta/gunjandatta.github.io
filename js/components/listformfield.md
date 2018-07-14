@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/components)
 ## List Form Field
+
+</div>
+
 The list form field component is used to load the appropriate field information to render a list form, based on the field type.
 ### Input Parameters (List Form Field Information)
 

@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## JSLink
+
+</div>
+
 The JSLink feature allows the developer to customize list forms and views. Refer to this [blog post](http://dattabase.com/js-links/) for a detailed overview of this helper class.
 
 ### Template Overrides

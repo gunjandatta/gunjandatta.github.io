@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React WebPart List Component
+
+</div>
+
 This webpart component removes the overhead of defining the target list, and allows the developer to specify the code related to rendering the list data.
 
 ### Constructor

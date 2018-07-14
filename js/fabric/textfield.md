@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Text Field](https://dev.office.com/fabric-js/Components/TextField/TextField.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

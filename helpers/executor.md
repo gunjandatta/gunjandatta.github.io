@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-[Back](/helpers)
+<div class="page-info" markdown="1">
 
+[Back](/helpers)
 ## Executor
+
+</div>
 
 The executor is a reusable method for executing code based on an array of data.
 

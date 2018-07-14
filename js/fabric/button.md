@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Button](https://dev.office.com/fabric-js/Components/Button/Button.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Contextual Menu](https://dev.office.com/fabric-js/Components/ContextualMenu/ContextualMenu.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

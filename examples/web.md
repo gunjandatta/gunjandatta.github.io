@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api/web)
 ## Web
+
+</div>
 
 <!-- Tabs -->
 <div class="tabs">

@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Command Button](https://dev.office.com/fabric-js/Components/CommandButton/CommandButton.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

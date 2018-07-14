@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## Utility
+
+</div>
+
 ### [Code Examples](/examples/utility)
 ### Class
 #### Methods

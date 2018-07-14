@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## Web
+
+</div>
+
 ### Code Reference
 ```ts
 // JavaScript

@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React WebPart Configuration Component
+
+</div>
+
 This component is used with the [WebPart](wp) component. This component renders a button to the page, displaying a configuration panel displaying the webpart's custom properties. This component can be extended for further customizations.
 
 ### Available Components

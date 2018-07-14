@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## [People Picker](http://dattabase.com/sharepoint-people-picker-rest-api/)
+
+</div>
+
 ### Code Reference
 ```ts
 // JavaScript

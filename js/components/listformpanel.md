@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/components)
 ## List Form Panel
+
+</div>
+
 The list form panel component will render a list form within a panel, based on the input parameters. A save or edit button will be displayed, based on the control mode of the form.
 ### Input Parameters
 

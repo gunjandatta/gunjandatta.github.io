@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## [Social Feed](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/social-feed-rest-api-reference-for-sharepoint)
+
+</div>
+
 ### Code Reference
 ```ts
 // JavaScript

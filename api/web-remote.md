@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## Remote Web
+
+</div>
+
 The SP.RemoteWeb REST API endpoint is used to return the web information.
 
 #### Properties

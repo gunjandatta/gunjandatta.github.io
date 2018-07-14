@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/development)
 ## JavaScript Development
+
+</div>
 
 <!-- Tabs -->
 <div class="tabs">

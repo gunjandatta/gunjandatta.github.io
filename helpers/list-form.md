@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## List Form
+
+</div>
+
 The list form class is designed to help with rendering custom list forms, including saving and getting advanced details for complex field types.
 ### Class
 #### Constructor

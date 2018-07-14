@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Spinner](https://dev.office.com/fabric-js/Components/Spinner/Spinner.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

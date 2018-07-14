@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## WebPart
+
+</div>
+
 The webpart component allows the developer to easialy assign react components to be rendered based on the page's state (Display/Edit). This component currently supports webpart, publishing and wiki pages. The following webpart components are available:
 * Configuration - A react component to be used when the page is being edited, displaying an "Edit Configuration" button to render a panel for custom webpart properties.
     * List Configuration - Inherits the configuration webpart, displaying a web url and list dropdown.

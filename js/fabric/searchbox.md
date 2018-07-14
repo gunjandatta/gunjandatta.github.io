@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Search Box](https://dev.office.com/fabric-js/Components/SearchBox/SearchBox.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

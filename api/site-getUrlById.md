@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## Get Site URL By Id
+
+</div>
+
 This api endpoint will return the url of a site, by its id.
 
 #### Properties

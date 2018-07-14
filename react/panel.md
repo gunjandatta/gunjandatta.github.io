@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React Panel Component
+
+</div>
+
 This component extends the Office Fabric Panel, and adds show/hide public methods.
 
 ### Methods

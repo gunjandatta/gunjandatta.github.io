@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## SharePoint Core JavaScript
+
+</div>
+
 SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](http://dattabase.com/sharepoint-javascript-libraries/) for additional details.
 
 ### [Modal Dialog](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)

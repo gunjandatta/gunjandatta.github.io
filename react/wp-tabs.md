@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React WebPart Tabs Component
+
+</div>
+
 This webpart displays the associated webparts within its zone in tabs.
 
 ### Constructor

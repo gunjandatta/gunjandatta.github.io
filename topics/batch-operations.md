@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/topics)
 ## [Batch Operations](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)
+
+</div>
+
 SharePoint Online contains the $batch api endpoint. This will enable multiple requests to be sent in one request to the server.
 ### Code Examples
 #### Browser Console

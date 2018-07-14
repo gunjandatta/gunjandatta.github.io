@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/topics/automation)
 ## SharePoint Field Configuration Examples
+
+</div>
+
 ### Custom Action
 #### TypeScript
 ```ts

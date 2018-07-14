@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/components)
 ## Field
+
+</div>
+
 The field component will render the appropriate element type, based on the field type and control mode.
 ### Supported Types
 The field components currently supported are:

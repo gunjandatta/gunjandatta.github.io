@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/helpers)
 ## Taxonomy
+
+</div>
+
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree. Refer to this [blog post](http://dattabase.com/new-taxonomy-list-helper-classes/) for additional details and code examples.
 ### Code Reference
 ```ts

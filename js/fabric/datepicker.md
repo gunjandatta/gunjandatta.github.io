@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Date Picker](https://dev.office.com/fabric-js/Components/DatePicker/DatePicker.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

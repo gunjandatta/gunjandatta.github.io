@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/components)
 ## List Form
+
+</div>
+
 The list form component will load the list information, and render the elements based on the input parameters. If no fields are specified, then the default content type is loaded to deteremine the field order.
 ### Input Parameters
 

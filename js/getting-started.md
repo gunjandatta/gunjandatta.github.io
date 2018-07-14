@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-[Back](/js)
+<div class="page-info" markdown="1">
 
+[Back](/js)
 ## Getting Started
+
+</div>
 
 The library supports various ways of SharePoint development. The Office Fabric-UI css will need to be referenced, if it's not already available on the page.
 

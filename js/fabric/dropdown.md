@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [Dropdown](https://dev.office.com/fabric-js/Components/Dropdown/Dropdown.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

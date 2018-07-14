@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/api)
 ## Site Exists
+
+</div>
+
 The site exists allows you to check if a site exists.
 
 #### Properties

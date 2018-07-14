@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js/fabric)
 ## [CheckBox](https://dev.office.com/fabric-js/Components/CheckBox/CheckBox.html)
+
+</div>
+
 ### Input Parameters
 
 | Name | Type | Description |

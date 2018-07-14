@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/react)
 ## React People Picker Component
+
+</div>
+
 This people picker components searches the user information list by default. The "Show All" option within the search results will extend the search to all principal sources.
 
 _Reference this [github project](https://github.com/gunjandatta/sprest-webparts/tree/master/src/email) for an example of using the SharePoint People Picker component._
