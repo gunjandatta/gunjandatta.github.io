@@ -23,7 +23,7 @@ layout: default
 var $REST = require("gd-sprest");
 
 // Create the configuration
-var spCfg = new $REST.Helper.SPConfig({
+var spCfg = $REST.Helper.SPConfig({
     // Custom site fields
     CustomFields: [
         // Field Information
