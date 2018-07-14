@@ -47,6 +47,9 @@
 
 // Tabs
 .tabs {
+    // Wrap the tabs
+    display: flex;
+    
     // Hide the content by default
     .tab-item + .tab-content {
         left: -1000vw;
@@ -57,7 +60,8 @@
     // Show the content when selected
     .tab-item.selected + .tab-content {
         left: inherit;
-        position: inherit;
+        margin-top: 25px;
+        position: absolute;
         overflow: inherit;
     }
 }
