@@ -16,17 +16,16 @@ layout: default
 <!-- Tab Content -->
 <div class="tab-content" markdown="1">
 
-### Reference the Script
 Reference the [$REST global variable](/getting-started/global-variable) for details on the $REST variable.
 ```js
 var $REST = require("gd-sprest");
 ```
-</div>
 
+</div>
 <div class="tab-content" markdown="1">
 
-### Code Example
 This code example will get the current web, including the lists. Reference the [/examples](code examples) page for additional examples.
+
 ```js
 // Get the current web and lists
 $REST.Web().query({
@@ -38,13 +37,13 @@ $REST.Web().query({
     }
 });
 ```
-</div>
 
+</div>
 <div class="tab-content" markdown="1">
+
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
 
 ![Lib](/assets/images/intellisense-js.png)
-</div>
 
 #### Executing Requests
 The intellisense is designed to automatically detect the appropriate properties and methods of the request object. When executing requests against the REST API, you will either get an object, collection or query result.
@@ -76,5 +75,6 @@ The intellisense is also available for the collection items. The above example s
 When developing SharePoint solutions, it's handy to have the correct enumerators available when coding. It's required in some cases, so the SPTypes helper class contains various enumerator types.
 
 ![SharePoint Enumerator Types](/assets/images/intellisense-js-sptypes.png)
+
 </div>
 </div>
