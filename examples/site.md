@@ -3,7 +3,19 @@ layout: default
 ---
 [Back](/api/site)
 ## Site
-### Browser Console
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Browser Console</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Browser Console -->
+<div class="tab-content" markdown="1">
+
 #### Get the site collection
 ```js
 var site = $REST.Site().executeAndWait();
@@ -12,7 +24,11 @@ var site = $REST.Site().executeAndWait();
 ```js
 var site = $REST.Site("/").executeAndWait();
 ```
-### JavaScript
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -35,7 +51,11 @@ $REST.Site("/")
         // Code goes here
     });
 ```
-### TypeScript
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```ts
 import { List, Web } from "gd-sprest";
@@ -58,3 +78,5 @@ import { List, Web } from "gd-sprest";
         // Code goes here
     });
 ```
+</div>
+</div>

@@ -3,7 +3,19 @@ layout: default
 ---
 [Back](/api/alm)
 ## Application Lifecycle
-### Browser Console
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Browser Console</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Browser Console -->
+<div class="tab-content" markdown="1">
+
 #### Add App to Catalog
 ```js
 var catalog = $REST.Web("/sites/appcatalog").TenantAppCatalog().executeAndWait();
@@ -57,7 +69,11 @@ if(app) {
     app.remove().executeAndWait();
 }
 ```
-### JavaScript
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -162,7 +178,11 @@ $REST.Web()
         app.remove().execute();
     });
 ```
-### TypeScript
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```ts
 import { Web } from "gd-sprest";
@@ -267,3 +287,5 @@ _The 'Deploy, Retract & Remove' methods need to be executed from the app catalog
         app.remove().execute();
     });
 ```
+</div>
+</div>

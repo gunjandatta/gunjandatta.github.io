@@ -3,7 +3,19 @@ layout: default
 ---
 [Back](/api/list)
 ## List
-### Browser Console
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Browser Console</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Browser Console -->
+<div class="tab-content" markdown="1">
+
 #### Get a list from the current web
 ```js
 var list = $REST.List("Site Assets").executeAndWait();
@@ -20,7 +32,11 @@ var libraries = $REST.Web().Lists().query({ Filter: "BaseTemplate eq 101" }).exe
 ```js
 var items = $REST.List("Site Assets").Items().query({ Filter: "Title eq 'My Filter'" }).executeAndWait();
 ```
-### JavaScript
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -98,7 +114,11 @@ $REST.Web()
         }
     });
 ```
-### TypeScript
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```ts
 import { List, Web } from "gd-sprest";
@@ -176,3 +196,5 @@ import { List, Web } from "gd-sprest";
         }
     });
 ```
+</div>
+</div>

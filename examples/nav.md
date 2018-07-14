@@ -3,7 +3,19 @@ layout: default
 ---
 [Back](/api/nav)
 ## Navigation
-### Browser Console
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">Browser Console</div>
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- Browser Console -->
+<div class="tab-content" markdown="1">
+
 #### Get the navigation
 ```js
 var menu = $REST.Navigation().MenuState().executeAndWait();
@@ -16,7 +28,11 @@ var menu = $REST.Navigation(1033).MenuState().executeAndWait();
 ```js
 var menu = $REST.Navigation().getMenuState(1025, 5).executeAndWait();
 ```
-### JavaScript
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```js
 var $REST = require("gd-sprest");
@@ -55,7 +71,11 @@ $REST.Navigation()
         });
     });
 ```
-### TypeScript
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 #### Reference the library
 ```ts
 import { Navigation } from "gd-sprest";
@@ -94,3 +114,5 @@ import { Navigation } from "gd-sprest";
         });
     });
 ```
+</div>
+</div>

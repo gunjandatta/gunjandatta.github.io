@@ -3,7 +3,18 @@ layout: default
 ---
 [Back](/topics/automation)
 ## SharePoint Automation
-### JavaScript
+
+<!-- Tabs -->
+<div class="tabs">
+<!-- Tab Items -->
+<div class="tab-items">
+    <div class="tab-item">JavaScript</div>
+    <div class="tab-item">TypeScript</div>
+</div>
+
+<!-- JavaScript -->
+<div class="tab-content" markdown="1">
+
 ```js
 var $REST = require("gd-sprest");
 
@@ -38,7 +49,11 @@ spCfg.install();
 // Uninstall the configuration
 spCfg.uninstall();
 ```
-### TypeScript
+</div>
+
+<!-- TypeScript -->
+<div class="tab-content" markdown="1">
+
 ```ts
 import { Helper } from "gd-sprest";
 
@@ -73,3 +88,5 @@ spCfg.install();
 // Uninstall the configuration
 spCfg.uninstall();
 ```
+</div>
+</div>
