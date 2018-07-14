@@ -14,7 +14,7 @@ import { Site } from "gd-sprest";
 new Site()
 ```
 
-#### [Code Examples](site-code)
+#### [Code Examples](/examples/site)
 #### [Get Site URL by ID](site-getUrlById)
 #### [Site Exists REST API](site-exists)
 

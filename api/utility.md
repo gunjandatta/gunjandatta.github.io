@@ -3,7 +3,7 @@ layout: default
 ---
 [Back](/api)
 ## Utility
-### [Code Examples](utility-code)
+### [Code Examples](/examples/utility)
 ### Class
 #### Methods
 * **createEmailBodyForInvitation(pageAddress: string)**

@@ -13,7 +13,7 @@ $REST.List()
 import { List } from "gd-sprest";
 new List()
 ```
-#### [Code Examples](list-code)
+#### [Code Examples](/examples/list)
 ### Properties
 
 | Property | Type | Description |

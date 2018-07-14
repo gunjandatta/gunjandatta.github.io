@@ -26,6 +26,23 @@ items:
       url: "odata"
     - title: SPFX
       url: "spfx"
+ - title: Code Examples
+   url: "examples"
+   items:
+    - title: Application Lifecycle Management
+      url: "alm"
+    - title: Automation
+      url: "automation"
+    - title: List
+      url: "list"
+    - title: Navigation
+      url: "nav"
+    - title: Site
+      url: "site"
+    - title: Utility
+      url: "utility"
+    - title: Web
+      url: "web"
  - title: REST API
    url: "api"
    items:

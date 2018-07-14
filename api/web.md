@@ -13,7 +13,7 @@ $REST.Web()
 import { Web } from "gd-sprest";
 new Web()
 ```
-#### [Code Examples](web-code)
+#### [Code Examples](/examples/web)
 ### Properties
 
 | Name | Type | Description |
