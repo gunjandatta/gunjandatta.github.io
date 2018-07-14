@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="page-info" markdown="1">
 
-[Back](/api/alm)
+[Back](/topics/alm)
 ## Application Lifecycle
 
 </div>
