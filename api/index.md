@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/)
 ## REST API Libraries
+
+</div>
+
 - [List](list) - _/\_api/web/lists/getbytitle('List Name')_
 - [List Data](list-data) - _/\_api/SP.List.getDataAsStream_
 - [Navigation](nav) - _/\_api/navigation_

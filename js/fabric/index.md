@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
+<div class="page-info" markdown="1">
+
 [Back](/js)
 ### Fabric
+
+</div>
+
 - [Button](button)
 - [Callout](callout)
 - [Checkbox](checkbox)
