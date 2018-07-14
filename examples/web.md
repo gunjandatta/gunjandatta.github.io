@@ -8,7 +8,7 @@ layout: default
 <div class="tabs">
 <!-- Tab Items -->
 <div class="tab-items">
-    <div class="tab-item selected">Browser Console</div>
+    <div class="tab-item">Browser Console</div>
     <div class="tab-item">JavaScript</div>
     <div class="tab-item">TypeScript</div>
 </div>

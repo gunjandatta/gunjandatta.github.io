@@ -4,6 +4,12 @@ function initTabs(elTab) {
     var elTabItems = elTab.querySelectorAll(".tab-items > .tab-item");
     var elTabContent = elTab.querySelectorAll(".tab-content");
 
+    // Select the first tab by default
+    let selectedTab = elTab.querySelector(".tab-item.selected");
+    if (selectedTab == null) { elTabItems[0].classList.add("selected"); }
+    let selectedTabContent = elTab.querySelector(".tab-content.selected");
+    if (selectedTabContent == null) { elTabItems[0].classList.add("selected"); }
+
     // Parse the tab items
     for (var i = 0; i < elTabItems.length; i++) {
         let elTabItem = elTabItems[i];
