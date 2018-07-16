@@ -20,7 +20,7 @@ $REST.Search().postQuery({
 
 // TypeScript
 import { Search } from "gd-sprest";
-(new Search()).postQuery({
+Search().postQuery({
     // Search parameters go here
 }).execute(results => {
     // Code goes here

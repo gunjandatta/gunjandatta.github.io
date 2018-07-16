@@ -89,7 +89,7 @@ import { Utility } from "gd-sprest";
 #### Send an email
 ```ts
 // Send the email
-(new Utility()).sendEmail({
+Utility().sendEmail({
     To: ["user@sharepoint.com"],
     Subject: "Test Email",
     Body: "<p>The email content</p>"
@@ -100,7 +100,7 @@ import { Utility } from "gd-sprest";
 #### Resolve a principal user
 ```ts
 // Resolve a principal user
-(new Utility()).resolvePrincipal({
+Utility().resolvePrincipal({
     input: "user@sharepoint.com",
     scopes: $REST.SPTypes.PrincipalTypes.All,
     sources: $REST.SPTypes.PrincipalSources.All
@@ -113,7 +113,7 @@ import { Utility } from "gd-sprest";
 #### Search principals
 ```ts
 // Search the principals
-(new Utility()).searchPrincipals({
+Utility().searchPrincipals({
     input: "user@sharepoint.com",
     maxCount: 50
 }).execute(response => {

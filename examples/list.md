@@ -130,7 +130,7 @@ import { List, Web } from "gd-sprest";
 #### Get a list from the current web
 ```ts
 // Get the list
-(new List("Site Assets"))
+List("Site Assets")
     // Execute the request
     .execute(list => {
         // Code goes here
@@ -139,7 +139,7 @@ import { List, Web } from "gd-sprest";
 #### Get a list on the root web
 ```ts
 // Get the root web
-(new Web("/"))
+Web("/")
     // Get the list
     .List("Site Assets")
     // Execute the request
@@ -150,7 +150,7 @@ import { List, Web } from "gd-sprest";
 #### Query list items
 ```ts
 // Get the list
-(new List("Site Assets"))
+List("Site Assets")
     // Get the items
     .Items()
     // Execute the request
@@ -161,7 +161,7 @@ import { List, Web } from "gd-sprest";
 #### Query for all libraries
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the lists
     .Lists()
     // Query for the libraries
@@ -180,7 +180,7 @@ import { List, Web } from "gd-sprest";
 #### Query for picture libraries, including their fields and items
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the lists
     .Lists()
     // Query for the libraries

@@ -25,7 +25,7 @@ $REST.PeopleManager()
 import { PeopleManager } from "gd-sprest";
 
 // Get the people manager
-(new PeopleManager())
+PeopleManager()
     // Get my properties
     .getMyProperties()
     // Execute the request

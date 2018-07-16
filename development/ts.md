@@ -53,7 +53,7 @@ This code example will get the site assets library, including the fields and vie
 import { List }
 
 // Get the "Site Assets" library, fields and views
-(new List("Site Assets"))
+List("Site Assets")
     // Query the list
     .query({
         Expand: ["Fields", "Views"]

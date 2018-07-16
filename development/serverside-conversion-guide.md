@@ -90,7 +90,7 @@ web.done(function() {
 import { SPTypes, Web } from "gd-sprest";
 
 // Get the current web
-var web = new Web();
+var web = Web();
 
 // Add a list
 web.Lists().add({

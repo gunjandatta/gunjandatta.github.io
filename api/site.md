@@ -16,7 +16,7 @@ $REST.Site()
 
 // TypeScript
 import { Site } from "gd-sprest";
-new Site()
+Site()
 ```
 
 #### [Code Examples](/examples/site)

@@ -87,7 +87,7 @@ import { Navigation } from "gd-sprest";
 #### Get the navigation
 ```ts
 // Get the navigation
-(new Navigation())
+Navigation()
     // Get the menu state
     .MenuState()
     // Execute the request
@@ -104,7 +104,7 @@ import { Navigation } from "gd-sprest";
 #### Get a navigation node
 ```ts
 // Get the navigation
-(new Navigation())
+Navigation()
     // Get the menu state
     .MenuState(1033)
     // Execute the request

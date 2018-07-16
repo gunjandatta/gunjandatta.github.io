@@ -24,7 +24,7 @@ $REST.PeoplePicker().clientPeoplePickerSearchUser({
 
 // TypeScript
 import { PeoplePicker } from "gd-sprest";
-(new PeoplePicker()).clientPeoplePickerSearchUser({
+PeoplePicker().clientPeoplePickerSearchUser({
     MaximumEntitySuggestions: 10,
     PrincipalSource: 15,
     PrincipalType: 15,

@@ -69,7 +69,7 @@ export const MyField = function(){
         });
 
         // Get the list information
-        (new $REST.JS.Components.ListInfo({ listName: "My List" })).then(info => {
+        $REST.JS.Components.ListInfo({ listName: "My List" }).then(info => {
             // Render the field to the element
             Field({
                 el,
@@ -101,7 +101,7 @@ export const MyField = () => {
         });
 
         // Get the list information
-        (new ListInfo({ listName: "My List" })).then(info => {
+        ListInfo({ listName: "My List" }).then(info => {
             // Render the field to the element
             Field({
                 el,

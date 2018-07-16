@@ -194,7 +194,7 @@ import { Web } from "gd-sprest";
 #### Get App Catalog
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the tenant app catalog
     .TenantAppCatalog()
     // Execute the request
@@ -205,7 +205,7 @@ import { Web } from "gd-sprest";
 #### Get Available Apps
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the tenant app catalog
     .TenantAppCatalog()
     // Get the app
@@ -223,7 +223,7 @@ import { Web } from "gd-sprest";
 #### Get App By Id
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the tenant app catalog
     .TenantAppCatalog()
     // Get the app
@@ -236,7 +236,7 @@ import { Web } from "gd-sprest";
 #### Add App to Catalog
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the app package
     .getFileByServerRelativeUrl("/sites/dev/siteassets/pkgs/demo.sppkg")
     // Get the content
@@ -259,7 +259,7 @@ import { Web } from "gd-sprest";
 _The 'Deploy, Retract & Remove' methods need to be executed from the app catalog web context._
 ```ts
 // Get the web
-(new Web())
+Web()
     // Get the tenant app catalog
     .TenantAppCatalog()
     // Get the available apps

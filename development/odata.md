@@ -112,7 +112,7 @@ import { Web } from "gd-sprest";
 ##### Get the web, expanding the field, lists and root folder
 ```ts
 // Get the current web
-(new Web())
+Web()
     // Expand the fields, lists and root folder properties
     .query({
         Expand: ["Fields", "Lists", "RootFolder"]
@@ -127,7 +127,7 @@ import { Web } from "gd-sprest";
 ##### Query for picture libraries, including their items
 ```ts
 // Get the current web
-(new Web())
+Web()
     // Get the lists
     .Lists()
     // Query for the picture libraries, including the items

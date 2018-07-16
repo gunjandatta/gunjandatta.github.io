@@ -89,7 +89,7 @@ import { ContextInfo, Web } from "gd-sprest";
 #### Get the current web
 ```ts
 // Get the web
-(new Web())
+Web()
     // Execute the request
     .execute(web => {
         // Code goes here
@@ -98,7 +98,7 @@ import { ContextInfo, Web } from "gd-sprest";
 #### Get the root web
 ```ts
 // Get the root web
-(new Web(ContextInfo.siteServerRelativeUrl))
+Web(ContextInfo.siteServerRelativeUrl)
     // Execute the request
     .execute(web => {
         // Code goes here
@@ -107,7 +107,7 @@ import { ContextInfo, Web } from "gd-sprest";
 #### Query the root web, expanding the fields and content types
 ```ts
 // Get the root web
-(new Web(ContextInfo.siteServerRelativeUrl))
+Web(ContextInfo.siteServerRelativeUrl)
     // Expand the content types and fields
     .query({
         Expand: ["ContentTypes", "Fields"]

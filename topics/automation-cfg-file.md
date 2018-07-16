@@ -12,7 +12,7 @@ layout: default
 #### TypeScript
 ```ts
 // Export the configuration
-export const Configuration = new Helper.SPConfig({
+export const Configuration = Helper.SPConfig({
     // Custom Action Configuration
     CustomActionCfg: {
         // Targets the site collection
@@ -46,7 +46,7 @@ export const Configuration = new Helper.SPConfig({
 #### TypeScript
 ```ts
 // Export the configuration
-export const Configuration = new Helper.SPConfig({
+export const Configuration = Helper.SPConfig({
     // List Configuration
     ListCfg: [
         {
@@ -87,7 +87,7 @@ export const Configuration = new Helper.SPConfig({
 #### TypeScript
 ```ts
 // Export the configuration
-export const Configuration = new Helper.SPConfig({
+export const Configuration = Helper.SPConfig({
     // Site Fields
     CustomFields: [
         // Boolean Field

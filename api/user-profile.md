@@ -18,7 +18,7 @@ $REST.UserProfile().execute(function(myProfile) {
 
 // TypeScript
 import { UserProfile } from "gd-sprest";
-(new UserProfile()).execute(myProfile => {
+UserProfile().execute(myProfile => {
     // Code goes here
 });
 ```

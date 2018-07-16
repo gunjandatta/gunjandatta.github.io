@@ -32,14 +32,18 @@ Refer to [this page](/examples/list) for additional list code examples.
 ```js
 // JavaScript
 var $REST = require("gd-sprest");
-$REST.List()
+$REST.List("[List Name]").execute(function(list) {
+  // Code goes here
+});
 ```
 
 #### TypeScript
 ```ts
 // TypeScript
 import { List } from "gd-sprest";
-new List()
+List("[List Name]").execute(list => {
+  // Code goes here
+});
 ```
 
 </div>

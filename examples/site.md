@@ -67,7 +67,7 @@ import { List, Web } from "gd-sprest";
 #### Get the current site collection
 ```ts
 // Get the site
-(new Site())
+Site()
     // Execute the request
     .execute(site => {
         // Code goes here
@@ -76,7 +76,7 @@ import { List, Web } from "gd-sprest";
 #### Get the root site collection
 ```ts
 // Get the root site
-(new Site("/"))
+Site("/")
     // Execute the request
     .execute(site => {
         // Code goes here

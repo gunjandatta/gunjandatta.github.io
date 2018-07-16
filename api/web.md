@@ -16,7 +16,7 @@ $REST.Web()
 
 // TypeScript
 import { Web } from "gd-sprest";
-new Web()
+Web()
 ```
 #### [Code Examples](/examples/web)
 ### Properties

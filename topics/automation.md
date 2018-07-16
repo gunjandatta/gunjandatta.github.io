@@ -30,7 +30,7 @@ export const Configuration = {
       // See if we are deploying this against the site collection
       if(targetSiteCollection) {
         // Target the site
-        return new Helpler.SPConfig({
+        return Helpler.SPConfig({
           CustomActionCfg: {
             Site: [
               { ... }
@@ -40,7 +40,7 @@ export const Configuration = {
       }
 
       // Target the web
-      return new Helpler.SPConfig({
+      return Helpler.SPConfig({
         CustomActionCfg: {
           Web: [
             { ... }

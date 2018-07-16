@@ -86,7 +86,7 @@ import { ContextInfo, Web } from "gd-sprest";
 // Get the context information of the root web
 ContextInfo.getWeb("/").execute((contextInfo) => {
     // Get the root web
-    (new Web("/", { requestDigest: contextInfo.GetContextWebInformation.FormDigestValue }))
+    Web("/", { requestDigest: contextInfo.GetContextWebInformation.FormDigestValue })
         // Get the 'Site Assets' library
         .Lists("Site Assets")
         // Query for the items

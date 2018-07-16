@@ -73,7 +73,7 @@ load = () => {
 
 
         // Get the target list by its name
-        (new List("My List"))
+        List("My List")
             // Get the items
             .Items()
             // Set the query

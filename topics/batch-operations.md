@@ -76,7 +76,7 @@ web.execute();
 import { SPTypes, Web } from "gd-sprest";
 
 // Get the web
-var web = new Web();
+var web = Web();
 
 // Get the lists
 web.Lists()

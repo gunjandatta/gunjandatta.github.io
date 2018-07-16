@@ -21,7 +21,7 @@ $REST.ProfileLoader().getUserProfile().execute(function(profile) {
 import { ProfileLoader } from "gd-sprest";
 
 // Get the Profile Loader
-(new ProfileLoader())
+ProfileLoader()
     // Get current user's profile
     .getUserProfile()
     // Execute the request

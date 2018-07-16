@@ -50,7 +50,7 @@ import { WebPart, WebPartTabs } from "gd-sprest-react";
 export class Tabs {
     constructor() {
         // Create an instance of the webpart
-        new WebPart({
+        WebPart({
             displayElement: WebPartTabs,
             targetElementId: "wp-tabs"
         });

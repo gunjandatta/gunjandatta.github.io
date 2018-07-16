@@ -100,7 +100,7 @@ Helper.Executor<IMethodParam>(methodParams,
         // Return a promise
         return new Promise((resolve, reject) => {
             // Get the source web
-            (new Web(methodParam.src))
+            Web(methodParam.src)
                 // Get the list
                 .Lists(methodParam.srcList)
                 // Get the root folder

@@ -62,7 +62,7 @@ spCfg.uninstall();
 import { Helper } from "gd-sprest";
 
 // Create the configuration
-let spCfg = new Helper.SPConfig({
+let spCfg = Helper.SPConfig({
     // Custom site fields
     CustomFields: [
         // Field Information
