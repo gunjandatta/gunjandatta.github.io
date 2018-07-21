@@ -89,7 +89,7 @@ items:
       url: "list-form"
     - title: List Form Field
       url: "list-form-field"
-    - title: SharePoint Core JavaScript
+    - title: SharePoint Core Libraries
       url: "sp"
     - title: Taxonomy
       url: "taxonomy"
