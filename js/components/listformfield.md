@@ -57,7 +57,7 @@ export const MyField = function(){
 ```
 #### TypeScript
 ```ts
-import { Components } from "gd-sprest";
+import { Components } from "gd-sprest-js";
 
 export const MyField = () => {
     // Get the target element
@@ -70,7 +70,7 @@ export const MyField = () => {
         });
 
         // Load my field
-        (new Components.ListFormField({ listName: "My List", name: "MyFieldInternalName" })).then(fieldInfo => {
+        Components.ListFormField({ listName: "My List", name: "MyFieldInternalName" }).then(fieldInfo => {
             // Code goes here
         });
     }

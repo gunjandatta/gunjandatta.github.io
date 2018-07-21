@@ -40,7 +40,7 @@ export const MyWebPartTabs = function(){
 ```
 #### TypeScript
 ```ts
-import { Fabric, WebParts } from "gd-sprest";
+import { Fabric, WebParts } from "gd-sprest-js";
 
 export const MyWebPartTabs = () => {
     // Create the webpart tabs

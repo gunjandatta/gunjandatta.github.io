@@ -58,7 +58,7 @@ export const MyWebPart = function(){
 ```
 #### TypeScript
 ```ts
-import { Fabric, WebParts } from "gd-sprest";
+import { Fabric, WebParts } from "gd-sprest-js";
 
 export const MyWebPart = () => {
     // Create the webpart

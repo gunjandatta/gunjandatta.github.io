@@ -59,7 +59,7 @@ export const MySearchWebPart = function(){
 ```
 #### TypeScript
 ```ts
-import { Fabric, WebParts } from "gd-sprest";
+import { Fabric, WebParts } from "gd-sprest-js";
 
 export const MyListWebPart = function(){
     // Create the search webpart
