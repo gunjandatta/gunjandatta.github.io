@@ -12,7 +12,7 @@ layout: default
 Creates a document set folder using the _vti_bin/listdata.svc endpoint.
 
 ```ts
-createDocSet(name: string, listName: string, webUrl?: string) => PromiseLike<Mapper.Types.IListItemResult>
+createDocSet(name: string, listName: string, webUrl?: string) => PromiseLike<IListItemResult>
 ```
 
 #### parse
@@ -26,7 +26,7 @@ parse<T>(jsonString: string) => PromiseLike<T>
 A generic method for creating requests using the XMLHttpRequest object.
 
 ```ts
-request(props:IRequest}) => PromiseLike<Mapper.Types.IListItemResult>
+request(props:IRequest}) => PromiseLike<IListResult>
 ```
 
 ##### IRequest
