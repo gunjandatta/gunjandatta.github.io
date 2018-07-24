@@ -8,8 +8,6 @@ layout: default
 
 </div>
 
-I thought it was important to give examples of using webpack with this framework.
-
 ### NPM Libraries
 
 ```
