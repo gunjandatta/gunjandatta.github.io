@@ -26,6 +26,8 @@ items:
       url: "odata"
     - title: SPFX
       url: "spfx"
+    - title: WebPack
+      url: "webpack"
  - title: Code Examples
    url: "examples"
    items:

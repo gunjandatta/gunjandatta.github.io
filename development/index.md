@@ -15,3 +15,4 @@ layout: default
 - [Server-Side Code Conversion Guide](serverside-conversion-guide)
 - [OData Requests](odata)
 - [SPFX](spfx)
+- [WebPack](webpack)
