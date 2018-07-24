@@ -10,7 +10,7 @@ layout: default
 
 ### Setup
 
-#### Install Command
+#### NPM Installation Command
 ```
 npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
 ```
