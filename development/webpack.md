@@ -8,10 +8,11 @@ layout: default
 
 </div>
 
-### NPM Libraries
+### Setup
 
+#### Install Command
 ```
-npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader
+npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
 ```
 
 #### WebPack
@@ -19,6 +20,9 @@ The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
 #### Babel
 The `babel-core`, `babel-loader` and `babel-preset-env` are required to compile the code to ESCurrent, for support of all browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
+
+#### Styles
+The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
 
 ### Basic Example
 
