@@ -15,13 +15,13 @@ layout: default
 npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
 ```
 
-#### WebPack
+##### WebPack
 The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
-#### Babel
+##### Babel
 The `babel-core`, `babel-loader` and `babel-preset-env` are required to compile the code to ESCurrent, for support of all browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
 
-#### Styles
+##### Styles
 The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
 
 ### Basic Example
