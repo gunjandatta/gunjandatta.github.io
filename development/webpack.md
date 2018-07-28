@@ -34,7 +34,6 @@ The `node-sass` and `sass-loader` libraries are required if you are using `.sass
             "dom",
             "es2015"
         ],
-        "sourceMap": true,
         "target": "es5"
     },
     "include": [
