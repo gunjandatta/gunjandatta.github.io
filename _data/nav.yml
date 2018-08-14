@@ -37,6 +37,8 @@ items:
       url: "automation"
     - title: List
       url: "list"
+    - title: List Item
+      url: "listItem"
     - title: Navigation
       url: "nav"
     - title: Site
