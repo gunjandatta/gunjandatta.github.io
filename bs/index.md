@@ -4,7 +4,7 @@ layout: default
 <div class="page-info" markdown="1">
 
 [Back](/)
-## BootStrap
+## Bootstrap
 
 </div>
 

@@ -116,7 +116,7 @@ items:
       url: "context-info"
     - title: Cross Site-Collection Requests
       url: "cross-sc"
- - title: BootStrap
+ - title: Bootstrap
    url: "bs"
  - title: JavaScript
    url: "js"
