@@ -13,6 +13,6 @@ The [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs) library contains Bo
 **_Coming Soon_**
 
 ### Size of Library
-This package includes the full bootstrap css and javascript.
+This package includes the gd-sprest core library and the full bootstrap css/javascript library.
 - Uncompressed: _1.285MB_
 - Minified: _526KB_
