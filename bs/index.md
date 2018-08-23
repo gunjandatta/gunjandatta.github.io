@@ -31,6 +31,8 @@ npm i --save gd-sprest-bs
 - [Tabs](webparts/tabs)
 - [Taxonomy](webparts/taxonomy)
 
+### [WebPack Configuration](webpack)
+
 ### Size of Library
 This package includes the gd-sprest core library and the full bootstrap css/javascript library.
 - Uncompressed: _1.285MB_
