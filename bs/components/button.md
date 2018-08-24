@@ -95,7 +95,6 @@ Button(props:IButtonProps):IButton
 
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/dist/gd-sprest-bs.min.js"></script>
 <script type="text/javascript">
-    debugger;
     // See if a button exists
     var btn = document.querySelector("#btn");
     if(btn) {
