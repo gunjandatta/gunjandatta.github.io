@@ -8,7 +8,9 @@ layout: default
 <div id="btn"></div>
 
 </div>
+
 <script type="text/javascript">
+
 debugger;
 document.addEventListener("load", function() {
     // Render the button
@@ -17,4 +19,5 @@ document.addEventListener("load", function() {
         text: "Button"
     });
 });
+
 </script>
