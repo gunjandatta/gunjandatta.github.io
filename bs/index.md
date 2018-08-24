@@ -17,6 +17,11 @@ _This library is in development. Feel free to try it out, and provide feedback. 
 npm i --save gd-sprest-bs
 ```
 
+### Reference through RawGit
+```
+<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/dist/gd-sprest-bs.min.js"></script>
+```
+
 ### Components
 - [Alert](components/alert)
 - [Badge](components/badge)
