@@ -8,8 +8,13 @@ layout: default
 
 </div>
 
+- [Alert](components/alert)
+- [Badge](components/badge)
+- [Breadcrumb](components/breadcrumb)
 - [Button](components/button)
 - [Button Group](components/buttongroup)
+- [Card](components/card)
+- [Card Group](components/cardgroup)
 - [Dropdown](components/dropdown)
 - [Form](components/form)
 - [Input Group](components/inputgroup)
