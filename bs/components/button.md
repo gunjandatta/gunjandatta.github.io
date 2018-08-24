@@ -23,7 +23,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#btn");
 var btn = Components.Button({
     el: el,
-    text: "My Button",
+    text: "Button",
     onClick: function(ev) {
         alert("The button was clicked.");
     }
@@ -37,7 +37,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#btn");
 let btn = Components.Button({
     el: el,
-    text: "My Button",
+    text: "Button",
     onClick: (ev) => {
         alert("The button was clicked.");
     }
