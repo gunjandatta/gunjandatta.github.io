@@ -5,5 +5,16 @@ layout: default
 
 [Back](/bs)
 
+<div id="btn"></div>
+<script type="text/javascript">
+debugger;
+document.addEventListener("load", function() {
+    // Render the button
+    $REST.Components.Button({
+        el: document.querySelector("#btn"),
+        text: "Button"
+    });
+});
+</script>
+
 </div>
-_Coming Soon_
