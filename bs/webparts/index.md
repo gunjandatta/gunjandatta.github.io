@@ -8,8 +8,8 @@ layout: default
 
 </div>
 
-- [WebPart](webparts/webpart)
-- [List](webparts/list)
-- [Search](webparts/search)
-- [Tabs](webparts/tabs)
-- [Taxonomy](webparts/taxonomy)
+- [WebPart](webpart)
+- [List](list)
+- [Search](search)
+- [Tabs](tabs)
+- [Taxonomy](taxonomy)
