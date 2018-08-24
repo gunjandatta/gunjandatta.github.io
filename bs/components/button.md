@@ -17,7 +17,7 @@ layout: default
     if(btn) {
         // Render the button
         $REST.Components.Button({
-            el: el,
+            el: btn,
             text: "Button",
             onClick: function(btn) { alert("You clicked the button."); }
         });
