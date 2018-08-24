@@ -21,7 +21,7 @@ var Components = require("gd-sprest-bs").Components;
 
 // Create the button
 var el = document.querySelector("#btn");
-Components.Button({
+var btn = Components.Button({
     el: el,
     text: "My Button",
     onClick: function(ev) {
@@ -35,7 +35,7 @@ import { Components } from "gd-sprest-bs";
 
 // Create the button
 let el = document.querySelector("#btn");
-Components.Button({
+let btn = Components.Button({
     el: el,
     text: "My Button",
     onClick: (ev) => {
@@ -46,7 +46,25 @@ Components.Button({
 
 ### References
 
-#### Button
+```
+Button(props:IButtonProps):IButton
+```
+
+#### ButtonTypes
+
+| Name | Value |
+| --- | --- |
+| Danger | 1 |
+| Dark | 2 |
+| Info | 3 |
+| Light | 4 |
+| Link | 5 |
+| Primary | 6 |
+| Secondary | 7 |
+| Success | 8 |
+| Warning | 9 |
+
+#### IButton
 
 | Name | Returns | Description |
 | --- | --- | --- |
@@ -54,7 +72,7 @@ Components.Button({
 | el | Element | The jquery element. |
 | toggle | void | Toggles push state. Gives the button the appearance that it has been activated. |
 
-### Button Properties
+### IButtonProps
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -74,20 +92,6 @@ Components.Button({
 | toggle | _string_ | The data-toggle property value.
 | text | _string_ | The button text. |
 | type | _number_ | The button type. _Reference the ButtonTypes enumerator_ |
-
-#### Button Type
-
-| Name | Value |
-| --- | --- |
-| Danger | 1 |
-| Dark | 2 |
-| Info | 3 |
-| Light | 4 |
-| Link | 5 |
-| Primary | 6 |
-| Secondary | 7 |
-| Success | 8 |
-| Warning | 9 |
 
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/dist/gd-sprest-bs.min.js"></script>
 <script type="text/javascript">
