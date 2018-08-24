@@ -6,6 +6,8 @@ layout: default
 [Back](/bs)
 
 <div id="btn"></div>
+
+</div>
 <script type="text/javascript">
 debugger;
 document.addEventListener("load", function() {
@@ -16,5 +18,3 @@ document.addEventListener("load", function() {
     });
 });
 </script>
-
-</div>
