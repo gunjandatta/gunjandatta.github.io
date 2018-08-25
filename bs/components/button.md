@@ -109,14 +109,17 @@ Button(props:IButtonProps):IButton
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
-    // See if a button exists
-    var btn = document.querySelector("#btn");
-    if(btn) {
-        // Render the button
-        $REST.Components.Button({
-            el: btn,
-            text: "Button",
-            onClick: function(btn) { alert("You clicked the button."); }
-        });
-    }
+    // Wait for the document to be loaded
+    document.addEventReceiver("load", function() {
+        // See if a button exists
+        var btn = document.querySelector("#btn");
+        if(btn) {
+            // Render the button
+            $REST.Components.Button({
+                el: btn,
+                text: "Button",
+                onClick: function(btn) { alert("You clicked the button."); }
+            });
+        }
+    });
 </script>
