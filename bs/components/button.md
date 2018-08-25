@@ -44,6 +44,17 @@ let btn = Components.Button({
 });
 ```
 
+### Web Component
+This is currently in development.
+
+#### Example
+```html
+<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<bs-button
+    text="My Button"
+/>
+```
+
 ### References
 
 ```
@@ -93,7 +104,7 @@ Button(props:IButtonProps):IButton
 | text | _string_ | The button text. |
 | type | _number_ | The button type. _Reference the ButtonTypes enumerator_ |
 
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/dist/gd-sprest-bs.min.js"></script>
+<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // See if a button exists
     var btn = document.querySelector("#btn");
