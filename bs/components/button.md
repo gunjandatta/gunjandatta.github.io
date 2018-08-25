@@ -107,8 +107,8 @@ Button(props:IButtonProps):IButton
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
-    // Wait for the document to be loaded
-    document.addEventListener("load", function() {
+    // Wait for the window to be loaded
+    window.addEventListener("load", function() {
         // See if a button exists
         var btn = document.querySelector("#btn");
         if(btn) {
