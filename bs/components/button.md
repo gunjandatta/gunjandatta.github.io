@@ -48,6 +48,9 @@ let btn = Components.Button({
 This is currently in development.
 
 #### Example
+
+<bs-button text="My Button" />
+
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-button
