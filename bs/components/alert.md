@@ -43,7 +43,7 @@ This is currently in development.
 
 #### Example
 
-<bs-alert content="This is an alert"></bs-alert>;
+<bs-alert content="This is an alert"></bs-alert>
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
