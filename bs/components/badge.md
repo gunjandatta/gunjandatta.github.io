@@ -6,4 +6,100 @@ layout: default
 [Back](/bs)
 
 </div>
-_Coming Soon_
+
+### [Badge](https://getbootstrap.com/docs/4.1/components/badges)
+
+#### Example:
+
+<div id="badge"></div>
+
+### Code Examples
+
+#### JavaScript
+```js
+var Components = require("gd-sprest-bs").Components;
+
+// Create the badge
+var el = document.querySelector("#badge");
+var btn = Components.Badge({
+    el: el,
+    content: "Badge"
+});
+```
+#### TypeScript
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the badge
+let el = document.querySelector("#badge");
+let btn = Components.Badge({
+    el: el,
+    content: "Badge"
+});
+```
+
+### Web Component
+This is currently in development.
+
+#### Example
+
+<bs-badge content="Badge"></bs-badge>
+
+```html
+<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<bs-badge content="Badge"></bs-badge>;
+```
+
+### References
+
+```
+Badge(props:IBadgeProps):IBadge
+```
+
+#### BadgeTypes
+
+| Name | Value |
+| --- | --- |
+| Danger | 1 |
+| Dark | 2 |
+| Info | 3 |
+| Light | 4 |
+| Primary | 6 |
+| Secondary | 7 |
+| Success | 8 |
+| Warning | 9 |
+
+#### IBadge
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| close | void | Closes an badge by removing it from the DOM. |
+| dispose | void | Destroys an element's badge. |
+| el | Element | The jquery element. |
+
+### IBadgeProps
+
+| Name | Type | Description |
+| --- | --- | --- |
+| className | _string_ | The class name to apply to badge. |
+| content | _string_ | The badge content. |
+| el | _HTMLElement_ | The element to render the panel to. |
+| header | _string_ | The badge header. |
+| isDismissible | _boolean_ | Renders an 'x' to close the badge. |
+| type | _number_ | The badge type. _Reference the BadgeTypes enumerator_ |
+
+<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript">
+    // Wait for the window to be loaded
+    window.addEventListener("load", function() {
+        // See if a badge exists
+        var badge = document.querySelector("#badge");
+        if(badge) {
+            // Render the badge
+            $REST.Components.Badge({
+                el: badge,
+                content: "Badge"
+            });
+        }
+    });
+</script>
