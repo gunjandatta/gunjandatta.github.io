@@ -73,8 +73,6 @@ Badge(props:IBadgeProps):IBadge
 
 | Name | Returns | Description |
 | --- | --- | --- |
-| close | void | Closes an badge by removing it from the DOM. |
-| dispose | void | Destroys an element's badge. |
 | el | Element | The jquery element. |
 
 ### IBadgeProps
@@ -85,7 +83,8 @@ Badge(props:IBadgeProps):IBadge
 | content | _string_ | The badge content. |
 | el | _HTMLElement_ | The element to render the panel to. |
 | header | _string_ | The badge header. |
-| isDismissible | _boolean_ | Renders an 'x' to close the badge. |
+| href | _string_ | Renders the badge as an anchor element instead of a span element. |
+| isPill | _boolean_ | Adds the 'badge-pill' class name. |
 | type | _number_ | The badge type. _Reference the BadgeTypes enumerator_ |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
