@@ -23,10 +23,11 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#buttonGroup");
 var buttonGroup = Components.ButtonGroup({
     el: el,
+    buttonType: $REST.Components.ButtonTypes.Secondary,
     buttons: [
-        { text: "Left", type: Components.ButtonTypes.Secondary },
-        { text: "Middle", type: Components.ButtonTypes.Secondary },
-        { text: "Right", type: Components.ButtonTypes.Secondary }
+        { text: "Left" },
+        { text: "Middle" },
+        { text: "Right" }
     ]
 });
 ```
@@ -38,10 +39,11 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#buttonGroup");
 let buttonGroup = Components.ButtonGroup({
     el: el,
+    buttonType: $REST.Components.ButtonTypes.Secondary,
     buttons: [
-        { text: "Left", type: Components.ButtonTypes.Secondary },
-        { text: "Middle", type: Components.ButtonTypes.Secondary },
-        { text: "Right", type: Components.ButtonTypes.Secondary }
+        { text: "Left" },
+        { text: "Middle" },
+        { text: "Right" }
     ]
 });
 ```
@@ -51,15 +53,15 @@ This is currently in development.
 
 #### Example
 
-<bs-buttonGroup buttons='[
-    { text: "Left", type: $REST.Components.ButtonTypes.Secondary },
-    { text: "Middle", type: $REST.Components.ButtonTypes.Secondary },
-    { text: "Right", type: $REST.Components.ButtonTypes.Secondary }
+<bs-buttonGroup buttonType='$REST.Components.ButtonTypes.Secondary' buttons='[
+    { text: "Left" },
+    { text: "Middle" },
+    { text: "Right" }
 ]'></bs-buttonGroup>
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-buttonGroup buttons='[
+<bs-buttonGroup buttonType='$REST.Components.ButtonTypes.Secondary' buttons='[
     { "text": "Left", "type": $REST.Components.ButtonTypes.Secondary },
     { "text": "Middle", "type": $REST.Components.ButtonTypes.Secondary },
     { "text": "Right", "type": $REST.Components.ButtonTypes.Secondary }
@@ -102,10 +104,11 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
             // Render the buttonGroup
             $REST.Components.ButtonGroup({
                 el: buttonGroup,
+                buttonType: $REST.Components.ButtonTypes.Secondary,
                 buttons: [
-                    { text: "Left", type: $REST.Components.ButtonTypes.Secondary },
-                    { text: "Middle", type: $REST.Components.ButtonTypes.Secondary },
-                    { text: "Right", type: $REST.Components.ButtonTypes.Secondary }
+                    { text: "Left" },
+                    { text: "Middle" },
+                    { text: "Right" }
                 ]
             });
         }
