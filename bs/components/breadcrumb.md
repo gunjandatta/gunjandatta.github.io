@@ -52,7 +52,7 @@ This is currently in development.
 #### Example
 
 <bs-breadcrumb items='[
-    {"text": "Root", "href": "/" }, 
+    { "text": "Root", "href": "/" }, 
     { "text": "Web 1", "href": "/web" }, 
     { "text": "Web 1-1", "href": "/web/1"}
 ]'></bs-breadcrumb>
@@ -60,7 +60,7 @@ This is currently in development.
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-breadcrumb items='[
-    {"text": "Root", "href": "/" }, 
+    { "text": "Root", "href": "/" }, 
     { "text": "Web 1", "href": "/web" }, 
     { "text": "Web 1-1", "href": "/web/1"}
 ]'></bs-breadcrumb>
