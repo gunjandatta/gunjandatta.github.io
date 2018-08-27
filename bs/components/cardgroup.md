@@ -69,26 +69,59 @@ This is currently in development.
 
 #### Example
 
-<bs-cardGroup card-type='7' cards='[
-    { "text": "Left" },
-    { "text": "Middle" },
-    { "text": "Right" }
+<bs-cardGroup cards='[
+    {
+        "body": [
+            {
+                "title": "Card 1",
+                "text": "This is the first card."
+            }
+        ]
+    },
+    {
+        "body": [
+            {
+                "title": "Card 2",
+                "text": "This is the second card."
+            }
+        ]
+    },
+    {
+        "body": [
+            {
+                "title": "Card 3",
+                "text": "This is the third card."
+            }
+        ]
+    }
 ]'></bs-cardGroup>
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-cardGroup cards='[
     {
-        "title": "Card 1",
-        "text": "This is the first card."
+        "body": [
+            {
+                "title": "Card 1",
+                "text": "This is the first card."
+            }
+        ]
     },
     {
-        "title": "Card 2",
-        "text": "This is the second card."
+        "body": [
+            {
+                "title": "Card 2",
+                "text": "This is the second card."
+            }
+        ]
     },
     {
-        "title": "Card 3",
-        "text": "This is the third card."
+        "body": [
+            {
+                "title": "Card 3",
+                "text": "This is the third card."
+            }
+        ]
     }
 ]'></bs-cardGroup>
 ```
