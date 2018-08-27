@@ -24,9 +24,9 @@ var el = document.querySelector("#buttonGroup");
 var buttonGroup = Components.ButtonGroup({
     el: el,
     buttons: [
-        { text: "Left", type: Components.ButtonType.Secondary },
-        { text: "Middle", type: Components.ButtonType.Secondary },
-        { text: "Right", type: Components.ButtonType.Secondary }
+        { text: "Left", type: Components.ButtonTypes.Secondary },
+        { text: "Middle", type: Components.ButtonTypes.Secondary },
+        { text: "Right", type: Components.ButtonTypes.Secondary }
     ]
 });
 ```
@@ -39,9 +39,9 @@ let el = document.querySelector("#buttonGroup");
 let buttonGroup = Components.ButtonGroup({
     el: el,
     buttons: [
-        { text: "Left", type: Components.ButtonType.Secondary },
-        { text: "Middle", type: Components.ButtonType.Secondary },
-        { text: "Right", type: Components.ButtonType.Secondary }
+        { text: "Left", type: Components.ButtonTypes.Secondary },
+        { text: "Middle", type: Components.ButtonTypes.Secondary },
+        { text: "Right", type: Components.ButtonTypes.Secondary }
     ]
 });
 ```
@@ -52,17 +52,17 @@ This is currently in development.
 #### Example
 
 <bs-buttonGroup buttons='[
-    { text: "Left", type: $REST.Components.ButtonType.Secondary },
-    { text: "Middle", type: $REST.Components.ButtonType.Secondary },
-    { text: "Right", type: $REST.Components.ButtonType.Secondary }
+    { text: "Left", type: $REST.Components.ButtonTypes.Secondary },
+    { text: "Middle", type: $REST.Components.ButtonTypes.Secondary },
+    { text: "Right", type: $REST.Components.ButtonTypes.Secondary }
 ]'></bs-buttonGroup>
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-buttonGroup buttons='[
-    { "text": "Left", "type": $REST.Components.ButtonType.Secondary },
-    { "text": "Middle", "type": $REST.Components.ButtonType.Secondary },
-    { "text": "Right", "type": $REST.Components.ButtonType.Secondary }
+    { "text": "Left", "type": $REST.Components.ButtonTypes.Secondary },
+    { "text": "Middle", "type": $REST.Components.ButtonTypes.Secondary },
+    { "text": "Right", "type": $REST.Components.ButtonTypes.Secondary }
 ]'></bs-buttonGroup>
 ```
 
@@ -103,9 +103,9 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
             $REST.Components.ButtonGroup({
                 el: buttonGroup,
                 buttons: [
-                    { text: "Left", type: $REST.Components.ButtonType.Secondary },
-                    { text: "Middle", type: $REST.Components.ButtonType.Secondary },
-                    { text: "Right", type: $REST.Components.ButtonType.Secondary }
+                    { text: "Left", type: $REST.Components.ButtonTypes.Secondary },
+                    { text: "Middle", type: $REST.Components.ButtonTypes.Secondary },
+                    { text: "Right", type: $REST.Components.ButtonTypes.Secondary }
                 ]
             });
         }
