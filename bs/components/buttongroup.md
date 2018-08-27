@@ -102,7 +102,11 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
             // Render the buttonGroup
             $REST.Components.ButtonGroup({
                 el: buttonGroup,
-                content: "ButtonGroup"
+                buttons: [
+                    { text: "Left", type: $REST.Components.ButtonType.Secondary },
+                    { text: "Middle", type: $REST.Components.ButtonType.Secondary },
+                    { text: "Right", type: $REST.Components.ButtonType.Secondary }
+                ]
             });
         }
     });
