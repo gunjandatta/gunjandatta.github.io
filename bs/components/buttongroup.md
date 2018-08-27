@@ -51,12 +51,12 @@ let buttonGroup = Components.ButtonGroup({
 ### Web Component
 This is currently in development.
 
-#### Example
+#### Example Updated
 
 <bs-buttonGroup button-type='7' buttons='[
-    { text: "Left" },
-    { text: "Middle" },
-    { text: "Right" }
+    { "text": "Left" },
+    { "text": "Middle" },
+    { "text": "Right" }
 ]'></bs-buttonGroup>
 
 ```html
