@@ -53,7 +53,7 @@ This is currently in development.
 
 #### Example
 
-<bs-buttonGroup button-type='$REST.Components.ButtonTypes.Secondary' buttons='[
+<bs-buttonGroup button-type='7' buttons='[
     { text: "Left" },
     { text: "Middle" },
     { text: "Right" }
@@ -61,7 +61,7 @@ This is currently in development.
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-buttonGroup button-type='$REST.Components.ButtonTypes.Secondary' buttons='[
+<bs-buttonGroup button-type='7' buttons='[
     { "text": "Left" },
     { "text": "Middle" },
     { "text": "Right" }
