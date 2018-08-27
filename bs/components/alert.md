@@ -21,7 +21,7 @@ var Components = require("gd-sprest-bs").Components;
 
 // Create the alert
 var el = document.querySelector("#alert");
-var badge = Components.Alert({
+var alert = Components.Alert({
     el: el,
     content: "This is an alert."
 });
@@ -32,7 +32,7 @@ import { Components } from "gd-sprest-bs";
 
 // Create the alert
 let el = document.querySelector("#alert");
-let badge = Components.Alert({
+let alert = Components.Alert({
     el: el,
     content: "This is an alert."
 });
