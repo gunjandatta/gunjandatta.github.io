@@ -6,4 +6,138 @@ layout: default
 [Back](/bs)
 
 </div>
-_Coming Soon_
+
+### [Card Group](https://getbootstrap.com/docs/4.1/components/card/#card-styles)
+
+#### Example:
+
+<div id="cardGroup"></div>
+
+### Code Examples
+
+#### JavaScript
+```js
+var Components = require("gd-sprest-bs").Components;
+
+// Create the cardGroup
+var el = document.querySelector("#cardGroup");
+var cardGroup = Components.CardGroup({
+    el: el,
+    cards: [
+        {
+            title: "Card 1",
+            text: "This is the first card."
+        },
+        {
+            title: "Card 2",
+            text: "This is the second card."
+        },
+        {
+            title: "Card 3",
+            text: "This is the third card."
+        }
+    ]
+});
+```
+#### TypeScript
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the cardGroup
+let el = document.querySelector("#cardGroup");
+let cardGroup = Components.CardGroup({
+    el: el,
+    cards: [
+        {
+            title: "Card 1",
+            text: "This is the first card."
+        },
+        {
+            title: "Card 2",
+            text: "This is the second card."
+        },
+        {
+            title: "Card 3",
+            text: "This is the third card."
+        }
+    ]
+});
+```
+
+### Web Component
+This is currently in development.
+
+#### Example
+
+<bs-cardGroup card-type='7' cards='[
+    { "text": "Left" },
+    { "text": "Middle" },
+    { "text": "Right" }
+]'></bs-cardGroup>
+
+```html
+<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<bs-cardGroup cards='[
+    {
+        "title": "Card 1",
+        "text": "This is the first card."
+    },
+    {
+        "title": "Card 2",
+        "text": "This is the second card."
+    },
+    {
+        "title": "Card 3",
+        "text": "This is the third card."
+    }
+]'></bs-cardGroup>
+```
+
+### References
+
+```
+CardGroup(props:ICardGroupProps):ICardGroup
+```
+
+#### ICardGroup
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| el | Element | The jquery element. |
+
+### ICardGroupProps
+
+| Name | Type | Description |
+| --- | --- | --- |
+| cards | _string_ | The cards. |
+| className | _string_ | The class name to apply to card group. |
+| el | _HTMLElement_ | The element to render the panel to. |
+
+<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript">
+    // Wait for the window to be loaded
+    window.addEventListener("load", function() {
+        // See if a cardGroup exists
+        var cardGroup = document.querySelector("#cardGroup");
+        if(cardGroup) {
+            // Render the cardGroup
+            $REST.Components.CardGroup({
+                el: cardGroup,
+                cards: [
+                    {
+                        title: "Card 1",
+                        text: "This is the first card."
+                    },
+                    {
+                        title: "Card 2",
+                        text: "This is the second card."
+                    },
+                    {
+                        title: "Card 3",
+                        text: "This is the third card."
+                    }
+                ]
+            });
+        }
+    });
+</script>

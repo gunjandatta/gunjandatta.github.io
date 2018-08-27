@@ -86,7 +86,7 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
 | --- | --- | --- |
 | buttons | _string_ | The buttons. |
 | buttonType | _string_ | The button type. |
-| className | _string_ | The class name to apply to buttonGroup. |
+| className | _string_ | The class name to apply to button group. |
 | el | _HTMLElement_ | The element to render the panel to. |
 | id | _string_ | The id to apply to the button.
 | isLarge | _boolean_ | Adds the 'btn-group-lg' class name. |
