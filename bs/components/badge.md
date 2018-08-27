@@ -21,7 +21,7 @@ var Components = require("gd-sprest-bs").Components;
 
 // Create the badge
 var el = document.querySelector("#badge");
-var btn = Components.Badge({
+var badge = Components.Badge({
     el: el,
     content: "Badge"
 });
@@ -32,7 +32,7 @@ import { Components } from "gd-sprest-bs";
 
 // Create the badge
 let el = document.querySelector("#badge");
-let btn = Components.Badge({
+let badge = Components.Badge({
     el: el,
     content: "Badge"
 });
