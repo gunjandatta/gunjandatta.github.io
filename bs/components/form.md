@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="form"></div>
+<div id="myForm"></div>
 
 ### Code Examples
 
@@ -20,7 +20,7 @@ layout: default
 var Components = require("gd-sprest-bs").Components;
 
 // Create the form
-var el = document.querySelector("#form");
+var el = document.querySelector("#myForm");
 Components.Form({
     el: el,
     rows: [
@@ -65,7 +65,7 @@ Components.Form({
 import { Components } from "gd-sprest-bs";
 
 // Create the form
-let el = document.querySelector("#form");
+let el = document.querySelector("#myForm");
 let form = Components.Form({
     el: el,
     rows: [
@@ -264,7 +264,7 @@ Form(props:IFormProps):IForm
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a form exists
-        var form = document.querySelector("#form");
+        var form = document.querySelector("#myForm");
         if(form) {
             // Render the form
             $REST.Components.Form({
