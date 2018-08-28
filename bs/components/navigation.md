@@ -23,7 +23,14 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#navigation");
 var navigation = Components.Navigation({
     el: el,
-    content: "Navigation"
+    isPills: true,
+    items: [
+        { title: "Nav 1", isActive: true },
+        { title: "Nav 2" },
+        { title: "Nav 3" },
+        { title: "Nav 4" },
+        { title: "Nav 5" }
+    ]
 });
 ```
 #### TypeScript
@@ -34,7 +41,14 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#navigation");
 let navigation = Components.Navigation({
     el: el,
-    content: "Navigation"
+    isPills: true,
+    items: [
+        { title: "Nav 1", isActive: true },
+        { title: "Nav 2" },
+        { title: "Nav 3" },
+        { title: "Nav 4" },
+        { title: "Nav 5" }
+    ]
 });
 ```
 
@@ -108,7 +122,14 @@ Navigation(props:INavigationProps):INavigation
             // Render the navigation
             $REST.Components.Navigation({
                 el: navigation,
-                content: "Navigation"
+                isPills: true,
+                items: [
+                    { title: "Nav 1", isActive: true },
+                    { title: "Nav 2" },
+                    { title: "Nav 3" },
+                    { title: "Nav 4" },
+                    { title: "Nav 5" }
+                ]
             });
         }
     });
