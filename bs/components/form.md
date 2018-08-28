@@ -28,21 +28,21 @@ Components.Form({
             control: {
                 label: "First Name:",
                 name: "FName",
-                type: 9
+                type: 10
             }
         },
         {
             control: {
                 label: "Last Name:",
                 name: "LName",
-                type: 9
+                type: 10
             }
         },
         {
             control: {
                 label: "Choices:",
                 name: "Choice",
-                type: 2,
+                type: 3,
                 items: [
                     { text: "Choice 1", value: "1" },
                     { text: "Choice 2", value: "2" },
@@ -73,21 +73,21 @@ let form = Components.Form({
             control: {
                 label: "First Name:",
                 name: "FName",
-                type: 9
+                type: 10
             }
         },
         {
             control: {
                 label: "Last Name:",
                 name: "LName",
-                type: 9
+                type: 10
             }
         },
         {
             control: {
                 label: "Choices:",
                 name: "Choice",
-                type: 2,
+                type: 3,
                 items: [
                     { text: "Choice 1", value: "1" },
                     { text: "Choice 2", value: "2" },
@@ -274,21 +274,21 @@ Form(props:IFormProps):IForm
                         control: {
                             label: "First Name:",
                             name: "FName",
-                            type: 9
+                            type: $REST.Components.FormControLTypes.TextField
                         }
                     },
                     {
                         control: {
                             label: "Last Name:",
                             name: "LName",
-                            type: 9
+                            type: $REST.Components.FormControLTypes.TextField
                         }
                     },
                     {
                         control: {
                             label: "Choices:",
                             name: "Choice",
-                            type: 2,
+                            type: $REST.Components.FormControlTypes.Dropdown,
                             items: [
                                 { text: "Choice 1", value: "1" },
                                 { text: "Choice 2", value: "2" },
