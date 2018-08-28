@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="inputGroup"></div>
+<div id="inputGroupDemo"></div>
 
 ### Code Examples
 
@@ -95,7 +95,7 @@ InputGroup(props:IInputGroupProps):IInputGroup
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a inputGroup exists
-        var inputGroup = document.querySelector("#inputGroup");
+        var inputGroup = document.querySelector("#inputGroupDemo");
         if(inputGroup) {
             // Render the inputGroup
             $REST.Components.InputGroup({

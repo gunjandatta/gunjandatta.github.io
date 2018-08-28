@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="buttonGroup"></div>
+<div id="buttonGroupDemo"></div>
 
 ### Code Examples
 
@@ -98,7 +98,7 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a buttonGroup exists
-        var buttonGroup = document.querySelector("#buttonGroup");
+        var buttonGroup = document.querySelector("#buttonGroupDemo");
         if(buttonGroup) {
             // Render the buttonGroup
             $REST.Components.ButtonGroup({

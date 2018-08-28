@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="breadcrumb"></div>
+<div id="breadcrumbDemo"></div>
 
 ### Code Examples
 
@@ -97,7 +97,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a breadcrumb exists
-        var breadcrumb = document.querySelector("#breadcrumb");
+        var breadcrumb = document.querySelector("#breadcrumbDemo");
         if(breadcrumb) {
             // Render the breadcrumb
             $REST.Components.Breadcrumb({

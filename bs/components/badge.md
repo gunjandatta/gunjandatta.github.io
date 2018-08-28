@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="badge"></div>
+<div id="badgeDemo"></div>
 
 ### Code Examples
 
@@ -91,7 +91,7 @@ Badge(props:IBadgeProps):IBadge
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a badge exists
-        var badge = document.querySelector("#badge");
+        var badge = document.querySelector("#badgeDemo");
         if(badge) {
             // Render the badge
             $REST.Components.Badge({

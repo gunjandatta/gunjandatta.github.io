@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="alert"></div>
+<div id="alertDemo"></div>
 
 ### Code Examples
 
@@ -92,7 +92,7 @@ Alert(props:IAlertProps):IAlert
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a alert exists
-        var alert = document.querySelector("#alert");
+        var alert = document.querySelector("#alertDemo");
         if(alert) {
             // Render the alert
             $REST.Components.Alert({

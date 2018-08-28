@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="card"></div>
+<div id="cardDemo"></div>
 
 ### Code Examples
 
@@ -97,7 +97,7 @@ Card(props:ICardProps):ICard
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a card exists
-        var card = document.querySelector("#card");
+        var card = document.querySelector("#cardDemo");
         if(card) {
             // Render the card
             $REST.Components.Card({

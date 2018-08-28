@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="btn"></div>
+<div id="buttonDemo"></div>
 
 ### Code Examples
 
@@ -109,7 +109,7 @@ Button(props:IButtonProps):IButton
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a button exists
-        var btn = document.querySelector("#btn");
+        var btn = document.querySelector("#buttonDemo");
         if(btn) {
             // Render the button
             $REST.Components.Button({

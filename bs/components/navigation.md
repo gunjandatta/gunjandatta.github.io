@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="navigation"></div>
+<div id="navigationDemo"></div>
 
 ### Code Examples
 
@@ -117,7 +117,7 @@ Navigation(props:INavigationProps):INavigation
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a navigation exists
-        var navigation = document.querySelector("#navigation");
+        var navigation = document.querySelector("#navigationDemo");
         if(navigation) {
             // Render the navigation
             $REST.Components.Navigation({

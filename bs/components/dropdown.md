@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="dropdown"></div>
+<div id="dropdownDemo"></div>
 
 ### Code Examples
 
@@ -132,7 +132,7 @@ Dropdown(props:IDropdownProps):IDropdown
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a dropdown exists
-        var dropdown = document.querySelector("#dropdown");
+        var dropdown = document.querySelector("#dropdownDemo");
         if(dropdown) {
             // Render the dropdown
             $REST.Components.Dropdown({
