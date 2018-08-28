@@ -120,7 +120,7 @@ items:
    url: "bs"
    items:
    - title: Overview
-     url: "bs"
+     url: ""
     - title: Components
       url: "components"
     - title: WebParts
