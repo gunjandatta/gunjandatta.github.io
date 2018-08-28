@@ -77,7 +77,7 @@ Alert(props:IAlertProps):IAlert
 | dispose | void | Destroys an element's alert. |
 | el | Element | The jquery element. |
 
-### IAlertProps
+#### IAlertProps
 
 | Name | Type | Description |
 | --- | --- | --- |

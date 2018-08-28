@@ -84,7 +84,7 @@ Button(props:IButtonProps):IButton
 | el | Element | The jquery element. |
 | toggle | void | Toggles push state. Gives the button the appearance that it has been activated. |
 
-### IButtonProps
+#### IButtonProps
 
 | Name | Type | Description |
 | --- | --- | --- |

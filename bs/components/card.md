@@ -81,7 +81,7 @@ Card(props:ICardProps):ICard
 | dispose | void | Destroys an element's card. |
 | el | Element | The jquery element. |
 
-### ICardProps
+#### ICardProps
 
 | Name | Type | Description |
 | --- | --- | --- |

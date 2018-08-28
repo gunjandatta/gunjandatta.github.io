@@ -80,7 +80,7 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-### IButtonGroupProps
+#### IButtonGroupProps
 
 | Name | Type | Description |
 | --- | --- | --- |

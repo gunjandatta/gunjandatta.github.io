@@ -75,7 +75,7 @@ Badge(props:IBadgeProps):IBadge
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-### IBadgeProps
+#### IBadgeProps
 
 | Name | Type | Description |
 | --- | --- | --- |

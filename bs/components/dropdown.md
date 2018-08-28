@@ -113,7 +113,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | text | _string_ | The value displayed to the user. |
 | value | _any_ | The item value. |
 
-### IDropdownProps
+#### IDropdownProps
 
 | Name | Type | Description |
 | --- | --- | --- |

@@ -138,7 +138,7 @@ CardGroup(props:ICardGroupProps):ICardGroup
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-### ICardGroupProps
+#### ICardGroupProps
 
 | Name | Type | Description |
 | --- | --- | --- |

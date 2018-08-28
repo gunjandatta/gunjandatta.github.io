@@ -78,7 +78,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-### IBreadcrumbProps
+#### IBreadcrumbProps
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | el | _HTMLElement_ | The element to render the panel to. |
 | items | _Array&lt;IBreadcrumbItem&gt;_ | An array of breadcrumb items._ |
 
-### IBreadcrumbItem
+#### IBreadcrumbItem
 
 | Name | Type | Description |
 | --- | --- | --- |
