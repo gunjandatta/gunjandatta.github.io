@@ -57,14 +57,6 @@ This is currently in development.
 
 #### Example
 
-<bs-dropdown label="Select a Choice" items='[
-    { "text": "Choice 1", "value": "1" },
-    { "text": "Choice 2", "value": "2" },
-    { "text": "Choice 3", "value": "3" },
-    { "text": "Choice 4", "value": "4" },
-    { "text": "Choice 5", "value": "5" }
-]'></bs-dropdown>
-
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-dropdown label="Select a Choice" items='[
@@ -75,6 +67,14 @@ This is currently in development.
     { "text": "Choice 5", "value": "5" }
 ]'></bs-dropdown>
 ```
+
+<bs-dropdown label="Select a Choice" items='[
+    { "text": "Choice 1", "value": "1" },
+    { "text": "Choice 2", "value": "2" },
+    { "text": "Choice 3", "value": "3" },
+    { "text": "Choice 4", "value": "4" },
+    { "text": "Choice 5", "value": "5" }
+]'></bs-dropdown>
 
 ### References
 

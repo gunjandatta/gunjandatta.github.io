@@ -45,16 +45,6 @@ This is currently in development.
 
 #### Example
 
-<bs-card body='[
-    {
-        "title": "Card Title",
-        "text": "This is the card contents.",
-        "actions": [
-            { "text": "Card Action", "buttonType": 7 }
-        ]
-    }
-]'></bs-card>
-
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-card body='[
@@ -67,6 +57,16 @@ This is currently in development.
     }
 ]'></bs-card>
 ```
+
+<bs-card body='[
+    {
+        "title": "Card Title",
+        "text": "This is the card contents.",
+        "actions": [
+            { "text": "Card Action", "buttonType": 7 }
+        ]
+    }
+]'></bs-card>
 
 ### References
 

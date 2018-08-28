@@ -49,12 +49,12 @@ This is currently in development.
 
 #### Example
 
-<bs-button text="My Button"></bs-button>
-
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-button text="My Button"></bs-button>
 ```
+
+<bs-button text="My Button"></bs-button>
 
 ### References
 

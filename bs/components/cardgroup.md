@@ -91,35 +91,6 @@ let cardGroup = Components.CardGroup({
 ### Web Component
 This is currently in development.
 
-#### Example
-
-<bs-cardGroup cards='[
-    {
-        "body": [
-            {
-                "title": "Card 1",
-                "text": "This is the first card."
-            }
-        ]
-    },
-    {
-        "body": [
-            {
-                "title": "Card 2",
-                "text": "This is the second card."
-            }
-        ]
-    },
-    {
-        "body": [
-            {
-                "title": "Card 3",
-                "text": "This is the third card."
-            }
-        ]
-    }
-]'></bs-cardGroup>
-
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-cardGroup cards='[
@@ -149,6 +120,35 @@ This is currently in development.
     }
 ]'></bs-cardGroup>
 ```
+
+#### Example
+
+<bs-cardGroup cards='[
+    {
+        "body": [
+            {
+                "title": "Card 1",
+                "text": "This is the first card."
+            }
+        ]
+    },
+    {
+        "body": [
+            {
+                "title": "Card 2",
+                "text": "This is the second card."
+            }
+        ]
+    },
+    {
+        "body": [
+            {
+                "title": "Card 3",
+                "text": "This is the third card."
+            }
+        ]
+    }
+]'></bs-cardGroup>
 
 ### References
 
