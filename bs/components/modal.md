@@ -122,14 +122,14 @@ Modal(props:IModalProps):IModal
             el: el,
             text: "Open Modal",
             toggle: "modal",
-            target: "#modalDemo"
+            target: "#bsModalDemo"
         });
 
         // Create the modal
         var el = document.querySelector("#modalDemo");
         var modal = $REST.Components.Modal({
             el: el,
-            id: "modalDemo",
+            id: "bsModalDemo",
             title: "Modal Demo",
             body: "This is the body of the modal."
         });
