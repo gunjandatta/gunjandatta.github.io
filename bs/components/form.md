@@ -238,16 +238,11 @@ Form(props:IFormProps):IForm
 | name | _string_ | The form control name. |
 | type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
 
-#### IFormControlCheckbox
-
-| Name | Type | Description |
-| --- | --- | --- |
-
 #### IFormControlDropdown
 
 | Name | Type | Description |
 | --- | --- | --- |
-| items | _Array&lt;IDropdownItem&gt; | An array of dropdown items. |
+| items | _Array&lt;IDropdownItem&gt;_ | An array of dropdown items. |
 | onChange | _(item: IDropdownItem \| Array&lt;IDropdownItem&gt;) => void_ | The change event. |
 | placeholder | _string_ | The dropdown placeholder. |
 | type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
