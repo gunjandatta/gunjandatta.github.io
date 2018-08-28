@@ -68,12 +68,12 @@ This is currently in development.
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-modal text="Open Modal" toggle="Modal" target="#modalDemo"></bs-modal>
-<bs-modal id="modalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-button text="Open Modal" toggle="Modal" target="#wcModalDemo"></bs-button>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
 ```
 
-<bs-modal text="Open Modal" toggle="modal" target="#modalDemo"></bs-modal>
-<bs-modal id="modalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-button text="Open Modal" toggle="modal" target="#wcModalDemo"></bs-button>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
 
 ### References
 
@@ -122,14 +122,14 @@ Modal(props:IModalProps):IModal
             el: el,
             text: "Open Modal",
             toggle: "modal",
-            target: "#wcModalDemo"
+            target: "#modalDemo"
         });
 
         // Create the modal
         var el = document.querySelector("#modalDemo");
         var modal = $REST.Components.Modal({
             el: el,
-            id: "wcModalDemo",
+            id: "modalDemo",
             title: "Modal Demo",
             body: "This is the body of the modal."
         });
