@@ -69,11 +69,11 @@ This is currently in development.
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <bs-button text="Open Modal" toggle="Modal" target="#wcModalDemo"></bs-button>
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-modal id="wcModalDemo" title="Modal Demo" modal-body="This is the body of the modal."></bs-modal>
 ```
 
 <bs-button text="Open Modal" toggle="modal" target="#wcModalDemo"></bs-button>
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-modal id="wcModalDemo" title="Modal Demo" modal-body="This is the body of the modal."></bs-modal>
 
 ### References
 
