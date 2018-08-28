@@ -25,16 +25,28 @@ var cardGroup = Components.CardGroup({
     el: el,
     cards: [
         {
-            title: "Card 1",
-            text: "This is the first card."
+            body: [
+                {
+                    title: "Card 1",
+                    text: "This is the first card."
+                }
+            ]
         },
         {
-            title: "Card 2",
-            text: "This is the second card."
+            body: [
+                {
+                    title: "Card 2",
+                    text: "This is the second card."
+                }
+            ]
         },
         {
-            title: "Card 3",
-            text: "This is the third card."
+            body: [
+                {
+                    title: "Card 3",
+                    text: "This is the third card."
+                }
+            ]
         }
     ]
 });
@@ -49,16 +61,28 @@ let cardGroup = Components.CardGroup({
     el: el,
     cards: [
         {
-            title: "Card 1",
-            text: "This is the first card."
+            body: [
+                {
+                    title: "Card 1",
+                    text: "This is the first card."
+                }
+            ]
         },
         {
-            title: "Card 2",
-            text: "This is the second card."
+            body: [
+                {
+                    title: "Card 2",
+                    text: "This is the second card."
+                }
+            ]
         },
         {
-            title: "Card 3",
-            text: "This is the third card."
+            body: [
+                {
+                    title: "Card 3",
+                    text: "This is the third card."
+                }
+            ]
         }
     ]
 });
@@ -158,16 +182,28 @@ CardGroup(props:ICardGroupProps):ICardGroup
                 el: cards,
                 cards: [
                     {
-                        title: "Card 1",
-                        text: "This is the first card."
+                        body: [
+                            {
+                                title: "Card 1",
+                                text: "This is the first card."
+                            }
+                        ]
                     },
                     {
-                        title: "Card 2",
-                        text: "This is the second card."
+                        body: [
+                            {
+                                title: "Card 2",
+                                text: "This is the second card."
+                            }
+                        ]
                     },
                     {
-                        title: "Card 3",
-                        text: "This is the third card."
+                        body: [
+                            {
+                                title: "Card 3",
+                                text: "This is the third card."
+                            }
+                        ]
                     }
                 ]
             });
