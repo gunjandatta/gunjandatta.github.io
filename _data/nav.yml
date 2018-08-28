@@ -119,6 +119,8 @@ items:
  - title: Bootstrap
    url: "bs"
    items:
+   - title: Overview
+     url: "bs"
     - title: Components
       url: "components"
     - title: WebParts
