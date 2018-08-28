@@ -227,6 +227,16 @@ Form(props:IFormProps):IForm
 | control | _Array&lt;IFormRow&gt;_ | The form control. |
 | columns | _Array&lt;{ control: IFormControl, size: number }&gt;_ | The form values. |
 
+### Form Controls
+
+#### IFormControl
+
+| Name | Type | Description |
+| --- | --- | --- |
+| description | _string_ | The form control description. |
+| label | _string_ | The form control label. |
+| name | _string_ | The form control name. |
+| type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
@@ -238,41 +248,6 @@ Form(props:IFormProps):IForm
             // Render the form
             $REST.Components.Form({
                 el: form,
-                rows: [
-                    {
-                        control: {
-                            label: "First Name:",
-                            name: "FName",
-                            type: 9
-                        }
-                    },
-                    {
-                        control: {
-                            label: "Last Name:",
-                            name: "LName",
-                            type: 9
-                        }
-                    },
-                    {
-                        control: {
-                            label: "Choices:",
-                            name: "Choice",
-                            type: 2,
-                            items: [
-                                { text: "Choice 1", value: "1" },
-                                { text: "Choice 2", value: "2" },
-                                { text: "Choice 3", value: "3" },
-                                { text: "Choice 4", value: "4" },
-                                { text: "Choice 5", value: "5" }
-                        ]
-                    }
-                }
-                ],
-                value: {
-                    FName: "Gunjan",
-                    LName: "Datta",
-                    Choice: "3"
-                }
             });
         }
     });
