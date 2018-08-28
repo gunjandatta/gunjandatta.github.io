@@ -116,14 +116,22 @@ Modal(props:IModalProps):IModal
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
-        // See if a modal exists
-        var modal = document.querySelector("#modal");
-        if(modal) {
-            // Render the modal
-            $REST.Components.Modal({
-                el: modal,
-                content: "Modal"
-            });
-        }
+        // Create the modal button
+        var el = document.querySelector("#btnModal");
+        var modal = $REST.Components.Button({
+            el: el,
+            text: "Open Modal",
+            toggle: "Modal",
+            target: "#modalDemo"
+        });
+
+        // Create the modal
+        var el = document.querySelector("#modalDemo");
+        var modal = $REST.Components.Modal({
+            el: el,
+            id: "modalDemo",
+            title: "Modal Demo",
+            body: "This is the body of the modal."
+        });
     });
 </script>
