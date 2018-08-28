@@ -198,10 +198,10 @@ Form(props:IFormProps):IForm
 | Email | 2 |
 | Dropdown | 3 |
 | File | 4 |
-| Primary | 6 |
-| Secondary | 7 |
-| Success | 8 |
-| Warning | 9 |
+| Primary | 5 |
+| Secondary | 6 |
+| Success | 7 |
+| Warning | 8 |
 
 #### IForm
 

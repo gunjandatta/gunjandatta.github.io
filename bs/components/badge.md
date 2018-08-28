@@ -64,10 +64,10 @@ Badge(props:IBadgeProps):IBadge
 | Dark | 2 |
 | Info | 3 |
 | Light | 4 |
-| Primary | 6 |
-| Secondary | 7 |
-| Success | 8 |
-| Warning | 9 |
+| Primary | 5 |
+| Secondary | 6 |
+| Success | 7 |
+| Warning | 8 |
 
 #### IBadge
 
