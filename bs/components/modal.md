@@ -25,7 +25,7 @@ var el = document.querySelector("#btnModal");
 var modal = Components.Button({
     el: el,
     text: "Open Modal",
-    toggle: "Modal",
+    toggle: "modal",
     target: "#modalDemo"
 });
 
@@ -47,7 +47,7 @@ let el = document.querySelector("#btnModal");
 let modal = Components.Button({
     el: el,
     text: "Open Modal",
-    toggle: "Modal",
+    toggle: "modal",
     target: "#modalDemo"
 });
 
@@ -72,7 +72,7 @@ This is currently in development.
 <bs-modal id="modalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
 ```
 
-<bs-modal text="Open Modal" toggle="Modal" target="#modalDemo"></bs-modal>
+<bs-modal text="Open Modal" toggle="modal" target="#modalDemo"></bs-modal>
 <bs-modal id="modalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
 
 ### References
@@ -121,7 +121,7 @@ Modal(props:IModalProps):IModal
         var modal = $REST.Components.Button({
             el: el,
             text: "Open Modal",
-            toggle: "Modal",
+            toggle: "modal",
             target: "#modalDemo"
         });
 
