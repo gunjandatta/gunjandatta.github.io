@@ -11,7 +11,7 @@ layout: default
 
 #### Example:
 
-<div id="cardGroup"></div>
+<div id="cards"></div>
 
 ### Code Examples
 
@@ -150,12 +150,12 @@ CardGroup(props:ICardGroupProps):ICardGroup
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
-        // See if a cardGroup exists
-        var cardGroup = document.querySelector("#cardGroup");
-        if(cardGroup) {
-            // Render the cardGroup
+        // See if the cards exists
+        var cards = document.querySelector("#cards");
+        if(cards) {
+            // Render the card group
             $REST.Components.CardGroup({
-                el: cardGroup,
+                el: cards,
                 cards: [
                     {
                         title: "Card 1",
