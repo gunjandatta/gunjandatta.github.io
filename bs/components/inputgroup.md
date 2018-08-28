@@ -49,7 +49,7 @@ This is currently in development.
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-inputGroup content="Input Group"></bs-inputGroup>
+<bs-inputGroup label="My Name" value="First Last"></bs-inputGroup>
 ```
 
 ### References
