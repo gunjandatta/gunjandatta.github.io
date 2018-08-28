@@ -26,14 +26,14 @@ var modal = Components.Button({
     el: el,
     text: "Open Modal",
     toggle: "modal",
-    target: "#modalDemo"
+    target: "#bsModalDemo"
 });
 
 // Create the modal
 var el = document.querySelector("#modalDemo");
 var modal = Components.Modal({
     el: el,
-    id: "modalDemo",
+    id: "bsModalDemo",
     title: "Modal Demo",
     body: "This is the body of the modal."
 });
@@ -48,14 +48,14 @@ let modal = Components.Button({
     el: el,
     text: "Open Modal",
     toggle: "modal",
-    target: "#modalDemo"
+    target: "#bsModalDemo"
 });
 
 // Create the modal
 let el = document.querySelector("#modalDemo");
 let modal = Components.Modal({
     el: el,
-    id: "modalDemo",
+    id: "bsModalDemo",
     title: "Modal Demo",
     body: "This is the body of the modal."
 });
