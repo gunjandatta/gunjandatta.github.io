@@ -22,7 +22,7 @@ var Components = require("gd-sprest-bs").Components;
 // Create the form
 var el = document.querySelector("#form");
 Components.Form({
-    el: document.querySelector("#form"),
+    el: el,
     rows: [
         {
             control: {
@@ -216,9 +216,17 @@ Form(props:IFormProps):IForm
 | --- | --- | --- |
 | el | _HTMLElement_ | The element to render the panel to. |
 | rows | _Array&lt;IFormRow&gt;_ | An array of form rows. |
-| value | _any_ | The form type. _Reference the FormTypes enumerator_ |
+| value | _any_ | The form values. |
 
-####
+#### IFormRow
+
+| Name | Type | Description |
+| --- | --- | --- |
+| isAutoSized | _boolean_ | Sets the 'col' class name to 'col-auto'. |
+| isCentered | _boolean_ | Adds the 'align-items-center' class. |
+| control | _Array&lt;IFormRow&gt;_ | The form control. |
+| columns | _Array&lt;{ control: IFormControl, size: number }&gt;_ | The form values. |
+
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
@@ -230,7 +238,41 @@ Form(props:IFormProps):IForm
             // Render the form
             $REST.Components.Form({
                 el: form,
-                content: "Form"
+                rows: [
+                    {
+                        control: {
+                            label: "First Name:",
+                            name: "FName",
+                            type: 9
+                        }
+                    },
+                    {
+                        control: {
+                            label: "Last Name:",
+                            name: "LName",
+                            type: 9
+                        }
+                    },
+                    {
+                        control: {
+                            label: "Choices:",
+                            name: "Choice",
+                            type: 2,
+                            items: [
+                                { text: "Choice 1", value: "1" },
+                                { text: "Choice 2", value: "2" },
+                                { text: "Choice 3", value: "3" },
+                                { text: "Choice 4", value: "4" },
+                                { text: "Choice 5", value: "5" }
+                        ]
+                    }
+                }
+                ],
+                value: {
+                    FName: "Gunjan",
+                    LName: "Datta",
+                    Choice: "3"
+                }
             });
         }
     });
