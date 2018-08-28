@@ -36,6 +36,8 @@ npm i --save gd-sprest-bs
 - [Modal](components/modal)
 - [Navigation](components/navigation)
 
+Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this library and I'll continue to build this library out sooner than later.
+
 ### WebParts
 - [WebPart](webparts/webpart)
 - [List](webparts/list)
