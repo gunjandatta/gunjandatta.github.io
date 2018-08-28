@@ -45,7 +45,7 @@ This is currently in development.
 
 #### Example
 
-<bs-inputGroup content="Input Group"></bs-inputGroup>
+<bs-inputGroup label="My Name" value="First Last"></bs-inputGroup>
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
