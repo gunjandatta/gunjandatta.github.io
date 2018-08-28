@@ -89,7 +89,6 @@ let cardGroup = Components.CardGroup({
 ```
 
 ### Web Component
-This is currently in development.
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>

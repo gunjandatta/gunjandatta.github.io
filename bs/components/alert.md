@@ -39,7 +39,6 @@ let alert = Components.Alert({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

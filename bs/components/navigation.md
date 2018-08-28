@@ -39,7 +39,6 @@ let navigation = Components.Navigation({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

@@ -62,7 +62,6 @@ let modal = Components.Modal({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

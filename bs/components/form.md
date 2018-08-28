@@ -107,7 +107,6 @@ let form = Components.Form({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

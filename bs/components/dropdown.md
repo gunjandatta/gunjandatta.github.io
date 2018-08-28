@@ -53,7 +53,6 @@ let dropdown = Components.Dropdown({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

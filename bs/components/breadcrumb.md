@@ -47,7 +47,6 @@ let breadcrumb = Components.Breadcrumb({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 

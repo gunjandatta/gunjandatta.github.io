@@ -39,7 +39,6 @@ let badge = Components.Badge({
 ```
 
 ### Web Component
-This is currently in development.
 
 #### Example
 
