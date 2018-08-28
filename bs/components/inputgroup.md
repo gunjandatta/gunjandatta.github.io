@@ -21,7 +21,7 @@ var Components = require("gd-sprest-bs").Components;
 
 // Create the inputGroup
 var el = document.querySelector("#inputGroup");
-var inputGroup = Components.Input Group({
+var inputGroup = Components.inputGroup({
     el: el,
     label: "My Name:",
     value: "First Last"
@@ -33,7 +33,7 @@ import { Components } from "gd-sprest-bs";
 
 // Create the inputGroup
 let el = document.querySelector("#inputGroup");
-let inputGroup = Components.Input Group({
+let inputGroup = Components.inputGroup({
     el: el,
     label: "My Name:",
     value: "First Last"
@@ -55,10 +55,10 @@ This is currently in development.
 ### References
 
 ```
-InputGroup(props:IInput GroupProps):IInputGroup
+InputGroup(props:IInputGroupProps):IInputGroup
 ```
 
-#### Input GroupTypes
+#### InputGroupTypes
 
 | Name | Value |
 | --- | --- |
@@ -74,7 +74,7 @@ InputGroup(props:IInput GroupProps):IInputGroup
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### IInput GroupProps
+#### IinputGroupProps
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ InputGroup(props:IInput GroupProps):IInputGroup
         var inputGroup = document.querySelector("#inputGroup");
         if(inputGroup) {
             // Render the inputGroup
-            $REST.Components.Input Group({
+            $REST.Components.InputGroup({
                 el: inputGroup,
                 label: "My Name:",
                 value: "First Last"
