@@ -269,14 +269,14 @@ Form(props:IFormProps):IForm
                         control: {
                             label: "First Name:",
                             name: "FName",
-                            type: $REST.Components.FormControLTypes.TextField
+                            type: $REST.Components.FormControlTypes.TextField
                         }
                     },
                     {
                         control: {
                             label: "Last Name:",
                             name: "LName",
-                            type: $REST.Components.FormControLTypes.TextField
+                            type: $REST.Components.FormControlTypes.TextField
                         }
                     },
                     {
