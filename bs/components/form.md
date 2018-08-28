@@ -238,6 +238,27 @@ Form(props:IFormProps):IForm
 | name | _string_ | The form control name. |
 | type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
 
+#### IFormControlCheckbox
+
+| Name | Type | Description |
+| --- | --- | --- |
+
+#### IFormControlDropdown
+
+| Name | Type | Description |
+| --- | --- | --- |
+| items | _Array&lt;IDropdownItem&gt; | An array of dropdown items. |
+| onChange | _(item: IDropdownItem \| Array&lt;IDropdownItem&gt;) => void_ | The change event. |
+| placeholder | _string_ | The dropdown placeholder. |
+| type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
+
+#### IFormControlTextField
+
+| Name | Type | Description |
+| --- | --- | --- |
+| onChange | _(value: string) => void_ | The change event. |
+| placeholder | _string_ | The text field placeholder. |
+
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
@@ -248,6 +269,41 @@ Form(props:IFormProps):IForm
             // Render the form
             $REST.Components.Form({
                 el: form,
+                rows: [
+                    {
+                        control: {
+                            label: "First Name:",
+                            name: "FName",
+                            type: 9
+                        }
+                    },
+                    {
+                        control: {
+                            label: "Last Name:",
+                            name: "LName",
+                            type: 9
+                        }
+                    },
+                    {
+                        control: {
+                            label: "Choices:",
+                            name: "Choice",
+                            type: 2,
+                            items: [
+                                { text: "Choice 1", value: "1" },
+                                { text: "Choice 2", value: "2" },
+                                { text: "Choice 3", value: "3" },
+                                { text: "Choice 4", value: "4" },
+                                { text: "Choice 5", value: "5" }
+                            ]
+                        }
+                    }
+                ],
+                value: {
+                    FName: "Gunjan",
+                    LName: "Datta",
+                    Choice: "3"
+                }
             });
         }
     });
