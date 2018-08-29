@@ -50,10 +50,12 @@ let btn = Components.Button({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-button text="My Button"></bs-button>
+<script type="text/javascript">function btnClickEvent(ev) { alert("You clicked the button..."); }</script>
+<bs-button text="My Button" onClick="btnClickEvent"></bs-button>
 ```
 
-<bs-button text="My Button"></bs-button>
+<script type="text/javascript">function btnClickEvent(ev) { alert("You clicked the button..."); }</script>
+<bs-button text="My Button" onClick="btnClickEvent"></bs-button>
 
 ### References
 
