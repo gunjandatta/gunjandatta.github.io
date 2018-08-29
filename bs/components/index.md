@@ -18,5 +18,6 @@ layout: default
 - [Dropdown](dropdown)
 - [Form](form)
 - [Input Group](inputgroup)
+- [Jumbotron](jumbotron)
 - [Modal](modal)
 - [Navigation](navigation)
