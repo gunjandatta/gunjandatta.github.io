@@ -133,6 +133,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | el | _HTMLElement_ | The element to render the panel to. |
 | formFl | _boolean_ | True if the dropdown is being rendered in a form. |
 | id | _string_ | The id of the dropdown. |
+| isSplit | _boolean_ | True render a split button. |
 | items | _Array&lt;IDropdownItem&gt;_ | The dropdown items. |
 | label | _string_ | The dropdown label. |
 | multi | _boolean_ | True to render the dropdown as a multi-select. |
