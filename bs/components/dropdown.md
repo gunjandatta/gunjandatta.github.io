@@ -78,7 +78,7 @@ function onChangeEvent(item, ev) {
 ]'></bs-dropdown>
 ```
 
-<bs-dropdown label="Select a Choice" items='[
+<bs-dropdown label="Select a Choice" onChange="onChangeEvent" items='[
     { "text": "Choice 1", "value": "1" },
     { "text": "Choice 2", "value": "2" },
     { "text": "Choice 3", "value": "3" },
