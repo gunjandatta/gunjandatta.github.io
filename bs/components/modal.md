@@ -11,7 +11,6 @@ layout: default
 
 #### Example:
 
-<div id="btnModal"></div>
 <div id="modalDemo"></div>
 
 ### Code Examples
@@ -20,36 +19,23 @@ layout: default
 ```js
 var Components = require("gd-sprest-bs").Components;
 
-// Create the modal button
-var el = document.querySelector("#btnModal");
-var modal = Components.Button({
-    el: el,
-    text: "Open Modal",
-    toggle: "modal",
-    target: "#bsModalDemo"
-});
-
 // Create the modal
 var el = document.querySelector("#modalDemo");
 var modal = Components.Modal({
     el: el,
     id: "bsModalDemo",
     title: "Modal Demo",
-    body: "This is the body of the modal."
+    body: "This is the body of the modal.",
+    button: {
+        text: "Open Modal",
+        toggle: "modal",
+        target: "#bsModalDemo"
+    }
 });
 ```
 #### TypeScript
 ```ts
 import { Components } from "gd-sprest-bs";
-
-// Create the modal button
-let el = document.querySelector("#btnModal");
-let modal = Components.Button({
-    el: el,
-    text: "Open Modal",
-    toggle: "modal",
-    target: "#bsModalDemo"
-});
 
 // Create the modal
 let el = document.querySelector("#modalDemo");
@@ -57,7 +43,12 @@ let modal = Components.Modal({
     el: el,
     id: "bsModalDemo",
     title: "Modal Demo",
-    body: "This is the body of the modal."
+    body: "This is the body of the modal.",
+    button: {
+        text: "Open Modal",
+        toggle: "modal",
+        target: "#bsModalDemo"
+    }
 });
 ```
 
@@ -67,12 +58,10 @@ let modal = Components.Modal({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-button text="Open Modal" toggle="Modal" target="#wcModalDemo"></bs-button>
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal." button='{ "text": "Open Modal" }'></bs-modal>
 ```
 
-<bs-button text="Open Modal" toggle="modal" target="#wcModalDemo"></bs-button>
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal."></bs-modal>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal." button='{ "text": "Open Modal" }'></bs-modal>
 
 ### References
 
@@ -103,6 +92,7 @@ Modal(props:IModalProps):IModal
 
 | Name | Type | Description |
 | --- | --- | --- |
+| button | _IButtonProps_ | Renders a button to open the modal. |
 | className | _string_ | The class name to apply to modal. |
 | content | _string_ | The modal content. |
 | el | _HTMLElement_ | The element to render the panel to. |
