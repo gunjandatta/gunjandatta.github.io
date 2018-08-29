@@ -50,11 +50,14 @@ let btn = Components.Button({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<script type="text/javascript">function btnClickEvent(ev) { alert("You clicked the button..."); }</script>
+<script type="text/javascript">
+function btnClickEvent(ev) { 
+    alert("You clicked the button..."); 
+}
+</script>
 <bs-button text="My Button" onClick="btnClickEvent"></bs-button>
 ```
 
-<script type="text/javascript">function btnClickEvent(ev) { alert("You clicked the button..."); }</script>
 <bs-button text="My Button" onClick="btnClickEvent"></bs-button>
 
 ### References
@@ -108,6 +111,11 @@ Button(props:IButtonProps):IButton
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
+    // Set the button click event
+    window.btnClickEvent = function(ev) {
+        alert("You clicked this button");
+    }
+    
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a button exists
@@ -117,7 +125,7 @@ Button(props:IButtonProps):IButton
             $REST.Components.Button({
                 el: btn,
                 text: "Button",
-                onClick: function(btn) { alert("You clicked the button."); }
+                onClick: btnClickEvent
             });
         }
     });
