@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the dropdown to. |
 | description | _string_ | The drop down description. |
 | isUnsorted | _boolean_ | Flag determining if the selected options are sorted alphabetically. |
 | multi | _boolean_ | Allow multiple values. |

@@ -14,7 +14,7 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | description | _string_ | The link description. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the link to. |
 | onChange | _(value: ILinkFieldValue)_ | The change event. |
 | value | _ILinkFieldValue_ | The link value. |
 

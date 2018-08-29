@@ -14,7 +14,7 @@ layout: default
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
 | disable | _boolean_ | True to disable the button. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the button to. |
 | href | _string_ | The button url. |
 | onClick | _(btn?: HTMLButtonElement)_ | The button click event. |
 | text | _string_ | The button text. |

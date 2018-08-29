@@ -167,7 +167,7 @@ CardGroup(props:ICardGroupProps):ICardGroup
 | --- | --- | --- |
 | cards | _string_ | The cards. |
 | className | _string_ | The class name to apply to card group. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the card group to. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">

@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the table to. |
 | columns | _Array&lt;string&gt;_ | The column labels. |
 | isFixed | _boolean_ | True for fixed tables. |
 | isSelectable | _boolean_ | True for selectable tables. |

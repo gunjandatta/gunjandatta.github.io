@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the list to. |
 | items | _Array&lt;[IListItemProps](listitem)&gt;_ | The list items. |
 | onClick | _(ev: MouseEvent)_ | The item click event. |
 

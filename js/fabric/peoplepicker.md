@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the people picker to. |
 | allowMultiple | _boolean_ | Flag to allow multiple personas. |
 | allowGroups | _boolean_ | Flag to allow groups. |
 | description | _string_ | The people picker description. |

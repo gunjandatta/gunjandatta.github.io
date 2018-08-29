@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the text field to. |
 | description | _string_ | The field description |
 | onChange | _(value: string)_ | The change event |
 | placeholder | _string_ | The placeholder text. |

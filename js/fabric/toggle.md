@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the toggle to. |
 | description | _string_ | The toggle description. |
 | onChange | _(value: boolean)_ | The change event. |
 | value | _boolean_ | The toggle value. |

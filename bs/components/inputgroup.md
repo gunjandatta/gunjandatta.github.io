@@ -88,9 +88,9 @@ InputGroup(props:IInputGroupProps):IInputGroup
 | Name | Type | Description |
 | --- | --- | --- |
 | appendedLabel | _string_ | The appended text field label. |
-| className | _string_ | The class name to apply to inputGroup. |
+| className | _string_ | The class name to apply to input group. |
 | description | _string_ | The text field description. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the input group to. |
 | id | _string_ | The text field id. |
 | isLarge | _boolean_ | Adds the 'inputGroup-lg' class name. |
 | isSmall | _boolean_ | Adds the 'inputGroup-sm' class name. |

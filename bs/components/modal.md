@@ -95,7 +95,7 @@ Modal(props:IModalProps):IModal
 | button | _IButtonProps_ | Renders a button to open the modal. |
 | className | _string_ | The class name to apply to modal. |
 | content | _string_ | The modal content. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the modal to. |
 | header | _string_ | The modal header. |
 | href | _string_ | Renders the modal as an anchor element instead of a span element. |
 | isPill | _boolean_ | Adds the 'modal-pill' class name. |

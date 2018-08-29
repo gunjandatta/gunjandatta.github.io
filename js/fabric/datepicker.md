@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the date picker to. |
 | description | _string_ | The field description. |
 | onChange | _(value: Date)_ | The change event. |
 | showTime | _boolean_ | Flag to show the time. |

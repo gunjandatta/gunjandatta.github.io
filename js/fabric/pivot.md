@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the pivot to. |
 | isFlipped | _boolean_ | True to render the tabs under the content. |
 | isLarge | _boolean_ | True to render text. |
 | isTabs | _boolean_ | True to render tabs. |

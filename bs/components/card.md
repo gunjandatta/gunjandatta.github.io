@@ -88,7 +88,7 @@ Card(props:ICardProps):ICard
 | className | _string_ | The class name to apply to card. |
 | footer | | |
 | header | | |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the card to. |
 | imgBottom | | |
 | imgTop | | |
 

@@ -213,7 +213,7 @@ Form(props:IFormProps):IForm
 
 | Name | Type | Description |
 | --- | --- | --- |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the form to. |
 | rows | _Array&lt;IFormRow&gt;_ | An array of form rows. |
 | value | _any_ | The form values. |
 

@@ -14,7 +14,7 @@ layout: default
 | --- | --- | --- |
 | actions | _string_ | The list item actions. |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the list item to. |
 | isDocument | _boolean_ | True for document types. |
 | isImage | _boolean_ | True for image types. |
 | isSelectable | _boolean_ | True to make the item selectable. |

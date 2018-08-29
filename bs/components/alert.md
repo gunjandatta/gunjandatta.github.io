@@ -82,7 +82,7 @@ Alert(props:IAlertProps):IAlert
 | --- | --- | --- |
 | className | _string_ | The class name to apply to alert. |
 | content | _string_ | The alert content. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the alert to. |
 | header | _string_ | The alert header. |
 | isDismissible | _boolean_ | Renders an 'x' to close the alert. |
 | type | _number_ | The alert type. _Reference the AlertTypes enumerator_ |

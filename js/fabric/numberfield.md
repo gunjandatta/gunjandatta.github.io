@@ -14,7 +14,7 @@ The number field extends the textfield and formats it based on the type.
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the number to. |
 | decimals | _number_ | The number of decimals allowed. |
 | description | _string_ | The field description |
 | maxValue | _number_ | The maximum value allowed. |

@@ -96,7 +96,7 @@ Button(props:IButtonProps):IButton
 | badgeValue | _string_ | The badge value. |
 | className | _string_ | The class name to apply to button. |
 | controls | _Array&lt;string\&gt;_ | The aria-controls property value. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the button to. |
 | id | _string_ | The id to apply to the button.
 | isBlock | _boolean_ | Applies the block class to the button. |
 | isExpanded | _boolean_ | The aria-expanded value. |

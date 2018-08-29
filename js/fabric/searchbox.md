@@ -13,7 +13,7 @@ layout: default
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to the main element. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the search box to. |
 | onClick | _(searchText: string, ev?: Event) => void_ | The search icon click event. |
 | placeholder | The search box placeholder text. _(Default is Search)_ |
 | type | _number_ | The search box type. |

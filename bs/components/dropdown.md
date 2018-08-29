@@ -133,7 +133,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | dropLeft | _boolean_ | Adds the 'dropleft' class. |
 | dropRight | _boolean_ | Adds the 'dropright' class. |
 | dropUp | _boolean_ | Adds the 'dropup' class. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the dropdown to. |
 | formFl | _boolean_ | True if the dropdown is being rendered in a form. |
 | id | _string_ | The id of the dropdown. |
 | isSplit | _boolean_ | True render a split button. |

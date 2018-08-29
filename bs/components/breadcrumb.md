@@ -82,7 +82,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to breadcrumb. |
-| el | _HTMLElement_ | The element to render the panel to. |
+| el | _HTMLElement_ | The element to render the breadcrumb to. |
 | items | _Array&lt;IBreadcrumbItem&gt;_ | An array of breadcrumb items._ |
 
 #### IBreadcrumbItem
