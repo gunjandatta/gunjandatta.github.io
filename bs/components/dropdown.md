@@ -30,7 +30,10 @@ var dropdown = Components.Dropdown({
         { text: "Choice 3", value: "3" },
         { text: "Choice 4", value: "4" },
         { text: "Choice 5", value: "5" }
-    ]
+    ],
+    onChange: function(item, ev) {
+        console.log("The selected value is: " + item.text);
+    }
 });
 ```
 #### TypeScript
@@ -48,7 +51,10 @@ let dropdown = Components.Dropdown({
         { text: "Choice 3", value: "3" },
         { text: "Choice 4", value: "4" },
         { text: "Choice 5", value: "5" }
-    ]
+    ],
+    onChange: (item, ev) => {
+        console.log("The selected value is: " + item.text);
+    }
 });
 ```
 
@@ -58,7 +64,12 @@ let dropdown = Components.Dropdown({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-dropdown label="Select a Choice" items='[
+<script type="text/javascript">
+function onChangeEvent(item, ev) {
+    console.log("The selected value is: " + item.text);
+}
+</script>
+<bs-dropdown label="Select a Choice" onChange="onChangeEvent" items='[
     { "text": "Choice 1", "value": "1" },
     { "text": "Choice 2", "value": "2" },
     { "text": "Choice 3", "value": "3" },
@@ -129,6 +140,11 @@ Dropdown(props:IDropdownProps):IDropdown
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
+    // Set the change event
+    function onChangeEvent(item, ev) {
+        console.log("The selected value is: " + item.text);
+    }
+
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a dropdown exists
@@ -138,6 +154,7 @@ Dropdown(props:IDropdownProps):IDropdown
             $REST.Components.Dropdown({
                 el: dropdown,
                 label: "Select a Choice",
+                onChange: onChangeEvent,
                 items: [
                     { text: "Choice 1", value: "1" },
                     { text: "Choice 2", value: "2" },

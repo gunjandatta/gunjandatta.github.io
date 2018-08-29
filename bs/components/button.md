@@ -112,10 +112,10 @@ Button(props:IButtonProps):IButton
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the button click event
-    window.btnClickEvent = function(ev) {
-        alert("You clicked this button");
+    function btnClickEvent(ev) { 
+        alert("You clicked the button..."); 
     }
-    
+        
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a button exists
