@@ -23,6 +23,7 @@ npm i --save gd-sprest-bs
 ```
 
 ### Components
+- [Accordion](components/accordion)
 - [Alert](components/alert)
 - [Badge](components/badge)
 - [Breadcrumb](components/breadcrumb)
@@ -31,6 +32,7 @@ npm i --save gd-sprest-bs
 - [Card](components/card)
 - [Card Group](components/cardgroup)
 - [Carousel](components/carousel)
+- [Collapse](components/collapse)
 - [Dropdown](components/dropdown)
 - [Form](components/form)
 - [Input Group](components/inputgroup)

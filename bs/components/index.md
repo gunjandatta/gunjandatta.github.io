@@ -8,6 +8,7 @@ layout: default
 
 </div>
 
+- [Accordion](accordion)
 - [Alert](alert)
 - [Badge](badge)
 - [Breadcrumb](breadcrumb)
@@ -16,6 +17,7 @@ layout: default
 - [Card](card)
 - [Card Group](cardgroup)
 - [Carousel](carousel)
+- [Collapse](collapse)
 - [Dropdown](dropdown)
 - [Form](form)
 - [Input Group](inputgroup)
