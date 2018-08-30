@@ -23,7 +23,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#listGroup");
 var listGroup = Components.listGroup({
     el: el,
-    colWidth: 4,
+    colWidth: 2,
     isTabs: true,
     items: [
         { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
@@ -42,7 +42,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#listGroup");
 let listGroup = Components.listGroup({
     el: el,
-    colWidth: 4,
+    colWidth: 2,
     isTabs: true,
     items: [
         { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
@@ -60,7 +60,7 @@ let listGroup = Components.listGroup({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-listGroup is-tabs="true" col-width="4" items='[
+<bs-listGroup is-tabs="true" col-width="2" items='[
     { "tabName": "Tab 1", "content": "This is the content for tab 1.", "isActive": true },
     { "tabName": "Tab 2", "content": "This is the content for tab 2.", "badge": { "content": "10", "type": 4 } },
     { "tabName": "Tab 3", "content": "This is the content for tab 3." },
@@ -69,7 +69,7 @@ let listGroup = Components.listGroup({
 ]'></bs-listGroup>
 ```
 
-<bs-listGroup is-tabs="true" col-width="4" items='[
+<bs-listGroup is-tabs="true" col-width="2" items='[
     { "tabName": "Tab 1", "content": "This is the content for tab 1.", "isActive": true },
     { "tabName": "Tab 2", "content": "This is the content for tab 2.", "badge": { "content": "10", "type": 4 } },
     { "tabName": "Tab 3", "content": "This is the content for tab 3." },
@@ -137,7 +137,7 @@ ListGroup(props:IListGroupProps):IListGroup
             // Render the listGroup
             $REST.Components.ListGroup({
                 el: listGroup,
-                colWidth: 4,
+                colWidth: 2,
                 isTabs: true,
                 items: [
                     { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
