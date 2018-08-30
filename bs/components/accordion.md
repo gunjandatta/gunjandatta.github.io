@@ -109,36 +109,27 @@ let accordion = Components.Accordion({
 Accordion(props:IAccordionProps):IAccordion
 ```
 
-#### AccordionTypes
-
-| Name | Value |
-| --- | --- |
-| Danger | 1 |
-| Dark | 2 |
-| Info | 3 |
-| Light | 4 |
-| Primary | 5 |
-| Secondary | 6 |
-| Success | 7 |
-| Warning | 8 |
-
 #### IAccordion
 
 | Name | Returns | Description |
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
+#### IAccordionItem
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| btnProps | _IButtonProps_ | The button properties. |
+| content | _string_ | The item content to display. |
+
 #### IAccordionProps
 
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to accordion. |
-| content | _string_ | The accordion content. |
 | el | _HTMLElement_ | The element to render the accordion to. |
-| header | _string_ | The accordion header. |
-| href | _string_ | Renders the accordion as an anchor element instead of a span element. |
-| isPill | _boolean_ | Adds the 'accordion-pill' class name. |
-| type | _number_ | The accordion type. _Reference the AccordionTypes enumerator_ |
+| id | _string_ | The accordion id. |
+| items | _Array&lt;IAccordionItem&gt;_ | The accordion items. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">

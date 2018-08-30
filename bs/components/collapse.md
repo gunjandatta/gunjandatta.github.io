@@ -76,24 +76,22 @@ let collapse = Components.Collapse({
 Collapse(props:ICollapseProps):ICollapse
 ```
 
-#### CollapseTypes
-
-| Name | Value |
-| --- | --- |
-| Danger | 1 |
-| Dark | 2 |
-| Info | 3 |
-| Light | 4 |
-| Primary | 5 |
-| Secondary | 6 |
-| Success | 7 |
-| Warning | 8 |
-
 #### ICollapse
 
 | Name | Returns | Description |
 | --- | --- | --- |
-| el | Element | The jquery element. |
+| dispose | _() => void_ | Destroys an element's collapse. |
+| el | _Element_ | The jquery element. |
+| hide | _() => void_ | Hides a collapsible element. |
+| show | _() => void_ | Shows a collapsible element. |
+| toggle | _() => void_ | Toggles the collapsible element on invocation. |
+
+#### ICollapseOptions
+
+| Name | Type | Description |
+| --- | --- | --- |
+| parent | _string_ | If parent is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. |
+| toggle | _string_ | Toggles the collapsible element on invocation. |
 
 #### ICollapseProps
 
@@ -102,10 +100,9 @@ Collapse(props:ICollapseProps):ICollapse
 | className | _string_ | The class name to apply to collapse. |
 | content | _string_ | The collapse content. |
 | el | _HTMLElement_ | The element to render the collapse to. |
-| header | _string_ | The collapse header. |
-| href | _string_ | Renders the collapse as an anchor element instead of a span element. |
-| isPill | _boolean_ | Adds the 'collapse-pill' class name. |
-| type | _number_ | The collapse type. _Reference the CollapseTypes enumerator_ |
+| id | _string_ | The collapse id. |
+| isMulti | _boolean_ | Adds the 'multi-collapse' class name. |
+| options | _ICollapseOptions_ | The collapse options. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
