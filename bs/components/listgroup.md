@@ -7,7 +7,7 @@ layout: default
 
 </div>
 
-### [List Group](https://getbootstrap.com/docs/4.1/components/input-group)
+### [List Group](https://getbootstrap.com/docs/4.1/components/list-group)
 
 #### Example:
 
@@ -81,15 +81,18 @@ let listGroup = Components.listGroup({
 ListGroup(props:IListGroupProps):IListGroup
 ```
 
-#### ListGroupTypes
+#### ListGroupItemTypes
 
 | Name | Value |
 | --- | --- |
-| Email | 1 |
-| File | 2 |
-| Password | 3 |
-| TextArea | 4 |
-| TextField | 5 |
+| Danger | 1 |
+| Dark | 2 |
+| Info | 3 |
+| Light | 4 |
+| Primary | 5 |
+| Secondary | 6 |
+| Success | 7 |
+| Warning | 8 |
 
 #### IListGroup
 
@@ -97,22 +100,29 @@ ListGroup(props:IListGroupProps):IListGroup
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### IlistGroupProps
+#### IListGroupItem
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| badge | _IBadgeProps_ | The badge properties. |
+| className | _string_ | The class name to apply to the list group. |
+| content | _string_ | The item content. |
+| href | _string_ | Renders the item as an anchor. |
+| isActive | _boolean_ | Adds the 'active" class name. |
+| isDisabled | _boolean_ | Adds the 'disabled" class name. |
+| tabName | _string_ | The tab name. |
+| type | _number_ | The item type. _Reference the ListGroupItemTypes_ |
+
+#### IListGroupProps
 
 | Name | Type | Description |
 | --- | --- | --- |
-| appendedLabel | _string_ | The appended text field label. |
-| className | _string_ | The class name to apply to input group. |
-| description | _string_ | The text field description. |
+| className | _string_ | The class name to apply to the input group. |
 | el | _HTMLElement_ | The element to render the input group to. |
-| id | _string_ | The text field id. |
-| isLarge | _boolean_ | Adds the 'listGroup-lg' class name. |
-| isSmall | _boolean_ | Adds the 'listGroup-sm' class name. |
-| label | _string_ | The text field label. |
-| placeholder | _string_ | The text field placeholder. |
-| prependedLabel | _string_ | The prepended text field label. |
-| type | _number_ | The text field type. _Reference the ListGroupTypes enumerator_ |
-| value | _string_ | The text field value. |
+| enableFade | _boolean_ | Adds the 'fade' class name to the tab pane. |
+| isFlush | _boolean_ | Adds the 'list-group-flush' class name. |
+| isTabs | _boolean_ | True to render the list group as tabs. |
+| items | _Array&lt;IListGroupItem&gt;_ | An array of list group items. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
