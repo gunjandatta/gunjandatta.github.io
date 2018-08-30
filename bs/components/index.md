@@ -22,3 +22,4 @@ layout: default
 - [List Group](listgroup)
 - [Modal](modal)
 - [Navigation](navigation)
+- [Popover](popover)

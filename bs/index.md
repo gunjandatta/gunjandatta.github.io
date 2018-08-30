@@ -37,6 +37,7 @@ npm i --save gd-sprest-bs
 - [List Group](components/listgroup)
 - [Modal](components/modal)
 - [Navigation](components/navigation)
+- [Popover](components/popover)
 
 Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this library and I'll continue to build this library out sooner than later.
 
