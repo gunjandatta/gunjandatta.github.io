@@ -21,7 +21,7 @@ var Components = require("gd-sprest-bs").Components;
 
 // Create the navigation
 var el = document.querySelector("#navigation");
-var navigation = Components.Navigation({
+var nav = Components.Nav({
     el: el,
     isPills: true,
     items: [
@@ -39,7 +39,7 @@ import { Components } from "gd-sprest-bs";
 
 // Create the navigation
 let el = document.querySelector("#navigation");
-let navigation = Components.Navigation({
+let nav = Components.Nav({
     el: el,
     isPills: true,
     items: [
@@ -58,30 +58,30 @@ let navigation = Components.Navigation({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-navigation is-pills="true" items='[
+<bs-nav is-pills="true" items='[
     { "title": "Nav 1", "isActive": true },
     { "title": "Nav 2" },
     { "title": "Nav 3" },
     { "title": "Nav 4" },
     { "title": "Nav 5" }
-]'></bs-navigation>
+]'></bs-nav>
 ```
 
-<bs-navigation is-pills="true" items='[
+<bs-nav is-pills="true" items='[
     { "title": "Nav 1", "isActive": true },
     { "title": "Nav 2" },
     { "title": "Nav 3" },
     { "title": "Nav 4" },
     { "title": "Nav 5" }
-]'></bs-navigation>
+]'></bs-nav>
 
 ### References
 
 ```
-Navigation(props:INavigationProps):INavigation
+Nav(props:INavProps):INav
 ```
 
-#### NavigationTypes
+#### NavTypes
 
 | Name | Value |
 | --- | --- |
@@ -94,13 +94,13 @@ Navigation(props:INavigationProps):INavigation
 | Success | 7 |
 | Warning | 8 |
 
-#### INavigation
+#### INav
 
 | Name | Returns | Description |
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### INavigationProps
+#### INavProps
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ Navigation(props:INavigationProps):INavigation
         var navigation = document.querySelector("#navigationDemo");
         if(navigation) {
             // Render the navigation
-            $REST.Components.Navigation({
+            $REST.Components.Nav({
                 el: navigation,
                 isPills: true,
                 items: [
