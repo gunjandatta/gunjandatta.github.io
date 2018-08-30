@@ -15,6 +15,7 @@ layout: default
 - [Button Group](buttongroup)
 - [Card](card)
 - [Card Group](cardgroup)
+- [Carousel](carousel)
 - [Dropdown](dropdown)
 - [Form](form)
 - [Input Group](inputgroup)

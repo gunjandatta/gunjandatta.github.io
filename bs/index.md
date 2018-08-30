@@ -30,6 +30,7 @@ npm i --save gd-sprest-bs
 - [Button Group](components/buttongroup)
 - [Card](components/card)
 - [Card Group](components/cardgroup)
+- [Carousel](components/carousel)
 - [Dropdown](components/dropdown)
 - [Form](components/form)
 - [Input Group](components/inputgroup)
