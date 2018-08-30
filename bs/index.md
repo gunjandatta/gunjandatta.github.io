@@ -34,6 +34,7 @@ npm i --save gd-sprest-bs
 - [Form](components/form)
 - [Input Group](components/inputgroup)
 - [Jumbotron](components/jumbotron)
+- [List Group](components/listgroup)
 - [Modal](components/modal)
 - [Navigation](components/navigation)
 

@@ -19,5 +19,6 @@ layout: default
 - [Form](form)
 - [Input Group](inputgroup)
 - [Jumbotron](jumbotron)
+- [List Group](listgroup)
 - [Modal](modal)
 - [Navigation](navigation)
