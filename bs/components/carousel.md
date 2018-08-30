@@ -133,24 +133,47 @@ Carousel(props:ICarouselProps):ICarousel
 
 | Name | Returns | Description |
 | --- | --- | --- |
+| cycle | _() => void_ | Cycles through the carousel items from left to right. |
+| dispose | _() => void_ | Destroys an element’s tab. |
 | el | Element | The jquery element. |
+| next | _() => void_ | Cycles to the next item. |
+| number | _(value:number) => void_ | Cycles the carousel to a particular frame. |
+| pause | _() => void_ | Stops the carousel from cycling through items. |
+| previous | _() => void_ | Cycles to the previous item. |
+
+#### ICarouselItem
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| captions | _string_ | The item's captions. |
+| className | _string_ | The class name to apply to the item. |
+| content | _string_ | The item's content. |
+| imageAlt | _string_ | The image image 'alt' property. |
+| imageUrl | _string_ | Renders an image element. |
+| isActive | _boolean_ | Adds the 'active' class. |
 
 #### ICarouselOptions
 
 | Name | Returns | Description |
 | --- | --- | --- |
+| interval | _number_ | The amount of time to delay between automatically cycling an item. |
+| keyboard | _boolean_ | Whether the carousel should react to keyboard events. |
+| pause | _string \| boolean_ | If set to "hover", pauses the cycling of the carousel on mouseenter and resumes the cycling of the carousel on mouseleave. If set to false, hovering over the carousel won't pause it. |
+| ride | _string_ | Autoplays the carousel after the user manually cycles the first item. |
+| wrap | _boolean_ | Whether the carousel should cycle continuously or have hard stops. |
 
 #### ICarouselProps
 
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to carousel. |
-| content | _string_ | The carousel content. |
 | el | _HTMLElement_ | The element to render the carousel to. |
-| header | _string_ | The carousel header. |
-| href | _string_ | Renders the carousel as an anchor element instead of a span element. |
-| isPill | _boolean_ | Adds the 'carousel-pill' class name. |
-| type | _number_ | The carousel type. _Reference the CarouselTypes enumerator_ |
+| enableControls | _string_ | The carousel content. |
+| enableCrossfade | _string_ | The carousel header. |
+| enableIndicators | _string_ | Renders the carousel as an anchor element instead of a span element. |
+| id | _boolean_ | Adds the 'carousel-pill' class name. |
+| items | _number_ | The carousel type. _Reference the CarouselTypes enumerator_ |
+| options | _number_ | The carousel type. _Reference the CarouselTypes enumerator_ |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <style>
