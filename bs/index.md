@@ -42,6 +42,8 @@ npm i --save gd-sprest-bs
 - [Navigation](components/navigation)
 - [Pagination](components/pagination)
 - [Popover](components/popover)
+- [Progress](components/progress)
+- [Progress Group](components/progressgroup)
 
 Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this library and I'll continue to build this library out sooner than later.
 

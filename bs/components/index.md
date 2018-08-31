@@ -27,3 +27,5 @@ layout: default
 - [Navigation](navigation)
 - [Pagination](pagination)
 - [Popover](popover)
+- [Progress](progress)
+- [Progress Group](progressgroup)

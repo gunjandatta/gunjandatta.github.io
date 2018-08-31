@@ -63,21 +63,18 @@ Progress(props:IProgressProps):IProgress
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### IProgressItem
-
-| Name | Returns | Description |
-| --- | --- | --- |
-| btnProps | _IButtonProps_ | The button properties. |
-| content | _string_ | The item content to display. |
-
 #### IProgressProps
 
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to progress. |
 | el | _HTMLElement_ | The element to render the progress to. |
-| id | _string_ | The progress id. |
-| items | _Array&lt;IProgressItem&gt;_ | The progress items. |
+| isAnimated | _boolean_ | Adds the 'progress-bar-animated' class name. |
+| isStriped | _boolean_ | Adds the 'progress-bar-striped' class name. |
+| label | _string_ | The progress bar label. |
+| max | _string_ | The progress bar's max value. |
+| min | _string_ | The progress bar's max value. |
+| size | _string_ | The progress bar value. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
