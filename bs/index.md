@@ -45,8 +45,6 @@ npm i --save gd-sprest-bs
 - [Progress](components/progress)
 - [Progress Group](components/progressgroup)
 
-Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this library and I'll continue to build this library out sooner than later.
-
 ### WebParts
 - [WebPart](webparts/webpart)
 - [List](webparts/list)
