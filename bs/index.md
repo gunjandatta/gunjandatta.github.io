@@ -40,6 +40,7 @@ npm i --save gd-sprest-bs
 - [List Group](components/listgroup)
 - [Modal](components/modal)
 - [Navigation](components/navigation)
+- [Pagination](components/pagination)
 - [Popover](components/popover)
 
 Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this library and I'll continue to build this library out sooner than later.
@@ -54,6 +55,6 @@ Want more components? [Star](https://github.com/gunjandatta/sprest-bs) this libr
 ### [WebPack Configuration](webpack)
 
 ### Size of Library
-This package includes the gd-sprest core library and the full bootstrap css/javascript library.
+This package includes the gd-sprest core library, jquery and the full bootstrap css/javascript library.
 - Uncompressed: _1.285MB_
 - Minified: _526KB_
