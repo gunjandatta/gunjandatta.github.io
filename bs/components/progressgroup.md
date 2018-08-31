@@ -68,34 +68,32 @@ let progressGroup = Components.ProgressGroup({
 
 ```html
 <script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
-<bs-progressGroup id="wcProgressGroupDemo" items='[
+<bs-progressGroup progressbars='[
     {
-        "btnProps": { "text": "Item 1" },
-        "content": "This is the content for item 1."
+        "size": 25,
+        "isStriped": true,
+        "label": "25%"
     },
     {
-        "btnProps": { "text": "Item 2" },
-        "content": "This is the content for item 2."
-    },
-    {
-        "btnProps": { "text": "Item 3" },
-        "content": "This is the content for item 3."
+        "size": 50,
+        "isAnimated": true,
+        "isStriped": true,
+        "label": "50%"
     }
 ]'></bs-progressGroup>
 ```
 
-<bs-progressGroup id="wcProgressGroupDemo" items='[
+<bs-progressGroup progressbars='[
     {
-        "btnProps": { "text": "Item 1" },
-        "content": "This is the content for item 1."
+        "size": 25,
+        "isStriped": true,
+        "label": "25%"
     },
     {
-        "btnProps": { "text": "Item 2" },
-        "content": "This is the content for item 2."
-    },
-    {
-        "btnProps": { "text": "Item 3" },
-        "content": "This is the content for item 3."
+        "size": 50,
+        "isAnimated": true,
+        "isStriped": true,
+        "label": "50%"
     }
 ]'></bs-progressGroup>
 
