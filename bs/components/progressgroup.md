@@ -111,21 +111,14 @@ ProgressGroup(props:IProgressGroupProps):IProgressGroup
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### IProgressGroupItem
-
-| Name | Returns | Description |
-| --- | --- | --- |
-| btnProps | _IButtonProps_ | The button properties. |
-| content | _string_ | The item content to display. |
-
 #### IProgressGroupProps
 
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to progressGroup. |
 | el | _HTMLElement_ | The element to render the progressGroup to. |
-| id | _string_ | The progressGroup id. |
-| items | _Array&lt;IProgressGroupItem&gt;_ | The progressGroup items. |
+| isMultiple | _string_ | Renders the progress bars in a single progress element. |
+| progressbars | _Array&lt;IProgressProps&gt;_ | The progressbars. |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
