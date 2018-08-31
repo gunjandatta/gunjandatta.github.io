@@ -7,7 +7,7 @@ layout: default
 
 </div>
 
-### [Tooltip](https://getbootstrap.com/docs/4.1/components/tooltip)
+### [Tooltip](https://getbootstrap.com/docs/4.1/components/tooltips)
 
 #### Example:
 
