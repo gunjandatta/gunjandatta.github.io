@@ -115,7 +115,8 @@ Pagination(props:IPaginationProps):IPagination
             // Render the pagination
             $REST.Components.Pagination({
                 el: pagination,
-                numberOfPages: 5
+                numberOfPages: 5,
+                onClick: onPaginationClick
             });
         }
     });
