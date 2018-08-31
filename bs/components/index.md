@@ -29,3 +29,4 @@ layout: default
 - [Popover](popover)
 - [Progress](progress)
 - [Progress Group](progressgroup)
+- [Tooltip](tooltip)
