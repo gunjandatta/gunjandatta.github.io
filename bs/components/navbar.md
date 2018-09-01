@@ -116,8 +116,8 @@ function logSearch(value) {
 }
 </script>
 <bs-navbar brand="Navbar" search-box='{
-        "onChange": "logSearch",
-        "onSearch": "logSearch"
+        "onChange": "logSearchValue",
+        "onSearch": "logSearchValue"
     }' items='[
     {
         "text": "Home",
@@ -144,8 +144,8 @@ function logSearch(value) {
 ```
 
 <bs-navbar brand="Navbar" search-box='{
-        "onChange": "logSearch",
-        "onSearch": "logSearch"
+        "onChange": "logSearchValue",
+        "onSearch": "logSearchValue"
     }' items='[
     {
         "text": "Home",
