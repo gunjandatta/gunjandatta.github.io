@@ -207,6 +207,7 @@ Navbar(props:INavbarProps):INavbar
 | --- | --- | --- |
 | btnType | _string_ | The search button type. _Reference the ButtonTypes_ |
 | btnText | _string_ | The search button text. |
+| id | _string_ | The navbar id. |
 | onChange | _(value:string, ev:Event) => void_ | The search box change event. |
 | onSearch | _(value:string, ev:Event) => void_ | The search box button click event. |
 | placeholder | _string_ | The search box placeholder. |
