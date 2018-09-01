@@ -190,32 +190,33 @@ Navbar(props:INavbarProps):INavbar
 | --- | --- | --- |
 | el | Element | The jquery element. |
 
-#### INavbarOptions
+#### INavbarItem
 
 | Name | Type | Description |
 | --- | --- | --- |
-| animation | _boolean_ | Apply a CSS fade transition to the navbar. |
-| boundary | _string_ | Overflow constraint boundary of the navbar. |
-| container | _string_ | Appends the navbar to a specific element. |
-| delay | _number | object_ | Delay showing and hiding the navbar (ms) - does not apply to manual trigger type. |
-| fallbackPlacement | _string | Array&lt;string&gt;_ | Allow to specify which position Popper will use on fallback. |
-| html | _boolean_ | Insert HTML into the navbar. |
-| offset | _number | string_ | Offset of the navbar relative to its target. |
-| placement | _string_ | How to position the navbar _(auto, top, bottom, left, right)_. When auto is specified, it will dynamically reorient the navbar. |
-| selector | _string_ | If a selector is provided, navbar objects will be delegated to the specified targets. |
-| template | _string_ | Base HTML to use when creating the navbar. |
-| title | _string_ | Default title value if title attribute isn't present. |
-| trigger | _string_ | How navbar is triggered _(click, hover, focus, manual)_. You may pass multiple triggers; separate them with a space. Manual cannot be combined with any other trigger. |
+| href | _string_ | The 'href' property of the link. |
+| isActive | _boolean_ | Adds the 'active' class name. |
+| isDisabled | _boolean_ | Adds the 'disabled' class name. |
+| items | _Array&lt;INavbarItem&gt;_ | The navbar sub-items. |
+| onClick | _(item:INavbarItem, ev:Event) => void_ | The click event for the item. |
+| type | _number_ | The navbar type. _Reference the NavbarTypes_ |
 
 #### INavbarProps
 
 | Name | Type | Description |
 | --- | --- | --- |
+| btnType | _string_ | The search button type. _Reference the ButtonTypes_ |
+| btnText | _string_ | The search button text. |
+| onChange | _(value:string, ev:Event) => void_ | The search box change event. |
+| onSearch | _(value:string, ev:Event) => void_ | The search box button click event. |
+| placeholder | _string_ | The search box placeholder. |
+
+#### INavbarSearchBox
+
+| Name | Type | Description |
+| --- | --- | --- |
 | btnProps | _IButtonProps_ | The button properties. |
 | className | _string_ | The class name to apply to navbar. |
-| el | _HTMLElement_ | The element to render the navbar to. |
-| options | _INavbarOptions_ | The navbar options. |
-| type | _number_ | The navbar type. _Reference the NavbarTypes enumerator_ |
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
