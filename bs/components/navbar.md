@@ -180,24 +180,15 @@ Navbar(props:INavbarProps):INavbar
 
 | Name | Value |
 | --- | --- |
-| Auto | 1 |
-| Bottom | 2 |
-| Left | 3 |
-| Right | 4 |
-| Top | 5 |
+| Dark | 1 |
+| Light | 2 |
+| Primary | 3 |
 
 #### INavbar
 
 | Name | Returns | Description |
 | --- | --- | --- |
-| dispose | () => void | Destroy's an element's navbar. |
 | el | Element | The jquery element. |
-| enabled | () => void | Gives an element’s navbar the ability to be shown. |
-| hide | () => void | Hides an element's navbar. |
-| toggle | () => void | Toggles an element's navbar. |
-| toggleEnabled | () => void | Toggles the ability for an element's navbar to be shown or hidden. |
-| show | () => void | Shows an element's navbar. |
-| update | () => void | Updates the position of an element's navbar. |
 
 #### INavbarOptions
 
@@ -228,13 +219,13 @@ Navbar(props:INavbarProps):INavbar
 
 <script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
+    function logSearchValue(value) {
+        // Log the value
+        console.log("The search value is: " + value);
+    }
+
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
-        function logSearchValue(value) {
-            // Log the value
-            console.log("The search value is: " + value);
-        }
-
         // See if a navbar exists
         var navbar = document.querySelector("#navbarDemo");
         if(navbar) {
