@@ -19,6 +19,7 @@ module.exports = {
 
     // Exclude the gd-sprest-bs reference from the bundle
     externals = {
+        "gd-sprest": "$REST",
         "gd-sprest-bs": "$REST"
     }
 }
