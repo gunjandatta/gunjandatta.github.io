@@ -31,10 +31,16 @@ The execution method is designed to automatically determine the type interface, 
 <div class="tab-content" markdown="1">
 
 - **execute(_resolve:function_)**
+    - The resolve method is executed if the request is successful
 - **execute(_waitFl:boolean_)**
+    - The request is executed after the previous is completed
 - **execute(_resolve:function, waitFl:boolean_)**
     - Executes the request asynchronously
     - The resolve method is executed after the request execution is completed
+- **execute(_resolve:function, reject:function, waitFl:boolean_)**
+    - Executes the request asynchronously
+    - The resolve method is executed after the request execution is completed
+    - The reject method is executed if the request is not successful
 - **executeAndWait()**
     - Executes the request synchronously
     - This is not recommended to use in production solutions, unless absolutely necessary.

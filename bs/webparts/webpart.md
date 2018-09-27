@@ -6,4 +6,11 @@ layout: default
 [Back](/bs)
 
 </div>
-_Coming Soon_
+
+### WebPart
+
+### Code Example
+
+#### JavaScript
+
+#### TypeScript
