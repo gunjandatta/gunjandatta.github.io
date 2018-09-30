@@ -42,6 +42,46 @@
         headers = headers.concat(getElements(elMain, "h2"));
     }
 
+    // Set the isRoot flag
+    var isRoot = true;
+    var path = document.location.pathname.replace(/\/$/, '').split('/');
+    for (var i = 0; i < path.length; i++) {
+        // See if a value exists
+        if (path[i]) {
+            // Set the flag
+            isRoot = false;
+            break;
+        }
+    }
+
+    // See if this is not the home page
+    if (!isRoot) {
+        // Create the link
+        var elLink = document.createElement("li");
+        elLink.className = "nav-item";
+        elNav.appendChild(elLink);
+
+        // Remove the current page
+        path.splice(path.length - 1, 1);
+
+        // See if we are skipping the parent
+        switch (path[path.length - 1].toLowerCase()) {
+            case "components":
+            case "fabric":
+            case "webparts":
+                // Skip the parent page
+                path.splice(path.length - 1, 1);
+                break;
+        }
+
+        // Add the link
+        var link = document.createElement("a");
+        link.className = "nav-link";
+        link.href = path.join('/') || "/";
+        link.innerHTML = "Back";
+        elLink.appendChild(link);
+    }
+
     // Parse the headers
     for (var i = 0; i < headers.length; i++) {
         var header = headers[i];
