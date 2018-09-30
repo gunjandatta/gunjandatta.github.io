@@ -1,32 +1,35 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## WebPack
 
-</div>
+This page will give a basic overview setting up webpack for your project.
 
 ### Setup
 
 #### NPM Installation Command
+
 ```
 npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
 ```
 
 ##### WebPack
+
 The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
 ##### Babel
-The `babel-core`, `babel-loader` and `babel-preset-env` are required to compile the code to ESCurrent, for support of all browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
+
+The `@babel/core`, `babel-loader` and `@babel/preset-env` are required to compile the code to ESCurrent, for support of all browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
 
 ##### Styles
+
 The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
 
 ### Basic Example
 
 #### tsconfig.json
+
 ```js
 {
     "compilerOptions": {
@@ -43,6 +46,7 @@ The `node-sass` and `sass-loader` libraries are required if you are using `.sass
 ```
 
 #### webpack.config.js
+
 ```js
 var path = require("path");
 var webpack = require("webpack");
@@ -89,7 +93,7 @@ module.exports = {
                     // JavaScript (ES5) -> JavaScript (Current)
                     {
                         loader: "babel-loader",
-                        options: { presets: ["env"] }
+                        options: { presets: ["@babel/preset-env"] }
                     },
                     // TypeScript -> JavaScript (ES5)
                     { loader: "ts-loader" }
@@ -101,16 +105,19 @@ module.exports = {
 ```
 
 ### Externals
-If your application uses a core/common file, then applications requiring the `gd-sprest` and/or `gd-sprest-js` libraries to be excluded from their bundle will need to add the following configuration.
+
+If your application uses a core/common file, then applications requiring the `gd-sprest` and `gd-sprest-bs` or `gd-sprest-js` libraries to be excluded from their bundle will need to add the following configuration.
 
 ```js
 // Return the configuration
 module.exports = {
     // Basic Configuration Here
 
-    // Exclude the gd-sprest and gd-sprest-js libraries
+    // Exclude the gd-sprest, gd-sprest-bs or gd-sprest-js libraries
+    // This would be dependent on the libraries you are using
     externals: {
         "gd-sprest": "$REST",
+        "gd-sprest-bs": "$REST",
         "gd-sprest-js": "$REST.JS"
     }
 }

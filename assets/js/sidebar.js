@@ -70,8 +70,8 @@
                 // Wait for the click event to complete
                 setTimeout(function () {
                     // Set the offset of the navbar height
-                    // 4rem = 4*16 => pixels
-                    var offset = 16 * 4;
+                    // 5rem = 4*16 => pixels
+                    var offset = 16 * 5;
 
                     // See if we need to adjust the element
                     if (elTarget.getBoundingClientRect().top < offset) {
@@ -79,6 +79,9 @@
                         if (document.body.scrollTop >= offset) {
                             // Set the offset
                             document.body.scrollTop -= offset;
+                        } else {
+                            // Reset it
+                            document.body.scrollTop = 0;
                         }
                     }
                 }, 50);

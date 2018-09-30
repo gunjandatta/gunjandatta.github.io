@@ -1,27 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## OData Requests
-
-</div>
 
 The REST API allows for OData requests to be made to each request. This will allow us to expand collections of the target object, to help reduce the number of requests made to the server.
 
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Query Properties</div>
-    <div class="tab-item">Browser Console</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-item">TypeScript</div>
-</div>
-
-<!-- Tab Content -->
-<div class="tab-content" markdown="1">
+### Query Properties
 
 * Custom: _string_
     * Appended to the querystring
@@ -45,10 +30,10 @@ The REST API allows for OData requests to be made to each request. This will all
     * 5000 is the max limit
     * Setting the "GetAllItems" flag will get past the 5k limit
 
-</div>
-<div class="tab-content" markdown="1">
+### Browser Console
 
-##### Get the web, expanding the field, lists and root folder
+#### Get the web, expanding the field, lists and root folder
+
 ```js
 var web = $REST.Web().query({ Expand: ["Fields", "Lists", "RootFolder"] }).executeAndWait();
 var fields = web.Fields.results;
@@ -56,15 +41,16 @@ var lists = web.Lists.results;
 var rootFolder = web.RootFolder;
 ```
 
+### JavaScript
 
-</div>
-<div class="tab-content" markdown="1">
+#### Reference the library
 
-##### Reference the library
 ```js
 var $REST = require("gd-sprest");
 ```
-##### Get the web, expanding the field, lists and root folder
+
+#### Get the web, expanding the field, lists and root folder
+
 ```js
 // Get the current web
 $REST.Web()
@@ -79,7 +65,9 @@ $REST.Web()
         var rootFolder = web.RootFolder;
     });
 ```
-##### Query for picture libraries, including their items
+
+#### Query for picture libraries, including their items
+
 ```js
 // Get the current web
 $REST.Web()
@@ -102,14 +90,16 @@ $REST.Web()
     });
 ```
 
-</div>
-<div class="tab-content" markdown="1">
+### TypeScript
 
-##### Reference the library
+#### Reference the library
+
 ```ts
 import { Web } from "gd-sprest";
 ```
-##### Get the web, expanding the field, lists and root folder
+
+#### Get the web, expanding the field, lists and root folder
+
 ```ts
 // Get the current web
 Web()
@@ -124,7 +114,9 @@ Web()
         let rootFolder = web.RootFolder;
     });
 ```
-##### Query for picture libraries, including their items
+
+#### Query for picture libraries, including their items
+
 ```ts
 // Get the current web
 Web()
@@ -146,6 +138,3 @@ Web()
         }
     });
 ```
-
-</div>
-</div>

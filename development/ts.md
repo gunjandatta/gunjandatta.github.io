@@ -1,26 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## TypeScript Development
 
-</div>
+### Script Reference
 
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Script Reference</div>
-    <div class="tab-item">Code Example</div>
-    <div class="tab-item">Intellisense</div>
-</div>
-
-<!-- Tab Content -->
-<div class="tab-content" markdown="1">
-
-### Reference the Script
+#### Reference the Script
 Reference the [$REST global variable](/getting-started/global-variable) for details on the available libraries.
 ```ts
 import {
@@ -44,8 +30,7 @@ import {
 } from "gd-sprest";
 ```
 
-</div>
-<div class="tab-content" markdown="1">
+### Code Example
 
 This code example will get the site assets library, including the fields and views. Reference the [/examples](code examples) page for additional examples.
 
@@ -72,8 +57,7 @@ List("Site Assets")
     });
 ```
 
-</div>
-<div class="tab-content" markdown="1">
+### Intellisense
 
 The intellisense of the library will display the available entry point of the SharePoint REST API and other helper libraries.
 
@@ -134,6 +118,3 @@ The types are made available based on the class imported.
 
 ##### SharePoint Configuration Field Type
 ![SharePoint Enumerator Types](/assets/images/intellisense-ts-types-cfg-field.png)
-
-</div>
-</div>

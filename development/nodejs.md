@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## NodeJS Development
-
-</div>
 
 The library contains a "getInfo" method, returning the request information of the request.
 
 ### Reference the Script
+
 Reference the [$REST global variable](/getting-started/global-variable) for details on the available libraries.
+
 ```js
 const $REST = require("gd-sprest);
 ```
 
 ### Code Example
+
 ```js
 // Create a new generic list.
 request = $REST.Web("https://dev.sharepoint.com")

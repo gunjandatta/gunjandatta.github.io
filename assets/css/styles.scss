@@ -20,13 +20,20 @@ header {
 .main {
     /* Sidebar */
     .sidebar {
-        .navbar {
-            top: 5rem;
+        @supports(position: sticky) {
+            .navbar {
+                top: 5rem;
+            }
         }
     }
 
     /* Content */
     .content {
+        /* Code */
+        .language-html, .language-js, .language-ts {
+            background-color: $gray-100;
+        }
+
         /* Tables */
         table {
             @extend .table;

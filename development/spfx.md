@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## SharePoint Framework (SPFX)
-
-</div>
 
 ### Project Creation
 After creating a SPFX project using the yomen generator `yo @microsoft/sharepoint`, install the library using this command: `npm i --save gd-sprest`.
@@ -15,6 +11,7 @@ After creating a SPFX project using the yomen generator `yo @microsoft/sharepoin
 SharePoint provides the _spPageContextInfo global variable, which contains information required for the REST API request. This is only available on classic pages, and is not available on modern pages. The SPFX projects provide the [Page Context](https://dev.office.com/sharepoint/reference/spdx/sp-page-context/pagecontext) information, which must be set in the library for it to work in modern pages.
 
 ### Project Setup
+
 #### Import the $REST or Context Information Component
 
 ```ts

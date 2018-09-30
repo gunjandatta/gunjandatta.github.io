@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/development)
 ## Server-Side to Client-Side Code Conversion
-
-</div>
 
 The execution method was designed to give a server-side like experience. This will help transition server-side coded wsp solutions to client-side solutions, using the gd-sprest SharePoint REST Framework. The built-in intellisense will also help with the transition, since a server-side developer is used to having this feature in Visual Studio.
 
@@ -32,18 +28,7 @@ for (int i = 0; i < 10; i++)
 RenderList(list);
 ```
 
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">JavaScript Conversion</div>
-    <div class="tab-item">TypeScript Conversion</div>
-</div>
-
-<!-- Tab Content -->
-
-<!-- JavaScript Conversion -->
-<div class="tab-content" markdown="1">
+### JavaScript Conversion
 
 ```js
 var $REST = require("gd-sprest");
@@ -82,15 +67,14 @@ web.done(function() {
     this.renderItems(items);
 });
 ```
-</div>
-<!-- TypeScript Conversion -->
-<div class="tab-content" markdown="1">
+
+### TypeScript Conversion
 
 ```ts
 import { SPTypes, Web } from "gd-sprest";
 
 // Get the current web
-var web = Web();
+let web = Web();
 
 // Add a list
 web.Lists().add({
@@ -101,10 +85,10 @@ web.Lists().add({
 
 // Get the list
 // Note - We aren't executing a request here
-var list = web.Lists("Dev");
+let list = web.Lists("Dev");
 
 // Add 10 items to the list
-var items = [];
+let items = [];
 for(let i=0; i<10; i++) {
     // Create an item
     list.Items().add({ Title: "Dev " + (i+1) })
@@ -123,6 +107,3 @@ web.done(() => {
     this.renderItems(items);
 });
 ```
-
-</div>
-</div>
