@@ -1,17 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## List Form Field
 
-</div>
-
 The list form field class is designed to handle the interactions with getting list field information.
-### Class
-The input parameters use the _IListFormFieldInfo_ interface.
-#### Methods
+
+### Methods
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -19,8 +14,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | loadMMSData(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Loads the MMS reference data. |
 | loadMMSValueField(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Types.SP.IFieldManagedMetadata&gt;_ | Loads the MMS hidden note field. |
 
-#### Interfaces
-##### IListFormFieldInfo
+### IListFormFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -35,7 +29,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | typeAsString | _string_ | The field type as a string. |
 | webUrl | _string_ | The relative web url containing the list. |
 
-##### IListFormChoiceFieldInfo
+### IListFormChoiceFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -43,14 +37,14 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | field | _IFieldChoice \| IFieldMultiChoice_ | The choice field. |
 | multi | _boolean_ | True if this is a multi-choice field. |
 
-##### IListFormDateFieldInfo
+### IListFormDateFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
 | field | _IFieldDateTime_ | The date/time field. |
 | showTime | boolean | True, if the time value is enabled. |
 
-##### IListFormLookupFieldInfo
+### IListFormLookupFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -60,7 +54,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | lookupWebId | _string_ | The lookup web id. |
 | multi | _boolean_ | True if this is a multi-lookup field. |
 
-##### IListFormMMSFieldInfo
+### IListFormMMSFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -70,7 +64,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | termSetId | _string_ | The term set id. |
 | termStoreId | _string_ | The term store id. |
 
-##### IListFormNumberFieldInfo
+### IListFormNumberFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -79,7 +73,7 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | minValue | _number_ | The min allowed number. |
 | showAsPercentage | _boolean_ | True, if the percentage value is enabled. |
 
-##### IListFormTextFieldInfo
+### IListFormTextFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -88,13 +82,13 @@ The input parameters use the _IListFormFieldInfo_ interface.
 | richText | _boolean_ | True, if rich text is enabled. |
 | rows | _number_ | The number of rows to display. |
 
-##### IListFormUrlFieldInfo
+### IListFormUrlFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
 | field | _IFieldUrl_ | The url field. |
 
-##### IListFormUserFieldInfo
+### IListFormUserFieldInfo
 
 | Property | Type | Description |
 | --- | --- | --- |

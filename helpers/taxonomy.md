@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## Taxonomy
 
-</div>
-
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree. Refer to this [blog post](http://dattabase.com/new-taxonomy-list-helper-classes/) for additional details and code examples.
+
 ### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -33,6 +31,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
     }
 });
 ```
+
 ### Methods
 
 | Name | Return Type | Description |
@@ -53,14 +52,14 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | toFieldMultiValue(_term: Array&lt;ITerm \| ITermInfo&gt;_) | _any_ | Converts an array of terms to the multi-field value, formatted for updating an item in the REST API. |
 | toObject(_Array&lt;ITermInfo&gt;_) | _ITerm_ | Converts an array of term information to a term. |
 
-#### ITerm
+### ITerm
 
 | Property | Type | Description |
 | --- | --- | --- |
 | info | _ITermInfo_ | The term information. |
 | parent | _ITerm_ | The parent term. |
 
-#### ITermGroupInfo
+### ITermGroupInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -68,7 +67,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | id | _string_ | The term id |
 | name | _string_ | The term name |
 
-#### ITermInfo
+### ITermInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -80,7 +79,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | pathAsString | _string_ | The term path as a string |
 | props | _{ [key: string]: string; }_ | The term custom properties
 
-#### ITermSetInfo
+### ITermSetInfo
 
 | Property | Type | Description |
 | --- | --- | --- |

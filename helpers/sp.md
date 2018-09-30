@@ -1,17 +1,16 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## SharePoint Core JavaScript
-
-</div>
 
 SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](http://dattabase.com/sharepoint-javascript-libraries/) for additional details.
 
-### [Modal Dialog](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
+### Modal Dialog
+[Documentation](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
+
 #### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -21,6 +20,7 @@ $REST.Helper.SP.ModalDialog
 import { Helper } from "gd-sprest";
 Helper.SP.ModalDialog
 ```
+
 #### Dialog Options
 
 | Property | Type | Description |
@@ -54,8 +54,11 @@ Helper.SP.ModalDialog
 | showWaitScreenSize | _(title: string, message: string, callback: () => void, height: number, width: number)_ | Displays a wait screen dialog that has a Cancel button using the specified parameters. |
 | showWaitScreenWithNoClose | _(title: string, message: string, height: number, width: number)_ | Displays a wait screen dialog that does not have a Cancel button using the specified parameters. |
 
-### [Notify](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
+### Notify
+[Documentation](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
+
 #### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -65,6 +68,7 @@ $REST.Helper.SP.Notify
 import { Helper } from "gd-sprest";
 Helper.SP.Notify
 ```
+
 #### Methods
 
 | Name | Parameters | Description |
@@ -73,8 +77,12 @@ Helper.SP.Notify
 | load | | Method to ensure the core script is loaded. |
 | removeNotification | _(id: string)_ | Removes the specified notification from the page. |
 
-### [Status](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
+### Status
+
+[Documentation](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
+
 #### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -84,6 +92,7 @@ $REST.Helper.SP.Status
 import { Helper } from "gd-sprest";
 Helper.SP.Status
 ```
+
 #### Methods
 
 | Name | Parameters | Description |

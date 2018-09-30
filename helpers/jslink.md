@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## JSLink
-
-</div>
 
 The JSLink feature allows the developer to customize list forms and views. Refer to this [blog post](http://dattabase.com/js-links/) for a detailed overview of this helper class.
 
@@ -46,8 +42,8 @@ The library contains helper methods for JSLinks.
 - removeField(ctx, field, formType) - Removes the field element from the DOM.
 - renderField(ctx, field, formType) - Renders the default html for the field.
 
-### Code Example
-#### JavaScript
+### JavaScript
+
 ```js
 var $REST = require("gd-sprest");
 
@@ -63,7 +59,9 @@ $REST.JSLink.register({
     }
 });
 ```
-#### TypeScript
+
+### TypeScript
+
 ```ts
 import { Helper } from "gd-sprest";
 

@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## Executor
-
-</div>
 
 The executor is a reusable method for executing code based on an array of data.
 
@@ -18,9 +14,9 @@ The executor is a reusable method for executing code based on an array of data.
 | method | _() => void \| PromiseLike&lt;any&gt;_ | Yes | The method to execute, based on the length of the _methodParams_. |
 | onExecuted | _() => void \| PromiseLike&lt;any&gt;_ | No | The event triggered after the _method_ completes. |
 
-### Code Examples
+### Reference Interface/Data
 
-#### Sample Data
+Below is the sample data and interface being used for the code examples.
 
 ```ts
 import { Helper, Types } from "gd-sprest";
@@ -44,7 +40,7 @@ let methodParams = [
 ];
 ```
 
-#### Simple For-Loop
+### Simple For-Loop
 
 ```ts
 for(let i=0; i<methodParams.length; i++) {
@@ -68,7 +64,7 @@ Helper.Executor<IMethodParam>(methodParams,
 );
 ```
 
-#### Handling Promises
+### Handling Promises
 
 The executor will wait for promises to be resolved, before executing the next method.
 The code example below will assume the _copyFiles_ method returns a promise.
@@ -85,7 +81,7 @@ Helper.Executor<IMethodParam>(methodParams,
 );
 ```
 
-#### onExecuted Event
+### onExecuted Event
 
 The optional onExecute event can be used for more complex logic.
 The code example below will query the source location for files and folders.

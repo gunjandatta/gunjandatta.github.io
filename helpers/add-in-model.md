@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/helpers)
 ## Add-In Model
-
-</div>
 
 The following helper methods are available for solutions utilizing the Add-In Model.
 
@@ -16,7 +12,7 @@ When developing in the app web, the request url will need to be formatted when e
 #### Global Variable _DefaultReqeustToHostFl_
 The _DefaultRequestToHostFl_ is false by default, so it will target the current web unless a url is provided.
 
-##### JavaScript Code Example
+### JavaScript
 
 ```js
 var $REST = require("gd-sprest");
@@ -51,7 +47,7 @@ $REST.List("My List").query({
 });
 ```
 
-##### TypeScript Code Example
+### TypeScript
 
 ```ts
 import { $REST } from "gd-sprest";
@@ -87,6 +83,7 @@ $REST.List("My List").query({
 ```
 
 ### Helper Methods
+
 #### copyFileToHostWeb
 Copies a file from the app web to the host web. The file will automatically be checked-out, checked-in and published.
 * fileUrl - The relative url of the source file to the app web.
