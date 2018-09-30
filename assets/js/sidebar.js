@@ -32,8 +32,15 @@
     }
 
     // Get the elements
-    var headers = getElements(elMain, "h1")
-        .concat(getElements(elMain, "h2"));
+    var headers = getElements(elMain, "h1");
+    if (headers.length == 0) {
+        // Search h2 and h3 sizes
+        headers = getElements(elMain, "h2")
+            .concat(getElements(elMain, "h3"));
+    } else {
+        // Add 1 more level
+        headers = headers.concat(getElements(elMain, "h2"));
+    }
 
     // Parse the headers
     for (var i = 0; i < headers.length; i++) {
@@ -55,16 +62,24 @@
 
             // Set the click event
             link.addEventListener("click", function (ev) {
+                // Get the target element
+                var elId = ev.currentTarget.href.split("#")[1];
+                var elTarget = elId ? document.querySelector("#" + elId) : null;
+                if (elTarget == null) { return; }
+
                 // Wait for the click event to complete
                 setTimeout(function () {
                     // Set the offset of the navbar height
                     // 4rem = 4*16 => pixels
                     var offset = 16 * 4;
 
-                    // Ensure we need to offset the element
-                    if (document.body.scrollTop >= offset) {
-                        // Set the offset
-                        document.body.scrollTop -= offset;
+                    // See if we need to adjust the element
+                    if (elTarget.getBoundingClientRect().top < offset) {
+                        // Ensure we need to offset the element
+                        if (document.body.scrollTop >= offset) {
+                            // Set the offset
+                            document.body.scrollTop -= offset;
+                        }
                     }
                 }, 50);
             });
