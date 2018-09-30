@@ -1,38 +1,31 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/topics/alm)
 ## Application Lifecycle
 
-</div>
-
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Browser Console</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-item">TypeScript</div>
-</div>
-
-<!-- Browser Console -->
-<div class="tab-content" markdown="1">
+### Browser Console
 
 #### Add App to Catalog
+
 ```js
 var catalog = $REST.Web("/sites/appcatalog").TenantAppCatalog().executeAndWait();
 ```
+
 #### Get Available Apps
+
 ```js
 var apps = $REST.Web().TenantAppCatalog().AvailableApps().executeAndWait();
 ```
+
 #### Get App By Id
+
 ```js
 var app = $REST.Web().TenantAppCatalog().getById('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx').executeAndWait();
 ```
+
 #### Add App to Catalog
+
 ```js
 // Get the sppkg file
 var fileContent = $REST.Web().getFileByServerRelativeUrl("/sites/dev/siteassets/pkgs/demo.sppkg").content().executeAndWait();
@@ -75,14 +68,16 @@ if(app) {
 ```
 </div>
 
-<!-- JavaScript -->
-<div class="tab-content" markdown="1">
+### JavaScript
 
 #### Reference the library
+
 ```js
 var $REST = require("gd-sprest");
 ```
+
 #### Get App Catalog
+
 ```js
 // Get the web
 $REST.Web()
@@ -93,7 +88,9 @@ $REST.Web()
         // Code goes here
     });
 ```
+
 #### Get Available Apps
+
 ```js
 // Get the web
 $REST.Web()
@@ -111,7 +108,9 @@ $REST.Web()
         }
     });
 ```
+
 #### Get App By Id
+
 ```js
 // Get the web
 $REST.Web()
@@ -124,7 +123,9 @@ $REST.Web()
         // Code goes here
     });
 ```
+
 #### Add App to Catalog
+
 ```js
 // Get the web
 $REST.Web()
@@ -146,8 +147,11 @@ $REST.Web()
             });
     });
 ```
+
 #### App Methods
+
 _The 'Deploy, Retract & Remove' methods need to be executed from the app catalog web context._
+
 ```js
 // Get the web
 $REST.Web()
@@ -184,14 +188,16 @@ $REST.Web()
 ```
 </div>
 
-<!-- TypeScript -->
-<div class="tab-content" markdown="1">
+### TypeScript
 
 #### Reference the library
+
 ```ts
 import { Web } from "gd-sprest";
 ```
+
 #### Get App Catalog
+
 ```ts
 // Get the web
 Web()
@@ -202,7 +208,9 @@ Web()
         // Code goes here
     });
 ```
+
 #### Get Available Apps
+
 ```ts
 // Get the web
 Web()
@@ -220,7 +228,9 @@ Web()
         }
     });
 ```
+
 #### Get App By Id
+
 ```ts
 // Get the web
 Web()
@@ -233,7 +243,9 @@ Web()
         // Code goes here
     });
 ```
+
 #### Add App to Catalog
+
 ```ts
 // Get the web
 Web()
@@ -255,8 +267,11 @@ Web()
             });
     });
 ```
+
 #### App Methods
+
 _The 'Deploy, Retract & Remove' methods need to be executed from the app catalog web context._
+
 ```ts
 // Get the web
 Web()
@@ -291,5 +306,3 @@ Web()
         app.remove().execute();
     });
 ```
-</div>
-</div>

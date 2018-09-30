@@ -1,51 +1,45 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api/list)
 ## List
 
-</div>
-
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Browser Console</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-item">TypeScript</div>
-</div>
-
-<!-- Browser Console -->
-<div class="tab-content" markdown="1">
+### Browser Console
 
 #### Get a list from the current web
+
 ```js
 var list = $REST.List("Site Assets").executeAndWait();
 ```
+
 #### Get a list on the root web
+
 ```js
 var list = $REST.Web("/").Lists("Site Assets").executeAndWait();
 ```
+
 #### Query for all libraries
+
 ```js
 var libraries = $REST.Web().Lists().query({ Filter: "BaseTemplate eq 101" }).executeAndWait();
 ```
+
 #### Query list items
+
 ```js
 var items = $REST.List("Site Assets").Items().query({ Filter: "Title eq 'My Filter'" }).executeAndWait();
 ```
-</div>
 
-<!-- JavaScript -->
-<div class="tab-content" markdown="1">
+### JavaScript
 
 #### Reference the library
+
 ```js
 var $REST = require("gd-sprest");
 ```
+
 #### Get a list from the current web
+
 ```js
 // Get the list
 $REST.List("Site Assets")
@@ -54,7 +48,9 @@ $REST.List("Site Assets")
         // Code goes here
     });
 ```
+
 #### Get a list on the root web
+
 ```js
 // Get the root web
 $REST.Web("/")
@@ -65,7 +61,9 @@ $REST.Web("/")
         // Code goes here
     });
 ```
+
 #### Query list items
+
 ```js
 // Get the list
 $REST.List("Site Assets")
@@ -76,7 +74,9 @@ $REST.List("Site Assets")
         // Code goes here
     });
 ```
+
 #### Query for all libraries
+
 ```js
 // Get the web
 $REST.Web()
@@ -95,7 +95,9 @@ $REST.Web()
         }
     });
 ```
+
 #### Query for picture libraries, including their fields and items
+
 ```js
 // Get the web
 $REST.Web()
@@ -118,16 +120,17 @@ $REST.Web()
         }
     });
 ```
-</div>
 
-<!-- TypeScript -->
-<div class="tab-content" markdown="1">
+### TypeScript
 
 #### Reference the library
+
 ```ts
 import { List, Web } from "gd-sprest";
 ```
+
 #### Get a list from the current web
+
 ```ts
 // Get the list
 List("Site Assets")
@@ -136,7 +139,9 @@ List("Site Assets")
         // Code goes here
     });
 ```
+
 #### Get a list on the root web
+
 ```ts
 // Get the root web
 Web("/")
@@ -147,7 +152,9 @@ Web("/")
         // Code goes here
     });
 ```
+
 #### Query list items
+
 ```ts
 // Get the list
 List("Site Assets")
@@ -158,7 +165,9 @@ List("Site Assets")
         // Code goes here
     });
 ```
+
 #### Query for all libraries
+
 ```ts
 // Get the web
 Web()
@@ -177,7 +186,9 @@ Web()
         }
     });
 ```
+
 #### Query for picture libraries, including their fields and items
+
 ```ts
 // Get the web
 Web()
@@ -200,5 +211,3 @@ Web()
         }
     });
 ```
-</div>
-</div>

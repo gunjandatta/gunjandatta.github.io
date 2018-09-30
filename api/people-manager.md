@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [People Manager](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_PeopleManager)
-
-</div>
+## People Manager
+[Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_PeopleManager)
 
 ### Code Example
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");

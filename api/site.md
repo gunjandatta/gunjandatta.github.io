@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Site
 
-</div>
-
 ### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -20,7 +17,9 @@ Site()
 ```
 
 #### [Code Examples](/examples/site)
+
 #### [Get Site URL by ID](site-getUrlById)
+
 #### [Site Exists REST API](site-exists)
 
 ### Properties

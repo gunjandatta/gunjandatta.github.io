@@ -1,47 +1,39 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api/utility)
 ## Utility
 
-</div>
-
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Browser Console</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-item">TypeScript</div>
-</div>
-
-<!-- Browser Console -->
-<div class="tab-content" markdown="1">
+### Browser Console
 
 #### Send an email
+
 ```js
 $REST.Utility().sendEmail({ To: ["user@sharepoint.com"], Subject: "Test Email", Body: "<p>The email content</p>" }).executeAndWait();
 ```
+
 #### Resolve a principal
+
 ```js
 $REST.Utility().resolvePrincipal({ input: "user@sharepoint.com", scopes: 15, sources: 15 }).executeAndWait();
 ```
+
 #### Search principals
+
 ```js
 $REST.Utility().searchPrincipals({ input: "user", maxCount: 50 }).executeAndWait();
 ```
-</div>
 
-<!-- JavaScript -->
-<div class="tab-content" markdown="1">
+### JavaScript
 
 #### Reference the library
+
 ```js
 var $REST = require("gd-sprest");
 ```
+
 #### Send an email
+
 ```js
 // Send the email
 $REST.Utility().sendEmail({
@@ -52,7 +44,9 @@ $REST.Utility().sendEmail({
     // Email was sent
 });
 ```
+
 #### Resolve a principal user
+
 ```js
 // Resolve a principal user
 $REST.Utility().resolvePrincipal({
@@ -65,7 +59,9 @@ $REST.Utility().resolvePrincipal({
     // Code goes here
 });
 ```
+
 #### Search principals
+
 ```js
 // Search the principals
 $REST.Utility().searchPrincipals({
@@ -77,16 +73,17 @@ $REST.Utility().searchPrincipals({
     // Code goes here
 });
 ```
-</div>
 
-<!-- TypeScript -->
-<div class="tab-content" markdown="1">
+### TypeScript
 
 #### Reference the library
+
 ```ts
 import { Utility } from "gd-sprest";
 ```
+
 #### Send an email
+
 ```ts
 // Send the email
 Utility().sendEmail({
@@ -97,7 +94,9 @@ Utility().sendEmail({
     // Email was sent
 });
 ```
+
 #### Resolve a principal user
+
 ```ts
 // Resolve a principal user
 Utility().resolvePrincipal({
@@ -110,7 +109,9 @@ Utility().resolvePrincipal({
     // Code goes here
 });
 ```
+
 #### Search principals
+
 ```ts
 // Search the principals
 Utility().searchPrincipals({
@@ -121,5 +122,4 @@ Utility().searchPrincipals({
 
     // Code goes here
 });
-</div>
-</div>
+```

@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [People Picker](http://dattabase.com/sharepoint-people-picker-rest-api/)
-
-</div>
+## People Picker
+[Documentation](http://dattabase.com/sharepoint-people-picker-rest-api/)
 
 ### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -33,6 +31,7 @@ PeoplePicker().clientPeoplePickerSearchUser({
     // Code goes here
 });
 ```
+
 ### Methods
 
 | Method | Description |

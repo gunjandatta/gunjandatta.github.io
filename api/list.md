@@ -1,30 +1,11 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [List](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
+## List
+[Documentation](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
 
-</div>
-
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Code Reference</div>
-    <div class="tab-item">Properties</div>
-    <div class="tab-item">Queryable Properties</div>
-    <div class="tab-item">Methods</div>
-    <div class="tab-item">List Creation Info</div>
-    <div class="tab-item">List Template</div>
-    <div class="tab-item">List Template Types</div>
-</div>
-
-<!-- Tab Content -->
-
-<!-- Code Reference -->
-<div class="tab-content" markdown="1">
+### Code Reference
 
 Refer to [this page](/examples/list) for additional list code examples.
 
@@ -46,9 +27,7 @@ List("[List Name]").execute(list => {
 });
 ```
 
-</div>
-<!-- Properties -->
-<div class="tab-content" markdown="1">
+### Properties
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -101,9 +80,7 @@ List("[List Name]").execute(list => {
 | TemplateFeatureId | _string_ | Gets a value that specifies the feature identifier of the feature that contains the list schema for the list. Returns an empty GUID if the list schema is not contained within a feature. |
 | Title | _string_ | Gets or sets the displayed title for the list. (_Length must be <= 255 characters_) |
 
-</div>
-<!-- Queryable Properties -->
-<div class="tab-content" markdown="1">
+### Queryable Properties
 
 | Method | Type | Description |
 | --- | --- | --- |
@@ -148,9 +125,7 @@ List("[List Name]").execute(list => {
 | WorkflowAssociations() | _string_ | Gets a value that specifies the collection of all workflow associations for the list. |
 | WriteSecurity() | _number_ |
 
-</div>
-<!-- Methods -->
-<div class="tab-content" markdown="1">
+### Methods
 
 | Method | Description |
 | --- | --- |
@@ -172,9 +147,7 @@ List("[List Name]").execute(list => {
 | resetRoleInheritance() | Resets the role inheritance for the securable object and inherits role assignments from the parent securable object. |
 | update(props) | Updates the object properties. |
 
-</div>
-<!-- List Creation Information -->
-<div class="tab-content" markdown="1">
+### List Creation Info
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -187,9 +160,7 @@ List("[List Name]").execute(list => {
 | TemplateFeatureId | _string_ | The list template feature id. |
 | Title | _string_ | The list name. |
 
-</div>
-<!-- List Template -->
-<div class="tab-content" markdown="1">
+### List Template
 
 | Name | Type |
 | --- | --- |
@@ -205,9 +176,7 @@ List("[List Name]").execute(list => {
 | OnQuickLaunch | _boolean_ |
 | Unique | _boolean_ |
 
-</div>
-<!-- List Template Types -->
-<div class="tab-content" markdown="1">
+### List Template Types
 
 | Name | Value |
 | --- | --- |

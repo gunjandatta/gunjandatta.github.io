@@ -1,15 +1,11 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Utility
 
-</div>
-
 ### [Code Examples](/examples/utility)
-### Class
+
 #### Methods
 * **createEmailBodyForInvitation(pageAddress: string)**
     * Gets the external (outside the firewall) URL to a document or resource in a site.

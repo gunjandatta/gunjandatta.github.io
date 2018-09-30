@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/)
 ## Advanced Topics
-
-</div>
 
 - [Application Lifecycle Management](alm)
 - [Automation](automation)

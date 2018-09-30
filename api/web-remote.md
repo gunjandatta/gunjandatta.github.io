@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Remote Web
-
-</div>
 
 The SP.RemoteWeb REST API endpoint is used to return the web information.
 
@@ -23,9 +19,7 @@ The SP.RemoteWeb REST API endpoint is used to return the web information.
 | ShareByLinkEnabled | _boolean_ |
 | Web | [IWebProps](web) |
 
-### Code Reference
-
-#### JavaScript
+### JavaScript
 
 ```js
 // JavaScript
@@ -37,7 +31,7 @@ $REST.RemoteWeb("https://[tenant].sharepoint.com/sites/dev").execute(function(we
 });
 ```
 
-#### TypeScript
+### TypeScript
 
 ```ts
 // TypeScript

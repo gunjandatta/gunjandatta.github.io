@@ -1,49 +1,41 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api/web)
 ## Web
 
-</div>
-
-<!-- Tabs -->
-<div class="tabs">
-<!-- Tab Items -->
-<div class="tab-items">
-    <div class="tab-item">Browser Console</div>
-    <div class="tab-item">JavaScript</div>
-    <div class="tab-item">TypeScript</div>
-</div>
-
-<!-- Browser Console -->
-<div class="tab-content" markdown="1">
+### Browser Console
 
 #### Get the current web
+
 ```js
 var web = $REST.Web().executeAndWait();
 ```
+
 #### Get the root web
+
 ```js
 var web = $REST.Web("/").executeAndWait();
 ```
+
 #### Query the root web, expanding the fields and content types
+
 ```js
 var web = $REST.Web("/").query({ Expand: ["ContentTypes", "Fields"] }).executeAndWait();
 var contentTypes = web.ContentTypes.results;
 var fields = web.Fields.results;
 ```
-</div>
 
-<!-- JavaScript -->
-<div class="tab-content" markdown="1">
+### JavaScript
 
 #### Reference the library
+
 ```js
 var $REST = require("gd-sprest");
 ```
+
 #### Get the current web
+
 ```js
 // Get the web
 $REST.Web()
@@ -52,7 +44,9 @@ $REST.Web()
         // Code goes here
     });
 ```
+
 #### Get the root web
+
 ```js
 // Get the root web
 $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
@@ -61,7 +55,9 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
+
 #### Query the root web, expanding the fields and content types
+
 ```js
 // Get the root web
 $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
@@ -77,16 +73,17 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
-</div>
 
-<!-- TypeScript -->
-<div class="tab-content" markdown="1">
+### TypeScript
 
 #### Reference the library
+
 ```ts
 import { ContextInfo, Web } from "gd-sprest";
 ```
+
 #### Get the current web
+
 ```ts
 // Get the web
 Web()
@@ -95,7 +92,9 @@ Web()
         // Code goes here
     });
 ```
+
 #### Get the root web
+
 ```ts
 // Get the root web
 Web(ContextInfo.siteServerRelativeUrl)
@@ -104,7 +103,9 @@ Web(ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
+
 #### Query the root web, expanding the fields and content types
+
 ```ts
 // Get the root web
 Web(ContextInfo.siteServerRelativeUrl)
@@ -120,5 +121,3 @@ Web(ContextInfo.siteServerRelativeUrl)
         // Code goes here
     });
 ```
-</div>
-</div>

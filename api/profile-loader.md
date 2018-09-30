@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [Profile Loader](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_ProfileLoader)
-
-</div>
+## Profile Loader
+[Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_ProfileLoader)
 
 ### Code Example
 ```ts

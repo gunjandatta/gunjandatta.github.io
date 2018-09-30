@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Site Exists
-
-</div>
 
 The site exists allows you to check if a site exists.
 
@@ -14,9 +10,7 @@ The site exists allows you to check if a site exists.
 
 - url - The absolute url of the site.
 
-### Code Reference
-
-#### JavaScript
+### JavaScript
 
 ```js
 // JavaScript
@@ -28,7 +22,7 @@ $REST.SiteExists("https://[tenant].sharepoint.com/sites/dev").execute(function(s
 });
 ```
 
-#### TypeScript
+### TypeScript
 
 ```ts
 // TypeScript

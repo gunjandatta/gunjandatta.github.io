@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Get Site URL By Id
-
-</div>
 
 This api endpoint will return the url of a site, by its id.
 
@@ -14,9 +10,7 @@ This api endpoint will return the url of a site, by its id.
 
 - id - The site id.
 
-### Code Reference
-
-#### JavaScript
+### JavaScript
 
 ```js
 // JavaScript
@@ -27,7 +21,7 @@ $REST.SiteUrl("[Site GUID]").execute(function(site) {
 });
 ```
 
-#### TypeScript
+### TypeScript
 
 ```ts
 // TypeScript

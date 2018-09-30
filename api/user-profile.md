@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [User Profile](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx)
-
-</div>
+## User Profile
+[Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx)
 
 ### Code Reference
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -22,6 +20,7 @@ UserProfile().execute(myProfile => {
     // Code goes here
 });
 ```
+
 ### Properties
 
 | Name | Type | Description |
@@ -47,7 +46,7 @@ UserProfile().execute(myProfile => {
 | PublicUrl | string | The public URL of the personal site of the current user. (SharePoint Online only) |
 | UrlToCreatePersonalSite | string | The URL used to create the user's personal site. |
 
-### MethodsProperties
+### Methods
 
 | Name | Description |
 | --- | --- |

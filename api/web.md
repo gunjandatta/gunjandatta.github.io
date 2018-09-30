@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
 ## Web
-
-</div>
 
 ### Code Reference
 ```ts
@@ -18,7 +14,9 @@ $REST.Web()
 import { Web } from "gd-sprest";
 Web()
 ```
+
 #### [Code Examples](/examples/web)
+
 ### Properties
 
 | Name | Type | Description |

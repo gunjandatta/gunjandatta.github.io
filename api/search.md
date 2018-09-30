@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/api)
-## [Search](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
-
-</div>
+## Search
+[Documentation](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
 
 ### Code Reference
 ```ts
@@ -26,6 +23,7 @@ Search().postQuery({
     // Code goes here
 });
 ```
+
 ### Methods
 
 | Method | Description |
@@ -35,6 +33,7 @@ Search().postQuery({
 | suggest(_settings: SearchSuggestion_) | Executes a GET request against the _/\_api/search/suggest_ endpoint. |
 
 ### Interfaces
+
 #### Query Result
 
 | Property | Type | Description |
