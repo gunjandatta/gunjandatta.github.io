@@ -1,0 +1,35 @@
+---
+---
+
+@import "styles";
+
+/* Header */
+header {
+    min-height: 4rem;
+
+    /* Navbar */
+    .navbar {}
+}
+
+/* Main */
+.main {
+    /* Sidebar */
+    .sidebar {
+        .navbar {
+            top: 5rem;
+        }
+    }
+
+    /* Content */
+    .content {}
+}
+
+/* Footer */
+footer {
+    /* Navbar */
+    .navbar {
+        .navbar-brand {
+            font-size: 0.75rem;
+        }
+    }
+}

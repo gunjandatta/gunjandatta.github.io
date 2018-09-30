@@ -7,60 +7,69 @@
   <meta name="viewport" content="width=device-width,maximum-scale=2">
   <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> {% seo %}
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
+
+  {% seo %}
 </head>
 
-<body>
+<body class="">
 
   <!-- Header -->
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      <a id="forkme_banner" href="{{ site.github.repository_url }}">Like it? Star it in GitHub</a>
-
-      <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
-      {% if site.show_downloads %}
-      <section id="downloads">
-        <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-        <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-      </section>
-      {% endif %}
-    </header>
-  </div>
-
-  <!-- Navigation -->
-  <div class="nav">
-    {% for item in site.data.nav.items %}
-    <div class="nav-item">
-      <a href="/{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+  <header class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <a class="navbar-brand" href="/">SharePoint REST Framework</a>
+    <ul class="nav navbar-nav ml-auto">
+      {% for item in site.data.nav.items %}
       {% if item.items %}
-      <div class="sub-nav">
-        {% for subItem in item.items %}
-        <a href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">{{ subItem.title }}</a>
-        {% endfor %}
-      </div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="{{ item.url }}" role="button" data-target="{{ item.url }}"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ item.title }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="{{ item.url }}">
+          {% for subItem in item.items %}
+          <a class="dropdown-item" href="/{{ item.url }}/{{ subItem.url }}" alt="{{ subItem.title }}">
+            {{ subItem.title }}
+          </a>
+          {% endfor %}
+        </div>
+      </li>
+      {% else %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
       {% endif %}
-    </div>
-    {% endfor %}
-  </div>
+      {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.github.repository_url }}" target="_blank">Like it? Star it in GitHub</a>
+      </li>
+    </ul>
+  </header>
 
-  <!-- MAIN Container -->
-  <div id="main_content_wrap" class="outer">
-    <!-- Main Content -->
-    <section id="main_content" class="inner">
-      {{ content }}
-    </section>
+  <!-- Main -->
+  <div class="container-fluid main">
+    <div class="row flex-xl-nowrap">
+      <!-- Side Bar -->
+      <div class="col-12 col-md-3 col-xl-2 sidebar">
+        <div class="navbar navbar-light bg-light sticky-top">
+          <ul class="nav navbar-nav"></ul>
+        </div>
+      </div>
+
+      <!-- Content-->
+      <div class="col-12 col-md-9 col-xl-10 content">
+        {{ content }}
+      </div>
+    </div>
   </div>
 
   <!-- Footer  -->
-  <div id="footer_wrap" class="outer">
-    <footer class="inner">
-      <p class="copyright">Dattabase LLC., maintained by
-        <a href="{{ site.github.owner_url }}">Gunjan Datta</a>
-      </p>
-    </footer>
-  </div>
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="{{ site.github.owner_url }}">
+        Dattabase LLC., maintained by Gunjan Datta
+      </a>
+    </nav>
+  </footer>
 
   <!-- Google Analytics -->
   {% if site.google_analytics %}
@@ -74,7 +83,12 @@
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
   </script> {% endif %}
-  <script type="text/javascript" src="/assets/js/tabs.js"></script>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="{{ '/assets/js/jquery.min.js' }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/popper.min.js' }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/bootstrap.min.js' }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/sidebar.js' }}"></script>
 </body>
 
 </html>

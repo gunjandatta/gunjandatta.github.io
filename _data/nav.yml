@@ -1,7 +1,5 @@
 title: Developer Guide
 items:
- - title: Home
-   url: ""
  - title: Getting Started
    url: "getting-started"
    items:
