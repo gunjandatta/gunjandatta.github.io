@@ -38,6 +38,7 @@ npm i --save gd-sprest-bs
 - [Nav](components/nav)
 - [Navbar](components/navbar)
 - [Pagination](components/pagination)
+- [Panel](comopnents/panel)
 - [Popover](components/popover)
 - [Progress](components/progress)
 - [Progress Group](components/progressgroup)
