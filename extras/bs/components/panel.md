@@ -20,7 +20,7 @@ var panel = Components.Panel({
     modalProps: {
         button: { text: "Show Panel" },
         id: "my-panel",
-        text: "Panel Demo",
+        title: "Panel Demo",
         onRenderBody: function(el) {
             // Render the body
         }
@@ -41,7 +41,7 @@ let panel = Components.Panel({
     modalProps: {
         button: { text: "Show Panel" },
         id: "my-panel",
-        text: "Panel Demo",
+        title: "Panel Demo",
         onRenderBody: (el) => {
             // Render the body
         }
@@ -56,14 +56,14 @@ let panel = Components.Panel({
 <bs-panel type="2" modal-props='{  
     "button": { "text": "Show Panel" },
     "id": "my-panel",
-    "text": "Panel Demo"
+    "title": "Panel Demo"
 }'></bs-panel>
 ```
 
 <bs-panel type="2" modal-props='{
     "button": { "text": "Show Panel" },
     "id": "my-wc-panel",
-    "text": "Panel Demo"
+    "title": "Panel Demo"
 }'></bs-panel>
 
 ### References
@@ -136,7 +136,7 @@ Panel(props:IPanelProps):IPanel
                 modalProps: {
                     button: { text: "Show Panel" },
                     id: "my-panel",
-                    text: "Panel Demo",
+                    title: "Panel Demo",
                     onRenderBody: function(el) {
                         // Render the body
                     }
