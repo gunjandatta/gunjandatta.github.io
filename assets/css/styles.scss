@@ -3,11 +3,6 @@
 
 @import "styles";
 
-/* Body */
-body {
-    background-color: $gray-200;
-}
-
 /* Header */
 header {
     min-height: 4rem;
@@ -29,11 +24,6 @@ header {
 
     /* Content */
     .content {
-        /* Code */
-        .language-html, .language-js, .language-ts {
-            background-color: $gray-100;
-        }
-
         /* Tables */
         table {
             @extend .table;
