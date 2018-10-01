@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/topics/automation)
 ## SharePoint Field Configuration Examples
 
-</div>
-
 ### Custom Action
+
 #### TypeScript
+
 ```ts
 // Export the configuration
 export const Configuration = Helper.SPConfig({
@@ -43,7 +41,9 @@ export const Configuration = Helper.SPConfig({
 ```
 
 ### List
+
 #### TypeScript
+
 ```ts
 // Export the configuration
 export const Configuration = Helper.SPConfig({
@@ -84,7 +84,9 @@ export const Configuration = Helper.SPConfig({
 ```
 
 ### Site Field
+
 #### TypeScript
+
 ```ts
 // Export the configuration
 export const Configuration = Helper.SPConfig({

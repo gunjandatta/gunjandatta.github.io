@@ -1,25 +1,27 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/topics)
 ## SharePoint Automation
-
-</div>
 
 The "SharePoint Configuration" class allows the developer to define configuration files, to automate the installation/unintallation of SharePoint assets. The configuration options are available through the built-in intellisense, shown below. This configuration class contains built-in methods to install and uninstall the SharePoint assets. Refer to the [Code Examples](/examples/automation) for examples of using this class.
 
 ### [Code Examples](/examples/automation)
+
 ![SharePoint Enumerator Types](/assets/images/intellisense-ts-types-cfg-type.png)
 
 ### Demo
+
 ![Automation](/assets/images/demo-spcfg.gif)
 
 ### [Configuration File](automation-cfg-file)
+
 Intellisense is available for defining the custom properties of the various field types.
+
 #### Separate Components
+
 The ability to bundle or seperate the asset configurations is easy to setup. This allows the configuration to target all components or a single type. This allows the solution to be flexible to support various requirements. The configuration below, allows the solution to target either the web or site collection.
+
 ```ts
 /**
  * Test Configuration
@@ -51,12 +53,16 @@ export const Configuration = {
 ```
 
 ### SPConfig Class
+
 #### Constructor
+
 * configuration:ISPConfigProps
 * webUrl?:string
 
 #### Methods
+
 ##### install
+
 * callback?: any
 This method will create the objects defined in the configuration file. The order of creation is:
 1. Fields
@@ -66,6 +72,7 @@ This method will create the objects defined in the configuration file. The order
 5. Web Parts
 
 ##### uninstall
+
 * callback?: any
 This method will remove the objects defined in the configuration file. The order of removal is:
 1. Web Parts
@@ -75,6 +82,7 @@ This method will remove the objects defined in the configuration file. The order
 5. Fields
 
 #### Properties
+
 * ContentTypes - A collection of content type configurations.
 * CustomActionCfg - A collection of custom action configurations.
 * Fields - A collection of field configurations.

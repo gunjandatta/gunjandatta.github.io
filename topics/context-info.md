@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-<div class="page-info" markdown="1">
 
-[Back](/topics)
 ## Context Information
-
-</div>
 
 ### Methods
 
