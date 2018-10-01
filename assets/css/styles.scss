@@ -32,11 +32,10 @@ header {
 }
 
 /* Footer */
-footer {
-    /* Navbar */
-    .navbar {
-        .navbar-brand {
-            font-size: 0.75rem;
-        }
+footer.navbar {
+    max-height: 1.5rem;
+
+    .navbar-brand {
+        font-size: 0.75rem;
     }
 }
