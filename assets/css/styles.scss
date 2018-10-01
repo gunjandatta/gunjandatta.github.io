@@ -5,7 +5,7 @@
 
 /* Header */
 header {
-    min-height: 4rem;
+    min-height: 3.5rem;
 
     /* Navbar */
     .navbar {}
@@ -17,7 +17,7 @@ header {
     .sidebar {
         @supports(position: sticky) {
             .navbar {
-                top: 5rem;
+                top: 6rem;
             }
         }
     }
