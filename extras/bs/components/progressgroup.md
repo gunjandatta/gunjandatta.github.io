@@ -110,7 +110,6 @@ ProgressGroup(props:IProgressGroupProps):IProgressGroup
 | isMultiple | _string_ | Renders the progress bars in a single progress element. |
 | progressbars | _Array&lt;IProgressProps&gt;_ | The progressbars. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

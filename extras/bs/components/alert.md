@@ -77,7 +77,6 @@ Alert(props:IAlertProps):IAlert
 | isDismissible | _boolean_ | Renders an 'x' to close the alert. |
 | type | _number_ | The alert type. _Reference the AlertTypes enumerator_ |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

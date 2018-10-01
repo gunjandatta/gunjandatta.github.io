@@ -136,7 +136,6 @@ Dropdown(props:IDropdownProps):IDropdown
 | type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
 | value | _string \| Array&lt;string&gt;_ | The selected item values. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(item, ev) {

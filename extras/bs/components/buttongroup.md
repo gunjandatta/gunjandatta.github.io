@@ -85,7 +85,6 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
 | isVertical | _boolean_ | Adds the 'btn-group-vertical' class name. |
 | label | _string_ | The aria-label property value. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

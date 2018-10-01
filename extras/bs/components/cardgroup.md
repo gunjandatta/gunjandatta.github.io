@@ -163,7 +163,6 @@ CardGroup(props:ICardGroupProps):ICardGroup
 | className | _string_ | The class name to apply to card group. |
 | el | _HTMLElement_ | The element to render the card group to. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

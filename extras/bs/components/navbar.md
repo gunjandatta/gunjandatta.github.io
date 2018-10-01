@@ -211,7 +211,6 @@ Navbar(props:INavbarProps):INavbar
 | btnProps | _IButtonProps_ | The button properties. |
 | className | _string_ | The class name to apply to navbar. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     function logSearchValue(value) {
         // Log the value

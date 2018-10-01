@@ -84,7 +84,6 @@ Card(props:ICardProps):ICard
 | imgBottom | | |
 | imgTop | | |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

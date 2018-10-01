@@ -123,7 +123,6 @@ Accordion(props:IAccordionProps):IAccordion
 | id | _string_ | The accordion id. |
 | items | _Array&lt;IAccordionItem&gt;_ | The accordion items. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

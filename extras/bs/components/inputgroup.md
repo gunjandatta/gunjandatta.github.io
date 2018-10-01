@@ -92,7 +92,6 @@ InputGroup(props:IInputGroupProps):IInputGroup
 | type | _number_ | The text field type. _Reference the InputGroupTypes enumerator_ |
 | value | _string_ | The text field value. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(value, ev) {

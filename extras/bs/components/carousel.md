@@ -167,7 +167,6 @@ Carousel(props:ICarouselProps):ICarousel
 | items | _number_ | The carousel type. _Reference the CarouselTypes enumerator_ |
 | options | _number_ | The carousel type. _Reference the CarouselTypes enumerator_ |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <style>
 .carousel { max-width: 400px; }
 </style>

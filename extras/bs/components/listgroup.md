@@ -119,7 +119,6 @@ ListGroup(props:IListGroupProps):IListGroup
 | isTabs | _boolean_ | True to render the list group as tabs. |
 | items | _Array&lt;IListGroupItem&gt;_ | An array of list group items. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

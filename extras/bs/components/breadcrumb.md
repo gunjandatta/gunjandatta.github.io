@@ -82,7 +82,6 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | href | _string_ | The breadcrumb item url. |
 | text | _string_ | The breadcrumb item text. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

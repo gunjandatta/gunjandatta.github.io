@@ -87,7 +87,6 @@ Pagination(props:IPaginationProps):IPagination
 | numberOfPages | _number_ | The pagination type. _Reference the PaginationTypes enumerator_ |
 | onClick | _(index:number, ev:Event) => void_ | The pagination item click event. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <style>
 </style>
 <script type="text/javascript">

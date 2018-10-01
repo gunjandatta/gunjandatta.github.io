@@ -102,7 +102,6 @@ Button(props:IButtonProps):IButton
 | text | _string_ | The button text. |
 | type | _number_ | The button type. _Reference the ButtonTypes enumerator_ |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the button click event
     function btnClickEvent(ev) { 

@@ -245,7 +245,6 @@ Form(props:IFormProps):IForm
 | onChange | _(value: string) => void_ | The change event. |
 | placeholder | _string_ | The text field placeholder. |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

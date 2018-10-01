@@ -93,7 +93,6 @@ Modal(props:IModalProps):IModal
 | isPill | _boolean_ | Adds the 'modal-pill' class name. |
 | type | _number_ | The modal type. _Reference the ModalTypes enumerator_ |
 
-<script src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
