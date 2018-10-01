@@ -21,8 +21,7 @@
       {% for item in site.data.nav.items %}
       {% if item.items %}
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="{{ item.url }}" role="button" data-target="{{ item.url }}"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="{{ item.url }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ item.title }}
         </a>
         <div class="dropdown-menu" aria-labelledby="{{ item.url }}">
