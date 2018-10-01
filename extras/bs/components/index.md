@@ -23,6 +23,7 @@ layout: default
 - [Nav](nav)
 - [Navbar](navbar)
 - [Pagination](pagination)
+- [Panel](panel)
 - [Popover](popover)
 - [Progress](progress)
 - [Progress Group](progressgroup)

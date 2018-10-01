@@ -1,0 +1,10 @@
+{
+    "name": "gunjandatta.github.io",
+    "description": "Documentation for the SharePoint REST Framework.",
+    "authors": "Gunjan Datta",
+    "version": "1.0.0",
+    "main": "index.md",
+    "scripts": {
+        "run": "bundle exec jekyll serve"
+    }
+}
