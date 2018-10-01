@@ -24,6 +24,11 @@ header {
 
     /* Content */
     .content {
+        /* Code Blocks */
+        .language-html, .language-js, .language-ts {
+            background-color: $gray-200;
+        }
+
         /* Tables */
         table {
             @extend .table;
