@@ -13,21 +13,14 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 
 ## References
 
-- [SharePoint 2013 Modern WebPart](http://dattabase.com/sharepoint-2013-modern-webpart/) - A series of blog posts for creating SharePoint 2013 modern webparts using:
-    - JavaScript (No Build)
-    - TypeScript
-    - React
-    - VueJS
-    - Angular
 - [gd-sprest](api) - An easy way to execute requests against the SharePoint 2013/Online REST api
 - [gd-sprest-bs](extras/bs) - Extends the [Bootstrap](https://getbootstrap.com) with components designed for SharePoint 2013/Online.
-- [gd-sprest-js](extras/js) - Extends the [Office Fabric JavaScript Framework](https://dev.office.com/fabric-js) with components designed for SharePoint 2013/Online.
 - [gd-sprest-react](extras/react) - Extends the [Office Fabric React Framework](https://dev.office.com/fabric) with components designed for SharePoint 2013/Online.
-- [gd-sprest-webparts](https://github.com/gunjandatta/sprest-webparts) - SharePoint 2013 modern react webpart examples.
 
 #### gd-sprest vs pnp-js-core
 
 The gd-sprest library is similar to the pnp-js-core, with the main difference being the ability to be used within the browser console window. This feature provides a "Powershell-Like" experience within the browser console window. This feature was designed for developers working in restricted SharePoint environments, or do not have access to the server or powershell access. Some additional benefits of the library are listed below:
+
 - Designed to work in restricted SharePoint environments with limited access to the SharePoint Farm, Web App, Site Collection, Root Web, etc.
 - Ability to create resusable scripts/solutions
 - Intellisense is available for JavaScript/TypeScript
@@ -56,14 +49,6 @@ One of the key reasons of creating this libray, was to give an easy way to devel
 #### [Bootstrap](extras/bs)
 
 The [gd-sprest-bs](extras/bs) library extends the [Bootstrap](https://getbootstrap.com) framework to create modern web components for SharePoint 2013/Online.
-
-#### [Office Fabric-UI JavaScript Framework](extras/js)
-
-The [gd-sprest-js](extras/js) library extends the [Office Fabric-UI JavaScript](https://dev.office.com/fabric-js) framework to create modern web components in SharePoint 2013/Online.
-
-#### [Office Fabric-UI React Framework](extras/react)
-
-The [gd-sprest-react](extras/react) library extends the [Office Fabric-UI React](https://dev.office.com/fabric) framework to create modern web components in SharePoint 2013/Online.
 
 ### User Adoption
 Since these components are designed using same framework creating the new Office 365 modern experience, this gives the ability to introduce the new Office 365 experience within SharePoint 2013. This will be an important part for the SharePoint 2013 user adoption to the new modern experience. Most SharePoint 2010/2013 environments are undergoing upgrades to 2016, Hybrid 2016/O365, O365 and private O365-Gov environments.
