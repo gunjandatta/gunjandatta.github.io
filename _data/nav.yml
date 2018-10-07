@@ -33,6 +33,10 @@ items:
       url: "alm"
     - title: Automation
       url: "automation"
+    - title: Custom Ribbon Button
+      url: "https://github.com/gunjandatta/sp-ribbonbtn/wiki"
+    - title: Custom Bootstrap List WebPart
+      url: "https://github.com/gunjandatta/sp-listwebpart/wiki"
     - title: List
       url: "list"
     - title: List Item
