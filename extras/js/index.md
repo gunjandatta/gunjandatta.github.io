@@ -10,7 +10,7 @@ The [gd-sprest-js](https://github.com/gunjandatta/sprest-js) library contains Ja
 
 There have been user voices related to the Office Fabric-UI JavaScript framework, and newer ones that target [web components](https://sharepoint.uservoice.com/forums/329220-sharepoint-dev-platform/suggestions/35100433-office-ui-fabric-as-web-components). At this point, it's safe to say that Microsoft is definitely not going to update the Office Fabric-UI JavaScript framework. I will continue to support any issues reported for this library, but do not plan to add new features.
 
-My recommendation is to convert to use the [gd-sprest-bs](../bs) library, which extends the Bootstrap framework.
+My recommendation is to use the [gd-sprest-bs](../bs) library, which extends the [Bootstrap Framework](https://getbootstrap.com).
 
 ### [Getting Started](getting-started)
 
