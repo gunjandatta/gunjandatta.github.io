@@ -29,3 +29,11 @@ Next, we will upgrade the solution to a SPFx webpart.
 
 * Learn how to create a SPFx webpart
 * Learn how to develop against the developer workbench
+
+### [SPFx Navbars](https://github.com/gunjandatta/spfx-navbar/wiki)
+
+This solution will demonstrate how to create a custom header and footer bootstrap navbar in a SharePoint modern page.
+
+* Learn how to create a SPFx Extension
+* Learn how to create Bootstrap components in SPFx projects
+* Learn about the application customizer and custom placeholders
