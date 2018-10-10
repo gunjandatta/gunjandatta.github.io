@@ -51,7 +51,7 @@ let listGroup = Components.listGroup({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-listGroup is-tabs="true" col-width="2" items='[
     { "tabName": "Tab 1", "content": "This is the content for tab 1.", "isActive": true },
     { "tabName": "Tab 2", "content": "This is the content for tab 2.", "badge": { "content": "10", "type": 4 } },

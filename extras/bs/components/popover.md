@@ -51,7 +51,7 @@ let popover = Components.Popover({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-popover is-dismissible="true" btn-props='{
     "text": "Popover Demo"
 }' options='{

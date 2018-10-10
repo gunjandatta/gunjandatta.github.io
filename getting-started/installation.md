@@ -25,8 +25,8 @@ yarn add gd-sprest
 <!-- JavaScript -->
 ### JavaScript
 
-The library can downloaded or referenced from github using rawgit.
+The library can downloaded or referenced from github directly.
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest/master/dist/gd-sprest.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 ```

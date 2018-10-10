@@ -49,7 +49,7 @@ let nav = Components.Nav({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-nav is-pills="true" items='[
     { "title": "Nav 1", "isActive": true },
     { "title": "Nav 2" },

@@ -52,7 +52,7 @@ let panel = Components.Panel({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-panel type="2" modal-props='{  
     "button": { "text": "Show Panel" },
     "id": "my-panel",

@@ -35,7 +35,7 @@ let jumbotron = Components.Jumbotron({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-jumbotron title="Web Components" lead="These are easy to use."></bs-jumbotron>
 ```
 

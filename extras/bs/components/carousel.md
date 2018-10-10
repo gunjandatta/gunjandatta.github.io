@@ -75,7 +75,7 @@ let carousel = Components.Carousel({
 ### Web Component
 
 ```html
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-carousel id="wcCarouselDemo" enable-controls="true" enable-indicators="true" items='[
     {
         "captions": "<h5>First Slide</h5>",

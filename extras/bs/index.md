@@ -13,9 +13,9 @@ If you like this library, please [Star it](https://github.com/gunjandatta/sprest
 npm i --save gd-sprest-bs
 ```
 
-### Reference through RawGit
+### Reference the Script
 ```
-<script type="text/javascript" src="https://rawgit.com/gunjandatta/sprest-bs/master/dist/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 ```
 
 ### Components
