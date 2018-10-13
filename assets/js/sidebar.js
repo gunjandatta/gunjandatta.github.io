@@ -97,7 +97,7 @@
             var link = document.createElement("a");
             link.className = "nav-link";
             link.href = "#" + header.id;
-            link.innerHTML = header.innerHTML;
+            link.innerHTML = header.innerText;
             elLink.appendChild(link);
 
             // Set the click event

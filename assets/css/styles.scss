@@ -3,6 +3,34 @@
 
 @import "styles";
 
+/** Body **/
+body {
+    background-color: $gray-400;
+
+    h1, h2, h3, h4, h5, h6 {
+        a { text-decoration: none; }
+    }
+
+    h1, h2 {
+        color: $gray-900;
+        font-weight: 600;
+        a { color: $gray-900; }
+    }
+
+    h3, h4, h5, h6 {
+        color: $gray-700;
+        a { color: $gray-700; }
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+
+    h5, h6 {
+        font-style: italic;
+    }
+}
+
 /* Header */
 header {
     min-height: 3.5rem;
@@ -20,13 +48,25 @@ header {
                 top: 6rem;
             }
         }
+
+        .navbar {
+            .nav-item {
+                .nav-link:hover {
+                    text-decoration: none;
+                }
+            }
+        }
     }
 
     /* Content */
     .content {
         /* Code Blocks */
         .language-html, .language-js, .language-ts {
-            background-color: $gray-200;
+            background-color: $gray-800;
+
+            .highlight {
+                color: $gray-200
+            }
         }
 
         /* Tables */

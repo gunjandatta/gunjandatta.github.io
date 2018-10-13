@@ -5,6 +5,6 @@
     "version": "1.0.0",
     "main": "index.md",
     "scripts": {
-        "run": "bundle exec jekyll serve"
+        "serve": "bundle exec jekyll serve"
     }
 }
