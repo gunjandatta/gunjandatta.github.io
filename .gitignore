@@ -6,6 +6,9 @@ node_modules/*
 !node_modules/gd-bs
 node_modules/gd-bs/*
 !node_modules/gd-bs/scss
+!node_modules/gd-bs/src
+node_modules/gd-bs/src/*
+!node_modules/gd-bs/src/sass
 
 !node_modules/bootswatch
 node_modules/bootswatch/*
