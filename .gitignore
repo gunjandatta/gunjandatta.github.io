@@ -5,7 +5,6 @@ node_modules/*
 
 !node_modules/bootstrap
 node_modules/bootstrap/*
-!node_modules/bootstrap/dist
 !node_modules/bootstrap/scss
 
 !node_modules/bootswatch
