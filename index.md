@@ -37,7 +37,7 @@ The library has been designed to create the SharePoint object based on the respo
 
 ### Intellisense
 
-The intellisense for this library is included as part of the npm installation. It should work with both JavaScript/TypeScript.
+The intellisense for this library is included as part of the npm installation. It supports both JavaScript and TypeScript. The nuget installation includes the bundled definition file as part of the library.
 
 ### [Helpers](/helpers)
 
