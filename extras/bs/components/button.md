@@ -96,17 +96,21 @@ Button(props:IButtonProps):IButton
 | badgeValue | _string_ | The badge value. |
 | className | _string_ | The class name to apply to button. |
 | controls | _Array&lt;string\&gt;_ | The aria-controls property value. |
+| data | _any_ | A data object to associate with the button. |
 | el | _HTMLElement_ | The element to render the button to. |
+| href | _string_ | The href property.
 | id | _string_ | The id to apply to the button.
 | isBlock | _boolean_ | Applies the block class to the button. |
 | isExpanded | _boolean_ | The aria-expanded value. |
 | isLarge | _boolean_ | Applies the large class to the button. |
+| isLink | _boolean_ | Renders the button as an anchor element. |
 | isOutline | _boolean_ | Applies the outline class to the button. |
 | isSmall | _boolean_ | Applies the small class to the button. |
 | onClick | _(btn?: HTMLButtonElement)_ | The button click event. |
 | target | _string_ | The data-target property value. |
-| toggle | _string_ | The data-toggle property value.
 | text | _string_ | The button text. |
+| toggle | _string_ | The data-toggle property value.
+| trigger | _string_ | The data-trigger property value.
 | type | _number_ | The button type. _Reference the ButtonTypes enumerator_ |
 
 <script type="text/javascript">
