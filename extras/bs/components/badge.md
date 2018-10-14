@@ -32,12 +32,12 @@ let badge = Components.Badge({
 
 ### Web Component
 
+<bs-badge content="Badge"></bs-badge>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-badge content="Badge"></bs-badge>
 ```
-
-<bs-badge content="Badge"></bs-badge>
 
 ### References
 

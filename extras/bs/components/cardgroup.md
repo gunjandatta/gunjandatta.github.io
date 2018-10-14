@@ -84,64 +84,72 @@ let cardGroup = Components.CardGroup({
 
 ### Web Component
 
+<bs-cardGroup>
+    // Return the card group properties
+    return {
+        cards: [
+            {
+                body: [
+                    {
+                        title: "Card 1",
+                        text: "This is the first card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 2",
+                        text: "This is the second card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 3",
+                        text: "This is the third card."
+                    }
+                ]
+            }
+        ]
+    }
+</bs-cardGroup>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-cardGroup cards='[
-    {
-        "body": [
+<bs-cardGroup>
+    // Return the card group properties
+    return {
+        cards: [
             {
-                "title": "Card 1",
-                "text": "This is the first card."
-            }
-        ]
-    },
-    {
-        "body": [
+                body: [
+                    {
+                        title: "Card 1",
+                        text: "This is the first card."
+                    }
+                ]
+            },
             {
-                "title": "Card 2",
-                "text": "This is the second card."
-            }
-        ]
-    },
-    {
-        "body": [
+                body: [
+                    {
+                        title: "Card 2",
+                        text: "This is the second card."
+                    }
+                ]
+            },
             {
-                "title": "Card 3",
-                "text": "This is the third card."
+                body: [
+                    {
+                        title: "Card 3",
+                        text: "This is the third card."
+                    }
+                ]
             }
         ]
     }
-]'></bs-cardGroup>
+</bs-cardGroup>
 ```
-
-#### Example
-
-<bs-cardGroup cards='[
-    {
-        "body": [
-            {
-                "title": "Card 1",
-                "text": "This is the first card."
-            }
-        ]
-    },
-    {
-        "body": [
-            {
-                "title": "Card 2",
-                "text": "This is the second card."
-            }
-        ]
-    },
-    {
-        "body": [
-            {
-                "title": "Card 3",
-                "text": "This is the third card."
-            }
-        ]
-    }
-]'></bs-cardGroup>
 
 ### References
 

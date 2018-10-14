@@ -54,29 +54,38 @@ let dropdown = Components.Dropdown({
 
 ### Web Component
 
+<bs-dropdown label="Select a Choice">
+    // Return the dropdown properties
+    return {
+        items: [
+            { text: "Choice 1", value: "1" },
+            { text: "Choice 2", value: "2" },
+            { text: "Choice 3", value: "3" },
+            { text: "Choice 4", value: "4" },
+            { text: "Choice 5", value: "5" }
+        ],
+        onChange: onChangeEvent
+    };
+</bs-dropdown>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<script type="text/javascript">
-function onChangeEvent(item, ev) {
-    console.log("The selected value is: " + item.text);
-}
-</script>
-<bs-dropdown label="Select a Choice" onChange="onChangeEvent" items='[
-    { "text": "Choice 1", "value": "1" },
-    { "text": "Choice 2", "value": "2" },
-    { "text": "Choice 3", "value": "3" },
-    { "text": "Choice 4", "value": "4" },
-    { "text": "Choice 5", "value": "5" }
-]'></bs-dropdown>
+<bs-dropdown label="Select a Choice">
+    // Return the dropdown properties
+    return {
+        items: [
+            { text: "Choice 1", value: "1" },
+            { text: "Choice 2", value: "2" },
+            { text: "Choice 3", value: "3" },
+            { text: "Choice 4", value: "4" },
+            { text: "Choice 5", value: "5" }
+        ],
+        onChange: function(item, ev) {
+            console.log("The selected value is: " + item.text);
+        }
+    };
+</bs-dropdown>
 ```
-
-<bs-dropdown label="Select a Choice" onChange="onChangeEvent" items='[
-    { "text": "Choice 1", "value": "1" },
-    { "text": "Choice 2", "value": "2" },
-    { "text": "Choice 3", "value": "3" },
-    { "text": "Choice 4", "value": "4" },
-    { "text": "Choice 5", "value": "5" }
-]'></bs-dropdown>
 
 ### References
 

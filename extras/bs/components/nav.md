@@ -48,24 +48,34 @@ let nav = Components.Nav({
 
 ### Web Component
 
+<bs-nav is-pills="true">
+    // Return the nav properties
+    return {
+        items: [
+            { title: "Nav 1", isActive: true },
+            { title: "Nav 2" },
+            { title: "Nav 3" },
+            { title: "Nav 4" },
+            { title: "Nav 5" }
+        ]
+    };
+</bs-nav>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-nav is-pills="true" items='[
-    { "title": "Nav 1", "isActive": true },
-    { "title": "Nav 2" },
-    { "title": "Nav 3" },
-    { "title": "Nav 4" },
-    { "title": "Nav 5" }
-]'></bs-nav>
+<bs-nav is-pills="true">
+    // Return the nav properties
+    return {
+        items: [
+            { title: "Nav 1", isActive: true },
+            { title: "Nav 2" },
+            { title: "Nav 3" },
+            { title: "Nav 4" },
+            { title: "Nav 5" }
+        ]
+    };
+</bs-nav>
 ```
-
-<bs-nav is-pills="true" items='[
-    { "title": "Nav 1", "isActive": true },
-    { "title": "Nav 2" },
-    { "title": "Nav 3" },
-    { "title": "Nav 4" },
-    { "title": "Nav 5" }
-]'></bs-nav>
 
 ### References
 

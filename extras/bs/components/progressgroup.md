@@ -58,36 +58,46 @@ let progressGroup = Components.ProgressGroup({
 
 ### Web Component
 
+<bs-progressGroup>
+    // Return the progress group properties
+    return {
+        progressbars: [
+            {
+                size: 25,
+                isStriped: true,
+                label: "25%"
+            },
+            {
+                size: 50,
+                isAnimated: true,
+                isStriped: true,
+                label: "50%"
+            }
+        ]
+    };
+</bs-progressGroup>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-progressGroup progressbars='[
-    {
-        "size": 25,
-        "isStriped": true,
-        "label": "25%"
-    },
-    {
-        "size": 50,
-        "isAnimated": true,
-        "isStriped": true,
-        "label": "50%"
-    }
-]'></bs-progressGroup>
+<bs-progressGroup>
+    // Return the progress group properties
+    return {
+        progressbars: [
+            {
+                size: 25,
+                isStriped: true,
+                label: "25%"
+            },
+            {
+                size: 50,
+                isAnimated: true,
+                isStriped: true,
+                label: "50%"
+            }
+        ]
+    };
+</bs-progressGroup>
 ```
-
-<bs-progressGroup progressbars='[
-    {
-        "size": 25,
-        "isStriped": true,
-        "label": "25%"
-    },
-    {
-        "size": 50,
-        "isAnimated": true,
-        "isStriped": true,
-        "label": "50%"
-    }
-]'></bs-progressGroup>
 
 ### References
 

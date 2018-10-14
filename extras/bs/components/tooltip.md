@@ -44,20 +44,32 @@ let tooltip = Components.Tooltip({
 
 ### Web Component
 
+<bs-tooltip>
+    // Return the tooltip properties
+    return {
+        btnProps: {
+            text: "Tooltip Demo"
+        },
+        options: {
+            title: "My Tooltip",
+        }
+    };
+</bs-tooltip>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-tooltip btn-props='{
-    "text": "Tooltip Demo"
-}' options='{
-    "title": "This is the tooltip."
-}'></bs-tooltip>
+<bs-tooltip>
+    // Return the tooltip properties
+    return {
+        btnProps: {
+            text: "Tooltip Demo"
+        },
+        options: {
+            title: "My Tooltip",
+        }
+    };
+</bs-tooltip>
 ```
-
-<bs-tooltip btn-props='{
-    "text": "Tooltip Demo"
-}' options='{
-    "title": "This is the tooltip."
-}'></bs-tooltip>
 
 ### References
 

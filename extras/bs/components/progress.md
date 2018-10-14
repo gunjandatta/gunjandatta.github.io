@@ -36,12 +36,12 @@ let progress = Components.Progress({
 
 ### Web Component
 
+<bs-progress is-striped="true" label="25%" size="25"></bs-progress>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-progress is-striped="true" label="25%" size="25"></bs-progress>
 ```
-
-<bs-progress is-striped="true" label="25%" size="25"></bs-progress>
 
 ### References
 

@@ -42,16 +42,24 @@ let inputGroup = Components.inputGroup({
 
 ### Web Component
 
+<bs-inputGroup label="My Name" value="First Last">
+    // Return the input group properties
+    return {
+        onChange: onChangeEvent
+    }
+</bs-inputGroup>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<script type="text/javascript">
-function onChangeEvent(item, ev) {
-    console.log("The selected value is: " + item.text);
-}
-<bs-inputGroup label="My Name" onChange="onChangeEvent" value="First Last"></bs-inputGroup>
+<bs-inputGroup label="My Name" value="First Last">
+    // Return the input group properties
+    return {
+        onChange: function(item, ev) {
+            console.log("The selected value is: " + item.text);
+        }
+    }
+</bs-inputGroup>
 ```
-
-<bs-inputGroup label="My Name" value="First Last" onChange="onChangeEvent"></bs-inputGroup>
 
 ### References
 

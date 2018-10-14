@@ -62,38 +62,48 @@ let accordion = Components.Accordion({
 
 ### Web Component
 
+<bs-accordion id="wcAccordionDemo">
+    // Return the accordion properties
+    return {
+        items: [
+            {
+                "btnProps": { "text": "Item 1" },
+                "content": "This is the content for item 1."
+            },
+            {
+                "btnProps": { "text": "Item 2" },
+                "content": "This is the content for item 2."
+            },
+            {
+                "btnProps": { "text": "Item 3" },
+                "content": "This is the content for item 3."
+            }
+        ]
+    }
+</bs-accordion>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-accordion id="wcAccordionDemo" items='[
-    {
-        "btnProps": { "text": "Item 1" },
-        "content": "This is the content for item 1."
-    },
-    {
-        "btnProps": { "text": "Item 2" },
-        "content": "This is the content for item 2."
-    },
-    {
-        "btnProps": { "text": "Item 3" },
-        "content": "This is the content for item 3."
+<bs-accordion id="wcAccordionDemo">
+    // Return the accordion properties
+    return {
+        items: [
+            {
+                "btnProps": { "text": "Item 1" },
+                "content": "This is the content for item 1."
+            },
+            {
+                "btnProps": { "text": "Item 2" },
+                "content": "This is the content for item 2."
+            },
+            {
+                "btnProps": { "text": "Item 3" },
+                "content": "This is the content for item 3."
+            }
+        ]
     }
-]'></bs-accordion>
+</bs-accordion>
 ```
-
-<bs-accordion id="wcAccordionDemo" items='[
-    {
-        "btnProps": { "text": "Item 1" },
-        "content": "This is the content for item 1."
-    },
-    {
-        "btnProps": { "text": "Item 2" },
-        "content": "This is the content for item 2."
-    },
-    {
-        "btnProps": { "text": "Item 3" },
-        "content": "This is the content for item 3."
-    }
-]'></bs-accordion>
 
 ### References
 

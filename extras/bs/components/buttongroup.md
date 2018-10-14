@@ -15,7 +15,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#buttonGroup");
 var buttonGroup = Components.ButtonGroup({
     el: el,
-    buttonType: $REST.Components.ButtonTypes.Secondary,
+    buttonType: $REST.Components.ButtonTypes.Primary,
     buttons: [
         { text: "Left" },
         { text: "Middle" },
@@ -33,7 +33,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#buttonGroup");
 let buttonGroup = Components.ButtonGroup({
     el: el,
-    buttonType: $REST.Components.ButtonTypes.Secondary,
+    buttonType: $REST.Components.ButtonTypes.Primary,
     buttons: [
         { text: "Left" },
         { text: "Middle" },
@@ -44,20 +44,32 @@ let buttonGroup = Components.ButtonGroup({
 
 ### Web Component
 
+<bs-buttonGroup>
+    // Return the button group properties
+    return {
+        buttonType: $REST.Components.ButtonTypes.Primary,
+        buttons: [
+            { "text": "Left" },
+            { "text": "Middle" },
+            { "text": "Right" }
+        ]
+    }
+</bs-buttonGroup>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-buttonGroup button-type='7' buttons='[
-    { "text": "Left" },
-    { "text": "Middle" },
-    { "text": "Right" }
-]'></bs-buttonGroup>
+<bs-buttonGroup>
+    // Return the button group properties
+    return {
+        buttonType: $REST.Components.ButtonTypes.Primary,
+        buttons: [
+            { "text": "Left" },
+            { "text": "Middle" },
+            { "text": "Right" }
+        ]
+    }
+</bs-buttonGroup>
 ```
-
-<bs-buttonGroup button-type='7' buttons='[
-    { "text": "Left" },
-    { "text": "Middle" },
-    { "text": "Right" }
-]'></bs-buttonGroup>
 
 ### References
 
@@ -94,7 +106,7 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
             // Render the buttonGroup
             $REST.Components.ButtonGroup({
                 el: buttonGroup,
-                buttonType: $REST.Components.ButtonTypes.Secondary,
+                buttonType: $REST.Components.ButtonTypes.Primary,
                 buttons: [
                     { text: "Left" },
                     { text: "Middle" },

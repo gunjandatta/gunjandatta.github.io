@@ -32,12 +32,12 @@ let alert = Components.Alert({
 
 ### Web Component
 
+<bs-alert content="This is an alert"></bs-alert>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-alert content="This is an alert"></bs-alert>
 ```
-
-<bs-alert content="This is an alert"></bs-alert>
 
 ### References
 

@@ -41,17 +41,24 @@ let btn = Components.Button({
 
 ### Web Component
 
+<bs-button text="My Button">
+    // Return the button properties
+    return {
+        onClick: btnClickEvent
+    }
+</bs-button>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<script type="text/javascript">
-function btnClickEvent(ev) { 
-    alert("You clicked the button..."); 
-}
-</script>
-<bs-button text="My Button" onClick="btnClickEvent"></bs-button>
+<bs-button text="My Button">
+    // Return the button properties
+    return {
+        onClick: function(ev) {
+            alert("You clicked the button...");
+        }
+    }
+</bs-button>
 ```
-
-<bs-button text="My Button" onClick="btnClickEvent"></bs-button>
 
 ### References
 
@@ -104,7 +111,7 @@ Button(props:IButtonProps):IButton
 
 <script type="text/javascript">
     // Set the button click event
-    function btnClickEvent(ev) { 
+    function btnClickEvent(ev) {
         alert("You clicked the button..."); 
     }
         

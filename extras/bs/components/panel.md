@@ -51,20 +51,38 @@ let panel = Components.Panel({
 
 ### Web Component
 
+<bs-panel>
+    // Return the panel properties
+    return {
+        type: $REST.Components.PanelTypes.Large,
+        modalProps: {
+            button: { text: "Show Panel" },
+            id: "my-wc-panel",
+            title: "Panel Demo",
+            onRenderBody: function(el) {
+                // Render the body
+            }
+        }
+    };
+</bs-panel>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-panel type="2" modal-props='{  
-    "button": { "text": "Show Panel" },
-    "id": "my-panel",
-    "title": "Panel Demo"
-}'></bs-panel>
+<bs-panel>
+    // Return the panel properties
+    return {
+        type: $REST.Components.PanelTypes.Large,
+        modalProps: {
+            button: { text: "Show Panel" },
+            id: "my-panel",
+            title: "Panel Demo",
+            onRenderBody: function(el) {
+                // Render the body
+            }
+        }
+    };
+</bs-panel>
 ```
-
-<bs-panel type="2" modal-props='{
-    "button": { "text": "Show Panel" },
-    "id": "my-wc-panel",
-    "title": "Panel Demo"
-}'></bs-panel>
 
 ### References
 

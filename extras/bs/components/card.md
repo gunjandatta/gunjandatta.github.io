@@ -16,6 +16,16 @@ var el = document.querySelector("#card");
 var card = Components.Card({
     el: el,
     body: [
+        {
+            title: "Card Title",
+            text: "This is the card contents.",
+            actions: [
+                {
+                    text: "Card Action",
+                    buttonType: $REST.Components.ButtonTypes.Primary
+                }
+            ]
+        }
     ]
 });
 ```
@@ -30,34 +40,60 @@ let el = document.querySelector("#card");
 let card = Components.Card({
     el: el,
     body: [
+        {
+            title: "Card Title",
+            text: "This is the card contents.",
+            actions: [
+                {
+                    text: "Card Action",
+                    buttonType: $REST.Components.ButtonTypes.Primary
+                }
+            ]
+        }
     ]
 });
 ```
 
 ### Web Component
 
+<bs-card>
+    // Return the card properties
+    return {
+        body: [
+            {
+                title: "Card Title",
+                text: "This is the card contents.",
+                actions: [
+                    {
+                        text: "Card Action",
+                        buttonType: $REST.Components.ButtonTypes.Primary
+                    }
+                ]
+            }
+        ]
+    }
+</bs-card>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-card body='[
-    {
-        "title": "Card Title",
-        "text": "This is the card contents.",
-        "actions": [
-            { "text": "Card Action", "buttonType": 7 }
+<bs-card>
+    // Return the card properties
+    return {
+        body: [
+            {
+                title: "Card Title",
+                text: "This is the card contents.",
+                actions: [
+                    {
+                        text: "Card Action",
+                        buttonType: $REST.Components.ButtonTypes.Primary
+                    }
+                ]
+            }
         ]
     }
-]'></bs-card>
+</bs-card>
 ```
-
-<bs-card body='[
-    {
-        "title": "Card Title",
-        "text": "This is the card contents.",
-        "actions": [
-            { "text": "Card Action", "buttonType": 7 }
-        ]
-    }
-]'></bs-card>
 
 ### References
 
@@ -98,7 +134,7 @@ Card(props:ICardProps):ICard
                         "title": "Card Title",
                         "text": "This is the card contents.",
                         "actions": [
-                            { "text": "Card Action", "buttonType": 7 }
+                            { "text": "Card Action", "buttonType": $REST.Components.ButtonTypes.Primary }
                         ]
                     }
                 ]

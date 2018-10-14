@@ -48,12 +48,30 @@ let modal = Components.Modal({
 
 ### Web Component
 
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal.">
+    // Return the modal properties
+    return {
+        button: {
+            text: "Open Modal",
+            toggle: "modal",
+            target: "#bsModalDemo"
+        }
+    };
+</bs-modal>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal." button='{ "text": "Open Modal" }'></bs-modal>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal.">
+    // Return the modal properties
+    return {
+        button: {
+            text: "Open Modal",
+            toggle: "modal",
+            target: "#bsModalDemo"
+        }
+    };
+</bs-modal>
 ```
-
-<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal." button='{ "text": "Open Modal" }'></bs-modal>
 
 ### References
 

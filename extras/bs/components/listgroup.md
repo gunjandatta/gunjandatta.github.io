@@ -50,24 +50,34 @@ let listGroup = Components.listGroup({
 
 ### Web Component
 
+<bs-listGroup is-tabs="true" col-width="2">
+    // Return the list group properties
+    return {
+        items: [
+            { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
+            { tabName: "Tab 2", content: "This is the content for tab 2.", badge: { content: "10", type: 4 } },
+            { tabName: "Tab 3", content: "This is the content for tab 3." },
+            { tabName: "Tab 4", content: "This is the content for tab 4." },
+            { tabName: "Tab 5", content: "This is the content for tab 5." }
+        ]
+    };
+</bs-listGroup>
+
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-listGroup is-tabs="true" col-width="2" items='[
-    { "tabName": "Tab 1", "content": "This is the content for tab 1.", "isActive": true },
-    { "tabName": "Tab 2", "content": "This is the content for tab 2.", "badge": { "content": "10", "type": 4 } },
-    { "tabName": "Tab 3", "content": "This is the content for tab 3." },
-    { "tabName": "Tab 4", "content": "This is the content for tab 4." },
-    { "tabName": "Tab 5", "content": "This is the content for tab 5." }
-]'></bs-listGroup>
+<bs-listGroup is-tabs="true" col-width="2">
+    // Return the list group properties
+    return {
+        items: [
+            { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
+            { tabName: "Tab 2", content: "This is the content for tab 2.", badge: { content: "10", type: 4 } },
+            { tabName: "Tab 3", content: "This is the content for tab 3." },
+            { tabName: "Tab 4", content: "This is the content for tab 4." },
+            { tabName: "Tab 5", content: "This is the content for tab 5." }
+        ]
+    };
+</bs-listGroup>
 ```
-
-<bs-listGroup is-tabs="true" col-width="2" items='[
-    { "tabName": "Tab 1", "content": "This is the content for tab 1.", "isActive": true },
-    { "tabName": "Tab 2", "content": "This is the content for tab 2.", "badge": { "content": "10", "type": 4 } },
-    { "tabName": "Tab 3", "content": "This is the content for tab 3." },
-    { "tabName": "Tab 4", "content": "This is the content for tab 4." },
-    { "tabName": "Tab 5", "content": "This is the content for tab 5." }
-]'></bs-listGroup>
 
 ### References
 
