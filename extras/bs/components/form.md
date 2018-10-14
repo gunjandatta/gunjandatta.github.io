@@ -236,10 +236,21 @@ Form(props:IFormProps):IForm
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | The class name to apply to form control. |
+| data | _any_ | The form control data object associated with the control. |
 | description | _string_ | The form control description. |
+| el | _HTMLElement_ | The element to render the form control to. |
+| errorMessage | _string_ | Adds an invalid-feedback element to the form control. |
+| isReadonly | _boolean_ | Flag to set the form control to be read-only. |
+| isPlainText | _boolean_ | Flag to set the form control as plain text. |
 | label | _string_ | The form control label. |
 | name | _string_ | The form control name. |
+| onControlRendering | _(control: IFormControlProps) => void \| PromiseLike&lt;IFormControlProps>_ | The form control on rendering event. |
+| onControlRendered | _(control: IFormControl) => void \| PromiseLike&lt;IFormControlProps>_ | The form control on rendered event. |
+| onGetValue | _(control: IFormControlProps) => any_ | The form control on rendering event. |
+| required | _boolean_ | The required form control flag. |
 | type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
+| value | _any_ | The form control value. |
 
 #### IFormControlDropdown
 
