@@ -227,12 +227,21 @@ Form(props:IFormProps):IForm
 | --- | --- | --- |
 | isAutoSized | _boolean_ | Sets the 'col' class name to 'col-auto'. |
 | isCentered | _boolean_ | Adds the 'align-items-center' class. |
-| control | _Array&lt;IFormRow&gt;_ | The form control. |
-| columns | _Array&lt;{ control: IFormControl, size: number }&gt;_ | The form values. |
+| control | _Array&lt;IFormControlProps&gt;_ | The form control. |
+| columns | _Array&lt;{ control: IFormControlProps, size: number }&gt;_ | The form values. |
 
 ### Form Controls
 
 #### IFormControl
+
+| Name | Type | Description |
+| --- | --- | --- |
+| el | _HTMLElement_ | The element to render the form control to. |
+| getValue | _any_ | The form control value. |
+| isValid | _() => boolean_) | Flag determining if the control is valid. This will also apply the ```is-valid``` and ```is-invalid``` class to the ```form-control```. |
+| props | _IFormControlProps_ | A reference to the form control properties. |
+
+#### IFormControlProps
 
 | Name | Type | Description |
 | --- | --- | --- |
