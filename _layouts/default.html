@@ -12,10 +12,10 @@
   {% seo %}
 </head>
 
-<body>
+<body class="bs">
 
   <!-- Header -->
-  <header class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top header">
     <a class="navbar-brand" href="/">SharePoint REST Framework</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,14 +49,14 @@
         </li>
       </ul>
     </div>
-  </header>
+  </nav>
 
   <!-- Main -->
   <div class="container-fluid main">
     <div class="row flex-xl-nowrap">
       <!-- Side Bar -->
       <div class="col-12 col-md-3 col-xl-2 sidebar">
-        <div class="navbar navbar-dark bg-primary sticky-top">
+        <div class="navbar navbar-dark bg-dark sticky-top">
           <ul class="nav navbar-nav"></ul>
         </div>
       </div>
@@ -69,11 +69,11 @@
   </div>
 
   <!-- Footer  -->
-  <footer class="navbar navbar-expand-lg navbar-dark bg-primary sticky-bottom">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-bottom footer">
     <a class="navbar-brand" href="{{ site.github.owner_url }}">
       Dattabase LLC., maintained by Gunjan Datta
     </a>
-  </footer>
+  </nav>
 
   <!-- Google Analytics -->
   {% if site.google_analytics %}
@@ -91,7 +91,6 @@
 
   <!-- Scripts -->
   <script src="{{ '/node_modules/gd-sprest-bs/wc/dist/gd-sprest-bs.js' }}"></script>
-  <script type="text/javascript" src="{{ '/assets/js/scripts.js' }}"></script>
   <script type="text/javascript" src="{{ '/assets/js/sidebar.js' }}"></script>
 </body>
 

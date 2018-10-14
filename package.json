@@ -8,8 +8,7 @@
         "serve": "bundle exec jekyll serve"
     },
     "dependencies": {
-        "bootstrap": "^4.1.3",
         "bootswatch": "^4.1.3",
-        "gd-sprest-bs": "^0.9.0"
+        "gd-sprest-bs": "^0.9.1"
     }
 }

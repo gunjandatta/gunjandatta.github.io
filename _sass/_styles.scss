@@ -1,3 +1,7 @@
 @import "../node_modules/bootswatch/dist/cerulean/variables";
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootswatch/dist/cerulean/bootswatch";
+@import "../node_modules/gd-bs/scss/mixins";
+@import "../node_modules/gd-bs/scss/gd";
+
+.bs {
+    @import "../node_modules/bootswatch/dist/cerulean/bootswatch";
+}
