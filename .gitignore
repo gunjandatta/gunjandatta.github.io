@@ -3,9 +3,9 @@ Gemfile
 
 node_modules/*
 
-!node_modules/bootstrap
-node_modules/bootstrap/*
-!node_modules/bootstrap/scss
+!node_modules/gd-bs
+node_modules/gd-bs/*
+!node_modules/gd-bs/scss
 
 !node_modules/bootswatch
 node_modules/bootswatch/*
