@@ -92,8 +92,7 @@ Button(props:IButtonProps):IButton
 
 | Name | Type | Description |
 | --- | --- | --- |
-| badgeType | _number_ | The badge type. _Reference the BadgeTypes enumerator_ |
-| badgeValue | _string_ | The badge value. |
+| badge | _IBadgeProps_ | The badge properties. _Reference the IBadgeProps interface_ |
 | className | _string_ | The class name to apply to button. |
 | controls | _Array&lt;string\&gt;_ | The aria-controls property value. |
 | data | _any_ | A data object to associate with the button. |
