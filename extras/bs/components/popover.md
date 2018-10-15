@@ -114,17 +114,17 @@ Popover(props:IPopoverProps):IPopover
 | Name | Type | Description |
 | --- | --- | --- |
 | animation | _boolean_ | Apply a CSS fade transition to the popover. |
-| boundary | _string_ | Overflow constraint boundary of the popover. |
-| container | _string_ | Appends the popover to a specific element. |
-| content | _string_ | The popover content. |
+| boundary | _string \| Element_ | Overflow constraint boundary of the popover. |
+| container | _string \| Element \| Function_ | Appends the popover to a specific element. |
+| content | _string \| Element_ | The popover content. |
 | delay | _number | object_ | Delay showing and hiding the popover (ms) - does not apply to manual trigger type. |
 | fallbackPlacement | _string | Array&lt;string&gt;_ | Allow to specify which position Popper will use on fallback. |
-| html | _boolean_ | Insert HTML into the popover. |
+| html | _boolean_ | Insert HTML into the popover. _Set to true, if you are returning element._ |
 | offset | _number | string_ | Offset of the popover relative to its target. |
-| placement | _string_ | How to position the popover _(auto, top, bottom, left, right)_. When auto is specified, it will dynamically reorient the popover. |
+| placement | _string \| Function_ | How to position the popover _(auto, top, bottom, left, right)_. When auto is specified, it will dynamically reorient the popover. |
 | selector | _string_ | If a selector is provided, popover objects will be delegated to the specified targets. |
 | template | _string_ | Base HTML to use when creating the popover. |
-| title | _string_ | Default title value if title attribute isn't present. |
+| title | _string \| Element \| Function_ | Default title value if title attribute isn't present. |
 | trigger | _string_ | How popover is triggered _(click, hover, focus, manual)_. You may pass multiple triggers; separate them with a space. Manual cannot be combined with any other trigger. |
 
 #### IPopoverProps
