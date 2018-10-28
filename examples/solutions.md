@@ -13,6 +13,13 @@ This solution will demonstrate how to create a custom ribbon button in SharePoin
 * Learn how to install/uninstall custom actions to a web
 * Learn how to utilize the core SharePoint Modal Dialog library
 
+### [Ribbon Menu Button](https://github.com/gunjandatta/sp-ribbonMenu/wiki)
+
+This solution will demonstrate how to create a custom ribbon menu button in SharePoint 2013 or Online (Classic) pages.
+
+* Learn how to utilize SASS for styling
+* Learn how to create a 'Popover' Bootstrap component
+
 ### [List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)
 
 This solution will demonstrate how to create a configurable webpart in SharePoint 2013. 
