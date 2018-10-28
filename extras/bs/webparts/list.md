@@ -55,7 +55,7 @@ WebParts.WebPart({
 | odataQuery | _Types.SP.ODataQuery_ | The odata query. |
 | onExecutingCAMLQuery | _(wpInfo: IListInfo, caml: string) => string_ | The executing caml query event. |
 | onExecutingODATAQuery | _(wpInfo: IListInfo, odata: Types.SP.ODataQuery) => Types.SP.ODataQuery_ | The executing odata query event. |
-| onRenderItems | _(wpInfo: IListInfo, items: Array&lt;Types.SP.IListItemQueryResult | Types.SP.IListItemResult&gt;) => void_ | The on render items event. |
+| onRenderItems | _(wpInfo: IListInfo, items: Array&lt;Types.SP.IListItemQueryResult \| Types.SP.IListItemResult&gt;) => void_ | The on render items event. |
 
 #### Edit Form (IWPEditForm)
 
