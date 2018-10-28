@@ -58,6 +58,9 @@ WebParts.WebPart({
 | elementId | _string_ | The target element id to render the webpart to. |
 | editForm | IWPEditForm | The edit form. |
 | helpProps | _{ title?: string; url: string; }_ | The optional help link properties. |
+| onPostRender | _(wp: IWPInfo, ...args) => void_ | The post render event. |
+| onRenderDisplay | _(wp: IWPInfo) => any_ | The render event triggered when the page is in 'Display' mode. |
+| onRenderEdit | _(wp: IWPInfo) => any_ | The render event triggered when the page is in 'Edit' mode. |
 | wpClassName | _string_ | The webpart class name. |
 
 #### Edit Form (IWPEditForm)
@@ -74,11 +77,3 @@ WebParts.WebPart({
 | Name | Type | Description |
 | --- | --- | --- |
 | WebPartId | _string_ | The webpart id. |
-
-#### Events
-
-| Name | Parameters | Description |
-| --- | --- | --- |
-| onPostRender | _(wp: IWPInfo, ...args) => void_ | The post render event. |
-| onRenderDisplay | _(wp: IWPInfo) => any_ | The render event triggered when the page is in 'Display' mode. |
-| onRenderEdit | _(wp: IWPInfo) => any_ | The render event triggered when the page is in 'Edit' mode. |
