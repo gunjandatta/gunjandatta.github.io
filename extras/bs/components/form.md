@@ -238,7 +238,7 @@ Form(props:IFormProps):IForm
 | --- | --- | --- |
 | el | _HTMLElement_ | The element to render the form control to. |
 | getValue | _any_ | The form control value. |
-| isValid | _() => boolean_) | Flag determining if the control is valid. This will also apply the ```is-valid``` and ```is-invalid``` class to the ```form-control```. |
+| isValid | _() => boolean \| IFormControlValidationResult_) | Flag determining if the control is valid. This will also apply the ```is-valid``` and ```is-invalid``` class to the ```form-control```. |
 | props | _IFormControlProps_ | A reference to the form control properties. |
 
 #### IFormControlProps
@@ -276,6 +276,14 @@ Form(props:IFormProps):IForm
 | --- | --- | --- |
 | onChange | _(value: string) => void_ | The change event. |
 | placeholder | _string_ | The text field placeholder. |
+
+#### IFormControlValidationResult
+
+| Name | Type | Description |
+| --- | --- | --- |
+| invalidMessage | _string_ | Message displayed when the control is not valid. |
+| isValid | _boolean_ | Flag determining if the control is valid or not. |
+| validMessage | _string_ | Message displayed when the control is valid. |
 
 <script type="text/javascript">
     // Wait for the window to be loaded
