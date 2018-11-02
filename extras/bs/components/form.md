@@ -261,6 +261,16 @@ Form(props:IFormProps):IForm
 | type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
 | value | _any_ | The form control value. |
 
+#### IFormControlCheckbox
+
+| Name | Type | Description |
+| --- | --- | --- |
+| hideLabel | _boolean_ | Flag to hide the checkbox label. |
+| items | _Array&lt;ICheckboxItem&gt;_ | An array of dropdown items. |
+| multi | _boolean_ | Flag to allow multiple selections. |
+| onChange | _(item: IDropdownItem \| Array&lt;IDropdownItem&gt;) => void_ | The change event. |
+| type | _number_ | The checkbox type. |
+
 #### IFormControlDropdown
 
 | Name | Type | Description |

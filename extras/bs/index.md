@@ -28,6 +28,7 @@ npm i --save gd-sprest-bs
 - [Card](components/card)
 - [Card Group](components/cardgroup)
 - [Carousel](components/carousel)
+- [Checkbox Group](components/checkboxgroup)
 - [Collapse](components/collapse)
 - [Dropdown](components/dropdown)
 - [Form](components/form)
