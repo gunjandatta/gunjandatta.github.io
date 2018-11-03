@@ -238,7 +238,7 @@ Form(props:IFormProps):IForm
 | --- | --- | --- |
 | el | _HTMLElement_ | The element to render the form control to. |
 | getValue | _any_ | The form control value. |
-| isValid | _() => boolean \| IFormControlValidationResult_) | Flag determining if the control is valid. This will also apply the ```is-valid``` and ```is-invalid``` class to the ```form-control```. |
+| isValid | _() => boolean \| IFormControlValidationResult_ | Flag determining if the control is valid. This will also apply the ```is-valid``` and ```is-invalid``` class to the ```form-control```. |
 | props | _IFormControlProps_ | A reference to the form control properties. |
 
 #### IFormControlProps
