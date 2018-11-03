@@ -78,7 +78,7 @@ CheckboxGroup(props:ICheckboxGroupProps):ICheckboxGroup
 | Name | Returns | Description |
 | --- | --- | --- |
 | el | _Element_ | The jquery element. |
-| getValues | _() => Array&lt;ICheckboxGroupItem&gt;_ | Returns the selected items. |
+| getValue | _() => ICheckboxGroupItem \| Array&lt;ICheckboxGroupItem&gt;_ | Returns the selected items. |
 
 #### ICheckboxGroupProps
 
