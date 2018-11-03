@@ -201,10 +201,13 @@ Form(props:IFormProps):IForm
 | Email | 2 |
 | Dropdown | 3 |
 | File | 4 |
-| Primary | 5 |
-| Secondary | 6 |
-| Success | 7 |
-| Warning | 8 |
+| MultDropdown | 5 |
+| Password | 6 |
+| Radio | 7 |
+| Range | 8 |
+| Readonly | 9 |
+| TextArea | 10 |
+| TextField | 11 |
 
 #### IForm
 
