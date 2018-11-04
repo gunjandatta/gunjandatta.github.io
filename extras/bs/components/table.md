@@ -150,7 +150,7 @@ Table(props:ITableProps):ITable
 
 | Name | Type | Description |
 | --- | --- | --- |
-| className | _string_ | The class name to apply to ```th``` element. |
+| className | _string_ | The class name to apply to ```td``` data element. |
 | data | _any_ | The data associated with the column. |
 | enableSort | _boolean_ | True to sort the row elements, when clicking on the header cell. |
 | isHidden | _boolean_ | True to hide the header row value for this column. The data will still be displayed. |
