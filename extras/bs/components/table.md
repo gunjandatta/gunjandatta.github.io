@@ -152,6 +152,7 @@ Table(props:ITableProps):ITable
 | --- | --- | --- |
 | className | _string_ | The class name to apply to ```th``` element. |
 | data | _any_ | The data associated with the column. |
+| enableSort | _boolean_ | True to sort the row elements, when clicking on the header cell. |
 | isHidden | _boolean_ | True to hide the header row value for this column. The data will still be displayed. |
 | name | _string_ | The column key value. _The row's key value will map to this property_. |
 | onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell click event. |
