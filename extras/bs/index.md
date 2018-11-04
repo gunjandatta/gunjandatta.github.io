@@ -43,6 +43,7 @@ npm i --save gd-sprest-bs
 - [Popover](components/popover)
 - [Progress](components/progress)
 - [Progress Group](components/progressgroup)
+- [Table](components/table)
 - [Tooltip](components/tooltip)
 
 ### WebParts
