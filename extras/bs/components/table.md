@@ -15,7 +15,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#table");
 var table = Components.Table({
     el: el,
-    className: "is-striped",
+    className: "table-sm is-striped",
     columns: [
         { name: "a0", title: "Actions", isHidden: true },
         { name: "a1", title: "Col 1" },
@@ -45,7 +45,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#table");
 let table = Components.Table({
     el: el,
-    className: "is-striped",
+    className: "table-sm is-striped",
     columns: [
         { name: "a0", title: "Actions", isHidden: true },
         { name: "a1", title: "Col 1" },
@@ -71,7 +71,7 @@ let table = Components.Table({
 <bs-table>
     // Return the table properties
     return {
-        className: "is-striped",
+        className: "table-sm is-striped",
         columns: [
             { name: "a0", title: "Actions", isHidden: true },
             { name: "a1", title: "Col 1" },
@@ -97,7 +97,7 @@ let table = Components.Table({
 <bs-table>
     // Return the table properties
     return {
-        className: "is-striped",
+        className: "table-sm is-striped",
         columns: [
             { name: "a0", title: "Actions", isHidden: true },
             { name: "a1", title: "Col 1" },
@@ -170,7 +170,7 @@ Table(props:ITableProps):ITable
             // Render the table
             $REST.Components.Table({
                 el: table,
-                className: "is-striped",
+                className: "table-sm is-striped",
                 columns: [
                     { name: "a0", title: "Actions", isHidden: true },
                     { name: "a1", title: "Col 1" },
