@@ -5,7 +5,7 @@ layout: default
 ### Table
 [Documentation](http://getbootstrap.com/docs/4.1/content/tables/)
 
-<div id="table"></div>
+<div id="demoTable"></div>
 
 #### JavaScript
 ```js
@@ -130,38 +130,42 @@ Table(props:ITableProps):ITable
 | Name | Returns | Description |
 | --- | --- | --- |
 | el | _Element_ | The jquery element. |
-| getValue | _() => ICheckboxGroupItem \| Array&lt;ICheckboxGroupItem&gt;_ | Returns the selected items. |
 
 #### ITableProps
 
 | Name | Type | Description |
 | --- | --- | --- |
 | className | _string_ | The class name to apply to button group. |
-| colSize | _number_ | The size of the column. |
+| columns | _Array&lt;ITableColumn&gt;_ | The table columns. |
 | el | _HTMLElement_ | The element to render the button group to. |
-| hideLabel | _boolean_ | Flag to hide the label. |
-| label | _string_ | The aria-label property value. |
-| items | _ICheckboxGroupItem_ | The checkbox items. |
-| multi | _boolean_ | Flag to allow multiple selections. |
-| onChange | _(items:Array&lt;ICheckboxGroupItem&gt;) => void_ | Event triggered when a checkbox is clicked. |
-| type | _string_ | The checkbox item type. |
+| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell click event. |
+| onClickHeader | _(el: HTMLTableHeaderCellElement, column?: ITableColumn) => void_ | The table header cell click event. |
+| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell render event. |
+| onRenderHeaderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn) => void_ | The header row cell render event. |
+| onRenderHeaderRow | _(el?: HTMLTableRowElement) => void_ | The table header row render event. |
+| onRenderRow | _(el?: HTMLTableRowElement, data?: any) => void_ | The table data row render event. |
+| rows | _Array&lt;{ [key:string]: any&gt;_ | The table data. The value is based on the key matching a column's name property. |
 
 #### ITableColumn
 
 | Name | Type | Description |
 | --- | --- | --- |
-| data | _any_ | The data object associated with the item. |
-| isDisabled | _boolean_ | Flag to disable the item. |
-| isSelected | _boolean_ | Flag indicating the item is selected. |
-| label | _string_ | The checkbox label. |
-| name | _string_ | The name of the checkbox. |
-| onChange | _(item) => void_ | The on change event. |
+| className | _string_ | The class name to apply to ```th``` element. |
+| data | _any_ | The data associated with the column. |
+| isHidden | _boolean_ | True to hide the header row value for this column. The data will still be displayed. |
+| name | _string_ | The column key value. _The row's key value will map to this property_. |
+| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell click event. |
+| onClickHeader | _(el: HTMLTableHeaderCellElement, column?: ITableColumn) => void_ | The table header cell click event. |
+| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell render event. |
+| onRenderHeaderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn) => void_ | The header row cell render event. |
+| scope | _string_ | The scope attribute property for each ```td``` element. |
+| title | _string_ | The html displayed in the ```th``` element. |
 
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
         // See if a checkbox group exists
-        var table = document.querySelector("#table");
+        var table = document.querySelector("#demoTable");
         if(table) {
             // Render the table
             $REST.Components.Table({
