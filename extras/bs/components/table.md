@@ -138,13 +138,13 @@ Table(props:ITableProps):ITable
 | className | _string_ | The class name to apply to button group. |
 | columns | _Array&lt;ITableColumn&gt;_ | The table columns. |
 | el | _HTMLElement_ | The element to render the button group to. |
-| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell click event. |
+| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, data?: any) => void_ | The table row cell click event. |
 | onClickHeader | _(el: HTMLTableHeaderCellElement, column?: ITableColumn) => void_ | The table header cell click event. |
-| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell render event. |
+| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, data?: any) => void_ | The table row cell render event. |
 | onRenderHeaderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn) => void_ | The header row cell render event. |
 | onRenderHeaderRow | _(el?: HTMLTableRowElement) => void_ | The table header row render event. |
 | onRenderRow | _(el?: HTMLTableRowElement, data?: any) => void_ | The table data row render event. |
-| rows | _Array&lt;{ [key:string]: any&gt;_ | The table data. The value is based on the key matching a column's name property. |
+| rows | _Array&lt;any&gt;_ | The table data. The value is based on the key matching a column's name property. |
 
 #### ITableColumn
 
@@ -155,9 +155,9 @@ Table(props:ITableProps):ITable
 | enableSort | _boolean_ | True to sort the row elements, when clicking on the header cell. |
 | isHidden | _boolean_ | True to hide the header row value for this column. The data will still be displayed. |
 | name | _string_ | The column key value. _The row's key value will map to this property_. |
-| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell click event. |
+| onClickCell | _(el: HTMLTableDataCellElement, column?: ITableColumn, data?: any) => void_ | The table row cell click event. |
 | onClickHeader | _(el: HTMLTableHeaderCellElement, column?: ITableColumn) => void_ | The table header cell click event. |
-| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, value?: string) => void_ | The table row cell render event. |
+| onRenderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn, data?: any) => void_ | The table row cell render event. |
 | onRenderHeaderCell | _(el?: HTMLTableDataCellElement, column?: ITableColumn) => void_ | The header row cell render event. |
 | scope | _string_ | The scope attribute property for each ```td``` element. |
 | title | _string_ | The html displayed in the ```th``` element. |
