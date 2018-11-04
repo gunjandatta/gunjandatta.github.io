@@ -89,10 +89,21 @@ CheckboxGroup(props:ICheckboxGroupProps):ICheckboxGroup
 | el | _HTMLElement_ | The element to render the button group to. |
 | hideLabel | _boolean_ | Flag to hide the label. |
 | label | _string_ | The aria-label property value. |
-| items | _string_ | The checkbox items. |
+| items | _ICheckboxGroupItem_ | The checkbox items. |
 | multi | _boolean_ | Flag to allow multiple selections. |
 | onChange | _(items:Array&lt;ICheckboxGroupItem&gt;) => void_ | Event triggered when a checkbox is clicked. |
 | type | _string_ | The checkbox item type. |
+
+#### ICheckboxGroupItem
+
+| Name | Type | Description |
+| --- | --- | --- |
+| data | _any_ | The data object associated with the item. |
+| isDisabled | _boolean_ | Flag to disable the item. |
+| isSelected | _boolean_ | Flag indicating the item is selected. |
+| label | _string_ | The checkbox label. |
+| name | _string_ | The name of the checkbox. |
+| onChange | _(item) => void_ | The on change event. |
 
 <script type="text/javascript">
     // Wait for the window to be loaded
