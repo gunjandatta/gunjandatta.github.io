@@ -35,6 +35,8 @@ items:
       url: "automation"
     - title: Custom Solutions
       url: "solutions"
+    - title: Form
+      url: "form"
     - title: List
       url: "list"
     - title: List Item
