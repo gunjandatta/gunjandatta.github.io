@@ -35,7 +35,7 @@ var dialog = Components.ModalDialog({
     onRenderBody: function (el) {
         // Render the form
         Components.Form({
-            // See Control Types Below
+            // See Control Examples Below
         });
     }
 });
@@ -66,7 +66,7 @@ let dialog = Components.ModalDialog({
     onRenderBody: (el) => {
         // Render the form
         Components.Form({
-            // See Control Types Below
+            // See Control Examples Below
         });
     }
 });
@@ -79,7 +79,7 @@ The form control has built in methods to help with customizing it. The ```name``
 - getValues() - Returns an object of key-value pairs, for all controls with the ```name``` property defined.
 - isValid() - Returns true/false of the form's validation state. The validation is determined by the ```required``` property or the ```onValidate``` event.
 
-### Control Types
+### Control Examples
 Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
 
 * Checkbox
