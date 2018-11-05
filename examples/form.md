@@ -35,11 +35,11 @@ var dialog = Components.ModalDialog({
     onRenderBody: function (el) {
         // Render the form
         Components.Form({
-            // See Form Examples Below
+            // See Control Types Below
         });
     }
 });
-```
+````
 
 #### TypeScript
 ```ts
@@ -66,7 +66,7 @@ let dialog = Components.ModalDialog({
     onRenderBody: (el) => {
         // Render the form
         Components.Form({
-            // See Form Examples Below
+            // See Control Types Below
         });
     }
 });
@@ -141,7 +141,7 @@ The control properties can be manipulated in the rendering event. The properties
         label: "Post:",
         name: "PostName",
         type: Components.FormControlTypes.Dropdown,
-        onControlRendering: (props) => {
+        onControlRendering: function (props) {
             // Set the dropdown items
             props.items = [
                 { text: "" },
@@ -189,7 +189,7 @@ The ability to create custom controls can be done, using the rendered event.
     control: {
         label: "My Custom Control:",
         name: "CustomControl",
-        onControlRendered: (control) => {
+        onControlRendered: function (control) {
             // Render my custom control
             control.el.innerHTML = "<h3>Custom Control</h3>";
         },
