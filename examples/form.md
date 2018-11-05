@@ -6,7 +6,7 @@ layout: default
 
 This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components.
 
-### Modal Dialog
+### Modal Dialog Example
 
 The modal dialog will be used for this example. We will use the button option to display the form when clicked.
 
@@ -72,16 +72,14 @@ let dialog = Components.ModalDialog({
 });
 ```
 
-### Methods
+### Built-In Methods
 The form control has built in methods to help with customizing it. The ```name``` property must be defined for the value to be returned.
 
 - getControl(name) - Gets a specific control by the name property.
 - getValues() - Returns an object of key-value pairs, for all controls with the ```name``` property defined.
 - isValid() - Returns true/false of the form's validation state. The validation is determined by the ```required``` property or the ```onValidate``` event.
 
-### Form Control Examples
-
-#### Control Types
+### Control Types
 Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
 
 * Checkbox
@@ -96,6 +94,7 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 * TextArea
 * TextField
 
+#### Basic Example
 ```js
 {
     control: {
