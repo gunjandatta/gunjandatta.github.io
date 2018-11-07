@@ -123,6 +123,14 @@ Accordion(props:IAccordionProps):IAccordion
 | --- | --- | --- |
 | btnProps | _IButtonProps_ | The button properties. |
 | content | _string_ | The item content to display. |
+| showFl | _boolean_ | Flag to show/hide the content. |
+
+#### IAccordionOptions
+
+| Name | Returns | Description |
+| --- | --- | --- |
+| parent | _string \| Element_ | If parent is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. |
+| toggle | _string_ | Toggles the collapsible element on invocation. |
 
 #### IAccordionProps
 
@@ -132,6 +140,7 @@ Accordion(props:IAccordionProps):IAccordion
 | el | _HTMLElement_ | The element to render the accordion to. |
 | id | _string_ | The accordion id. |
 | items | _Array&lt;IAccordionItem&gt;_ | The accordion items. |
+| options | _IAccordionOptions_ | The accordion options. |
 
 <script type="text/javascript">
     // Wait for the window to be loaded

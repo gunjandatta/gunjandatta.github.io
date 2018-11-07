@@ -82,7 +82,7 @@ Collapse(props:ICollapseProps):ICollapse
 
 | Name | Type | Description |
 | --- | --- | --- |
-| parent | _string_ | If parent is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. |
+| parent | _string \| Element_ | If parent is provided, then all collapsible elements under the specified parent will be closed when this collapsible item is shown. |
 | toggle | _string_ | Toggles the collapsible element on invocation. |
 
 #### ICollapseProps
@@ -94,6 +94,7 @@ Collapse(props:ICollapseProps):ICollapse
 | el | _HTMLElement_ | The element to render the collapse to. |
 | id | _string_ | The collapse id. |
 | isMulti | _boolean_ | Adds the 'multi-collapse' class name. |
+| onRender | _(props?: ICollapseProps, el?: HTMLDivElement) => void | The render event. |
 | options | _ICollapseOptions_ | The collapse options. |
 
 <script type="text/javascript">
