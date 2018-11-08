@@ -43,6 +43,8 @@ items:
       url: "listItem"
     - title: Navigation
       url: "nav"
+    - title: Permissions
+      url: "permissions"
     - title: Site
       url: "site"
     - title: Utility

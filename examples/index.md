@@ -11,6 +11,7 @@ layout: default
 - [List](list)
 - [List Item](listItem)
 - [Navigation](nav)
+- [Permissions](permissions)
 - [Site](site)
 - [Solutions](solutions)
 - [Utility](utility)
