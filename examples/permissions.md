@@ -4,6 +4,8 @@ layout: default
 
 ## Permissions
 
+The ```SPTypes``` contains the BasePermissionTypes enumerator which is used to determine what permissions a user has to a web, list or list item. The ```Helper``` class contains a ```hasPermissions(permissionMask, permissions)``` method returns true/false, based on the requested permission(s). The ```permissions``` property may be a single permission type or an array or permission types.
+
 ### Getting Permissions for Current User
 
 The web, list and list item components have a ```EffectiveBasePermissions``` property that can be queried.
