@@ -38,11 +38,11 @@ function hasPermissions() {
 import { Helper, Web, SPTypes } from "gd-sprest";
 
 // Method to get a user's the permissions for a web
-function hasPermissions() {
+function hasPermissions(): PromiseLike<boolean> {
     // Return a promise
-    return new Promise(function(resolve, reject) {
+    return new Promise((resolve, reject) => {
         // Get the permissions for the user
-        Web().query({ Select: ["EffectiveBasePermissions"] }).execute(function(web) {
+        Web().query({ Select: ["EffectiveBasePermissions"] }).execute(web => {
             // Determine if the user has edit permissions
             var hasPermissions = Helper.hasPermissions(web.EffectiveBasePermissions, SPTypes.BasePermissionTypes.ManagePermissions);
 
