@@ -1,5 +1,6 @@
 _site
 Gemfile
+shrinkwrap.yaml
 
 node_modules/*
 

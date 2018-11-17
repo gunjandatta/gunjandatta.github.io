@@ -15,6 +15,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#card");
 var card = Components.Card({
     el: el,
+    className: "w-25",
     body: [
         {
             title: "Card Title",
@@ -39,6 +40,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#card");
 let card = Components.Card({
     el: el,
+    className: "w-25",
     body: [
         {
             title: "Card Title",
@@ -59,6 +61,7 @@ let card = Components.Card({
 <bs-card>
     // Return the card properties
     return {
+        className: "w-25",
         body: [
             {
                 title: "Card Title",
@@ -79,6 +82,7 @@ let card = Components.Card({
 <bs-card>
     // Return the card properties
     return {
+        className: "w-25",
         body: [
             {
                 title: "Card Title",
@@ -128,6 +132,7 @@ Card(props:ICardProps):ICard
         if(card) {
             // Render the card
             $REST.Components.Card({
+                className: "w-25",
                 el: card,
                 body: [
                     {
