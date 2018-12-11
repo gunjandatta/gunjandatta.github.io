@@ -60,8 +60,9 @@ The ```findById(term:ITerm, termId:string)``` method can be used to find a term 
 
 ### Code Reference
 
-```ts
-// JavaScript
+#### JavaScript
+
+```js
 var $REST = require("gd-sprest");
 
 // Get the term groups
@@ -71,8 +72,11 @@ $REST.Helper.Taxonomy.getTermGroups().then(function(groups) {
         // Code goes here
     }
 });
+```
 
-// TypeScript
+#### TypeScript
+
+```ts
 import { Helper } from "gd-sprest";
 
 // Get the term groups
