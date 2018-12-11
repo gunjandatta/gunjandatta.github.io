@@ -4,7 +4,59 @@ layout: default
 
 ## Taxonomy
 
-The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree. Refer to this [blog post](http://dattabase.com/new-taxonomy-list-helper-classes/) for additional details and code examples.
+The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.
+
+### Getting the Data
+
+This section will go over the different ways to get managed metadata.
+
+#### Getting Term Groups
+
+The ```getTermGroups()``` method will return the available term groups from the available term store. The data returned will also include the Site Collection term groups.
+
+#### Getting a Term Group
+
+The ```getTermGroup(name:string)``` method will return a specific term group.
+
+#### Getting Term Sets
+
+The ```getTermSets(groupName:string)``` method will return the available term sets from a specified term group stored in the global term store. The ```getTermSetsFromDefaultSC()``` method will return the available term sets from the default site collection's term group.
+
+#### Getting a Term Set
+
+##### By Group Name
+
+The ```getTermSetByGroupName(name:string, groupName:string)``` method will return a term set, from a specified term group stored in the global term store. 
+
+##### From Default Site Collection
+
+The ```getTermSetFromDefaultSC(name:string)``` method will return a term set from the default site collection's term group.
+
+##### By ID
+
+The ```getTermSetById(termStoreId:string, termSetId:string)``` method will return a term set.
+
+#### Getting Terms
+
+##### By Group Name
+
+The ```getTermsByGroupName(name:string, groupName:string)``` method will return an array of terms, from a specified term set located from a specified term group. 
+
+##### From Default Site Collection
+
+The ```getTermsFromDefaultSC(name:string)``` method will return an array of terms, from the specified term set located in the default site collection's term group.
+
+##### By ID
+
+The ```getTermsById(termStoreId:string, termSetId:string)``` method will return an array of terms.
+
+#### Convert to Tree
+
+The data returned is an array of terms. To convert the terms to a tree object, use the ```toObject(terms:Array<ITermInfo>)```. To convert the object back to an array, use the ```toArray(term:ITerm)``` method to convert the tree back to an array of terms.
+
+#### Searching For Data
+
+The ```findById(term:ITerm, termId:string)``` method can be used to find a term by its id. The ```findByName(term:ITerm, name:string)``` method can be used to find a term by its name. Both methods will require the data to be converted to a tree object first.
 
 ### Code Reference
 
