@@ -10,9 +10,9 @@ SharePoint Online contains the $batch api endpoint. This will enable multiple re
 
 Instead of using the ```execute``` method, use the ```batch``` method to bulk multiple requests in a single execution to the server. The method properties are similar to the ```execute``` method:
 
-* batch(_callback: (value?: Result) => void_)
+* batch(_callback: (value) => void_)
 * batch(_appendFl: boolean_)
-* batch(_callback: (value?: Result) => void, appendFl: boolean_)
+* batch(_callback: (value) => void, appendFl: boolean_)
 
 #### Callback Method
 
