@@ -113,7 +113,7 @@ items:
     - title: Automation
       url: "automation"
     - title: Batch Operations
-      url: "batch-operations"
+      url: "batch"
     - title: Caching
       url: "caching"
     - title: Context Information
