@@ -16,7 +16,7 @@ Instead of using the ```execute``` method, use the ```batch``` method to bulk mu
 
 #### Callback Method
 
-The callback method will be triggered when the request becomes available.
+The callback method will be triggered after the request executes.
 
 #### Append Flag
 
