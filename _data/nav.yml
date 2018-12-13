@@ -112,7 +112,7 @@ items:
       url: "alm"
     - title: Automation
       url: "automation"
-    - title: Batch Operations
+    - title: Batch Requests
       url: "batch"
     - title: Caching
       url: "caching"

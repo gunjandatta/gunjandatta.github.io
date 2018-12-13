@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## [Batch Operations](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)
+## [Batch Requests](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)
 
 SharePoint Online contains the $batch api endpoint. This will enable multiple requests to be sent in one request to the server.
 

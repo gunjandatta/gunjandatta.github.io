@@ -6,6 +6,6 @@ layout: default
 
 - [Application Lifecycle Management](alm)
 - [Automation](automation)
-- [Batch Operations](batch)
+- [Batch Requests](batch)
 - [Caching](caching)
 - [Cross Site-Collection Requests](cross-sc)
