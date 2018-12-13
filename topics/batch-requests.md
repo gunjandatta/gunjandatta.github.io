@@ -22,7 +22,7 @@ The callback method will be triggered after the request executes.
 
 The append flag will create the request in a new batch request.
 
-### Code Examples
+### Code Example
 
 This code example will first create a demo list, if it doesn't already exist. We will create items, get the list and delete it in a batch request.
 
