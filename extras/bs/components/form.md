@@ -259,6 +259,7 @@ Form(props:IFormProps):IForm
 | name | _string_ | The form control name. |
 | onControlRendering | _(control: IFormControlProps) => void \| PromiseLike&lt;IFormControlProps>_ | The form control on rendering event. |
 | onControlRendered | _(control: IFormControl) => void \| PromiseLike&lt;IFormControlProps>_ | The form control on rendered event. |
+| onRendered | _(controls: Array&lt;IFormControl&gt;) => void_ | Event triggered when all controls have been rendered. _Note - If a promise is returned from the onControlRendering event, this event will be triggered after the promise is resolved._ |
 | onGetValue | _(control: IFormControlProps) => any_ | The form control on rendering event. |
 | required | _boolean_ | The required form control flag. |
 | type | _number_ | The form control type. _Reference the FormControlTypes enumerator_ |
