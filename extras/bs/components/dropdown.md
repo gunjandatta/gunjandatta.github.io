@@ -117,12 +117,15 @@ Dropdown(props:IDropdownProps):IDropdown
 
 | Name | Type | Description |
 | --- | --- | --- |
+| className | _string_ | Sets the class name of the dropdown item element. |
 | data | _any_ | The item data value. |
 | href | _string_ | Renders the item as a link. |
+| isDisabled | _boolean_ | True to set the disabled flag. |
 | isDivider | _boolean_ | True to render a divider. |
 | isHeader | _boolean_ | True to add the 'dropdown-header' class. |
 | isSelected | _boolean_ | True to select the item. |
 | onChange | _(item: IDropdownItem | Array&lt;IDropdownItem&gt;, ev: Event) => void_ | The change event. |
+| onRender | _(el: HTMLElement, item?: IDropdownItem) => void_ | The render event. |
 | text | _string_ | The value displayed to the user. |
 | value | _any_ | The item value. |
 
