@@ -144,7 +144,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | items | _Array&lt;IDropdownItem&gt;_ | The dropdown items. |
 | label | _string_ | The dropdown label. |
 | multi | _boolean_ | True to render the dropdown as a multi-select. |
-| onChange | _(item: IDropdownItem | Array&lt;IDropdownItem&gt;, ev: Event) => void_ | The change event. |
+| onChange | _(item: IDropdownItem \| Array&lt;IDropdownItem&gt;, ev: Event) => void_ | The change event. |
 | type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
 | value | _string \| Array&lt;string&gt;_ | The selected item values. |
 
