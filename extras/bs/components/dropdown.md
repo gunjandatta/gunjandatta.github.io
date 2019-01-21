@@ -124,7 +124,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | isDivider | _boolean_ | True to render a divider. |
 | isHeader | _boolean_ | True to add the 'dropdown-header' class. |
 | isSelected | _boolean_ | True to select the item. |
-| onChange | _(item: IDropdownItem | Array&lt;IDropdownItem&gt;, ev: Event) => void_ | The change event. |
+| onChange | _(item: IDropdownItem \| Array&lt;IDropdownItem&gt;, ev: Event) => void_ | The change event. |
 | onRender | _(el: HTMLElement, item?: IDropdownItem) => void_ | The render event. |
 | text | _string_ | The value displayed to the user. |
 | value | _any_ | The item value. |
