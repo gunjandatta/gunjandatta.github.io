@@ -9,6 +9,6 @@
     },
     "dependencies": {
         "bootswatch": "^4.1.3",
-        "gd-sprest-bs": "^1.6.3"
+        "gd-sprest-bs": "^1.6.4"
     }
 }
