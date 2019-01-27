@@ -10,6 +10,10 @@ Most of the time, the common libraries are loaded in a bundle separate from your
 
 The script on demand library contains a method "executeOrDelayUntilScriptLoaded". You can utilize this method to execute a method, once a library has been loaded.
 
+#### Classic vs Modern Page Support
+
+The SharePoint Script on Demand (SOD) is only loaded on classic pages, so this method will not work on modern pages.
+
 ### Code Example
 
 ```js
@@ -18,6 +22,9 @@ function init() {
     // Code requires the gd-sprest core library to be loaded
 }
 
-// Intialize the application after the gd-sprest library has been loaded
-SP.SOD.executeOrDelayUntilScriptLoaded(init, "gd-sprest");
+// Ensure the SP SOD exists
+if(SP && SP.SOD) {
+    // Intialize the application after the gd-sprest library has been loaded
+    SP.SOD.executeOrDelayUntilScriptLoaded(init, "gd-sprest");
+}
 ```
