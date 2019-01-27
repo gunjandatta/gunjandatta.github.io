@@ -120,6 +120,8 @@ items:
       url: "context-info"
     - title: Cross Site-Collection Requests
       url: "cross-sc"
+    - title: Loading the Library
+      url: "loading-the-lib"
  - title: Extras
    url: "extras"
    items:

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+## Loading the Library
+
+Most of the time, the common libraries are loaded in a bundle separate from your project. This library utilizes the Script on Demand library built in to SharePoint to control when scripts are loaded.
+
+### [SharePoint Script on Demand (SOD)](https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ff410742(v%3Doffice.14))
+
+The script on demand library contains a method "executeOrDelayUntilScriptLoaded". You can utilize this method to execute a method, once a library has been loaded.
+
+### Code Example
+
+```js
+// Code to initialize your application
+function init() {
+    // Code requires the gd-sprest core library to be loaded
+}
+
+// Intialize the application after the gd-sprest library has been loaded
+SP.SOD.executeOrDelayUntilScriptLoaded(init, "gd-sprest");
+```
