@@ -15,7 +15,7 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 
 - [gd-sprest](api) - An easy way to execute requests against the SharePoint 2013/Online REST api
 - [gd-sprest-bs](extras/bs) - Extends the [Bootstrap Framework](https://getbootstrap.com) with components designed for SharePoint 2013/Online.
-- [gd-sprest-def](https://github.com/gunjandatta/sprest-def) - Generates TypeScript definition files from the $metadata SharePoint REST endpoint. This allows any project to reference the intellisense in any JavaScript/TypeScript project.
+- [gd-sprest-def](https://github.com/gunjandatta/sprest-def) - Generates TypeScript definition files from the $metadata SharePoint REST endpoint, for this library.
 - [gd-sprest-react](extras/react) - Extends the [Office Fabric React Framework](https://dev.office.com/fabric) with components designed for SharePoint 2013/Online.
 
 ## Core Library
@@ -37,6 +37,8 @@ The gd-sprest library is similar to the pnp-js-core, with the main difference be
 The library has been designed to create the SharePoint object based on the response from the SharePoint REST API. This will allow us to easily stringify the request's target information and the SharePoint REST API's response to the local or storage session. A built-in stringify and parse method has been included in the library. Based on this design, SharePoint object will also contain all of its built-in methods.
 
 ### Intellisense
+
+The SharePoint REST API has a $metadata endpoint which contains the intellisense for its objects. This library's intellisense is generated from this data to ensure the latest functions/methods are made available for OnPremise and Online.
 
 The intellisense for this library is included as part of the npm installation. It supports both JavaScript and TypeScript. The nuget installation includes the bundled definition file as part of the library.
 
