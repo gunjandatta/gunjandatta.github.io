@@ -1,0 +1,133 @@
+title: Developer Guide
+items:
+ - title: Getting Started
+   url: "getting-started"
+   items:
+   - title: Installation
+     url: "installation"
+   - title: Global Variable
+     url: "global-variable"
+   - title: Browser Console
+     url: "browser-console"
+ - title: Development
+   url: "development"
+   items:
+    - title: JavaScript Development
+      url: "js"
+    - title: TypeScript Development
+      url: "ts"
+    - title: "NodeJS"
+      url: "nodejs"
+    - title: "Request Execution"
+      url: "request-execution"
+    - title: OData Requests
+      url: "odata"
+    - title: SPFX
+      url: "spfx"
+    - title: WebPack
+      url: "webpack"
+ - title: Code Examples
+   url: "examples"
+   items:
+    - title: Application Lifecycle Management
+      url: "alm"
+    - title: Automation
+      url: "automation"
+    - title: Custom Solutions
+      url: "solutions"
+    - title: Form
+      url: "form"
+    - title: List
+      url: "list"
+    - title: List Item
+      url: "listItem"
+    - title: Navigation
+      url: "nav"
+    - title: Permissions
+      url: "permissions"
+    - title: Site
+      url: "site"
+    - title: Utility
+      url: "utility"
+    - title: Web
+      url: "web"
+ - title: REST API
+   url: "api"
+   items:
+    - title: List
+      url: "list"
+    - title: List Data As Stream
+      url: "list-data"
+    - title: Navigation
+      url: "nav"
+    - title: People Manager
+      url: "people-manager"
+    - title: People Picker
+      url: "people-picker"
+    - title: Profile Loader
+      url: "profile-loader"
+    - title: Remote Web
+      url: "web-remote"
+    - title: Search
+      url: "search"
+    - title: Site
+      url: "site"
+    - title: Site Exists
+      url: "site-exists"
+    - title: Site Url By Id
+      url: "site-getUrlById"
+    - title: Social Feed
+      url: "social-feed"
+    - title: User Profile
+      url: "user-profile"
+    - title: Utility
+      url: "utility"
+    - title: Web
+      url: "web"
+ - title: Helper
+   url: "helpers"
+   items:
+    - title: Add-In Model
+      url: "add-in-model"
+    - title: Executor
+      url: "executor"
+    - title: JSLink
+      url: "jslink"
+    - title: List Form
+      url: "list-form"
+    - title: List Form Field
+      url: "list-form-field"
+    - title: Methods
+      url: "methods"
+    - title: SharePoint Core Libraries
+      url: "sp"
+    - title: Taxonomy
+      url: "taxonomy"
+    - title: WebPart
+      url: "webpart"
+ - title: Advanced Topics
+   url: "topics"
+   items:
+    - title: Application Lifecycle Management
+      url: "alm"
+    - title: Automation
+      url: "automation"
+    - title: Batch Requests
+      url: "batch-requests"
+    - title: Caching
+      url: "caching"
+    - title: Context Information
+      url: "context-info"
+    - title: Cross Site-Collection Requests
+      url: "cross-sc"
+    - title: Loading the Library
+      url: "loading-the-lib"
+ - title: Extras
+   url: "extras"
+   items:
+    - title: "Bootstrap"
+      url: "bs"
+    - title: "Office Fabric-UI (JS)"
+      url: "js"
+    - title: "Office Fabric-UI (React)"
+      url: "react"

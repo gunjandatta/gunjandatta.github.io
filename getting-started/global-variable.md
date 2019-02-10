@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# Getting Started
 
 ## Global Variable
 

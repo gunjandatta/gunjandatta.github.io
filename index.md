@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 [![NuGet](https://img.shields.io/nuget/v/gd-sprest.svg)](https://www.nuget.org/packages/gd-sprest/)

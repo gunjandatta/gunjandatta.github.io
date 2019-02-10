@@ -1,6 +1,6 @@
 title: SharePoint REST Framework
 description: An easy way to develop against the SharePoint 2013/Online REST API
-exclude: []
+exclude: [node_modules]
 google_analytics: UA-113454573-1
 show_downloads: false
 repository: gunjandatta/gunjandatta.github.io
