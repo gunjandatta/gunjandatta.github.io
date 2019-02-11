@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Command Button](https://dev.office.com/fabric-js/Components/CommandButton/CommandButton.html)
 

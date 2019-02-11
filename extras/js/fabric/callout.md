@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Callout](https://dev.office.com/fabric-js/Components/Callout/Callout.html)
 

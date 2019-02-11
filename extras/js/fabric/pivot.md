@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Pivot](https://dev.office.com/fabric-js/Components/Pivot/Pivot.html)
 

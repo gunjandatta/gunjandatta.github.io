@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Spinner](https://dev.office.com/fabric-js/Components/Spinner/Spinner.html)
 

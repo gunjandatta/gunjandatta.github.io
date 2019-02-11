@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Contextual Menu](https://dev.office.com/fabric-js/Components/ContextualMenu/ContextualMenu.html)
 

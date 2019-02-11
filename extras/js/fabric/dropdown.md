@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Dropdown](https://dev.office.com/fabric-js/Components/Dropdown/Dropdown.html)
 

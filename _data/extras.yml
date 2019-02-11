@@ -65,3 +65,71 @@ items:
         url: webparts/tabs
       - title: WebPart (Taxonomy)
         url: webparts/taxonomy
+  - title: Office Fabric-UI (React)
+    url: extras/react
+    items:
+      - title: 
+        url: components/
+  - title: Office Fabric-UI (JS)
+    url: extras/js
+    items:
+      - title: Button
+        url: fabric/button
+      - title: Callout
+        url: fabric/callout
+      - title: Checkbox
+        url: fabric/checkbox
+      - title: Command Bar
+        url: fabric/commandbar
+      - title: Command Button
+        url: fabric/commandbtn
+      - title: Contextual Menu
+        url: fabric/contextualmenu
+      - title: Date Picker
+        url: fabric/datepicker
+      - title: Dialog
+        url: fabric/dialog
+      - title: Dropdown
+        url: fabric/dropdown
+      - title: Field
+        url: components/field
+      - title: Link Field
+        url: fabric/linkfield
+      - title: List
+        url: fabric/list
+      - title: List Form
+        url: components/listform
+      - title: List Form Field
+        url: components/listformfield
+      - title: List Form Panel
+        url: components/listformpanel
+      - title: List Item
+        url: fabric/listitem
+      - title: Number Field
+        url: fabric/numberfield
+      - title: Overlay
+        url: fabric/overlay
+      - title: Panel
+        url: fabric/panel
+      - title: People Picker
+        url: fabric/peoplepicker
+      - title: Pivot
+        url: fabric/pivot
+      - title: Search Box
+        url: fabric/searchbox
+      - title: Spinner
+        url: fabric/spinner
+      - title: Table
+        url: fabric/table
+      - title: Text Field
+        url: fabric/textfield
+      - title: Toggle
+        url: fabric/toggle
+      - title: WebPart
+        url: webparts/wp
+      - title: WebPart (List)
+        url: webparts/list
+      - title: WebPart (Search)
+        url: webparts/search
+      - title: WebPart (Tabs)
+        url: webparts/tabs

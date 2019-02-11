@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
+
 ## [Overlay](https://dev.office.com/fabric-js/Components/Overlay/Overlay.html)
 
 ### Input Parameters

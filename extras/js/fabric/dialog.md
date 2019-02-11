@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Dialog](https://dev.office.com/fabric-js/Components/Dialog/Dialog.html)
 

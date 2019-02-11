@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
+
 ## [Button](https://dev.office.com/fabric-js/Components/Button/Button.html)
 
 ### Input Parameters

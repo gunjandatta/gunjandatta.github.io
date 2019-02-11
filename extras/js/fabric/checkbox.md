@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [CheckBox](https://dev.office.com/fabric-js/Components/CheckBox/CheckBox.html)
 

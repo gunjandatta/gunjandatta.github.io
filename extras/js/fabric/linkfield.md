@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Link Field](https://dev.office.com/fabric-js/Components/Link/Link.html)
 

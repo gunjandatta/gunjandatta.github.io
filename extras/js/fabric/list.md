@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [List](https://dev.office.com/fabric-js/Components/List/List.html)
 

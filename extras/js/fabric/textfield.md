@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Text Field](https://dev.office.com/fabric-js/Components/TextField/TextField.html)
 

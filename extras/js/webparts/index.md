@@ -2,9 +2,6 @@
 layout: page
 ---
 
-### WebParts
-
-- [WebPart](wp)
-- [List](list)
-- [Search](search)
-- [Tabs](tabs)
+<script>
+document.location = "/extras/js";
+</script>

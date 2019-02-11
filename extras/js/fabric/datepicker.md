@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Date Picker](https://dev.office.com/fabric-js/Components/DatePicker/DatePicker.html)
 

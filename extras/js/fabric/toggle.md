@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Toggle](https://dev.office.com/fabric-js/Components/Toggle/Toggle.html)
 

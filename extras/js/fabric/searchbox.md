@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (JS)
 
 ## [Search Box](https://dev.office.com/fabric-js/Components/SearchBox/SearchBox.html)
 
