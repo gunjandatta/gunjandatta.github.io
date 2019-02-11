@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## React Item Component
+### React Item Component
 
 The item form component queries the target list's default content type, in order to render the form fields based on the configuration.
 
-### Configuration
+**_Configuration_**
+
 * _**className**_
     The class name to apply to the item form.
 * _**controlMode**_
@@ -52,7 +54,8 @@ The item form component queries the target list's default content type, in order
 * _**webUrl**_
     * Optional string representing the relative url of the site containing the list.
 
-### Global Methods/Variables
+**_Global Methods/Variables_**
+
 * **AttachmentField**
     * Reference to the attachment's field component.
 * **ControlMode**
@@ -73,7 +76,7 @@ The item form component queries the target list's default content type, in order
 * **update(itemValues)**
     * Method to update the item.
 
-### TypeScript
+**_Code Example_**
 
 ```tsx
 import * as React from "react";

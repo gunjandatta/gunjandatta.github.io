@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## React WebPart Configuration Component
+### React WebPart Configuration Component
 
 This component is used with the [WebPart](wp) component. This component renders a button to the page, displaying a configuration panel displaying the webpart's custom properties. This component can be extended for further customizations.
 
-### Available Components
+**_Available Components_**
+
 * _WebPartCfgPanel_
   * The base component rendering a button and panel
 * _WebPartListCfg_
@@ -19,25 +21,27 @@ This component is used with the [WebPart](wp) component. This component renders 
   * Filters the list of fields to specific types allowed for the search webpart
   * Inherits from the WebPartFieldCfg component
 
-### Additional Information
+**_Additional Information_**
+
 Reference this [blog post](http://dattabase.com/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
 
-### Interfaces
-#### IWebPartCfg (WebPart Configuration)
+**_Interfaces_**
+
+IWebPartCfg (WebPart Configuration)
 * WebPartId:string
     * The webpart id containing the element
 
-#### IWebPartCfgProps (WebPart Configuration Properties)
+IWebPartCfgProps (WebPart Configuration Properties)
 * cfg:IWebPartCfg
     * The webpart configuration
 * cfgElementId:string
     * The target element id to render the component to
 
-#### IWebPartCfgState (WebPart Configuration State)
+IWebPartCfgState (WebPart Configuration State)
 * cfg:IWebPartCfg
     * The webpart configuration
 
-#### IWebPartCfgPanel (WebPart Configuration Panel)
+IWebPartCfgPanel (WebPart Configuration Panel)
 * _errorMessage:HTMLDivElement
     * A reference to the error message element.
 * _panel:Panel

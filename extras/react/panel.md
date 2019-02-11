@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## React Panel Component
+### React Panel Component
 
 This component extends the Office Fabric Panel, and adds show/hide public methods.
 
-### Methods
+**_Methods_**
+
 * **hide()**
     * Method to hide the panel
 * **show()**
     * Method to show the panel
 
-### TypeScript
+**_Code Example_**
 
 ```tsx
 import * as React from "react";

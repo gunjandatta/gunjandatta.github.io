@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## React WebPart Component
+### React WebPart Component
 
 Reference this [blog post](http://dattabase.com/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
 
@@ -11,10 +12,12 @@ The webpart component allows the developer to easily assign a component to be re
 * WebPart Pages
 * Wiki Pages
 
-### Component Logic
+**_Component Logic_**
+
 This webpart allows the developer to control what component to display, based on the page mode (Display/Edit). This flexibility allows the developer to create smaller components, based on the page mode.
 
-### Properties
+**_Properties_**
+
 * _**cfgElementId**_
     * The webpart configuration target element id.
 * _**displayElement**_
@@ -35,5 +38,6 @@ This webpart allows the developer to control what component to display, based on
 * _**onRenderEdit**_
     * Event used in-place of defining the "editElement" property.
 
-### Fabric Component
+**_Fabric Component_**
+
 The [Fabric Component](https://github.com/OfficeDev/office-ui-fabric-react/wiki/The-Fabric-Component) should be used to wrap the Fabric UI react components. By default the WebPart will wrap the display and edit elements in a Fabric component, so there is no need to add this to you application.

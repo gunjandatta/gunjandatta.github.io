@@ -68,8 +68,22 @@ items:
   - title: Office Fabric-UI (React)
     url: extras/react
     items:
-      - title: 
-        url: components/
+      - title: Field
+        url: field
+      - title: Item Form
+        url: item-form
+      - title: Panel
+        url: panel
+      - title: People Picker
+        url: people-picker
+      - title: WebPart
+        url: wp
+      - title: WebPart (List)
+        url: wp-list
+      - title: WebPart (Search)
+        url: wp-search
+      - title: WebPart (Tabs)
+        url: wp-tabs
   - title: Office Fabric-UI (JS)
     url: extras/js
     items:

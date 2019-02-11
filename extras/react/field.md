@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## Field
+### Field
 
-### Supported Types
+**_Supported Types_**
 The field components currently supported are:
 * Attachments
 * Boolean
@@ -21,12 +22,12 @@ The field components currently supported are:
 * Url
 * User
 
-### Configuration
+**_Configuration_**
 The field component queries the target list to get the configuration. Based on the type, the appropriate field component is rendered. This ensures minor code changes to the field type are no longer require.
 * Info - The field information.
 * Value - The field value.
 
-### TypeScript
+**_Code Example_**
 
 ```tsx
 import * as React from "react";

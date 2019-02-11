@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: extras
 ---
+# Office Fabric-UI (React)
 
-## React People Picker Component
+### React People Picker Component
 
 This people picker components searches the user information list by default. The "Show All" option within the search results will extend the search to all principal sources.
 
 _Reference this [github project](https://github.com/gunjandatta/sprest-webparts/tree/master/src/email) for an example of using the SharePoint People Picker component._
 
-### TypeScript
+**_Code Example_**
 
 ```tsx
 import * as React from "react";
