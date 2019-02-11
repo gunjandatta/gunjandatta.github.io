@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 ## [Button](https://dev.office.com/fabric-js/Components/Button/Button.html)
 

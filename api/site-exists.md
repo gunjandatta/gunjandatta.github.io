@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Site Exists
 
@@ -10,9 +11,9 @@ The site exists allows you to check if a site exists.
 
 - url - The absolute url of the site.
 
-### JavaScript
+### Code Example
 
-```js
+```ts
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.SiteExists("https://[tenant].sharepoint.com/sites/dev").execute(function(site) {
@@ -20,11 +21,7 @@ $REST.SiteExists("https://[tenant].sharepoint.com/sites/dev").execute(function(s
     if(site.Exists) {
     }
 });
-```
 
-### TypeScript
-
-```ts
 // TypeScript
 import { Site } from "gd-sprest";
 

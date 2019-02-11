@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [People Picker](https://dev.office.com/fabric-js/Components/PeoplePicker/PeoplePicker.html)

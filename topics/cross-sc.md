@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## Cross Site-Collection Requests

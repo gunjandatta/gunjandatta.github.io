@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 [![NuGet](https://img.shields.io/nuget/v/gd-sprest.svg)](https://www.nuget.org/packages/gd-sprest/)
@@ -62,7 +62,7 @@ The SharePoint Configuration automation feature allows the develoepr to easily c
 
 ### Conversions
 
-#### [Server-Side to Client-Side Conversion Guide](development/serverside-conversion-guide)
+#### [Server-Side to Client-Side Conversion Guide](dev/serverside-conversion-guide)
 
 The execution method was designed to give a server-side like experience, similar to SharePoint 2010/2013 solutions. This will help convert existing server-side solutions to client-side solutions.
 
@@ -70,7 +70,7 @@ The execution method was designed to give a server-side like experience, similar
 The javascript, typescript, react/angular/react/etc solutions developed for SharePoint 2013 can easily be migrated/copied to a SharePoint Framework (SPFx) modern solution. A [blog series](http://dattabase.com/sharepoint-app-fabric-ui-react-part-3-3/) is available for creating an Add-In for SharePoint 2013/Online using the Office Fabric-UI React framework, including converting it to a SPFX WebPart.
 
 #### SPFX Project
-Refer to the [documentation](https://gunjandatta.github.io/development/spfx) for steps on configuring this library in a SPFX project.
+Refer to the [documentation](https://gunjandatta.github.io/dev/spfx) for steps on configuring this library in a SPFX project.
 
 ### Security
 The REST api execute requests based on the user's permissions. There is no way to elevate priviledges requests against the SharePoint REST.

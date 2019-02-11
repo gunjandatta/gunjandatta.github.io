@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## People Picker
 [Documentation](http://dattabase.com/sharepoint-people-picker-rest-api/)
 
-### Code Reference
+### Code Example
 
 ```ts
 // JavaScript

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### Table
 [Documentation](http://getbootstrap.com/docs/4.1/content/tables/)

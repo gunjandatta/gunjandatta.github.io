@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# Dev Docs
 
 ## Request Execution
 
@@ -9,8 +10,8 @@ The library's base object contains an "execute" method. This method has been des
 ### Intellisense
 
 The execution method is designed to automatically determine the type interface, so the developer doesn't have to specify it. This is designed to work in JavaScript, NodeJS and TypeScript solutions. No additional libraries are required to be downloaded.
-- [JavaScript](/development/js)
-- [TypeScript](/development/ts)
+- [JavaScript](/dev/js)
+- [TypeScript](/dev/ts)
 
 ### Options
 

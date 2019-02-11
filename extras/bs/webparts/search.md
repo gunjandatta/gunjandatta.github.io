@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### Search WebPart
 The search webpart extends the list webpart, and includes a filterItems method to return items based on the inputed filter text.

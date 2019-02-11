@@ -1,0 +1,67 @@
+title: Framework Docs
+items:
+  - title: Bootstrap
+    url: extras/bs
+    items:
+      - title: Accordion
+        url: components/accordion
+      - title: Alert
+        url: components/alert
+      - title: Badge
+        url: components/badge
+      - title: Breadcrumb
+        url: components/breadcrumb
+      - title: Button
+        url: components/button
+      - title: Button Group
+        url: components/buttongroup
+      - title: Card
+        url: components/card
+      - title: Card Group
+        url: components/cardgroup
+      - title: Carousel
+        url: components/carousel
+      - title: Checkbox Group
+        url: components/checkboxgroup
+      - title: Collapse
+        url: components/collapse
+      - title: Dropdown
+        url: components/dropdown
+      - title: Form
+        url: components/form
+      - title: Input Group
+        url: components/inputgroup
+      - title: Jumbotron
+        url: components/jumbotron
+      - title: List Group
+        url: components/listgroup
+      - title: Modal
+        url: components/modal
+      - title: Nav
+        url: components/nav
+      - title: Navbar
+        url: components/navbar
+      - title: Pagination
+        url: components/pagination
+      - title: Panel
+        url: components/panel
+      - title: Popover
+        url: components/popover
+      - title: Progress
+        url: components/progress
+      - title: Progress Group
+        url: components/progressgroup
+      - title: Table
+        url: components/table
+      - title: Tooltip
+        url: components/tooltip
+      - title: WebPart
+        url: webparts/webpart
+      - title: WebPart (List)
+        url: webparts/list
+      - title: WebPart (Search)
+        url: webparts/search
+      - title: WebPart (Tabs)
+        url: webparts/tabs
+      - title: WebPart (Taxonomy)
+        url: webparts/taxonomy

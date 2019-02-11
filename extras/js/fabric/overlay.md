@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 ## [Overlay](https://dev.office.com/fabric-js/Components/Overlay/Overlay.html)
 

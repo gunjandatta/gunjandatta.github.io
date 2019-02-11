@@ -1,60 +1,25 @@
 ---
-layout: default
+layout: extras
 ---
 
-## Bootstrap
+# Bootstrap
 
 This library extends the [gd-bs library](https://github.com/gunjandatta/gd-bs), which uses the [Bootstrap Framework](https://getbootstrap.com/) to create modern components in SharePoint 2013/Online (Classic) environments. Reference the [gd-sprest-bs library](https://github.com/gunjandatta/sprest-bs) to view the source code.
 
 If you like this library, please [Star it](https://github.com/gunjandatta/sprest-bs). If there are any issues/bugs/requests, create an _[issue here](https://github.com/gunjandatta/sprest-bs/issues)_.
 
-### Installation
+**_Installation_**
 ```
 npm i --save gd-sprest-bs
 ```
 
-### Reference the Script
+**_Reference the Script_**
 ```
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 ```
 
-### Components
-- [Accordion](components/accordion)
-- [Alert](components/alert)
-- [Badge](components/badge)
-- [Breadcrumb](components/breadcrumb)
-- [Button](components/button)
-- [Button Group](components/buttongroup)
-- [Card](components/card)
-- [Card Group](components/cardgroup)
-- [Carousel](components/carousel)
-- [Checkbox Group](components/checkboxgroup)
-- [Collapse](components/collapse)
-- [Dropdown](components/dropdown)
-- [Form](components/form)
-- [Input Group](components/inputgroup)
-- [Jumbotron](components/jumbotron)
-- [List Group](components/listgroup)
-- [Modal](components/modal)
-- [Nav](components/nav)
-- [Navbar](components/navbar)
-- [Pagination](components/pagination)
-- [Panel](components/panel)
-- [Popover](components/popover)
-- [Progress](components/progress)
-- [Progress Group](components/progressgroup)
-- [Table](components/table)
-- [Tooltip](components/tooltip)
+**_Packaging_**
 
-### WebParts
-- [WebPart](webparts/webpart)
-- [List](webparts/list)
-- [Search](webparts/search)
-- [Tabs](webparts/tabs)
-- [Taxonomy](webparts/taxonomy)
+**_[WebPack Configuration](webpack)_**
 
-### Packaging
-
-#### [WebPack Configuration](webpack)
-
-#### [SPFx Configuration](spfx)
+**_[SPFx Configuration](spfx)_**

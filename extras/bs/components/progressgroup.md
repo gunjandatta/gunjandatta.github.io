@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### Progress Group
 [Documentation](http://getbootstrap.com/docs/4.1/components/progress/#multiple-bars)

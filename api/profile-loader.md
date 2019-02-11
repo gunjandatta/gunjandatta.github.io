@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Profile Loader
 [Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_ProfileLoader)
 
 ### Code Example
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");

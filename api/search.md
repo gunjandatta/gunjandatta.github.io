@@ -1,11 +1,13 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Search
 [Documentation](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/sharepoint-search-rest-api-overview)
 
-### Code Reference
+### Code Example
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");

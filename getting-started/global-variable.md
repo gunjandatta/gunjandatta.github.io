@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 # Getting Started
 
@@ -7,7 +7,7 @@ layout: default
 
 The gd-sprest library will add a **$REST** global variable to the DOM. The **$REST** variable contains the following properties and helper libraries, shown below.
 
-### Properties
+**_Properties_**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -15,8 +15,7 @@ The gd-sprest library will add a **$REST** global variable to the DOM. The **$RE
 | [ContextInfo](/topics/context-info) | _IContextInfo_ | A reference to the _spPageContextInfo global variable. |
 | [DefaultRequestToHostFl](/helpers/add-in-model) | _boolean_ | Flag to target the app-web or host web for requests. _(false by default)_ |
 
-
-### Library
+**_Library_**
 
 | Class Name | Description |
 | --- | --- |
@@ -48,6 +47,6 @@ The gd-sprest library will add a **$REST** global variable to the DOM. The **$RE
 | Utility | Library for developing against the _/\_api/SP.Utilities.Utility_ api endpoint. |
 | Web | Library for developing against the _/\_api/web_ api endpoint. |
 
-### Version Control
+**_Version Control_**
 
 The __ver number is used to ensure the latest library is loaded as the global variable.

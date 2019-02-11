@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# Dev Docs
 
 ## TypeScript Development
 
@@ -75,7 +76,7 @@ The methods and properties are available for the web object. Any collections, "F
 The ability to query objects is very powerful, and can reduce the amount of requests made to SharePoint.
 
 ##### OData Request
-The query method is available, and contains the intellisense for the [OData Request](/development/odata).
+The query method is available, and contains the intellisense for the [OData Request](/dev/odata).
 
 ![OData Request](/assets/images/intellisense-ts-query.png)
 

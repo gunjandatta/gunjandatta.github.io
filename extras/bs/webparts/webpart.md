@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### WebPart
 The client-side webpart component can be used to control what is displayed when a page is being edited and displayed. An optional hidden configuration element can be utilized to store a custom configuration.

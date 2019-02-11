@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 ---
 # Getting Started
 
 ## Installation
 
-<!-- NPM -->
-#### NPM
+**_NPM_**
 
 Add the npm package to your project:
 
@@ -14,8 +13,7 @@ Add the npm package to your project:
 npm --save install gd-sprest
 ```
 
-<!-- Yarn -->
-#### Yarn
+**_Yarn_**
 
 Add the package from yarn:
 
@@ -23,8 +21,7 @@ Add the package from yarn:
 yarn add gd-sprest
 ```
 
-<!-- JavaScript -->
-#### JavaScript
+**_JavaScript_**
 
 The library can downloaded or referenced from github directly.
 

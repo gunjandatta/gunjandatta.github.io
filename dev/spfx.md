@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# Dev Docs
 
 ## SharePoint Framework (SPFX)
 

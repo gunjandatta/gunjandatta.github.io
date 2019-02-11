@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Date Picker](https://dev.office.com/fabric-js/Components/DatePicker/DatePicker.html)

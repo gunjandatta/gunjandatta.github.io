@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## React WebPart List Component
@@ -19,7 +19,7 @@ The constructor allows the developer to specify a static configuration. An optio
 Specify the following values in the constructor:
 * __caml:string_
     * The CAML query to execute against the target list.
-* __query:[ODataQuery](/development/odata)_
+* __query:[ODataQuery](/dev/odata)_
     * The OData query to execute against the target list.
 
 ### Events

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Get Site URL By Id
 
@@ -10,20 +11,16 @@ This api endpoint will return the url of a site, by its id.
 
 - id - The site id.
 
-### JavaScript
+### Code Example
 
-```js
+```ts
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.SiteUrl("[Site GUID]").execute(function(site) {
     // Get the url
     var siteUrl = site.GetUrlById;
 });
-```
 
-### TypeScript
-
-```ts
 // TypeScript
 import { Site } from "gd-sprest";
 

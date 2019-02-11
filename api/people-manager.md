@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## People Manager
 [Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx#bk_PeopleManager)

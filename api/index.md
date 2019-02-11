@@ -1,21 +1,35 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
-## REST API Libraries
+## Overview
 
-- [List](list) - _/\_api/web/lists/getbytitle('List Name')_
-- [List Data](list-data) - _/\_api/SP.List.getDataAsStream_
-- [Navigation](nav) - _/\_api/navigation_
-- [People Manager](people-manager) - _/\_api/sp.userprofiles.peoplemanager_
-- [People Picker](people-picker) - _/\_api/SP.UI.ApplicationPages.ClientPeoplePickerWebServiceInterface_
-- [Profile Loader](profile-loader) - _/\_api/sp.userprofiles.profileloader.getprofileloader_
-- [Remote Web](web-remote) - _/\_api/SP.RemoteWeb_
-- [Search](search) - _/\_api/search_
-- [Site](site) - _/\_api/site_
-- [Site Exists](site-exists) - _/\_api/SP.Site.Exists_
-- [Site Url By Id](site-getUrlById) - _/\_api/SP.Site.GetUrlById_
-- [Social Feed](social-feed) - _/\_api/social.feed_
-- [User Profile](user-profile) - _/\_api/sp.userprofiles.profileloader.getprofileloader/getUserProfile_
-- [Utility](utility) - _/\_api/SP.Utilities.Utility_
-- [Web](web) - _/\_api/web_
+The SharePoint Representational State Transfer (REST) API allows developers to perform CRUD (Create, Read, Update & Delete) operations from client-side code. These operations are similar to the SSOM (Server-Side Object Model), which was how developers created solutions in SharePoint 2007 & 2010 environments. The REST API was initially introduced in SharePoint 2013, but has been expanded in SharePoint 2016/2019/Online.
+
+**_References_**
+
+_[2013 Documentation](https://msdn.microsoft.com/en-us/library/office/jj860569.aspx)_
+
+_[Online Documentation](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service)_
+
+**_Available End Points_**
+
+The SharePoint REST API can be accessed by ```https://sp.site.url/_api/[endpoint]```. The table below displays a list of the supported REST API endpoints in this library.
+
+| Name | Library Reference | Description |
+| $REST.List | [List](list) | Gets list data from the current or web or site collection within the web application. |
+| $REST.ListDataAsStream | [List Data](list-data) | Gets list data which have complex fields (lookups/mms) |
+| $REST.Navigation | [Navigation](nav) | Gets information from the navigation nodes. |
+| $REST.PeopleManager | [People Manager](people-manager) | |
+| $REST.PeoplePicker | [People Picker](people-picker) | |
+| $REST.ProfileLoader | [Profile Loader](profile-loader) | |
+| $REST.RemoteWeb | [Remote Web](remote-web) | |
+| $REST.Search | [Search](search) | |
+| $REST.Site | [Site](site) | Gets the site data from within the web application. |
+| $REST.SiteExists | [Site Exists](site-exists) | Determines if a site exists by url. |
+| $REST.SiteUrl | [Site Url by Id](site-getUrlById) | Gets the site url by id. |
+| $REST.SocialFeed | [Social Feed](social-feed) | |
+| $REST.UserProfile | [User Profile](user-profile) | |
+| $REST.Utility | [Utility](utility) | |
+| $REST.Web | [Web](web) | Gets the web data from within the web application. |

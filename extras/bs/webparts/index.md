@@ -1,11 +1,7 @@
 ---
-layout: default
+layout: page
 ---
 
-## WebParts
-
-- [WebPart](webpart)
-- [List](list)
-- [Search](search)
-- [Tabs](tabs)
-- [Taxonomy](taxonomy)
+<script>
+document.location = "/extras/bs";
+</script>

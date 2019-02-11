@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Utility
 
-### [Code Examples](/examples/utility)
+[Click here for additional code examples.](/examples/utility)
 
 #### Methods
+
 * **createEmailBodyForInvitation(pageAddress: string)**
     * Gets the external (outside the firewall) URL to a document or resource in a site.
 

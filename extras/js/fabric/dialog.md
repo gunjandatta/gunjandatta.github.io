@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Dialog](https://dev.office.com/fabric-js/Components/Dialog/Dialog.html)

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Table](https://dev.office.com/fabric-js/Components/Table/Table.html)

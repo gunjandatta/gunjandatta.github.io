@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Spinner](https://dev.office.com/fabric-js/Components/Spinner/Spinner.html)

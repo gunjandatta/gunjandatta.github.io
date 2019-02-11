@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [List Item](https://dev.office.com/fabric-js/Components/ListItem/ListItem.html)

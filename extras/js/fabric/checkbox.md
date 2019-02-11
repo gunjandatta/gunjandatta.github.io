@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [CheckBox](https://dev.office.com/fabric-js/Components/CheckBox/CheckBox.html)

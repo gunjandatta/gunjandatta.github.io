@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Site
 
-### Code Reference
+### Code Example
 
 ```ts
 // JavaScript

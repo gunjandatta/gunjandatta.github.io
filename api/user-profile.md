@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## User Profile
 [Documentation](https://msdn.microsoft.com/en-us/library/office/dn790354.aspx)
 
-### Code Reference
+### Code Example
 
 ```ts
 // JavaScript

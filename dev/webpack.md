@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# Dev Docs
 
 ## WebPack
 
@@ -64,7 +65,7 @@ module.exports = {
 
     // Resolve the file names
     resolve: {
-        extensions: [".js", ".css", ".sass", ".ts"]
+        extensions: [".js", ".css", ".scss", ".ts"]
     },
 
     // Loaders
@@ -106,19 +107,18 @@ module.exports = {
 
 ### Externals
 
-If your application uses a core/common file, then applications requiring the `gd-sprest` and `gd-sprest-bs` or `gd-sprest-js` libraries to be excluded from their bundle will need to add the following configuration.
+If your application uses a core/common file, then applications requiring the `gd-sprest` and/or `gd-sprest-bs` libraries to be excluded from their bundle will need to add the following configuration.
 
 ```js
 // Return the configuration
 module.exports = {
     // Basic Configuration Here
 
-    // Exclude the gd-sprest, gd-sprest-bs or gd-sprest-js libraries
+    // Exclude the gd-sprest and/or gd-sprest-bs libraries
     // This would be dependent on the libraries you are using
     externals: {
         "gd-sprest": "$REST",
-        "gd-sprest-bs": "$REST",
-        "gd-sprest-js": "$REST.JS"
+        "gd-sprest-bs": "$REST"
     }
 }
 ```

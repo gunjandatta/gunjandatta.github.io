@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### List Group
 [Documentation](https://getbootstrap.com/docs/4.1/components/list-group)

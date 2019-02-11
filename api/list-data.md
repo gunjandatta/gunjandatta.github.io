@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
+
 ## List Data as Stream
 
 The list data as stream allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint. Since the absolute url of the list is required, data can be retrieved from other site collections. The context information of the other site collection is not required with this api.
@@ -10,11 +12,9 @@ The list data as stream allows you to get data from a list, using the REST API's
 - listFullUrl - The absolute url of the list.
 - parameters - The optional list data parameters.
 
-### Code Reference
+### Code Example
 
-#### JavaScript
-
-```js
+```ts
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.ListDataAsStream("https://[tenant].sharepoint.com/sites/dev/lists/tasks", {
@@ -26,11 +26,7 @@ $REST.ListDataAsStream("https://[tenant].sharepoint.com/sites/dev/lists/tasks", 
         var item = data.Row[i];
     }
 });
-```
 
-#### TypeScript
-
-```ts
 // TypeScript
 import { List } from "gd-sprest";
 

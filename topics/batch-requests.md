@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Batch Requests](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis)

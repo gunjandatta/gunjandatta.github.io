@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### WebPart Tabs
 The webpart tabs will generate tabs for each visible webpart in its zone.

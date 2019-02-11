@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# Dev Docs
 
 ## Server-Side to Client-Side Code Conversion
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Dropdown](https://dev.office.com/fabric-js/Components/Dropdown/Dropdown.html)

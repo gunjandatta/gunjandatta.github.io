@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Link Field](https://dev.office.com/fabric-js/Components/Link/Link.html)

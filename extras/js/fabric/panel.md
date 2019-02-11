@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Panel](https://dev.office.com/fabric-js/Components/Panel/Panel.html)

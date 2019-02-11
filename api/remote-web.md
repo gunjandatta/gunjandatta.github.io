@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Remote Web
 
@@ -19,9 +20,9 @@ The SP.RemoteWeb REST API endpoint is used to return the web information.
 | ShareByLinkEnabled | _boolean_ |
 | Web | [IWebProps](web) |
 
-### JavaScript
+### Code Example
 
-```js
+```ts
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.RemoteWeb("https://[tenant].sharepoint.com/sites/dev").execute(function(web) {
@@ -29,11 +30,7 @@ $REST.RemoteWeb("https://[tenant].sharepoint.com/sites/dev").execute(function(we
     if(web.Web) {
     }
 });
-```
 
-### TypeScript
-
-```ts
 // TypeScript
 import { Web } from "gd-sprest";
 

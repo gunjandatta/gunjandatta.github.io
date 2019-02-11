@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## Web
 
-### Code Reference
+### Code Example
+
 ```ts
 // JavaScript
 var $REST = require("gd-sprest");
@@ -15,7 +17,7 @@ import { Web } from "gd-sprest";
 Web()
 ```
 
-#### [Code Examples](/examples/web)
+_Additional code examples can be found [here](/examples/web)._
 
 ### Properties
 

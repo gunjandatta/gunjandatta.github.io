@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Contextual Menu](https://dev.office.com/fabric-js/Components/ContextualMenu/ContextualMenu.html)

@@ -3,7 +3,6 @@
 
 /** Body **/
 body {
-    /* Global Styling */
     background-color: #dfdfdf;
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
@@ -18,12 +17,18 @@ body {
     .main {
         a, a:visited { color: black; }
 
-        /* Make the sidebar static. */
         .sidebar {
+            overflow-y: auto;
+
+            /* Make the sidebar static. */
             position: -webkit-sticky;
             position: sticky;
             top: 4rem;
             height: calc(-4rem + -1.5rem + 100vh);
+
+            .border-bottom {
+                color: #000000;
+            }
         }
 
         /* Content */

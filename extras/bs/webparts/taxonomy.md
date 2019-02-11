@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### Taxonomy WebPart
 The taxonomy webpart should be used when targeting the term store as a datasource.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Command Button](https://dev.office.com/fabric-js/Components/CommandButton/CommandButton.html)

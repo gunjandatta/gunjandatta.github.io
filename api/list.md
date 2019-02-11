@@ -1,25 +1,20 @@
 ---
-layout: default
+layout: page
 ---
+# REST API
 
 ## List
 [Documentation](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
 
-### Code Reference
+### [Code Example](/examples/list)
 
-Refer to [this page](/examples/list) for additional list code examples.
-
-#### JavaScript
-```js
+```ts
 // JavaScript
 var $REST = require("gd-sprest");
 $REST.List("[List Name]").execute(function(list) {
   // Code goes here
 });
-```
 
-#### TypeScript
-```ts
 // TypeScript
 import { List } from "gd-sprest";
 List("[List Name]").execute(list => {

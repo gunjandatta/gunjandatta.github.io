@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Toggle](https://dev.office.com/fabric-js/Components/Toggle/Toggle.html)

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: extras
 ---
+# Bootstrap
 
 ### List WebPart
 The list webpart should be used when targeting a list as a datasource.

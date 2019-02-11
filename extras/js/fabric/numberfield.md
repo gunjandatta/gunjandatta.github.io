@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ## [Number Field](https://dev.office.com/fabric-js/Components/TextField/TextField.html)
