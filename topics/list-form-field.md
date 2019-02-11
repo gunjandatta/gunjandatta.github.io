@@ -1,12 +1,13 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## List Form Field
+### List Form Field
 
 The list form field class is designed to handle the interactions with getting list field information.
 
-### Methods
+**_Methods_**
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -14,7 +15,7 @@ The list form field class is designed to handle the interactions with getting li
 | loadMMSData(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;_ | Loads the MMS reference data. |
 | loadMMSValueField(_info: IListFormMMSFieldInfo_) | _PromiseLike&lt;Types.SP.IFieldManagedMetadata&gt;_ | Loads the MMS hidden note field. |
 
-### IListFormFieldInfo
+**_IListFormFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -29,7 +30,7 @@ The list form field class is designed to handle the interactions with getting li
 | typeAsString | _string_ | The field type as a string. |
 | webUrl | _string_ | The relative web url containing the list. |
 
-### IListFormChoiceFieldInfo
+**_IListFormChoiceFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -37,14 +38,14 @@ The list form field class is designed to handle the interactions with getting li
 | field | _IFieldChoice \| IFieldMultiChoice_ | The choice field. |
 | multi | _boolean_ | True if this is a multi-choice field. |
 
-### IListFormDateFieldInfo
+**_IListFormDateFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
 | field | _IFieldDateTime_ | The date/time field. |
 | showTime | boolean | True, if the time value is enabled. |
 
-### IListFormLookupFieldInfo
+**_IListFormLookupFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -54,7 +55,7 @@ The list form field class is designed to handle the interactions with getting li
 | lookupWebId | _string_ | The lookup web id. |
 | multi | _boolean_ | True if this is a multi-lookup field. |
 
-### IListFormMMSFieldInfo
+**_IListFormMMSFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -64,7 +65,7 @@ The list form field class is designed to handle the interactions with getting li
 | termSetId | _string_ | The term set id. |
 | termStoreId | _string_ | The term store id. |
 
-### IListFormNumberFieldInfo
+**_IListFormNumberFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -73,7 +74,7 @@ The list form field class is designed to handle the interactions with getting li
 | minValue | _number_ | The min allowed number. |
 | showAsPercentage | _boolean_ | True, if the percentage value is enabled. |
 
-### IListFormTextFieldInfo
+**_IListFormTextFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -82,13 +83,13 @@ The list form field class is designed to handle the interactions with getting li
 | richText | _boolean_ | True, if rich text is enabled. |
 | rows | _number_ | The number of rows to display. |
 
-### IListFormUrlFieldInfo
+**_IListFormUrlFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
 | field | _IFieldUrl_ | The url field. |
 
-### IListFormUserFieldInfo
+**_IListFormUserFieldInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |

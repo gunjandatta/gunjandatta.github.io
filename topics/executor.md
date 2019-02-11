@@ -1,12 +1,13 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## Executor
+### Executor
 
 The executor is a reusable method for executing code based on an array of data.
 
-### Method Parameters
+**_Method Parameters_**
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
@@ -14,7 +15,7 @@ The executor is a reusable method for executing code based on an array of data.
 | method | _() => void \| PromiseLike&lt;any&gt;_ | Yes | The method to execute, based on the length of the _methodParams_. |
 | onExecuted | _() => void \| PromiseLike&lt;any&gt;_ | No | The event triggered after the _method_ completes. |
 
-### Reference Interface/Data
+**_Reference Interface/Data_**
 
 Below is the sample data and interface being used for the code examples.
 
@@ -40,7 +41,7 @@ let methodParams = [
 ];
 ```
 
-### Simple For-Loop
+**_Simple For-Loop_**
 
 ```ts
 for(let i=0; i<methodParams.length; i++) {
@@ -64,7 +65,7 @@ Helper.Executor<IMethodParam>(methodParams,
 );
 ```
 
-### Handling Promises
+**_Handling Promises_**
 
 The executor will wait for promises to be resolved, before executing the next method.
 The code example below will assume the _copyFiles_ method returns a promise.
@@ -81,7 +82,7 @@ Helper.Executor<IMethodParam>(methodParams,
 );
 ```
 
-### onExecuted Event
+**_onExecuted Event_**
 
 The optional onExecute event can be used for more complex logic.
 The code example below will query the source location for files and folders.

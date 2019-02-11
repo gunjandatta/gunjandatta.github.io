@@ -1,12 +1,13 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## List Form
+### List Form
 
-The list form class is designed to help with rendering custom list forms, including saving and getting advanced details for complex field types.
+The list form class is designed to help with rendering custom list forms, including saving and getting advanced details for complex field types. Reference the [list form field](list-form-field) class for additional information, related to getting complex field information (lookup, mms, etc). These classes are referenced by the react and bootstrap list components.
 
-### Constructor
+**_Constructor_**
 
 | Property | Type | Required | Default Value | Description |
 | --- | --- | --- | --- | --- |
@@ -19,7 +20,7 @@ The list form class is designed to help with rendering custom list forms, includ
 | query | _ODataQuery_ | No | {} | The odata query used when querying for the item. |
 | webUrl | _string_ | No | "" | The relative url containing the list. If blank, the current web is used. |
 
-### Methods
+**_Methods_**
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -29,14 +30,14 @@ The list form class is designed to help with rendering custom list forms, includ
 | saveAttachments(_listInfo: IListFormProps, attachmentInfo: Array&lt;IListFormAttachmentInfo&gt;_) | _PromiseLike&lt;Array&lt;Types.SP.IAttachment&gt;&gt;_ | Saves the attachments. |
 | saveItem(_info: IListFormResult, formValues: any_) | _PromiseLike&lt;IListFormResult&gt;_ | Saves the list item. |
 
-### IListFormAttachmentInfo
+**_IListFormAttachmentInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
 | data | _any_ | The file content. |
 | name | _string_ | The name of the file. |
 
-### IListFormResult
+**_IListFormResult_**
 
 | Property | Type | Description |
 | --- | --- | --- |

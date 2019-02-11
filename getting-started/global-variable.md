@@ -13,7 +13,7 @@ The gd-sprest library will add a **$REST** global variable to the DOM. The **$RE
 | --- | --- | --- |
 | __ver | _number_ | The version number of the library. |
 | [ContextInfo](/topics/context-info) | _IContextInfo_ | A reference to the _spPageContextInfo global variable. |
-| [DefaultRequestToHostFl](/helpers/add-in-model) | _boolean_ | Flag to target the app-web or host web for requests. _(false by default)_ |
+| [DefaultRequestToHostFl](/topics/add-in-model) | _boolean_ | Flag to target the app-web or host web for requests. _(false by default)_ |
 
 **_Library_**
 

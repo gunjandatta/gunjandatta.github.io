@@ -1,8 +1,9 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## WebPart
+### WebPart
 
 The webpart component allows the developer to easialy assign react components to be rendered based on the page's state (Display/Edit). This component currently supports webpart, publishing and wiki pages. The following webpart components are available:
 
@@ -16,13 +17,13 @@ The webpart component allows the developer to easialy assign react components to
 * Search - Inherits the list webpart, adding a search textbox. Based on the configuration fields, a mapper is created based on the item data. This feature will automatically filter the items displayed.
 * Tabs - Displays all associated webparts within the same zone in tabs.
 
-### Creating Modern WebParts for SharePoint 2013
+**_Creating Modern WebParts for SharePoint 2013_**
 
 Although this is designed for SharePoint 2013, this is also designed to work for SharePoint Online.
 
-#### [Blog Series](http://dattabase.com/sharepoint-2013-modern-webpart/)
+**[Blog Series](http://dattabase.com/sharepoint-2013-modern-webpart/)**
 
-A series of blog posts have been created to help give an overview of creating webparts in SharePoint 2013. WebPart templates have been created in the [gd-sprest-react](https://github.com/gunjandatta/sprest-react) library, to help the developer focus on the code rendered to the page.
+A series of blog posts have been created to help give an overview of creating webparts in SharePoint 2013.
 
 1. [JavaScript Example](http://dattabase.com/sharepoint-2013-modern-webpart/)
 2. [TypeScript Example](http://dattabase.com/sharepoint-2013-modern-webpart-1-4/)

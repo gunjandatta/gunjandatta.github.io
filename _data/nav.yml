@@ -64,6 +64,8 @@ items:
  - title: Dev Topics
    url: topics
    items:
+    - title: Add-In Model
+      url: add-in-model
     - title: Application Lifecycle Management (ALM)
       url: alm
     - title: Batch Requests
@@ -74,10 +76,22 @@ items:
       url: context-info
     - title: Cross Site Collection Requests
       url: cross-sc
+    - title: Executor
+      url: executor
+    - title: JS Links
+      url: jslink
+    - title: List Forms
+      url: list-form
     - title: Loading the Library
       url: loading-the-lib
+    - title: Methods
+      url: methods
     - title: SharePoint Configuration
       url: sp-cfg
+    - title: Taxonomy
+      url: taxonomy
+    - title: WebPart
+      url: webpart
  - title: Framework Docs
    url: extras
    items:

@@ -1,52 +1,49 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## Taxonomy
+### Taxonomy
 
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.
 
-### Getting the Data
-
-This section will go over the different ways to get managed metadata.
-
-#### Getting Term Groups
+**_Getting Term Groups_**
 
 The ```getTermGroups()``` method will return the available term groups from the available term store. The data returned will also include the Site Collection term groups.
 
-#### Getting a Term Group
+**_Getting a Term Group_**
 
 The ```getTermGroup(name:string)``` method will return a specific term group.
 
-#### Getting Term Sets
+**_Getting Term Sets_**
 
 The ```getTermSets(groupName:string)``` method will return the available term sets from a specified term group stored in the global term store. The ```getTermSetsFromDefaultSC()``` method will return the available term sets from the default site collection's term group.
 
 #### Getting a Term Set
 
-##### By Group Name
+**_By Group Name_**
 
 The ```getTermSetByGroupName(name:string, groupName:string)``` method will return a term set, from a specified term group stored in the global term store. 
 
-##### From Default Site Collection
+**_From Default Site Collection_**
 
 The ```getTermSetFromDefaultSC(name:string)``` method will return a term set from the default site collection's term group.
 
-##### By ID
+**_By ID_**
 
 The ```getTermSetById(termStoreId:string, termSetId:string)``` method will return a term set.
 
 #### Getting Terms
 
-##### By Group Name
+**_By Group Name_**
 
 The ```getTermsByGroupName(name:string, groupName:string)``` method will return an array of terms, from a specified term set located from a specified term group. 
 
-##### From Default Site Collection
+**_From Default Site Collection_**
 
 The ```getTermsFromDefaultSC(name:string)``` method will return an array of terms, from the specified term set located in the default site collection's term group.
 
-##### By ID
+**_By ID_**
 
 The ```getTermsById(termStoreId:string, termSetId:string)``` method will return an array of terms.
 
@@ -58,11 +55,10 @@ The data returned is an array of terms. To convert the terms to a tree object, u
 
 The ```findById(term:ITerm, termId:string)``` method can be used to find a term by its id. The ```findByName(term:ITerm, name:string)``` method can be used to find a term by its name. Both methods will require the data to be converted to a tree object first.
 
-### Code Reference
+### Code Examples
 
-#### JavaScript
-
-```js
+```ts
+// JavaScript
 var $REST = require("gd-sprest");
 
 // Get the term groups
@@ -72,11 +68,8 @@ $REST.Helper.Taxonomy.getTermGroups().then(function(groups) {
         // Code goes here
     }
 });
-```
 
-#### TypeScript
-
-```ts
+// TypeScript
 import { Helper } from "gd-sprest";
 
 // Get the term groups
@@ -88,7 +81,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 });
 ```
 
-### Methods
+**_Methods_**
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -108,14 +101,14 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | toFieldMultiValue(_term: Array&lt;ITerm \| ITermInfo&gt;_) | _any_ | Converts an array of terms to the multi-field value, formatted for updating an item in the REST API. |
 | toObject(_Array&lt;ITermInfo&gt;_) | _ITerm_ | Converts an array of term information to a term. |
 
-### ITerm
+**_ITerm_**
 
 | Property | Type | Description |
 | --- | --- | --- |
 | info | _ITermInfo_ | The term information. |
 | parent | _ITerm_ | The parent term. |
 
-### ITermGroupInfo
+**_ITermGroupInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -123,7 +116,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | id | _string_ | The term id |
 | name | _string_ | The term name |
 
-### ITermInfo
+**_ITermInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -135,7 +128,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | pathAsString | _string_ | The term path as a string |
 | props | _{ [key: string]: string; }_ | The term custom properties
 
-### ITermSetInfo
+**_ITermSetInfo_**
 
 | Property | Type | Description |
 | --- | --- | --- |
