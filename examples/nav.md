@@ -1,34 +1,19 @@
 ---
 layout: page
 ---
-### Browser Console
+# Code Examples
 
-#### Get the navigation
-
-```js
-var menu = $REST.Navigation().MenuState().executeAndWait();
-```
-
-#### Get a navigation node
+**_Reference the library_**
 
 ```js
-var menu = $REST.Navigation(1033).MenuState().executeAndWait();
-```
-
-#### Get the navigation specifying parameters
-
-```js
-var menu = $REST.Navigation().getMenuState(1025, 5).executeAndWait();
-```
-### JavaScript
-
-#### Reference the library
-
-```js
+// JavaScript
 var $REST = require("gd-sprest");
+
+// TypeScript
+import { Navigation } from "gd-sprest";
 ```
 
-#### Get the navigation
+**_Get the navigation_**
 
 ```js
 // Get the navigation
@@ -45,38 +30,7 @@ $REST.Navigation()
             // Code goes here
         });
     });
-```
 
-#### Get a navigation node
-
-```js
-// Get the navigation
-$REST.Navigation()
-    // Get the menu state
-    .MenuState(1033)
-    // Execute the request
-    .execute(function(menu) {
-        // Parse the menu nodes
-        var nodes = menu.Nodes.results;
-        for(var i=0; i<nodes.length; i++) {
-            var node = nodes[i];
-
-            // Code goes here
-        });
-    });
-```
-
-### TypeScript
-
-#### Reference the library
-
-```ts
-import { Navigation } from "gd-sprest";
-```
-
-#### Get the navigation
-
-```ts
 // Get the navigation
 Navigation()
     // Get the menu state
@@ -93,9 +47,24 @@ Navigation()
     });
 ```
 
-#### Get a navigation node
+**_Get a navigation node_**
 
-```ts
+```js
+// Get the navigation
+$REST.Navigation()
+    // Get the menu state
+    .MenuState(1033)
+    // Execute the request
+    .execute(function(menu) {
+        // Parse the menu nodes
+        var nodes = menu.Nodes.results;
+        for(var i=0; i<nodes.length; i++) {
+            var node = nodes[i];
+
+            // Code goes here
+        });
+    });
+
 // Get the navigation
 Navigation()
     // Get the menu state

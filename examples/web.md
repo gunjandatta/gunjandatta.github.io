@@ -1,40 +1,21 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## Web
+### Web
 
-### Browser Console
-
-#### Get the current web
-
-```js
-var web = $REST.Web().executeAndWait();
-```
-
-#### Get the root web
+**_Reference the library_**
 
 ```js
-var web = $REST.Web("/").executeAndWait();
-```
-
-#### Query the root web, expanding the fields and content types
-
-```js
-var web = $REST.Web("/").query({ Expand: ["ContentTypes", "Fields"] }).executeAndWait();
-var contentTypes = web.ContentTypes.results;
-var fields = web.Fields.results;
-```
-
-### JavaScript
-
-#### Reference the library
-
-```js
+// JavaScript
 var $REST = require("gd-sprest");
+
+// TypeScript
+import { ContextInfo, Web } from "gd-sprest";
 ```
 
-#### Get the current web
+**_Get the current web_**
 
 ```js
 // Get the web
@@ -43,9 +24,16 @@ $REST.Web()
     .execute(function(web) {
         // Code goes here
     });
+
+// Get the web
+Web()
+    // Execute the request
+    .execute(web => {
+        // Code goes here
+    });
 ```
 
-#### Get the root web
+**_Get the root web_**
 
 ```js
 // Get the root web
@@ -54,9 +42,16 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
     .execute(function(web) {
         // Code goes here
     });
+
+// Get the root web
+Web(ContextInfo.siteServerRelativeUrl)
+    // Execute the request
+    .execute(web => {
+        // Code goes here
+    });
 ```
 
-#### Query the root web, expanding the fields and content types
+**_Query the root web, expanding the fields and content types_**
 
 ```js
 // Get the root web
@@ -72,41 +67,7 @@ $REST.Web($REST.ContextInfo.siteServerRelativeUrl)
 
         // Code goes here
     });
-```
 
-### TypeScript
-
-#### Reference the library
-
-```ts
-import { ContextInfo, Web } from "gd-sprest";
-```
-
-#### Get the current web
-
-```ts
-// Get the web
-Web()
-    // Execute the request
-    .execute(web => {
-        // Code goes here
-    });
-```
-
-#### Get the root web
-
-```ts
-// Get the root web
-Web(ContextInfo.siteServerRelativeUrl)
-    // Execute the request
-    .execute(web => {
-        // Code goes here
-    });
-```
-
-#### Query the root web, expanding the fields and content types
-
-```ts
 // Get the root web
 Web(ContextInfo.siteServerRelativeUrl)
     // Expand the content types and fields

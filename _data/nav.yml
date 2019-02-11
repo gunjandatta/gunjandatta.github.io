@@ -89,3 +89,22 @@ items:
       url: js
  - title: Code Examples
    url: examples
+   items:
+    - title: Custom Solutions
+      url: solutions
+    - title: List
+      url: list
+    - title: List Form
+      url: list-form
+    - title: List Item
+      url: list-item
+    - title: Navigation
+      url: nav
+    - title: Permissions
+      url: permissions
+    - title: Site
+      url: site
+    - title: Utility
+      url: utility
+    - title: Web
+      url: web

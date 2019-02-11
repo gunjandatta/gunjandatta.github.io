@@ -1,18 +1,10 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## Code Examples
+The framework has many code examples. If you have any questions or requests for examples, please create an issue in the appropriate library:
 
-- [Application Lifecycle Management](alm)
-- [Automation](automation)
-- [Custom Solutions](solutions)
-- [Form](form)
-- [List](list)
-- [List Item](listItem)
-- [Navigation](nav)
-- [Permissions](permissions)
-- [Site](site)
-- [Solutions](solutions)
-- [Utility](utility)
-- [Web](web)
+- [Core Library](https://github.com/gunjandatta/sprest/issues)
+- [Bootstrap](https://github.com/gunjandatta/sprest-bs/issues)
+- [React](https://github.com/gunjandatta/sprest-react/issues)

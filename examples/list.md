@@ -1,44 +1,21 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## List
+### List
 
-### Browser Console
-
-#### Get a list from the current web
-
-```js
-var list = $REST.List("Site Assets").executeAndWait();
-```
-
-#### Get a list on the root web
+**_Reference the library_**
 
 ```js
-var list = $REST.Web("/").Lists("Site Assets").executeAndWait();
-```
-
-#### Query for all libraries
-
-```js
-var libraries = $REST.Web().Lists().query({ Filter: "BaseTemplate eq 101" }).executeAndWait();
-```
-
-#### Query list items
-
-```js
-var items = $REST.List("Site Assets").Items().query({ Filter: "Title eq 'My Filter'" }).executeAndWait();
-```
-
-### JavaScript
-
-#### Reference the library
-
-```js
+// JavaScript
 var $REST = require("gd-sprest");
+
+// TypeScript
+import { List, Web } from "gd-sprest";
 ```
 
-#### Get a list from the current web
+**_Get a list from the current web_**
 
 ```js
 // Get the list
@@ -47,9 +24,16 @@ $REST.List("Site Assets")
     .execute(function(list) {
         // Code goes here
     });
+
+// Get the list
+List("Site Assets")
+    // Execute the request
+    .execute(list => {
+        // Code goes here
+    });
 ```
 
-#### Get a list on the root web
+**_Get a list on the root web_**
 
 ```js
 // Get the root web
@@ -60,9 +44,18 @@ $REST.Web("/")
     .execute(function(list) {
         // Code goes here
     });
+
+// Get the root web
+Web("/")
+    // Get the list
+    .List("Site Assets")
+    // Execute the request
+    .execute(list => {
+        // Code goes here
+    });
 ```
 
-#### Query list items
+**_Query list items_**
 
 ```js
 // Get the list
@@ -73,9 +66,18 @@ $REST.List("Site Assets")
     .execute(function(list) {
         // Code goes here
     });
+
+// Get the list
+List("Site Assets")
+    // Get the items
+    .Items()
+    // Execute the request
+    .execute(list => {
+        // Code goes here
+    });
 ```
 
-#### Query for all libraries
+**_Query for all libraries_**
 
 ```js
 // Get the web
@@ -94,9 +96,26 @@ $REST.Web()
             // Code goes here
         }
     });
+
+// Get the web
+Web()
+    // Get the lists
+    .Lists()
+    // Query for the libraries
+    .query({
+        Filter: "BaseTemplate eq 101"
+    })
+    // Execute the request
+    .execute(lists => {
+        // Parse the lists
+        for(let i=0; i<lists.results.length; i++;) {
+            let list = lists.results[i];
+            // Code goes here
+        }
+    });
 ```
 
-#### Query for picture libraries, including their fields and items
+**_Query for picture libraries, including their fields and items_**
 
 ```js
 // Get the web
@@ -119,77 +138,7 @@ $REST.Web()
             // Code goes here
         }
     });
-```
 
-### TypeScript
-
-#### Reference the library
-
-```ts
-import { List, Web } from "gd-sprest";
-```
-
-#### Get a list from the current web
-
-```ts
-// Get the list
-List("Site Assets")
-    // Execute the request
-    .execute(list => {
-        // Code goes here
-    });
-```
-
-#### Get a list on the root web
-
-```ts
-// Get the root web
-Web("/")
-    // Get the list
-    .List("Site Assets")
-    // Execute the request
-    .execute(list => {
-        // Code goes here
-    });
-```
-
-#### Query list items
-
-```ts
-// Get the list
-List("Site Assets")
-    // Get the items
-    .Items()
-    // Execute the request
-    .execute(list => {
-        // Code goes here
-    });
-```
-
-#### Query for all libraries
-
-```ts
-// Get the web
-Web()
-    // Get the lists
-    .Lists()
-    // Query for the libraries
-    .query({
-        Filter: "BaseTemplate eq 101"
-    })
-    // Execute the request
-    .execute(lists => {
-        // Parse the lists
-        for(let i=0; i<lists.results.length; i++;) {
-            let list = lists.results[i];
-            // Code goes here
-        }
-    });
-```
-
-#### Query for picture libraries, including their fields and items
-
-```ts
 // Get the web
 Web()
     // Get the lists

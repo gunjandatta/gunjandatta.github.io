@@ -1,31 +1,21 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## Site
-### Browser Console
+### Site
 
-#### Get the site collection
-
-```js
-var site = $REST.Site().executeAndWait();
-```
-
-#### Get the root site collection
+**_Reference the library_**
 
 ```js
-var site = $REST.Site("/").executeAndWait();
-```
-
-### JavaScript
-
-#### Reference the library
-
-```js
+// JavaScript
 var $REST = require("gd-sprest");
+
+// TypeScript
+import { List, Web } from "gd-sprest";
 ```
 
-#### Get the current site collection
+**_Get the current site collection_**
 
 ```js
 // Get the site
@@ -34,30 +24,7 @@ $REST.Site()
     .execute(function(site) {
         // Code goes here
     });
-```
 
-#### Get the root site collection
-
-```js
-// Get the root site
-$REST.Site("/")
-    // Execute the request
-    .execute(function(site) {
-        // Code goes here
-    });
-```
-
-### TypeScript
-
-#### Reference the library
-
-```ts
-import { List, Web } from "gd-sprest";
-```
-
-#### Get the current site collection
-
-```ts
 // Get the site
 Site()
     // Execute the request
@@ -66,9 +33,16 @@ Site()
     });
 ```
 
-#### Get the root site collection
+**_Get the root site collection_**
 
-```ts
+```js
+// Get the root site
+$REST.Site("/")
+    // Execute the request
+    .execute(function(site) {
+        // Code goes here
+    });
+
 // Get the root site
 Site("/")
     // Execute the request

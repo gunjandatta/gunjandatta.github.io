@@ -1,38 +1,21 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## Utility
+### Utility
 
-### Browser Console
-
-#### Send an email
-
-```js
-$REST.Utility().sendEmail({ To: ["user@sharepoint.com"], Subject: "Test Email", Body: "<p>The email content</p>" }).executeAndWait();
-```
-
-#### Resolve a principal
+**_Reference the library_**
 
 ```js
-$REST.Utility().resolvePrincipal({ input: "user@sharepoint.com", scopes: 15, sources: 15 }).executeAndWait();
-```
-
-#### Search principals
-
-```js
-$REST.Utility().searchPrincipals({ input: "user", maxCount: 50 }).executeAndWait();
-```
-
-### JavaScript
-
-#### Reference the library
-
-```js
+// JavaScript
 var $REST = require("gd-sprest");
+
+// TypeScript
+import { Utility } from "gd-sprest";
 ```
 
-#### Send an email
+**_Send an email_**
 
 ```js
 // Send the email
@@ -43,9 +26,18 @@ $REST.Utility().sendEmail({
 }).execute(function() => {
     // Email was sent
 });
+
+// Send the email
+Utility().sendEmail({
+    To: ["user@sharepoint.com"],
+    Subject: "Test Email",
+    Body: "<p>The email content</p>"
+}).execute(() => {
+    // Email was sent
+});
 ```
 
-#### Resolve a principal user
+**_Resolve a principal user_**
 
 ```js
 // Resolve a principal user
@@ -58,46 +50,7 @@ $REST.Utility().resolvePrincipal({
 
     // Code goes here
 });
-```
 
-#### Search principals
-
-```js
-// Search the principals
-$REST.Utility().searchPrincipals({
-    input: "user@sharepoint.com",
-    maxCount: 50
-}).execute(function(response) {
-    var users = response.results;
-
-    // Code goes here
-});
-```
-
-### TypeScript
-
-#### Reference the library
-
-```ts
-import { Utility } from "gd-sprest";
-```
-
-#### Send an email
-
-```ts
-// Send the email
-Utility().sendEmail({
-    To: ["user@sharepoint.com"],
-    Subject: "Test Email",
-    Body: "<p>The email content</p>"
-}).execute(() => {
-    // Email was sent
-});
-```
-
-#### Resolve a principal user
-
-```ts
 // Resolve a principal user
 Utility().resolvePrincipal({
     input: "user@sharepoint.com",
@@ -110,9 +63,19 @@ Utility().resolvePrincipal({
 });
 ```
 
-#### Search principals
+**_Search principals_**
 
-```ts
+```js
+// Search the principals
+$REST.Utility().searchPrincipals({
+    input: "user@sharepoint.com",
+    maxCount: 50
+}).execute(function(response) {
+    var users = response.results;
+
+    // Code goes here
+});
+
 // Search the principals
 Utility().searchPrincipals({
     input: "user@sharepoint.com",

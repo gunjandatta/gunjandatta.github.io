@@ -1,47 +1,14 @@
 ---
 layout: page
 ---
+# Code Examples
 
-## Form
+### Form Example
 
-This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components.
+This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components. The modal dialog will be used for this example. We will use the button option to display the form when clicked.
 
-### Modal Dialog Example
+**_Code Example_**
 
-The modal dialog will be used for this example. We will use the button option to display the form when clicked.
-
-#### JavaScript
-```js
-var Components = require("gd-sprest-bs").Components;
-
-// Get the form element to render the modal dialog to
-var elForm = document.querySelector("#dlg-listform");
-if (elForm == null) {
-    // Create the element
-    elForm = document.createElement("div");
-    elForm.id = "dlg-listform";
-    document.body.appendChild(elForm);
-}
-
-// Render the modal dialog
-var dialog = Components.ModalDialog({
-    el: elForm,
-    button: { text: "Show Form" },
-    onClose: function () {
-        // Dispose of the dialog
-        dialog.dispose();
-        document.body.removeChild(elForm);
-    },
-    onRenderBody: function (el) {
-        // Render the form
-        Components.Form({
-            // See Control Examples Below
-        });
-    }
-});
-````
-
-#### TypeScript
 ```ts
 import { Components } from "gd-sprest-bs";
 
@@ -72,14 +39,16 @@ let dialog = Components.ModalDialog({
 });
 ```
 
-### Built-In Methods
+**_Built-In Methods_**
+
 The form control has built in methods to help with customizing it. The ```name``` property must be defined for the value to be returned.
 
 - getControl(name) - Gets a specific control by the name property.
 - getValues() - Returns an object of key-value pairs, for all controls with the ```name``` property defined.
 - isValid() - Returns true/false of the form's validation state. The validation is determined by the ```required``` property or the ```onValidate``` event.
 
-### Control Examples
+**_Control Examples_**
+
 Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
 
 * Checkbox
@@ -94,7 +63,8 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 * TextArea
 * TextField
 
-#### Basic Example
+**_Basic Example_**
+
 ```js
 {
     control: {
@@ -106,7 +76,8 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 }
 ```
 
-#### Columns
+**_Columns_**
+
 The columns property allows you to render form controls in a bootstrap table. The size of the columns should follow bootstrap's rules.
 
 ```js
@@ -132,7 +103,8 @@ The columns property allows you to render form controls in a bootstrap table. Th
 }
 ```
 
-#### Rendering Event
+**_Rendering Event_**
+
 The control properties can be manipulated in the rendering event. The properties or a promise must be returned.
 
 ```js
@@ -156,7 +128,8 @@ The control properties can be manipulated in the rendering event. The properties
 }
 ```
 
-#### Loading Message
+**_Loading Message_**
+
 The use of a promise can be used to display a loading message, until the control is rendered.
 
 ```js
@@ -181,7 +154,8 @@ The use of a promise can be used to display a loading message, until the control
 }
 ```
 
-#### Custom Controls
+**_Custom Controls_**
+
 The ability to create custom controls can be done, using the rendered event.
 
 ```js
@@ -201,7 +175,8 @@ The ability to create custom controls can be done, using the rendered event.
 }
 ```
 
-#### Validation
+**_Validation_**
+
 The ability to display valid and invalid messages can easily be done by the validation event.
 
 ```js
