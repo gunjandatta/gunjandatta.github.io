@@ -1,10 +1,36 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## Application Lifecycle Management (ALM)
+### Application Lifecycle Management (ALM)
 
-### [Code Examples](/examples/alm)
+**_Add App to Catalog (Code Example)_**
+
+```js
+// Get the sppkg file
+var fileContent = $REST.Web().getFileByServerRelativeUrl("/sites/dev/siteassets/pkgs/demo-webpart.sppkg").content().execute(function(data) {
+    // Add the app file
+    var appFile = $REST.Web().TenantAppCatalog().add("demo-webpart.sppkg", true, content).executeAndWait();
+
+    // Get the context for the app catalog, this is required since we are doing a cross site-collection request
+    $REST.ContextInfo.getWeb("/sites/appcatalog").execute(function(ctx) {
+        // Get the app
+        $REST.Web("/sites/appcatalog", { requestDigest: ctx.GetContextWebInformation.FormDigestValue }).TenantAppCatalog().AvailableApps()
+            .query({ Filter: "Title eq 'demo-webpart-client-side-solution'" }).execute(function (apps) {
+                // Get the app
+                var app = apps.results[0];
+                if(app == null) { return; }
+
+                // Deploy the app
+                app.deploy().execute(function (response) {
+                    // App is deployed
+                    console.log("The app has been deployed.");
+                }, true)
+        });
+    });
+});
+```
 
 ### Tenant App Catalog
 

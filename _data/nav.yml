@@ -61,6 +61,23 @@ items:
       url: spfx
     - title: WebPack
       url: webpack
+ - title: Dev Topics
+   url: topics
+   items:
+    - title: Application Lifecycle Management (ALM)
+      url: alm
+    - title: Batch Requests
+      url: batch-requests
+    - title: Caching
+      url: caching
+    - title: Context Information
+      url: context-info
+    - title: Cross Site Collection Requests
+      url: cross-sc
+    - title: Loading the Library
+      url: loading-the-lib
+    - title: SharePoint Configuration
+      url: sp-cfg
  - title: Framework Docs
    url: extras
    items:

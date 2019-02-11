@@ -1,16 +1,19 @@
 ---
 layout: page
 ---
+# Dev Topics
 
 ## Context Information
+
+The content information is a reference to the ```_spPageContextInfo``` global variable, available on class SharePoint pages.
 
 ### Methods
 
 | Name | Description |
 | --- | --- |
 | generateGUID | Method to generate a guid. |
-| getWeb(_url: string_) | Method to get the web context information. |
-| setPageContext(_pageContext: any_) | Method to set the page context information. _Required for modern pages only._ |
+| getWeb(_url: string_) | Method to get the web context information. _Required for cross site-collection requests._ |
+| setPageContext(_pageContext: any_) | Method to set the page context information. _Required for SPFx projects only._ |
 
 ### Properties
 

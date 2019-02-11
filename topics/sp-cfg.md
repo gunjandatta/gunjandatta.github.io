@@ -1,12 +1,113 @@
 ---
 layout: page
 ---
+# Dev Topics
 
-## SharePoint Field Configuration Examples
+### SharePoint Configuration
 
-### Custom Action
+The "SharePoint Configuration" class allows the developer to define configuration files, to automate the installation/unintallation of SharePoint assets. The configuration options are available through the built-in intellisense, shown below. This configuration class contains built-in methods to install and uninstall the SharePoint assets. Refer to the [Code Examples](/examples/automation) for examples of using this class.
 
-#### TypeScript
+![Automation](/assets/images/demo-spcfg.gif)
+
+**_Code Deployment_**
+
+```ts
+import { Helper } from "gd-sprest";
+
+// Create the configuration
+let spCfg = Helper.SPConfig({
+    // See Configuration Examples Below
+});
+
+// Install the configuration
+spCfg.install();
+
+// Uninstall the configuration
+spCfg.uninstall();
+```
+
+**_Multiple Configurations_**
+
+The ability to define multiple configurations is easy to setup. This approach allows the configuration to specific groups of components.
+
+```ts
+/**
+ * Test Configuration
+ */
+export const Configuration = {
+    // Custom Action
+    CustomAction: (targetSiteCollection:boolean = true) => {
+      // See if we are deploying this against the site collection
+      if(targetSiteCollection) {
+        // Target the site
+        return Helpler.SPConfig({
+          CustomActionCfg: {
+            Site: [
+              { ... }
+            ]
+          }
+        });
+      }
+
+      // Target the web
+      return Helpler.SPConfig({
+        CustomActionCfg: {
+          Web: [
+            { ... }
+          ]
+        }
+      });
+    }
+```
+
+### SPConfig Class
+
+**_Constructor_**
+
+* configuration:ISPConfigProps
+* webUrl?:string
+
+**_Methods_**
+
+_install(callback?: function)_
+
+This method will create the objects defined in the configuration file. The order of creation is:
+
+1. Fields
+2. Content Types
+3. Lists
+4. User Custom Actions
+5. Web Parts
+
+_uninstall(callback?: function)_
+
+This method will remove the objects defined in the configuration file. The order of removal is:
+
+1. Web Parts
+2. User Custom Actions
+3. Lists
+4. Content Types
+5. Fields
+
+**_Properties_**
+
+* ContentTypes - A collection of content type configurations.
+* CustomActionCfg - A collection of custom action configurations.
+* Fields - A collection of field configurations.
+* ListCfg - A collection of list configurations.
+* SharePoint Configuration Types
+  0. Fields
+  1. Content Types
+  2. Lists
+  3. Site User Custom Actions
+  4. Web User Custom Actions
+  5. Web Parts
+
+### Configuration Examples
+
+_Note - Intellisense is available for defining the custom properties of the various field types._
+
+**_Custom Action_**
 
 ```ts
 // Export the configuration
@@ -40,9 +141,7 @@ export const Configuration = Helper.SPConfig({
 });
 ```
 
-### List
-
-#### TypeScript
+**_List_**
 
 ```ts
 // Export the configuration
@@ -83,9 +182,7 @@ export const Configuration = Helper.SPConfig({
 });
 ```
 
-### Site Field
-
-#### TypeScript
+**_Site Field_**
 
 ```ts
 // Export the configuration
