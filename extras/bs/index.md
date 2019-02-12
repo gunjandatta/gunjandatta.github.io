@@ -24,6 +24,16 @@ npm i --save gd-sprest-bs
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 ```
 
+### Styling
+
+The bootstrap css will only be applied to elements with a parent element containing the ```bs``` class. This will ensure that other elements on the page will not be affected.
+
+```html
+<div class="bs">
+    <!-- Elements will have bootstrap css applied -->
+</div>
+```
+
 ### Project Configuration
 
 **_SPFx_**
