@@ -9,9 +9,9 @@ layout: default
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/gd-sprest/Lobby)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/Dattabase)
 
-The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/Online (Classic/Modern). This framework is designed to remove a lot of the overhead required for SharePoint development, allowing the developer to focus on the client requirements.
+The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/Online (Classic/Modern) pages. This framework is designed to remove the overhead required for SharePoint development, allowing the developer to focus on the client requirements.
 
-<center><img src="assets/images/intellisense.gif" /></center>
+<center><img alt="intellisense" src="assets/images/intellisense.gif" style="max-width:500px" /></center>
 
 ### References
 
