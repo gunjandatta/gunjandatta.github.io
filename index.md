@@ -11,7 +11,7 @@ layout: default
 
 The SharePoint REST Framework was designed for SharePoint 2013, but works in both SharePoint 2013/Online (Classic/Modern) pages. This framework is designed to remove the overhead required for SharePoint development, allowing the developer to focus on the client requirements.
 
-<center><img alt="intellisense" src="assets/images/intellisense.gif" style="max-width:500px" /></center>
+<center><img alt="intellisense" src="assets/images/intellisense.gif" style="max-height: 500px;" /></center>
 
 ### References
 
