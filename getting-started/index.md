@@ -25,6 +25,17 @@ yarn add gd-sprest
 
 The library can downloaded or referenced from github directly.
 
+**Core REST API _(gd-sprest)_**
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest/dist/gd-sprest.min.js"></script>
+```
+
+**Bootstrap _(gd-sprest-bs)_**
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"></script>
+```
+
+**Bootstrap Web Components _(gd-sprest-bs)_**
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.min.js"></script>
 ```
