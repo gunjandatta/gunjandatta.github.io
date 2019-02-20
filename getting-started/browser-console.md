@@ -29,7 +29,7 @@ Edit a webpart or wiki page, and add a Script Editor webpart to the page. Once a
 
 ```js
 var script = document.createElement("script");
-script.src = "/sites/dev/SiteAssets/gd-sprest.min.js";
+script.src = "https://unpkg.com/gd-sprest/dist/gd-sprest.min.js";
 document.head.appendChild(script);
 ```
 
