@@ -7,17 +7,17 @@ layout: page
 
 This basic example will load the core gd-sprest library, and make it available throughout a site collection.
 
-#### 1. Upload the File
+##### 1. Upload the File
 
 The first step will be to upload the library. For this example, we will upload the file to the site assets library in the root ```/siteassets/gd-sprest.min.js```.
 
-#### 2. Create a custom action
+##### 2. Create a custom action
 
 Open the browser window, and access the target SharePoint site. Press ```F-12``` to access the developer tools, and access the console tab.
 
 _Note - This must be a **classic** page._
 
-#### 3. Reference the library
+##### 3. Reference the library
 
 Type the following in the browser console window. This will reference the library, so we can create a custom action.
 
@@ -25,7 +25,7 @@ Type the following in the browser console window. This will reference the librar
 var s = document.createElement("script"); s.src = "/siteassets/gd-sprest.min.js"; document.head.appendChild(s);
 ```
 
-#### 4. Create a custom action to register this library.
+##### 4. Create a custom action to register this library.
 
 Type the following in the browser console window. This will register the library with the SharePoint Script-on-Demand (SOD) library.
 
@@ -43,7 +43,7 @@ $REST.Helper.SPConfig({
 }).install();
 ```
 
-#### How to reference this library
+##### How to reference this library
 
 Edit a classic page, and add a script editor webpart on the page. Add the following code to the script editor webpart.
 
@@ -67,7 +67,7 @@ if(SP.SOD.executeOrDelayUntilScriptLoaded(main, "gd-sprest") == false) {
 </script>
 ```
 
-#### How to Uninstall the Custom Action
+##### How to Uninstall the Custom Action
 
 Type the following in the browser console window. This will uninstall the custom action.
 
