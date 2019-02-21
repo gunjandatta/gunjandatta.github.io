@@ -52,12 +52,12 @@ var main = function() {
     // Load the user's information
     $REST.Web().CurrentUser().execute(function(userInfo) {
         // Add a status
-        $REST.addStatus(userInfo.Title, "<h5>$REST core library is now available</h5>");
+        $REST.Helper.SP.Status.addStatus(userInfo.Title, "<h5>$REST core library is now available</h5>");
     });
 };
 
 // Execute the main function, after the library loads
-if(SP.SOD.executeOrDelayUntilScriptLoaded(main, "gd-sprest")) {
+if(SP.SOD.executeOrDelayUntilScriptLoaded(main, "gd-sprest") == false) {
     // The library isn't loaded, load the core library
     LoadSodByKey("gd-sprest");
 }
