@@ -52,7 +52,8 @@ var main = function() {
     // Load the user's information
     $REST.Web().CurrentUser().execute(function(userInfo) {
         // Add a status
-        $REST.Helper.SP.Status.addStatus("Hey " + userInfo.Title + ", the $REST library is available.");
+        var statusId = $REST.Helper.SP.Status.addStatus(userInfo.Title, "<i>$REST core library is now available</i>");
+        $REST.Helper.SP.Status.setStatusPriColor(statusId, "green");
     });
 };
 
