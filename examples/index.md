@@ -15,6 +15,8 @@ The first step will be to upload the library. For this example, we will upload t
 
 Open the browser window, and access the target SharePoint site. Press ```F-12``` to access the developer tools, and access the console tab.
 
+_Note - This must be a **classic** page._
+
 #### 3. Reference the library
 
 Type the following in the browser console window. This will reference the library, so we can create a custom action.
