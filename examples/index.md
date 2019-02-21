@@ -71,7 +71,7 @@ Type the following in the browser console window. This will uninstall the custom
 
 ```js
 $REST.Helper.SPConfig({
-    UserCustomActions: {
+    CustomActionCfg: {
         Site: [{ Name: "gd-sprest" }]
     }
 }).uninstall();
