@@ -29,7 +29,7 @@ Type the following in the browser console window. This will register the library
 
 ```js
 $REST.Helper.SPConfig({
-    UserCustomActions: {
+    CustomActionCfg: {
         Site: [{
             Name: "gd-sprest",
             Title: "gd-sprest core library.",
