@@ -3,7 +3,9 @@ layout: page
 ---
 # Code Examples
 
-### Load the core library
+### Basic Example
+
+#### Load the core library
 
 This basic example will load the core gd-sprest library, and make it available throughout a site collection.
 
@@ -81,7 +83,7 @@ $REST.Helper.SPConfig({
 
 _Note - We only need to define the name property._
 
-### Issues
+#### Issues
 
 The framework has many code examples listed on the left. If you have any questions or requests for examples, please create an issue in the appropriate library:
 
