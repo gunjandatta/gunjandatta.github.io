@@ -130,6 +130,7 @@ Table(props:ITableProps):ITable
 
 | Name | Returns | Description |
 | --- | --- | --- |
+| addRows(rows:_Array<any>_) | _void_ | Renders the rows to the existing table. |
 | el | _Element_ | The jquery element. |
 
 #### ITableProps
