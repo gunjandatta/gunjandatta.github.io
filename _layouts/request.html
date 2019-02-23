@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
-<script src="https://unpkg.com/gd-sprest-generator/dist/gd-sprest-generator.js"></script>
-
 {{ content }}
 
-<div class="request-generator"></div>
+<div id="request-generator" class="my-3"></div>
 
 <script type="text/javascript">
-    SPRESTGenerator(document.getElementById("request-generator"));
+    // Wait for the page to be loaded
+    window.addEventListener("load", function () {
+        // Load the REST API request generator
+        var s = document.createElement("script");
+        s.src = "/request/gd-sprest-generator.js";
+        document.head.appendChild(s);
+    });
 </script>
