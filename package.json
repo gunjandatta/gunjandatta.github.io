@@ -8,7 +8,7 @@
         "serve": "bundle exec jekyll serve"
     },
     "dependencies": {
-        "gd-sprest-bs": "^1.7.4",
+        "gd-sprest-bs": "^1.7.7",
         "office-ui-fabric-core": "^9.6.1"
     }
 }
