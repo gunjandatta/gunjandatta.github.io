@@ -215,7 +215,7 @@
       }
     },
     {
-      "tag": "bs-buttongroup",
+      "tag": "bs-button-group",
       "dependencies": [],
       "componentClass": "ButtonGroup",
       "componentPath": "components/buttonGroup.js",
@@ -297,7 +297,7 @@
       }
     },
     {
-      "tag": "bs-cardgroup",
+      "tag": "bs-card-group",
       "dependencies": [],
       "componentClass": "CardGroup",
       "componentPath": "components/cardGroup.js",
@@ -351,7 +351,7 @@
       }
     },
     {
-      "tag": "bs-checkboxgroup",
+      "tag": "bs-checkbox-group",
       "dependencies": [],
       "componentClass": "CheckboxGroup",
       "componentPath": "components/checkboxGroup.js",
@@ -482,6 +482,11 @@
           "attr": "multi"
         },
         {
+          "name": "setLabelToValue",
+          "type": "Boolean",
+          "attr": "set-label-to-value"
+        },
+        {
           "name": "type",
           "type": "Number",
           "attr": "type"
@@ -507,7 +512,7 @@
       }
     },
     {
-      "tag": "bs-inputgroup",
+      "tag": "bs-input-group",
       "dependencies": [],
       "componentClass": "InputGroup",
       "componentPath": "components/inputGroup.js",
@@ -621,7 +626,7 @@
       }
     },
     {
-      "tag": "bs-listgroup",
+      "tag": "bs-list-group",
       "dependencies": [],
       "componentClass": "ListGroup",
       "componentPath": "components/listGroup.js",
@@ -952,7 +957,7 @@
       }
     },
     {
-      "tag": "bs-progressgroup",
+      "tag": "bs-progress-group",
       "dependencies": [],
       "componentClass": "ProgressGroup",
       "componentPath": "components/progressGroup.js",
@@ -1297,8 +1302,8 @@
   "collections": [],
   "compiler": {
     "name": "@stencil/core",
-    "version": "0.16.4",
-    "typescriptVersion": "3.1.3"
+    "version": "0.18.0",
+    "typescriptVersion": "3.3.3"
   },
   "bundles": []
 }
