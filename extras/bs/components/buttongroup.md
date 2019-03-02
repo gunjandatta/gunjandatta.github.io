@@ -45,7 +45,7 @@ let buttonGroup = Components.ButtonGroup({
 
 ### Web Component
 
-<bs-buttonGroup>
+<bs-button-group>
     // Return the button group properties
     return {
         buttonType: $REST.Components.ButtonTypes.Primary,
@@ -55,11 +55,11 @@ let buttonGroup = Components.ButtonGroup({
             { "text": "Right" }
         ]
     }
-</bs-buttonGroup>
+</bs-button-group>
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-buttonGroup>
+<bs-button-group>
     // Return the button group properties
     return {
         buttonType: $REST.Components.ButtonTypes.Primary,
@@ -69,7 +69,7 @@ let buttonGroup = Components.ButtonGroup({
             { "text": "Right" }
         ]
     }
-</bs-buttonGroup>
+</bs-button-group>
 ```
 
 ### References

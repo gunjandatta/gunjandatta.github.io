@@ -85,7 +85,7 @@ let cardGroup = Components.CardGroup({
 
 ### Web Component
 
-<bs-cardGroup>
+<bs-card-group>
     // Return the card group properties
     return {
         cards: [
@@ -115,11 +115,11 @@ let cardGroup = Components.CardGroup({
             }
         ]
     }
-</bs-cardGroup>
+</bs-card-group>
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-cardGroup>
+<bs-card-group>
     // Return the card group properties
     return {
         cards: [
@@ -149,7 +149,7 @@ let cardGroup = Components.CardGroup({
             }
         ]
     }
-</bs-cardGroup>
+</bs-card-group>
 ```
 
 ### References

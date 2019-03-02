@@ -51,7 +51,7 @@ let listGroup = Components.listGroup({
 
 ### Web Component
 
-<bs-listGroup is-tabs="true" col-width="2">
+<bs-list-group is-tabs="true" col-width="2">
     // Return the list group properties
     return {
         items: [
@@ -62,11 +62,11 @@ let listGroup = Components.listGroup({
             { tabName: "Tab 5", content: "This is the content for tab 5." }
         ]
     };
-</bs-listGroup>
+</bs-list-group>
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-listGroup is-tabs="true" col-width="2">
+<bs-list-group is-tabs="true" col-width="2">
     // Return the list group properties
     return {
         items: [
@@ -77,7 +77,7 @@ let listGroup = Components.listGroup({
             { tabName: "Tab 5", content: "This is the content for tab 5." }
         ]
     };
-</bs-listGroup>
+</bs-list-group>
 ```
 
 ### References

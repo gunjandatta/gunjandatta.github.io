@@ -43,7 +43,7 @@ let cbGroup = Components.CheckboxGroup({
 
 ### Web Component
 
-<bs-checkboxGroup>
+<bs-checkbox-group>
     // Return the checkbox group properties
     return {
         items: [
@@ -52,11 +52,11 @@ let cbGroup = Components.CheckboxGroup({
             { label: "Option 3" }
         ]
     }
-</bs-checkboxGroup>
+</bs-checkbox-group>
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-checkboxGroup>
+<bs-checkbox-group>
     // Return the checkbox group properties
     return {
         items: [
@@ -65,7 +65,7 @@ let cbGroup = Components.CheckboxGroup({
             { label: "Option 3" }
         ]
     }
-</bs-checkboxGroup>
+</bs-checkbox-group>
 ```
 
 ### References

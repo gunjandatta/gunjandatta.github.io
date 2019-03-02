@@ -59,7 +59,7 @@ let progressGroup = Components.ProgressGroup({
 
 ### Web Component
 
-<bs-progressGroup>
+<bs-progress-group>
     // Return the progress group properties
     return {
         progressbars: [
@@ -76,11 +76,11 @@ let progressGroup = Components.ProgressGroup({
             }
         ]
     };
-</bs-progressGroup>
+</bs-progress-group>
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
-<bs-progressGroup>
+<bs-progress-group>
     // Return the progress group properties
     return {
         progressbars: [
@@ -97,7 +97,7 @@ let progressGroup = Components.ProgressGroup({
             }
         ]
     };
-</bs-progressGroup>
+</bs-progress-group>
 ```
 
 ### References
