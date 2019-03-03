@@ -19,3 +19,10 @@ The Office Fabric-UI React framework provides the components used in the O365 us
 ### [Bootstrap](bs)
 
 The Office Fabric-UI JavaScript framework is unfortunately no longer being maintained by Microsoft. It was also extended to include SharePoint components ([Documentation Link](js)). Since it's no longer being updated, this framework has extended Bootstrap to create SharePoint solutions.
+
+### Sample Solutions
+
+* [Custom Ribbon Menu](https://github.com/gunjandatta/sp-ribbonMenu/wiki)
+* [List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)
+* [Custom WebPart Configuration](https://github.com/gunjandatta/sp-wp-editform/wiki)
+* [SPFx Navigation Bar](https://github.com/gunjandatta/spfx-navbar/wiki)

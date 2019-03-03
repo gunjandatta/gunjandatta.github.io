@@ -23,7 +23,7 @@ This solution will demonstrate how to create a custom ribbon menu button in Shar
 
 **_[List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
 
-This solution will demonstrate how to create a configurable webpart in SharePoint 2013. 
+This solution will demonstrate how to create a configurable webpart in SharePoint 2013 or Online (Classic) pages. 
 
 **_[SharePoint 2013](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
 
@@ -37,6 +37,10 @@ Next, we will upgrade the solution to a SPFx webpart.
 
 * Learn how to create a SPFx webpart
 * Learn how to develop against the developer workbench
+
+**_[Webpart Configuration Panel](https://github.com/gunjandatta/sp-wp-editform/wiki)_**
+
+This solution will demonstrate how to create custom webpart configuration in SharePoint 2013 or Online (Classic) pages.
 
 **_[SPFx Navbars](https://github.com/gunjandatta/spfx-navbar/wiki)_**
 
