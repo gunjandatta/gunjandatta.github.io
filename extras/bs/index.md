@@ -8,7 +8,7 @@ layout: extras
 
 This library extends the [gd-bs library](https://github.com/gunjandatta/gd-bs), which uses the [Bootstrap Framework](https://getbootstrap.com/) to create modern components in SharePoint 2013/Online (Classic) environments. Reference the [gd-sprest-bs library](https://github.com/gunjandatta/sprest-bs) to view the source code.
 
-If you like this library, please [Star it](https://github.com/gunjandatta/sprest-bs). If there are any issues/bugs/requests, create an _[issue here](https://github.com/gunjandatta/sprest-bs/issues)_.
+If you like this library, please [Star it](https://github.com/gunjandatta/sprest-bs). If there are any issues/bugs/requests, create an _[issue here](https://github.com/gunjandatta/spest-bs/issues)_.
 
 ### Getting Started
 
@@ -74,3 +74,10 @@ module.exports = {
     }
 }
 ```
+
+### Sample Solutions
+
+* [Custom Ribbon Menu](https://github.com/gunjandatta/sp-ribbonMenu/wiki)
+* [List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)
+* [Custom WebPart Configuration](https://github.com/gunjandatta/sp-wp-editform/wiki)
+* [SPFx Navigation Bar](https://github.com/gunjandatta/spfx-navbar/wiki)
