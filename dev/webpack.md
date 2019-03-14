@@ -50,7 +50,6 @@ The `node-sass` and `sass-loader` libraries are required if you are using `.sass
 
 ```js
 var path = require("path");
-var webpack = require("webpack");
 
 // Return the configuration
 module.exports = {
@@ -85,6 +84,60 @@ module.exports = {
                     { loader: "sass-loader" }
                 ]
             },
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
+    }
+}
+```
+
+#### Promise Library Dependency
+
+The `gd-sprest` library does depend on the Promise library. As browsers support web components, it may or maynot be necessary to include an additional library in the bundle. If you do need to, then you can reference the distribution file which includes the promise library from the `core-js` library.
+
+```js
+var path = require("path");
+
+// Return the configuration
+module.exports = {
+    // Include the gd-sprest global library
+    entry: [
+        "./node_modules/gd-sprest/dist/gd-sprest.min.js",
+        "./src/index.ts"
+    ],
+
+    // Exclude the gd-sprest reference from the bundle
+    externals: {
+        "gd-sprest": "$REST"
+    },
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".js", ".ts"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
             // TypeScript to JavaScript
             {
                 // Target TypeScript files
