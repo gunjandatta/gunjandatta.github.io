@@ -98,7 +98,7 @@ The `node-sass` and `sass-loader` libraries are required if you are using `.sass
 
 ##### NPM Install
 ```
-npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
+npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader ts-loader node-sass sass-loader css-loader style-loader
 ```
 
 #### webpack.config.js
