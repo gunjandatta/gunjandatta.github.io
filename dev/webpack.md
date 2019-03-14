@@ -3,33 +3,11 @@ layout: page
 ---
 # Dev Docs
 
-## WebPack
+This page will give a basic overview setting up a TypeScript project using Babel and WebPack.
 
-This page will give a basic overview setting up webpack for your project.
+#### TypeScript Configuration
 
-### Setup
-
-#### NPM Installation Command
-
-```
-npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
-```
-
-##### WebPack
-
-The `webpack` and `webpack-cli` libraries are required to bundle the code.
-
-##### Babel
-
-The `@babel/core`, `babel-loader` and `@babel/preset-env` are required to compile the code to ESCurrent, for support of all browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
-
-##### Styles
-
-The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
-
-### Basic Example
-
-#### tsconfig.json
+The `tsconfig.json` file contains the TypeScript configuration. Below is a basic example for this library.
 
 ```js
 {
@@ -46,63 +24,19 @@ The `node-sass` and `sass-loader` libraries are required if you are using `.sass
 }
 ```
 
-#### webpack.config.js
+#### NPM Installation Command
 
-```js
-var path = require("path");
-
-// Return the configuration
-module.exports = {
-    // Main entry point(s) of your libraries/applications
-    entry: "./src/index.ts",
-
-    // Output location
-    output: {
-        path: path.resolve(__dirname, "dist"),
-        filename: "app.js"
-    },
-
-    // Resolve the file names
-    resolve: {
-        extensions: [".js", ".css", ".scss", ".ts"]
-    },
-
-    // Loaders
-    module: {
-        rules: [
-            // SASS to JavaScript
-            {
-                // Target the sass and css files
-                test: /\.s?css$/,
-                // Define the compiler to use
-                use: [
-                    // Create style nodes from the CommonJS code
-                    { loader: "style-loader" },
-                    // Translate css to CommonJS
-                    { loader: "css-loader" },
-                    // Compile sass to css
-                    { loader: "sass-loader" }
-                ]
-            },
-            // TypeScript to JavaScript
-            {
-                // Target TypeScript files
-                test: /\.tsx?$/,
-                exclude: /node_modules/,
-                use: [
-                    // JavaScript (ES5) -> JavaScript (Current)
-                    {
-                        loader: "babel-loader",
-                        options: { presets: ["@babel/preset-env"] }
-                    },
-                    // TypeScript -> JavaScript (ES5)
-                    { loader: "ts-loader" }
-                ]
-            }
-        ]
-    }
-}
 ```
+npm i --save-dev @babel/core @babel/preset-env webpack webpack-cli ts-loader babel-loader
+```
+
+##### [Babel](https://babeljs.io/)
+
+The `@babel/core`, `babel-loader` and `@babel/preset-env` are required to compile the code to ESCurrent, which helps ensure the JavaScript code is supported in the current browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
+
+##### [WebPack](https://webpack.js.org/)
+
+The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
 #### Promise Library Dependency
 
@@ -158,20 +92,77 @@ module.exports = {
 }
 ```
 
-### Externals
+#### CSS/SASS Support
 
-If your application uses a core/common file, then applications requiring the `gd-sprest` and/or `gd-sprest-bs` libraries to be excluded from their bundle will need to add the following configuration.
+The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
+
+##### NPM Install
+```
+npm i --save-dev webpack webpack-cli babel-core babel-loader babel-preset-env ts-loader node-sass sass-loader css-loader style-loader
+```
+
+#### webpack.config.js
 
 ```js
+var path = require("path");
+
 // Return the configuration
 module.exports = {
-    // Basic Configuration Here
+    // Include the gd-sprest global library
+    entry: [
+        "./node_modules/gd-sprest/dist/gd-sprest.min.js",
+        "./src/index.ts"
+    ],
 
-    // Exclude the gd-sprest and/or gd-sprest-bs libraries
-    // This would be dependent on the libraries you are using
+    // Exclude the gd-sprest reference from the bundle
     externals: {
-        "gd-sprest": "$REST",
-        "gd-sprest-bs": "$REST"
+        "gd-sprest": "$REST"
+    },
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".js", ".css", ".scss", ".ts"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
+            // SASS to JavaScript
+            {
+                // Target the sass and css files
+                test: /\.s?css$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            },
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
     }
 }
 ```
