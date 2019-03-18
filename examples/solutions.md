@@ -52,4 +52,4 @@ This solution will demonstrate how to create a custom header and footer bootstra
 
 **_[VueJS Project](https://github.com/gunjandatta/sp-vueDemo/wiki)_**
 
-This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/extras/bs/) library to build a SharePoint solution for 2013/Online.
+This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/extras/bs/) library to build a SharePoint 2013/Online solution.
