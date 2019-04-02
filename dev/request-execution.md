@@ -35,10 +35,6 @@ The execution method is designed to automatically determine the type interface, 
 
 [<img src="/assets/images/execution-method.png" alt="Execute Method" style="max-width:100%" />](/assets/images/execution-method.png)
 
-### Server-Side Conversion Guide
-
-The execution method was designed to give a server-side like experience. Having a SharePoint development background going back to SharePoint 2007, server-side was basically the only way back then. This library will hopefully help SharePoint developers with wsp solution backgrounds an easy way into the new modern web stack. Refer to [this guide](serverside-conversion-guide) for additional details.
-
 ### Code Example
 
 #### TypeScript
