@@ -35,9 +35,8 @@ The execution method is designed to automatically determine the type interface, 
 
 [<img src="/assets/images/execution-method.png" alt="Execute Method" style="max-width:100%" />](/assets/images/execution-method.png)
 
-### Code Example
+### Code Example (TypeScript)
 
-#### TypeScript
 ```ts
 import { List } from "gd-sprest";
 
@@ -55,10 +54,12 @@ export const createListData = () => {
             Title: "Test Item " + i
         })
         // Execute the request
-        // true will wait for the previous request to complete before executing
         .execute(
             // Success
             item => {
+                // If you return a promise here,
+                // it will wait for the promise to complete before executing the next request
+
                 // Save a reference to the item
                 items.push(item);
             },
