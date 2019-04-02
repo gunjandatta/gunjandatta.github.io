@@ -39,7 +39,46 @@ The execution method is designed to automatically determine the type interface, 
 
 The execution method was designed to give a server-side like experience. Having a SharePoint development background going back to SharePoint 2007, server-side was basically the only way back then. This library will hopefully help SharePoint developers with wsp solution backgrounds an easy way into the new modern web stack. Refer to [this guide](serverside-conversion-guide) for additional details.
 
-#### Blog Series
-Various blog posts have been created to help give an overview of the new modern web stack. The intro examples use the [Office Fabric-UI React](https://dev.office.com/fabric), so they can easily be expanded on.
-- [Office Fabric-UI React Intro](http://dattabase.com/sharepoint-app-fabric-ui-react-part-1-3/)
-- [Office Fabric-UI React/Redux](http://dattabase.com/office-fabric-ui-reactredux-part-1-5/)
+#### Code Example
+
+#### TypeScript
+```ts
+import { List } from "gd-sprest";
+
+export const createListData = () => {
+    // Get the list
+    let list = List("Test List");
+    
+    // Create a loop to generate items
+    let items = [];
+    for(var i=1; i<=10; i++) {
+      // Get the item collection
+      list.Items()
+        // Add an item
+        .add({
+            Title: "Test Item " + i
+        })
+        // Execute the request
+        // true will wait for the previous request to complete before executing
+        .execute(
+            // Success
+            item => {
+                // Save a reference to the item
+                items.push(item);
+            },
+            // Error
+            () => {
+                // Log
+                console.log("Error creating item.");
+            },
+            // True will wait for the previous request to complete before executing
+            true
+        );
+    }
+    
+    // Wait for the items to be created
+    list.done(() => {
+      // Do something
+    });
+}
+```

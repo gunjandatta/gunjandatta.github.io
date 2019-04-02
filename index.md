@@ -51,11 +51,9 @@ Since these components are designed using same framework creating the new Office
 
 The execution method was designed to give a server-side like experience, similar to SharePoint 2010/2013 solutions. This will help convert existing server-side solutions to client-side solutions.
 
-### Upgrade Path to SharePoint Framework [SPFx](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview)
-The javascript, typescript, react/angular/react/etc solutions developed for SharePoint 2013 can easily be migrated/copied to a SharePoint Framework (SPFx) modern solution. A [blog series](http://dattabase.com/sharepoint-app-fabric-ui-react-part-3-3/) is available for creating an Add-In for SharePoint 2013/Online using the Office Fabric-UI React framework, including converting it to a SPFX WebPart.
+### SPFx Support
 
-#### SPFx Project
-Refer to the [documentation](https://gunjandatta.github.io/dev/spfx) for steps on configuring this library in a SPFx project.
+Follow the [documentation](https://gunjandatta.github.io/dev/spfx) for steps on configuring this library with SPFx projects.
 
 ### Security
 The REST api execute requests based on the user's permissions. There is no way to elevate privileges requests against the SharePoint REST.
