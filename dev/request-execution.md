@@ -39,7 +39,7 @@ The execution method is designed to automatically determine the type interface, 
 
 The execution method was designed to give a server-side like experience. Having a SharePoint development background going back to SharePoint 2007, server-side was basically the only way back then. This library will hopefully help SharePoint developers with wsp solution backgrounds an easy way into the new modern web stack. Refer to [this guide](serverside-conversion-guide) for additional details.
 
-#### Code Example
+### Code Example
 
 #### TypeScript
 ```ts
