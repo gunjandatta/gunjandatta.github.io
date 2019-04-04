@@ -45,6 +45,7 @@ The intellisense for this library is included as part of the npm installation. I
 One of the key reasons of creating this library, was to give an easy way to develop using the modern web stack in SharePoint 2013 environments.
 
 ### User Adoption
+
 Since these components are designed using same framework creating the new Office 365 modern experience, this gives the ability to introduce the new Office 365 experience within SharePoint 2013. This will be an important part for the SharePoint 2013 user adoption to the new modern experience. Most SharePoint 2010/2013 environments are undergoing upgrades to 2016, Hybrid 2016/O365, O365 and private O365-Gov environments.
 
 ### [Server-Side to Client-Side Conversion Guide](dev/serverside-conversion-guide)
@@ -56,4 +57,5 @@ The execution method was designed to give a server-side like experience, similar
 Follow the [documentation](https://gunjandatta.github.io/dev/spfx) for steps on configuring this library with SPFx projects.
 
 ### Security
+
 The REST api execute requests based on the user's permissions. There is no way to elevate privileges requests against the SharePoint REST.
