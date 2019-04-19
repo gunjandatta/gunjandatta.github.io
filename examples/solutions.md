@@ -21,6 +21,13 @@ This solution will demonstrate how to create a custom ribbon menu button in Shar
 * Learn how to utilize SASS for styling
 * Learn how to create a 'Popover' Bootstrap component
 
+**_[Ribbon Security Group](https://github.com/gunjandatta/sp-ribbonSecurityGroup/wiki)_**
+
+This solution will demonstrate how to render a custom ribbon button in SharePoint 2013 or Online (Classic) pages, which is linked to a SharePoint security group.
+
+* Learn how to create and remove site groups
+* Learn how to render user data
+
 **_[List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
 
 This solution will demonstrate how to create a configurable webpart in SharePoint 2013 or Online (Classic) pages. 
