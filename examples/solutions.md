@@ -57,6 +57,14 @@ This solution will demonstrate how to create a custom header and footer bootstra
 * Learn how to create Bootstrap components in SPFx projects
 * Learn about the application customizer and custom placeholders
 
+**_[IE Banner](https://github.com/gunjandatta/sp-banner-2013/wiki)_**
+
+This solution will demonstrate how to create a custom banner for IE only. This solution will target both [classic](https://github.com/gunjandatta/sp-banner-2013/wiki) and [modern](https://github.com/gunjandatta/sp-banner/wiki) pages, without duplication of code.
+
+* Learn how to create a configurable banner
+* Learn how to reference external libraries in SPFx
+* Learn about the application customizer and custom placeholders
+
 **_[VueJS Project](https://github.com/gunjandatta/sp-vueDemo/wiki)_**
 
 This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/extras/bs/) library to build a SharePoint 2013/Online solution.
