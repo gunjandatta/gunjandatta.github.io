@@ -7,6 +7,8 @@ layout: page
 
 Step-by-Step tutorial for creating SharePoint 2013/Online solutions. If you would like additional examples, feel free to post them as an issue for help [here](https://github.com/gunjandatta/sprest/issues).
 
+#### Basic Examples
+
 **_[Ribbon Button](https://github.com/gunjandatta/sp-ribbonbtn/wiki)_**
 
 This solution will demonstrate how to create a custom ribbon button in SharePoint 2013 or Online (Classic) pages.
@@ -27,6 +29,8 @@ This solution will demonstrate how to render a custom ribbon button in SharePoin
 
 * Learn how to create and remove site groups
 * Learn how to render user data
+
+#### Intermediate Examples
 
 **_[List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
 
@@ -56,6 +60,17 @@ This solution will demonstrate how to create a custom header and footer bootstra
 * Learn how to create a SPFx Extension
 * Learn how to create Bootstrap components in SPFx projects
 * Learn about the application customizer and custom placeholders
+
+#### Advanced Examples
+
+**_[Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)_**
+
+This solution will demonstrate how to create custom new/display/edit forms for a SharePoint list. This solution will work in 2013+ environments.
+
+* Learn how to custom list forms with JavaScript
+* Learn how to create sample data
+* Learn how to create a parent/child dropdown relationship
+* Learn how to display modal loading dialogs
 
 **_[IE Banner](https://github.com/gunjandatta/sp-banner-2013/wiki)_**
 
