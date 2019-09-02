@@ -61,6 +61,14 @@ This solution will demonstrate how to create a custom header and footer bootstra
 * Learn how to create Bootstrap components in SPFx projects
 * Learn about the application customizer and custom placeholders
 
+**_[Document Set Dashboard](https://github.com/gunjandatta/sp-docset/wiki)_**
+
+This solution will demonstrate how to create a basic dashboard for a document set homepage.
+
+* Learn how to create a Document Set
+* Learn how to use the _onCreated_ event to customize the document set homepage
+* Learn how to create a basic dashboard using [BootStrap](https://getbootstrap.com/)
+
 #### Advanced Examples
 
 **_[Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)_**
@@ -70,6 +78,7 @@ This solution will demonstrate how to create custom new/display/edit forms for a
 * Learn how to custom list forms with JavaScript
 * Learn how to create sample data
 * Learn how to create a parent/child dropdown relationship
+* Learn how to create a calculated field
 * Learn how to display modal loading dialogs
 
 **_[IE Banner](https://github.com/gunjandatta/sp-banner-2013/wiki)_**
