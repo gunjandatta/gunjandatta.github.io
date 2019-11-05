@@ -1,0 +1,53 @@
+---
+---
+
+/** Body **/
+body {
+    background-color: #dfdfdf;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    /* Header */
+    header {
+        min-height: 3.5rem;
+
+        a, a:visited { color: white; }
+    }
+
+    /* Main */
+    .main {
+        .sidebar {
+            overflow-y: auto;
+
+            /* Make the sidebar static. */
+            position: -webkit-sticky;
+            position: sticky;
+            top: 4rem;
+            height: calc(-4rem + -1.5rem + 100vh);
+
+            .border-bottom {
+                color: #000000;
+            }
+        }
+
+        /* Content */
+        .content {
+            overflow-y: auto;
+
+            /* Hide the page title, it's displayed in the sidebar navigation. */
+            > h1:first-child {
+                display: none;
+            }
+        }
+    }
+
+    /* Footer */
+    footer {
+        max-height: 1.5rem;
+
+        a, a:visited { color: black; }
+
+        .navbar-brand {
+            font-size: 0.75rem;
+        }
+    }
+}
