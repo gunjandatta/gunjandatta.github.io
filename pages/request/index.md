@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: "Request Generator"
 category: request
 permalink: /request/
