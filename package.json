@@ -1,13 +1,10 @@
 {
-    "name": "gunjandatta.github.io",
+    "name": "dattabase",
     "description": "Documentation for the SharePoint REST Framework.",
-    "authors": "Gunjan Datta",
-    "version": "1.0.0",
-    "main": "index.md",
+    "authors": "Gunjan Datta <me@dattabase.com>",
+    "version": "2.0.0",
+    "main": "index.html",
     "scripts": {
         "serve": "bundle exec jekyll serve"
-    },
-    "dependencies": {
-        "gd-sprest-bs": "^1.9.6"
     }
 }
