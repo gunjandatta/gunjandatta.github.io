@@ -138,7 +138,9 @@ Panel(props:IPanelProps):IPanel
                     }
                 }
             });
-            panel.el.querySelector("#my-panel").style.marginTop = "100px";
+            let elPanel = panel.el.querySelector("#my-panel");
+            elPanel.style.marginTop = "100px";
+            elPanel.style.marginLeft = "0px";
         }
     });
 </script>
