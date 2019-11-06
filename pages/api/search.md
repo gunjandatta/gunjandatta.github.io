@@ -26,16 +26,6 @@ Search().postQuery({
 });
 ```
 
-### Methods
-
-| Method | Description |
-| --- | --- |
-| postQuery(_parameters: SearchRequest_) | Executes a POST request against the _/\_api/search/postquery_ endpoint. |
-| searchQuery(_settings: SearchRequest_) | Executes a GET request against the _/\_api/search/query_ endpoint. |
-| suggest(_settings: SearchSuggestion_) | Executes a GET request against the _/\_api/search/suggest_ endpoint. |
-
-### Interfaces
-
 #### Query Result
 
 | Property | Type | Description |

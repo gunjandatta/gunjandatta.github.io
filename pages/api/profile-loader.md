@@ -29,12 +29,4 @@ ProfileLoader()
     });
 ```
 
-### Methods
-
-| Name | Description |
-| --- | --- |
-| createPersonalSiteEnqueueBulk(_emailIDs: Array&lt;string&gt;_) | Enqueues creating a personal site for this user, which can be used to share documents, web pages, and other files. |
-| getOwnerUserProfile() | Gets the user profile of the site owner. |
-| getUserProfile() | Gets the user profile that corresponds to the current user. |
-
 _Reference the [User Profile Interface](user-profile) for the result type._

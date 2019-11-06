@@ -33,15 +33,6 @@ PeoplePicker().clientPeoplePickerSearchUser({
 });
 ```
 
-### Methods
-
-| Method | Description |
-| --- | --- |
-| clientPeoplePickerResolveUser(_query: IPeoplePickerQuery_) | Resolves a user. |
-| clientPeoplePickerSearchUser(_query: IPeoplePickerQuery_) | Searches for user(s) and group(s). |
-
-### Interfaces
-
 #### People Picker Query
 
 | Name | Type | Description |
