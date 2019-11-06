@@ -118,6 +118,12 @@ Panel(props:IPanelProps):IPanel
 | modalProps | _IModalProps_ | The modal properties. |
 | type | _number_ | The panel type. _Reference the PanelTypes enumerator_ |
 
+<style>
+    #my-panel, #my-wc-panel {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+</style>
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
@@ -138,9 +144,6 @@ Panel(props:IPanelProps):IPanel
                     }
                 }
             });
-            let elPanel = panel.el.querySelector("#my-panel");
-            elPanel.style.marginTop = "100px";
-            elPanel.style.marginLeft = "0px";
         }
     });
 </script>

@@ -112,6 +112,12 @@ Modal(props:IModalProps):IModal
 | isPill | _boolean_ | Adds the 'modal-pill' class name. |
 | type | _number_ | The modal type. _Reference the ModalTypes enumerator_ |
 
+<style>
+    #bsModalDemo, #wcModalDemo {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+</style>
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
@@ -125,6 +131,5 @@ Modal(props:IModalProps):IModal
             body: "This is the body of the modal.",
             button: { text: "Open Modal" }
         });
-        modal.el.style.marginTop = "100px";
     });
 </script>
