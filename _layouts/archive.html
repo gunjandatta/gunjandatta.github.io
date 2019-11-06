@@ -17,14 +17,14 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
   <div class="sidebar sticky">
-    <ul class="author__urls">
+    <ul class="side-nav">
       {% if page.url != "/" %}
         <li><a class="nav-back" href="..">Back</a></li>
       {% endif %}
       {% assign current = page %}
       {% for page in site.pages %}
         {% if page.category == current.category and page.name != "index.md" %}
-          <li><a href="{{ page.url }}"><strong>{{ page.title }}</strong></a></li>
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
