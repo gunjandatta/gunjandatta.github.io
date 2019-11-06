@@ -44,7 +44,7 @@ let tooltip = Components.Tooltip({
 ```
 
 ### Web Component
-
+<!--
 <bs-tooltip>
     // Return the tooltip properties
     return {
@@ -56,6 +56,7 @@ let tooltip = Components.Tooltip({
         }
     };
 </bs-tooltip>
+-->
 
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
@@ -128,7 +129,7 @@ Tooltip(props:ITooltipProps):ITooltip
 | options | _ITooltipOptions_ | The tooltip options. |
 | type | _number_ | The tooltip type. _Reference the TooltipTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
