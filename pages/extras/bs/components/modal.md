@@ -6,7 +6,7 @@ permalink: /extras/bs/components/modal/
 ---
 [Documentation](https://getbootstrap.com/docs/4.1/components/modal)
 
-<div id="modalDemo" style="margin: 0"></div>
+<div id="modalDemo"></div>
 
 #### JavaScript
 ```js
@@ -125,5 +125,6 @@ Modal(props:IModalProps):IModal
             body: "This is the body of the modal.",
             button: { text: "Open Modal" }
         });
+        modal.el.style.marginTop = "100px";
     });
 </script>

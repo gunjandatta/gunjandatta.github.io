@@ -6,7 +6,7 @@ permalink: /extras/bs/components/panel/
 ---
 The panel component extends the modal dialog.
 
-<div id="panelDemo" style="margin: 0"></div>
+<div id="panelDemo"></div>
 
 #### JavaScript
 ```js
@@ -126,7 +126,7 @@ Panel(props:IPanelProps):IPanel
         var panel = document.querySelector("#panelDemo");
         if(panel) {
             // Render the panel
-            $REST.Components.Panel({
+            var panel = $REST.Components.Panel({
                 el: panel,
                 type: $REST.Components.PanelTypes.Large,
                 modalProps: {
@@ -138,6 +138,7 @@ Panel(props:IPanelProps):IPanel
                     }
                 }
             });
+            panel.el.style.marginTop = "100px";
         }
     });
 </script>
