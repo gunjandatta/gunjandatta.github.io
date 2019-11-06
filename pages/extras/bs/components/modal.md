@@ -114,7 +114,8 @@ Modal(props:IModalProps):IModal
 
 <style>
     #bsModalDemo, #wcModalDemo {
-        margin: 0px;
+        margin-top: 100px;
+        margin-left: 0px;
     }
 </style>
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
