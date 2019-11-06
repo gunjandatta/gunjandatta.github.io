@@ -6,7 +6,7 @@ permalink: /extras/bs/components/panel/
 ---
 The panel component extends the modal dialog.
 
-<div id="panelDemo"></div>
+<div id="panelDemo" style="margin: 0"></div>
 
 #### JavaScript
 ```js

@@ -6,7 +6,7 @@ permalink: /extras/bs/components/modal/
 ---
 [Documentation](https://getbootstrap.com/docs/4.1/components/modal)
 
-<div id="modalDemo"></div>
+<div id="modalDemo" style="margin: 0"></div>
 
 #### JavaScript
 ```js
