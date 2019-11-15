@@ -31,7 +31,7 @@ This solution will demonstrate how to render a custom ribbon button in SharePoin
 
 #### Intermediate Examples
 
-**_[JS Link Menu](https://github.com/gunjandatta/sp-jsLinkMenu)_**
+**_[JS Link Menu](https://github.com/gunjandatta/sp-jsLinkMenu/wiki)_**
 
 This solution will demonstrate how to create a custom Bootstrap menu for a list view.
 
