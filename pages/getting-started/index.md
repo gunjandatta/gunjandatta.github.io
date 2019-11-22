@@ -38,5 +38,5 @@ The library can downloaded or referenced from github directly.
 
 **Bootstrap Web Components _(gd-sprest-bs)_**
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 ```
