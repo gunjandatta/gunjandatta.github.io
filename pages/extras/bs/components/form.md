@@ -21,21 +21,21 @@ Components.Form({
             control: {
                 label: "First Name:",
                 name: "FName",
-                type: 10
+                type: Components.FormControlTypes.TextField
             }
         },
         {
             control: {
                 label: "Last Name:",
                 name: "LName",
-                type: 10
+                type: Components.FormControlTypes.TextField
             }
         },
         {
             control: {
                 label: "Choices:",
                 name: "Choice",
-                type: 3,
+                type: Components.FormControlTypes.Dropdown,
                 items: [
                     { text: "Choice 1", value: "1" },
                     { text: "Choice 2", value: "2" },
@@ -68,21 +68,21 @@ let form = Components.Form({
             control: {
                 label: "First Name:",
                 name: "FName",
-                type: 10
+                type: Components.FormControlTypes.TextField
             }
         },
         {
             control: {
                 label: "Last Name:",
                 name: "LName",
-                type: 10
+                type: Components.FormControlTypes.TextField
             }
         },
         {
             control: {
                 label: "Choices:",
                 name: "Choice",
-                type: 3,
+                type: Components.FormControlTypes.Dropdown,
                 items: [
                     { text: "Choice 1", value: "1" },
                     { text: "Choice 2", value: "2" },
