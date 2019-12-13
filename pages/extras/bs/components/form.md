@@ -111,14 +111,14 @@ let form = Components.Form({
                 control: {
                     label: "First Name:",
                     name: "FName",
-                    type: 10
+                    type: 12
                 }
             },
             {
                 control: {
                     label: "Last Name:",
                     name: "LName",
-                    type: 10
+                    type: 12
                 }
             },
             {
@@ -154,14 +154,14 @@ let form = Components.Form({
                 control: {
                     label: "First Name:",
                     name: "FName",
-                    type: 10
+                    type: 12
                 }
             },
             {
                 control: {
                     label: "Last Name:",
                     name: "LName",
-                    type: 10
+                    type: 12
                 }
             },
             {
