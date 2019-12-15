@@ -20,12 +20,12 @@ npm i --save gd-sprest-bs
 
 No Icons
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"></script>
 ```
 
 Icons
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs-icons.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"></script>
 ```
 ### Styling
 
