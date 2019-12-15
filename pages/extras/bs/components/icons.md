@@ -34,6 +34,14 @@ The icons haven't been incorporated with the web component library. This will be
 ```html
 ```
 
+### References
+
+The default size rendered is 32x32. Refer to [Bootstrap](https://icons.getbootstrap.com/) for a list of available icons.
+
+```
+Icons.[Icon](height?:number, width?:number):HtmlElement
+```
+
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
