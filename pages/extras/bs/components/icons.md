@@ -4,11 +4,7 @@ title: "Icons"
 category: bs
 permalink: /extras/bs/components/icons/
 ---
-[Documentation](https://icons.getbootstrap.com/)
-
-### References
-
-The default size rendered is 32x32. Refer to [Bootstrap](https://icons.getbootstrap.com/) for a list of available icons.
+Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). The Icons module has a method for each icon available. The default size rendered is 32x32, unless specified.
 
 ```js
 Icons.[Icon](height?:number, width?:number):HtmlElement
