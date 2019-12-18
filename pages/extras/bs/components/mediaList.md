@@ -67,47 +67,47 @@ import { Components, IconTypes } from "gd-sprest-bs";
 
 // Create the media list object
 let el = document.querySelector("#media");
-let media = $REST.Components.MediaList({
+let media = Components.MediaList({
     el,
     items: [
         {
             icon: {
-                icon: $REST.IconTypes.BootstrapReboot,
+                icon: IconTypes.BootstrapReboot,
                 className: "mr-3"
             },
             body: "<h5>Default Item</h5>This is the default media object."
         },
         {
             icon: {
-                icon: $REST.IconTypes.Bootstrap,
+                icon: IconTypes.Bootstrap,
                 className: "mr-3",
-                type: $REST.Components.MediaImageTypes.Top
+                type: Components.MediaImageTypes.Top
             },
             body: "<h5>Top Aligned Item</h5>This is an example of a media object."
         },
         {
             icon: {
-                icon: $REST.IconTypes.BootstrapFill,
+                icon: IconTypes.BootstrapFill,
                 className: "mr-3",
-                type: $REST.Components.MediaImageTypes.Center
+                type: Components.MediaImageTypes.Center
             },
             body: "<h5>Center Aligned Item</h5>This is an example of a media object."
         },
         {
             icon: {
-                icon: $REST.IconTypes.BootstrapReboot,
+                icon: IconTypes.BootstrapReboot,
                 className: "mr-3",
-                type: $REST.Components.MediaImageTypes.Bottom
+                type: Components.MediaImageTypes.Bottom
             },
             body: "<h5>Bottom Aligned Item</h5>This is an example of a media object."
         },
         {
             icon: {
-                icon: $REST.IconTypes.Bootstrap,
+                icon: IconTypes.Bootstrap,
                 className: "mr-3"
             },
             body: "<h5>Right Aligned Item</h5>This is an example of a media object.",
-            order: $REST.Components.MediaOrderTypes.Right
+            order: Components.MediaOrderTypes.Right
         }
     ]
 });
