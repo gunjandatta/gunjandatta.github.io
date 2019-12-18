@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Media Object"
+title: "Media List"
 category: bs
-permalink: /extras/bs/components/media/
+permalink: /extras/bs/components/media-list/
 ---
-[Documentation](https://getbootstrap.com/docs/4.4/components/media-object/)
+[Documentation](https://getbootstrap.com/docs/4.4/components/media-object/#media-list)
 
 <div id="media"></div>
 
