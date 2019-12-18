@@ -14,13 +14,49 @@ var $REST = require("gd-sprest-bs");
 
 // Create the media object
 var el = document.querySelector("#icon");
-var media = $REST.Components.Media({
+var media = $REST.Components.MediaList({
     el: el,
-    icon: {
-        icon: $REST.IconTypes.BootstrapReboot,
-        className: "mr-3"
-    },
-    body: "<h5>Media Object Example</h5>This is an example of a media object."
+    items: [
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapReboot,
+                className: "mr-3"
+            },
+            body: "<h5>Default Item</h5>This is the default media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.Bootstrap,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Top
+            },
+            body: "<h5>Top Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapFill,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Center
+            },
+            body: "<h5>Center Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapReboot,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Bottom
+            },
+            body: "<h5>Bottom Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.Bootstrap,
+                className: "mr-3"
+            },
+            body: "<h5>Right Aligned Item</h5>This is an example of a media object.",
+            order: $REST.Components.MediaOrderTypes.Right
+        }
+    ]
 });
 ```
 
@@ -31,13 +67,49 @@ import { Components, IconTypes } from "gd-sprest-bs";
 
 // Create the media object
 let el = document.querySelector("#icon");
-let media = Components.Media({
-    el: el,
-    icon: {
-        icon: IconTypes.BootstrapReboot,
-        className: "mr-3"
-    },
-    body: "<h5>Media Object Example</h5>This is an example of a media object."
+let media = $REST.Components.MediaList({
+    el,
+    items: [
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapReboot,
+                className: "mr-3"
+            },
+            body: "<h5>Default Item</h5>This is the default media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.Bootstrap,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Top
+            },
+            body: "<h5>Top Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapFill,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Center
+            },
+            body: "<h5>Center Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.BootstrapReboot,
+                className: "mr-3",
+                type: $REST.Components.MediaImageTypes.Bottom
+            },
+            body: "<h5>Bottom Aligned Item</h5>This is an example of a media object."
+        },
+        {
+            icon: {
+                icon: $REST.IconTypes.Bootstrap,
+                className: "mr-3"
+            },
+            body: "<h5>Right Aligned Item</h5>This is an example of a media object.",
+            order: $REST.Components.MediaOrderTypes.Right
+        }
+    ]
 });
 ```
 
@@ -55,13 +127,49 @@ The media object and icons haven't been incorporated with the web component libr
     window.addEventListener("load", function() {
         // Add an icon to the target element
         var el = document.querySelector("#media");
-        $REST.Components.Media({
+        $REST.Components.MediaList({
             el: el,
-            icon: {
-                icon: $REST.IconTypes.BootstrapReboot,
-                className: "mr-3"
-            },
-            body: "<h5>Media Object Example</h5>This is an example of a media object."
+            items: [
+                {
+                    icon: {
+                        icon: $REST.IconTypes.BootstrapReboot,
+                        className: "mr-3"
+                    },
+                    body: "<h5>Default Item</h5>This is the default media object."
+                },
+                {
+                    icon: {
+                        icon: $REST.IconTypes.Bootstrap,
+                        className: "mr-3",
+                        type: $REST.Components.MediaImageTypes.Top
+                    },
+                    body: "<h5>Top Aligned Item</h5>This is an example of a media object."
+                },
+                {
+                    icon: {
+                        icon: $REST.IconTypes.BootstrapFill,
+                        className: "mr-3",
+                        type: $REST.Components.MediaImageTypes.Center
+                    },
+                    body: "<h5>Center Aligned Item</h5>This is an example of a media object."
+                },
+                {
+                    icon: {
+                        icon: $REST.IconTypes.BootstrapReboot,
+                        className: "mr-3",
+                        type: $REST.Components.MediaImageTypes.Bottom
+                    },
+                    body: "<h5>Bottom Aligned Item</h5>This is an example of a media object."
+                },
+                {
+                    icon: {
+                        icon: $REST.IconTypes.Bootstrap,
+                        className: "mr-3"
+                    },
+                    body: "<h5>Right Aligned Item</h5>This is an example of a media object.",
+                    order: $REST.Components.MediaOrderTypes.Right
+                }
+            ]
         });
     });
 </script>
