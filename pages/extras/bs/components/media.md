@@ -20,7 +20,10 @@ var media = $REST.Components.Media({
         icon: $REST.IconTypes.BootstrapReboot,
         className: "mr-3"
     },
-    body: "<h5>Media Object Example</h5>This is an example of a media object."
+    body: [
+        "<h5>Media Object Example</h5>",
+        "This is an example of a media object."
+    ].join('\n')
 });
 ```
 
@@ -37,7 +40,10 @@ let media = Components.Media({
         icon: IconTypes.BootstrapReboot,
         className: "mr-3"
     },
-    body: "<h5>Media Object Example</h5>This is an example of a media object."
+    body: [
+        "<h5>Media Object Example</h5>",
+        "This is an example of a media object."
+    ].join('\n')
 });
 ```
 
@@ -61,7 +67,10 @@ The media object and icons haven't been incorporated with the web component libr
                 icon: $REST.IconTypes.BootstrapReboot,
                 className: "mr-3"
             },
-            body: "<h5>Media Object Example</h5>This is an example of a media object."
+            body: [
+                "<h5>Media Object Example</h5>",
+                "This is an example of a media object."
+            ].join('\n')
         });
     });
 </script>
