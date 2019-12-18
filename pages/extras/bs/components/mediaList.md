@@ -12,8 +12,8 @@ permalink: /extras/bs/components/media-list/
 ```js
 var $REST = require("gd-sprest-bs");
 
-// Create the media object
-var el = document.querySelector("#icon");
+// Create the media list object
+var el = document.querySelector("#media");
 var media = $REST.Components.MediaList({
     el: el,
     items: [
@@ -65,8 +65,8 @@ var media = $REST.Components.MediaList({
 ```ts
 import { Components, IconTypes } from "gd-sprest-bs";
 
-// Create the media object
-let el = document.querySelector("#icon");
+// Create the media list object
+let el = document.querySelector("#media");
 let media = $REST.Components.MediaList({
     el,
     items: [
