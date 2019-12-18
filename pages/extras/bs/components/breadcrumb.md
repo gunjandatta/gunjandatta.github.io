@@ -4,7 +4,7 @@ title: "Breadcrumb"
 category: bs
 permalink: /extras/bs/components/breadcrumb/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/breadcrumbs)
+[Documentation](https://getbootstrap.com/docs/4.4/components/breadcrumbs)
 
 <div id="breadcrumbDemo"></div>
 

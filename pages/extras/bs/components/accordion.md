@@ -4,7 +4,7 @@ title: "Accordion"
 category: bs
 permalink: /extras/bs/components/accordion/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example)
+[Documentation](https://getbootstrap.com/docs/4.4/components/collapse/#accordion-example)
 
 <div id="accordionDemo"></div>
 

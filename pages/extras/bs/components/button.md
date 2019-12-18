@@ -4,7 +4,7 @@ title: "Button"
 category: bs
 permalink: /extras/bs/components/button/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/buttons)
+[Documentation](https://getbootstrap.com/docs/4.4/components/buttons)
 
 <div id="buttonDemo"></div>
 

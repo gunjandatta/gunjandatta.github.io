@@ -4,7 +4,7 @@ title: "Progress"
 category: bs
 permalink: /extras/bs/components/progress/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/collapse/#progress)
+[Documentation](https://getbootstrap.com/docs/4.4/components/collapse/#progress)
 
 <div id="progressDemo"></div>
 

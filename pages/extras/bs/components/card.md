@@ -4,7 +4,7 @@ title: "Card"
 category: bs
 permalink: /extras/bs/components/card/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/cards)
+[Documentation](https://getbootstrap.com/docs/4.4/components/cards)
 
 <div id="cardDemo"></div>
 

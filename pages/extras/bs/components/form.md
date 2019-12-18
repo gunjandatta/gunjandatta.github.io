@@ -4,7 +4,7 @@ title: "Form"
 category: bs
 permalink: /extras/bs/components/form/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/forms)
+[Documentation](https://getbootstrap.com/docs/4.4/components/forms)
 
 <div id="myForm"></div>
 

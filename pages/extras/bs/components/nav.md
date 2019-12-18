@@ -4,7 +4,7 @@ title: "Navigation"
 category: bs
 permalink: /extras/bs/components/navigation/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/navs)
+[Documentation](https://getbootstrap.com/docs/4.4/components/navs)
 
 <div id="navigationDemo"></div>
 

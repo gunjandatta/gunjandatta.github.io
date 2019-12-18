@@ -4,7 +4,7 @@ title: "Carousel"
 category: bs
 permalink: /extras/bs/components/carousel/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/carousel)
+[Documentation](https://getbootstrap.com/docs/4.4/components/carousel)
 
 <div id="carouselDemo"></div>
 

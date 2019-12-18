@@ -4,7 +4,7 @@ title: "Tooltip"
 category: bs
 permalink: /extras/bs/components/tooltip/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/tooltips)
+[Documentation](https://getbootstrap.com/docs/4.4/components/tooltips)
 
 <div id="tooltipDemo"></div>
 

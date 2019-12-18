@@ -4,7 +4,7 @@ title: "Input Group"
 category: bs
 permalink: /extras/bs/components/inputgroup/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/input-group)
+[Documentation](https://getbootstrap.com/docs/4.4/components/input-group)
 
 <div id="inputGroupDemo"></div>
 

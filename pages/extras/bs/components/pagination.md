@@ -4,7 +4,7 @@ title: "Pagination"
 category: bs
 permalink: /extras/bs/components/pagination/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/pagination)
+[Documentation](https://getbootstrap.com/docs/4.4/components/pagination)
 
 <div id="paginationDemo"></div>
 

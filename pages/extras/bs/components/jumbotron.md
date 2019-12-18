@@ -4,7 +4,7 @@ title: "Jumbotron"
 category: bs
 permalink: /extras/bs/components/jumbotron/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/jumbotron)
+[Documentation](https://getbootstrap.com/docs/4.4/components/jumbotron)
 
 <div id="jumbotronDemo"></div>
 

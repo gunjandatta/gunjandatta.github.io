@@ -4,7 +4,7 @@ title: "List Group"
 category: bs
 permalink: /extras/bs/components/listgroup/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/list-group)
+[Documentation](https://getbootstrap.com/docs/4.4/components/list-group)
 
 <div id="listGroupDemo"></div>
 

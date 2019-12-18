@@ -4,7 +4,7 @@ title: "Navbar"
 category: bs
 permalink: /extras/bs/components/navbar/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/navbar)
+[Documentation](https://getbootstrap.com/docs/4.4/components/navbar)
 
 <div id="navbarDemo"></div>
 

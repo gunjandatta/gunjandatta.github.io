@@ -4,7 +4,7 @@ title: "Modal"
 category: bs
 permalink: /extras/bs/components/modal/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/modal)
+[Documentation](https://getbootstrap.com/docs/4.4/components/modal)
 
 <div id="modalDemo"></div>
 

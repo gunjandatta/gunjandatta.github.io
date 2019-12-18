@@ -4,7 +4,7 @@ title: "Button Group"
 category: bs
 permalink: /extras/bs/components/buttongroup/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/button-group)
+[Documentation](https://getbootstrap.com/docs/4.4/components/button-group)
 
 <div id="buttonGroupDemo"></div>
 

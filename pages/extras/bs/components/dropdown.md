@@ -4,7 +4,7 @@ title: "Dropdown"
 category: bs
 permalink: /extras/bs/components/dropdown/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/dropdowns)
+[Documentation](https://getbootstrap.com/docs/4.4/components/dropdowns)
 
 <div id="dropdownDemo"></div>
 

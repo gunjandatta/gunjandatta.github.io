@@ -4,7 +4,7 @@ title: "Card Group"
 category: bs
 permalink: /extras/bs/components/cardgroup/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/card/#card-styles)
+[Documentation](https://getbootstrap.com/docs/4.4/components/card/#card-styles)
 
 <div id="cards"></div>
 

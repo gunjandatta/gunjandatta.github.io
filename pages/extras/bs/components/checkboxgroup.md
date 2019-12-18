@@ -4,7 +4,7 @@ title: "Checkbox Group"
 category: bs
 permalink: /extras/bs/components/checkboxgroup/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/forms/#checkboxes-and-radios)
+[Documentation](https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios)
 
 <div id="cbGroupDemo"></div>
 

@@ -4,7 +4,7 @@ title: "Alert"
 category: bs
 permalink: /extras/bs/components/alert/
 ---
-[Documentation](https://getbootstrap.com/docs/4.1/components/alerts)
+[Documentation](https://getbootstrap.com/docs/4.4/components/alerts)
 
 <div id="alertDemo"></div>
 
