@@ -14,11 +14,11 @@ Icons(iconType?:number, height?:number, width?:number):HtmlElement
 
 ### JavaScript
 ```js
-var Icons = require("gd-sprest-bs").Icons;
+var $REST = require("gd-sprest-bs");
 
 // Add an icon to the target element
 var el = document.querySelector("#icon");
-el.appendChild(Icons(IconTypes.BootstrapReboot));
+el.appendChild($REST.Icons($REST.IconTypes.BootstrapReboot));
 ```
 
 ### TypeScript
