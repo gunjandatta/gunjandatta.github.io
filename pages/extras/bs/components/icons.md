@@ -4,7 +4,7 @@ title: "Icons"
 category: bs
 permalink: /extras/bs/components/icons/
 ---
-Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). The Icons is a method, using the IconTypes enumerator to select the icon. The default size rendered is 32x32, unless specified.
+Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). Icons is a method using the IconTypes enumerator to render a specified icon. The default size rendered is 32x32, unless specified.
 
 ```js
 Icons(iconType?:number, height?:number, width?:number):HtmlElement
