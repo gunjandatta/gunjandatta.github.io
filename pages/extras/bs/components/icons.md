@@ -4,10 +4,10 @@ title: "Icons"
 category: bs
 permalink: /extras/bs/components/icons/
 ---
-Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). The Icons module has a method for each icon available. The default size rendered is 32x32, unless specified.
+Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). The Icons is a method, using the IconTypes enumerator to select the icon. The default size rendered is 32x32, unless specified.
 
 ```js
-Icons.[Icon](height?:number, width?:number):HtmlElement
+Icons(iconType?:number, height?:number, width?:number):HtmlElement
 ```
 
 <div id="icon"></div>
@@ -18,16 +18,16 @@ var Icons = require("gd-sprest-bs").Icons;
 
 // Add an icon to the target element
 var el = document.querySelector("#icon");
-el.appendChild(Icons.BootstrapReboot());
+el.appendChild(Icons(IconTypes.BootstrapReboot));
 ```
 
 ### TypeScript
 
 ```ts
-import { Icons } from "gd-sprest-bs";
+import { Icons, IconTypes } from "gd-sprest-bs";
 
 let el = document.querySelector("#icon");
-el.appendChild(Icons.BootstrapReboot());
+el.appendChild(Icons(IconTypes.BootstrapReboot));
 ```
 
 ### Web Component
@@ -44,6 +44,6 @@ The icons haven't been incorporated with the web component library. This will be
     window.addEventListener("load", function() {
         // Add an icon to the target element
         var el = document.querySelector("#icon");
-        el ? el.appendChild($REST.Icons.BootstrapReboot()) : null;
+        el ? el.appendChild($REST.Icons($REST.IconTypes.BootstrapReboot)) : null;
     });
 </script>
