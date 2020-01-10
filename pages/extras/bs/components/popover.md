@@ -4,7 +4,7 @@ title: "Popover"
 category: bs
 permalink: /extras/bs/components/popover/
 ---
-[Documentation](https://getbootstrap.com/docs/4.4/components/popover)
+[Documentation](https://getbootstrap.com/docs/4.4/components/popovers)
 
 <div id="popoverDemo"></div>
 
