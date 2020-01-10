@@ -143,7 +143,7 @@ Popover(props:IPopoverProps):IPopover
 | options | _IPopoverOptions_ | The popover options. |
 | type | _number_ | The popover type. _Reference the PopoverTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
