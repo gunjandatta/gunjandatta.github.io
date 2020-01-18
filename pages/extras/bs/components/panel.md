@@ -86,6 +86,7 @@ Panel(props:IPanelProps):IPanel
 <style>
     #my-panel, #my-wc-panel {
         margin: 0px;
+        margin-top: 100px;
     }
 </style>
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
