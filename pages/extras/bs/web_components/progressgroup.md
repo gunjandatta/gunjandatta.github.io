@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Progress Group"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/progressgroup/
 ---
 [Documentation](http://getbootstrap.com/docs/4.1/components/progress/#multiple-bars)

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Form"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/form/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/forms)

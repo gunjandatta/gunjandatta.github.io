@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Card Group"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/cardgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/card/#card-styles)

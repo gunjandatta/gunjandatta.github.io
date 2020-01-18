@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Panel"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/panel/
 ---
 The panel component extends the modal dialog.

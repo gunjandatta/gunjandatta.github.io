@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Button Group"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/buttongroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/button-group)

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Alert"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/alert/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/alerts)

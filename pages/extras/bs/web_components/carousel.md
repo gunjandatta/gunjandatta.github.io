@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Carousel"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/carousel/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/carousel)

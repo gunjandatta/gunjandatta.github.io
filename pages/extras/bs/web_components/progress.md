@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Progress"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/progress/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/collapse/#progress)

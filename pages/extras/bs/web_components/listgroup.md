@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "List Group"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/listgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/list-group)

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Input Group"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/inputgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/input-group)

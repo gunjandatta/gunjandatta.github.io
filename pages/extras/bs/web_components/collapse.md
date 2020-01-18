@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Collapse"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/collapse/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/collapse)

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Breadcrumb"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/breadcrumb/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/breadcrumbs)

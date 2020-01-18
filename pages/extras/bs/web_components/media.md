@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Media Object"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/media/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/media-object/)

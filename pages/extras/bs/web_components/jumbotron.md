@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Jumbotron"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/jumbotron/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/jumbotron)

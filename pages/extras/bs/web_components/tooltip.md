@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Tooltip"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/tooltip/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/tooltips)

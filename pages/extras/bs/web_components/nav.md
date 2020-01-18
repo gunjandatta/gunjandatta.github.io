@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Navigation"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/navigation/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/navs)

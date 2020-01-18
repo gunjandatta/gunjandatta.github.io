@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Badge"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/badge/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/badges)

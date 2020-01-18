@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Components"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/
 ---
 <script>

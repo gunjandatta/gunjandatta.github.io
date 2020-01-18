@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Modal"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/modal/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/modal)

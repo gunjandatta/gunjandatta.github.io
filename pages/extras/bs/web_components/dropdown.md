@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Dropdown"
-category: bs
+category: bs-wc
 permalink: /extras/bs/webcomponents/dropdown/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/dropdowns)
