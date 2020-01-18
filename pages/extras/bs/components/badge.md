@@ -4,7 +4,7 @@ title: "Badge"
 category: bs
 permalink: /extras/bs/components/badge/
 ---
-[Documentation](https://getbootstrap.com/docs/4.4/components/badges)
+[Documentation](https://getbootstrap.com/docs/4.4/components/badge)
 
 <div id="badgeDemo"></div>
 
