@@ -16,7 +16,7 @@ var Components = require("gd-sprest-bs").Components;
 var el = document.querySelector("#listGroup");
 var listGroup = Components.listGroup({
     el: el,
-    colWidth: 2,
+    colWidth: 4,
     isTabs: true,
     items: [
         { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
@@ -37,7 +37,7 @@ import { Components } from "gd-sprest-bs";
 let el = document.querySelector("#listGroup");
 let listGroup = Components.listGroup({
     el: el,
-    colWidth: 2,
+    colWidth: 4,
     isTabs: true,
     items: [
         { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
@@ -109,7 +109,7 @@ ListGroup(props:IListGroupProps):IListGroup
             // Render the listGroup
             $REST.Components.ListGroup({
                 el: listGroup,
-                colWidth: 2,
+                colWidth: 4,
                 isTabs: true,
                 items: [
                     { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
