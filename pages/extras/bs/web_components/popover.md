@@ -2,7 +2,7 @@
 layout: archive
 title: "Popover"
 category: bs
-permalink: /extras/bs/components/popover/
+permalink: /extras/bs/webcomponents/popover/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/popovers)
 
@@ -49,6 +49,41 @@ let popover = Components.Popover({
         trigger: "hover"
     }
 });
+```
+
+### Web Component
+
+<bs-popover is-dismissible="true">
+    // Return the popover properties
+    return {
+        btnProps: {
+            text: "Popover Demo"
+        },
+        options: {
+            container: "body",
+            content: "This is the popover content.",
+            title: "My Popover",
+            trigger: "hover"
+        }
+    };
+</bs-popover>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-popover is-dismissible="true">
+    // Return the popover properties
+    return {
+        btnProps: {
+            text: "Popover Demo"
+        },
+        options: {
+            container: "body",
+            content: "This is the popover content.",
+            title: "My Popover",
+            trigger: "hover"
+        }
+    };
+</bs-popover>
 ```
 
 ### References

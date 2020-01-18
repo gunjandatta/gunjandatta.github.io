@@ -2,7 +2,7 @@
 layout: archive
 title: "Progress Group"
 category: bs
-permalink: /extras/bs/components/progressgroup/
+permalink: /extras/bs/webcomponents/progressgroup/
 ---
 [Documentation](http://getbootstrap.com/docs/4.1/components/progress/#multiple-bars)
 
@@ -57,6 +57,49 @@ let progressGroup = Components.ProgressGroup({
 });
 ```
 
+### Web Component
+
+<bs-progress-group>
+    // Return the progress group properties
+    return {
+        progressbars: [
+            {
+                size: 25,
+                isStriped: true,
+                label: "25%"
+            },
+            {
+                size: 50,
+                isAnimated: true,
+                isStriped: true,
+                label: "50%"
+            }
+        ]
+    };
+</bs-progress-group>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-progress-group>
+    // Return the progress group properties
+    return {
+        progressbars: [
+            {
+                size: 25,
+                isStriped: true,
+                label: "25%"
+            },
+            {
+                size: 50,
+                isAnimated: true,
+                isStriped: true,
+                label: "50%"
+            }
+        ]
+    };
+</bs-progress-group>
+```
+
 ### References
 
 ```
@@ -78,7 +121,7 @@ ProgressGroup(props:IProgressGroupProps):IProgressGroup
 | isMultiple | _string_ | Renders the progress bars in a single progress element. |
 | progressbars | _Array&lt;IProgressProps&gt;_ | The progressbars. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

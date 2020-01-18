@@ -2,7 +2,7 @@
 layout: archive
 title: "Button"
 category: bs
-permalink: /extras/bs/components/button/
+permalink: /extras/bs/webcomponents/button/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/buttons)
 
@@ -40,8 +40,17 @@ let btn = Components.Button({
 });
 ```
 
+### Web Component
+
+<bs-button text="My Button">
+    // Return the button properties
+    return {
+        onClick: btnClickEvent
+    }
+</bs-button>
+
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <bs-button text="My Button">
     // Return the button properties
     return {

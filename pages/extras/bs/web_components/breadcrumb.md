@@ -2,7 +2,7 @@
 layout: archive
 title: "Breadcrumb"
 category: bs
-permalink: /extras/bs/components/breadcrumb/
+permalink: /extras/bs/webcomponents/breadcrumb/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/breadcrumbs)
 
@@ -39,6 +39,33 @@ let breadcrumb = Components.Breadcrumb({
 });
 ```
 
+### Web Component
+
+<bs-breadcrumb>
+    // Return the breadcrumb properties
+    return {
+        items: [
+            { "text": "Root", "href": "/" }, 
+            { "text": "Web 1", "href": "/web" }, 
+            { "text": "Web 1-1", "href": "/web/1"}
+        ]
+    }
+</bs-breadcrumb>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-breadcrumb>
+    // Return the breadcrumb properties
+    return {
+        items: [
+            { "text": "Root", "href": "/" }, 
+            { "text": "Web 1", "href": "/web" }, 
+            { "text": "Web 1-1", "href": "/web/1"}
+        ]
+    }
+</bs-breadcrumb>
+```
+
 ### References
 
 ```
@@ -66,7 +93,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | href | _string_ | The breadcrumb item url. |
 | text | _string_ | The breadcrumb item text. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

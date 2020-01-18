@@ -2,7 +2,7 @@
 layout: archive
 title: "Dropdown"
 category: bs
-permalink: /extras/bs/components/dropdown/
+permalink: /extras/bs/webcomponents/dropdown/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/dropdowns)
 
@@ -51,6 +51,41 @@ let dropdown = Components.Dropdown({
         console.log("The selected value is: " + item.text);
     }
 });
+```
+
+### Web Component
+
+<bs-dropdown label="Select a Choice">
+    // Return the dropdown properties
+    return {
+        items: [
+            { text: "Choice 1", value: "1" },
+            { text: "Choice 2", value: "2" },
+            { text: "Choice 3", value: "3" },
+            { text: "Choice 4", value: "4" },
+            { text: "Choice 5", value: "5" }
+        ],
+        onChange: onChangeEvent
+    };
+</bs-dropdown>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-dropdown label="Select a Choice">
+    // Return the dropdown properties
+    return {
+        items: [
+            { text: "Choice 1", value: "1" },
+            { text: "Choice 2", value: "2" },
+            { text: "Choice 3", value: "3" },
+            { text: "Choice 4", value: "4" },
+            { text: "Choice 5", value: "5" }
+        ],
+        onChange: function(item, ev) {
+            console.log("The selected value is: " + item.text);
+        }
+    };
+</bs-dropdown>
 ```
 
 ### References
@@ -114,7 +149,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
 | value | _string \| Array&lt;string&gt;_ | The selected item values. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(item, ev) {

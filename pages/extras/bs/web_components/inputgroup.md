@@ -2,7 +2,7 @@
 layout: archive
 title: "Input Group"
 category: bs
-permalink: /extras/bs/components/inputgroup/
+permalink: /extras/bs/webcomponents/inputgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/input-group)
 
@@ -39,6 +39,27 @@ let inputGroup = Components.inputGroup({
         console.log("The value is: " + value);
     }
 });
+```
+
+### Web Component
+
+<bs-input-group label="My Name" value="First Last">
+    // Return the input group properties
+    return {
+        onChange: onChangeEvent
+    }
+</bs-input-group>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-input-group label="My Name" value="First Last">
+    // Return the input group properties
+    return {
+        onChange: function(item, ev) {
+            console.log("The selected value is: " + item.text);
+        }
+    }
+</bs-input-group>
 ```
 
 ### References
@@ -80,7 +101,7 @@ InputGroup(props:IInputGroupProps):IInputGroup
 | type | _number_ | The text field type. _Reference the InputGroupTypes enumerator_ |
 | value | _string_ | The text field value. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(value, ev) {

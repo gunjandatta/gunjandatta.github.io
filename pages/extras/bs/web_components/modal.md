@@ -2,7 +2,7 @@
 layout: archive
 title: "Modal"
 category: bs
-permalink: /extras/bs/components/modal/
+permalink: /extras/bs/webcomponents/modal/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/modal)
 
@@ -45,6 +45,33 @@ let modal = Components.Modal({
         target: "#bsModalDemo"
     }
 });
+```
+
+### Web Component
+
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal.">
+    // Return the modal properties
+    return {
+        button: {
+            text: "Open Modal",
+            toggle: "modal",
+            target: "#bsModalDemo"
+        }
+    };
+</bs-modal>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal.">
+    // Return the modal properties
+    return {
+        button: {
+            text: "Open Modal",
+            toggle: "modal",
+            target: "#bsModalDemo"
+        }
+    };
+</bs-modal>
 ```
 
 ### References
@@ -91,7 +118,7 @@ Modal(props:IModalProps):IModal
         margin-left: 0px;
     }
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

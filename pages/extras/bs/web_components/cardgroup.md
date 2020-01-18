@@ -2,7 +2,7 @@
 layout: archive
 title: "Card Group"
 category: bs
-permalink: /extras/bs/components/cardgroup/
+permalink: /extras/bs/webcomponents/cardgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/card/#card-styles)
 
@@ -83,6 +83,75 @@ let cardGroup = Components.CardGroup({
 });
 ```
 
+### Web Component
+
+<bs-card-group>
+    // Return the card group properties
+    return {
+        cards: [
+            {
+                body: [
+                    {
+                        title: "Card 1",
+                        text: "This is the first card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 2",
+                        text: "This is the second card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 3",
+                        text: "This is the third card."
+                    }
+                ]
+            }
+        ]
+    }
+</bs-card-group>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-card-group>
+    // Return the card group properties
+    return {
+        cards: [
+            {
+                body: [
+                    {
+                        title: "Card 1",
+                        text: "This is the first card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 2",
+                        text: "This is the second card."
+                    }
+                ]
+            },
+            {
+                body: [
+                    {
+                        title: "Card 3",
+                        text: "This is the third card."
+                    }
+                ]
+            }
+        ]
+    }
+</bs-card-group>
+```
+
 ### References
 
 ```
@@ -103,7 +172,7 @@ CardGroup(props:ICardGroupProps):ICardGroup
 | className | _string_ | The class name to apply to card group. |
 | el | _HTMLElement_ | The element to render the card group to. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

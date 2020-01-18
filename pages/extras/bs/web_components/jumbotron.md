@@ -2,7 +2,7 @@
 layout: archive
 title: "Jumbotron"
 category: bs
-permalink: /extras/bs/components/jumbotron/
+permalink: /extras/bs/webcomponents/jumbotron/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/jumbotron)
 
@@ -33,6 +33,15 @@ let jumbotron = Components.Jumbotron({
 });
 ```
 
+### Web Component
+
+<bs-jumbotron title="Web Components" lead="These are easy to use."></bs-jumbotron>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-jumbotron title="Web Components" lead="These are easy to use."></bs-jumbotron>
+```
+
 ### References
 
 ```
@@ -57,7 +66,7 @@ Jumbotron(props:IJumbotronProps):IJumbotron
 | onRenderContent | _(el:HTMLElement) => void_ | The jumbotron render content event. |
 | title | _string_ | The jumbotron content. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

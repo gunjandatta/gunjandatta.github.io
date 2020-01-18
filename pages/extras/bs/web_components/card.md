@@ -2,7 +2,7 @@
 layout: archive
 title: "Card"
 category: bs
-permalink: /extras/bs/components/card/
+permalink: /extras/bs/webcomponents/card/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/cards)
 
@@ -57,6 +57,49 @@ let card = Components.Card({
 });
 ```
 
+### Web Component
+
+<bs-card>
+    // Return the card properties
+    return {
+        className: "w-25",
+        body: [
+            {
+                title: "Card Title",
+                text: "This is the card contents.",
+                actions: [
+                    {
+                        text: "Card Action",
+                        buttonType: $REST.Components.ButtonTypes.Primary
+                    }
+                ]
+            }
+        ]
+    }
+</bs-card>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-card>
+    // Return the card properties
+    return {
+        className: "w-25",
+        body: [
+            {
+                title: "Card Title",
+                text: "This is the card contents.",
+                actions: [
+                    {
+                        text: "Card Action",
+                        buttonType: $REST.Components.ButtonTypes.Primary
+                    }
+                ]
+            }
+        ]
+    }
+</bs-card>
+```
+
 ### References
 
 ```
@@ -82,7 +125,7 @@ Card(props:ICardProps):ICard
 | imgBottom | | |
 | imgTop | | |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

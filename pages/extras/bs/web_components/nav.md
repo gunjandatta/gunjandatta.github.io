@@ -2,7 +2,7 @@
 layout: archive
 title: "Navigation"
 category: bs
-permalink: /extras/bs/components/navigation/
+permalink: /extras/bs/webcomponents/navigation/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/navs)
 
@@ -47,6 +47,37 @@ let nav = Components.Nav({
 });
 ```
 
+### Web Component
+
+<bs-nav is-pills="true">
+    // Return the nav properties
+    return {
+        items: [
+            { title: "Nav 1", isActive: true },
+            { title: "Nav 2" },
+            { title: "Nav 3" },
+            { title: "Nav 4" },
+            { title: "Nav 5" }
+        ]
+    };
+</bs-nav>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-nav is-pills="true">
+    // Return the nav properties
+    return {
+        items: [
+            { title: "Nav 1", isActive: true },
+            { title: "Nav 2" },
+            { title: "Nav 3" },
+            { title: "Nav 4" },
+            { title: "Nav 5" }
+        ]
+    };
+</bs-nav>
+```
+
 ### References
 
 ```
@@ -84,7 +115,7 @@ Nav(props:INavProps):INav
 | isPill | _boolean_ | Adds the 'navigation-pill' class name. |
 | type | _number_ | The navigation type. _Reference the NavigationTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

@@ -2,7 +2,7 @@
 layout: archive
 title: "Pagination"
 category: bs
-permalink: /extras/bs/components/pagination/
+permalink: /extras/bs/webcomponents/pagination/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/pagination)
 
@@ -37,6 +37,31 @@ let pagination = Components.Pagination({
         console.log("The page number selected is: " + index);
     }
 });
+```
+
+### Web Component
+
+<bs-pagination number-of-pages="5">
+    // Return the pagination properties
+    return {
+        onClick: function(index, ev) {
+            // Log the index
+            console.log("The page number selected is: " + index);
+        }
+    };
+</bs-pagination>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-pagination number-of-pages="5">
+    // Return the pagination properties
+    return {
+        onClick: function(index, ev) {
+            // Log the index
+            console.log("The page number selected is: " + index);
+        }
+    };
+</bs-pagination>
 ```
 
 ### References
@@ -75,7 +100,7 @@ Pagination(props:IPaginationProps):IPagination
 
 <style>
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // The pagination click event
     function onPaginationClick(index, ev) {

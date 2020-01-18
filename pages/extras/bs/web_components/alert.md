@@ -2,7 +2,7 @@
 layout: archive
 title: "Alert"
 category: bs
-permalink: /extras/bs/components/alert/
+permalink: /extras/bs/webcomponents/alert/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/alerts)
 
@@ -29,6 +29,15 @@ let alert = Components.Alert({
     el: el,
     content: "This is an alert."
 });
+```
+
+### Web Component
+
+<bs-alert content="This is an alert"></bs-alert>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-alert content="This is an alert"></bs-alert>
 ```
 
 ### References
@@ -69,7 +78,7 @@ Alert(props:IAlertProps):IAlert
 | isDismissible | _boolean_ | Renders an 'x' to close the alert. |
 | type | _number_ | The alert type. _Reference the AlertTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

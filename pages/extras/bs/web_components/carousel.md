@@ -2,7 +2,7 @@
 layout: archive
 title: "Carousel"
 category: bs
-permalink: /extras/bs/components/carousel/
+permalink: /extras/bs/webcomponents/carousel/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/carousel)
 
@@ -73,6 +73,59 @@ let carousel = Components.Carousel({
 });
 ```
 
+### Web Component
+
+<bs-carousel id="wcCarouselDemo" enable-controls="true" enable-indicators="true">
+    // Return the carousel properties
+    return {
+        items: [
+            {
+                captions: "<h5>First Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "First Slide",
+                isActive: true
+            },
+            {
+                captions: "<h5>Second Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "Second Slide"
+            },
+            {
+                captions: "<h5>Third Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "Third Slide"
+            }
+        ]
+    };
+</bs-carousel>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-carousel id="wcCarouselDemo" enable-controls="true" enable-indicators="true">
+    // Return the carousel properties
+    return {
+        items: [
+            {
+                captions: "<h5>First Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "First Slide",
+                isActive: true
+            },
+            {
+                captions: "<h5>Second Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "Second Slide"
+            },
+            {
+                captions: "<h5>Third Slide</h5>",
+                imageUrl: "https://via.placeholder.com/400x200",
+                imageAlt: "Third Slide"
+            }
+        ]
+    };
+</bs-carousel>
+```
+
 ### References
 
 ```
@@ -128,7 +181,7 @@ Carousel(props:ICarouselProps):ICarousel
 <style>
 .carousel { max-width: 400px; }
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

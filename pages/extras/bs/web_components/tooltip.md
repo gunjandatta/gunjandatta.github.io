@@ -2,7 +2,7 @@
 layout: archive
 title: "Tooltip"
 category: bs
-permalink: /extras/bs/components/tooltip/
+permalink: /extras/bs/webcomponents/tooltip/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/tooltips)
 
@@ -41,6 +41,36 @@ let tooltip = Components.Tooltip({
         title: "My Tooltip",
     }
 });
+```
+
+### Web Component
+<!--
+<bs-tooltip>
+    // Return the tooltip properties
+    return {
+        btnProps: {
+            text: "Tooltip Demo"
+        },
+        options: {
+            title: "My Tooltip",
+        }
+    };
+</bs-tooltip>
+-->
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-tooltip>
+    // Return the tooltip properties
+    return {
+        btnProps: {
+            text: "Tooltip Demo"
+        },
+        options: {
+            title: "My Tooltip",
+        }
+    };
+</bs-tooltip>
 ```
 
 ### References

@@ -2,7 +2,7 @@
 layout: archive
 title: "Badge"
 category: bs
-permalink: /extras/bs/components/badge/
+permalink: /extras/bs/webcomponents/badge/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/badges)
 
@@ -29,6 +29,15 @@ let badge = Components.Badge({
     el: el,
     content: "Badge"
 });
+```
+
+### Web Component
+
+<bs-badge content="Badge"></bs-badge>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-badge content="Badge"></bs-badge>
 ```
 
 ### References
@@ -68,7 +77,7 @@ Badge(props:IBadgeProps):IBadge
 | isPill | _boolean_ | Adds the 'badge-pill' class name. |
 | type | _number_ | The badge type. _Reference the BadgeTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

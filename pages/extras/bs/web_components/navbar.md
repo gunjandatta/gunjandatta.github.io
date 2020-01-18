@@ -2,7 +2,7 @@
 layout: archive
 title: "Navbar"
 category: bs
-permalink: /extras/bs/components/navbar/
+permalink: /extras/bs/webcomponents/navbar/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/navbar)
 
@@ -99,6 +99,83 @@ let navbar = Components.Navbar({
 });
 ```
 
+### Web Component
+
+<bs-navbar brand="Navbar">
+    // Return the navbar properties
+    return {
+        searchBox: {
+            onChange: logSearchValue,
+            onSearch: logSearchValue
+        },
+        items: [
+            {
+                text: "Home",
+                isActive: true
+            },
+            {
+                text: "Link"
+            },
+            {
+                text: "Disabled Link",
+                isDisabled: true
+            },
+            {
+                text: "Dropdown Link",
+                items: [
+                    { text: "Link 1" },
+                    { text: "Link 2" },
+                    { text: "Link 3" },
+                    { text: "Link 4" },
+                    { text: "Link 5" }
+                ]
+            }
+        ]
+    };
+</bs-navbar>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-navbar brand="Navbar">
+    // Return the navbar properties
+    return {
+        searchBox: {
+            onChange: function(value) {
+                // Log the value
+                console.log("The search value is: " + value);
+            },
+            onSearch: function(value) {
+                // Log the value
+                console.log("The search value is: " + value);
+            }
+        },
+        items: [
+            {
+                text: "Home",
+                isActive: true
+            },
+            {
+                text: "Link"
+            },
+            {
+                text: "Disabled Link",
+                isDisabled: true
+            },
+            {
+                text: "Dropdown Link",
+                items: [
+                    { text: "Link 1" },
+                    { text: "Link 2" },
+                    { text: "Link 3" },
+                    { text: "Link 4" },
+                    { text: "Link 5" }
+                ]
+            }
+        ]
+    };
+</bs-navbar>
+```
+
 ### References
 
 ```
@@ -148,7 +225,7 @@ Navbar(props:INavbarProps):INavbar
 | btnProps | _IButtonProps_ | The button properties. |
 | className | _string_ | The class name to apply to navbar. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     function logSearchValue(value) {
         // Log the value

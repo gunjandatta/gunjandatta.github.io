@@ -2,7 +2,7 @@
 layout: archive
 title: "Panel"
 category: bs
-permalink: /extras/bs/components/panel/
+permalink: /extras/bs/webcomponents/panel/
 ---
 The panel component extends the modal dialog.
 
@@ -49,6 +49,41 @@ let panel = Components.Panel({
 });
 ```
 
+### Web Component
+
+<bs-panel>
+    // Return the panel properties
+    return {
+        type: $REST.Components.PanelTypes.Large,
+        modalProps: {
+            button: { text: "Show Panel" },
+            id: "my-wc-panel",
+            title: "Panel Demo",
+            onRenderBody: function(el) {
+                // Render the body
+            }
+        }
+    };
+</bs-panel>
+
+```html
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<bs-panel>
+    // Return the panel properties
+    return {
+        type: $REST.Components.PanelTypes.Large,
+        modalProps: {
+            button: { text: "Show Panel" },
+            id: "my-panel",
+            title: "Panel Demo",
+            onRenderBody: function(el) {
+                // Render the body
+            }
+        }
+    };
+</bs-panel>
+```
+
 ### References
 
 ```
@@ -88,7 +123,7 @@ Panel(props:IPanelProps):IPanel
         margin: 0px;
     }
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

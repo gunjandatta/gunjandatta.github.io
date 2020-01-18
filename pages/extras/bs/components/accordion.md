@@ -84,7 +84,7 @@ let accordion = Components.Accordion({
 </bs-accordion>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
 <bs-accordion id="wcAccordionDemo">
     // Return the accordion properties
     return {
@@ -143,7 +143,7 @@ Accordion(props:IAccordionProps):IAccordion
 | items | _Array&lt;IAccordionItem&gt;_ | The accordion items. |
 | options | _IAccordionOptions_ | The accordion options. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
