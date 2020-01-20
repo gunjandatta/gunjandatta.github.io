@@ -117,6 +117,6 @@ module.exports = {
 }
 ```
 
-### [Web Components](/extras/bs/webcomponents)
+### [Web Components](/extras/bs/webcomponents/accordion)
 
-The stencil framework was used to create web components from the bootstrap library. This project was for dev purposed. Code examples can be found [here](/extras/bs/webcomponents).
+The stencil framework was used to create web components from the bootstrap library. This project was for dev purposed. Code examples can be found [here](/extras/bs/webcomponents/accordion).
