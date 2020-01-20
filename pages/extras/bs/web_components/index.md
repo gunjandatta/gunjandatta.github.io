@@ -5,5 +5,5 @@ category: bs-wc
 permalink: /extras/bs/webcomponents/
 ---
 <script>
-    document.location = "/extras/bs";
+    document.location = "/extras/bs/webcomponents/accordion";
 </script>
