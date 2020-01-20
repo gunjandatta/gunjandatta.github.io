@@ -104,7 +104,7 @@ Button(props:IButtonProps):IButton
 | trigger | _string_ | The data-trigger property value.
 | type | _number_ | The button type. _Reference the ButtonTypes enumerator_ |
 
-<script src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the button click event
     function btnClickEvent(ev) {
