@@ -79,7 +79,7 @@ let progressGroup = Components.ProgressGroup({
 </bs-progress-group>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-progress-group>
     // Return the progress group properties
     return {
@@ -121,7 +121,7 @@ ProgressGroup(props:IProgressGroupProps):IProgressGroup
 | isMultiple | _string_ | Renders the progress bars in a single progress element. |
 | progressbars | _Array&lt;IProgressProps&gt;_ | The progressbars. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

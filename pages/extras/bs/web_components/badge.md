@@ -36,7 +36,7 @@ let badge = Components.Badge({
 <bs-badge content="Badge"></bs-badge>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-badge content="Badge"></bs-badge>
 ```
 
@@ -77,7 +77,7 @@ Badge(props:IBadgeProps):IBadge
 | isPill | _boolean_ | Adds the 'badge-pill' class name. |
 | type | _number_ | The badge type. _Reference the BadgeTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

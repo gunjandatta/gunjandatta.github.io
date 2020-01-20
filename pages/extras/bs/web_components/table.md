@@ -94,7 +94,7 @@ let table = Components.Table({
 </bs-table>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-table>
     // Return the table properties
     return {
@@ -164,7 +164,7 @@ Table(props:ITableProps):ITable
 | scope | _string_ | The scope attribute property for each ```td``` element. |
 | title | _string_ | The html displayed in the ```th``` element. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

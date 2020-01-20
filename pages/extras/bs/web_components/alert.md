@@ -36,7 +36,7 @@ let alert = Components.Alert({
 <bs-alert content="This is an alert"></bs-alert>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-alert content="This is an alert"></bs-alert>
 ```
 
@@ -78,7 +78,7 @@ Alert(props:IAlertProps):IAlert
 | isDismissible | _boolean_ | Renders an 'x' to close the alert. |
 | type | _number_ | The alert type. _Reference the AlertTypes enumerator_ |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

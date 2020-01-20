@@ -53,7 +53,7 @@ let breadcrumb = Components.Breadcrumb({
 </bs-breadcrumb>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-breadcrumb>
     // Return the breadcrumb properties
     return {
@@ -93,7 +93,7 @@ Breadcrumb(props:IBreadcrumbProps):IBreadcrumb
 | href | _string_ | The breadcrumb item url. |
 | text | _string_ | The breadcrumb item text. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

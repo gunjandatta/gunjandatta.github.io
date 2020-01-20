@@ -135,7 +135,7 @@ let navbar = Components.Navbar({
 </bs-navbar>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-navbar brand="Navbar">
     // Return the navbar properties
     return {
@@ -225,7 +225,7 @@ Navbar(props:INavbarProps):INavbar
 | btnProps | _IButtonProps_ | The button properties. |
 | className | _string_ | The class name to apply to navbar. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     function logSearchValue(value) {
         // Log the value

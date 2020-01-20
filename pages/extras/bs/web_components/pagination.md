@@ -52,7 +52,7 @@ let pagination = Components.Pagination({
 </bs-pagination>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-pagination number-of-pages="5">
     // Return the pagination properties
     return {
@@ -100,7 +100,7 @@ Pagination(props:IPaginationProps):IPagination
 
 <style>
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // The pagination click event
     function onPaginationClick(index, ev) {

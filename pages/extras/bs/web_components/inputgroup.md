@@ -51,7 +51,7 @@ let inputGroup = Components.inputGroup({
 </bs-input-group>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-input-group label="My Name" value="First Last">
     // Return the input group properties
     return {
@@ -101,7 +101,7 @@ InputGroup(props:IInputGroupProps):IInputGroup
 | type | _number_ | The text field type. _Reference the InputGroupTypes enumerator_ |
 | value | _string_ | The text field value. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(value, ev) {

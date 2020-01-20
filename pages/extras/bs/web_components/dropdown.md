@@ -70,7 +70,7 @@ let dropdown = Components.Dropdown({
 </bs-dropdown>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-dropdown label="Select a Choice">
     // Return the dropdown properties
     return {
@@ -149,7 +149,7 @@ Dropdown(props:IDropdownProps):IDropdown
 | type | _number_ | The dropdown type. _Reference the DropdownTypes enumerator_ |
 | value | _string \| Array&lt;string&gt;_ | The selected item values. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Set the change event
     function onChangeEvent(item, ev) {

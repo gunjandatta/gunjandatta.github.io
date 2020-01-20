@@ -40,7 +40,7 @@ let progress = Components.Progress({
 <bs-progress is-striped="true" label="25%" size="25"></bs-progress>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-progress is-striped="true" label="25%" size="25"></bs-progress>
 ```
 
@@ -69,7 +69,7 @@ Progress(props:IProgressProps):IProgress
 | min | _string_ | The progress bar's max value. |
 | size | _string_ | The progress bar value. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

@@ -30,7 +30,7 @@ permalink: /extras/bs/webcomponents/accordion/
 </bs-accordion>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/dist/gd-sprest-bs.js"></script>
 <bs-accordion id="wcAccordionDemo">
     // Return the accordion properties
     return {

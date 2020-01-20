@@ -100,7 +100,7 @@ let carousel = Components.Carousel({
 </bs-carousel>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-carousel id="wcCarouselDemo" enable-controls="true" enable-indicators="true">
     // Return the carousel properties
     return {
@@ -181,7 +181,7 @@ Carousel(props:ICarouselProps):ICarousel
 <style>
 .carousel { max-width: 400px; }
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

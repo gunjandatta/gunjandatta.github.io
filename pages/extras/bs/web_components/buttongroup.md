@@ -58,7 +58,7 @@ let buttonGroup = Components.ButtonGroup({
 </bs-button-group>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-button-group>
     // Return the button group properties
     return {
@@ -98,7 +98,7 @@ ButtonGroup(props:IButtonGroupProps):IButtonGroup
 | isVertical | _boolean_ | Adds the 'btn-group-vertical' class name. |
 | label | _string_ | The aria-label property value. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

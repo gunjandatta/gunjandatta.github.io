@@ -145,7 +145,7 @@ let form = Components.Form({
 </bs-form>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-form>
     // Return the form properties
     return {
@@ -300,7 +300,7 @@ Form(props:IFormProps):IForm
 | isValid | _boolean_ | Flag determining if the control is valid or not. |
 | validMessage | _string_ | Message displayed when the control is valid. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

@@ -58,7 +58,7 @@ let collapse = Components.Collapse({
 <bs-collapse id="wcCollapseDemo" content="This is the content to be collapsed."></bs-collapse>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-button target="#wcCollapseDemo" toggle="collapse" text="Collapse Demo"></bs-button>
 <bs-collapse id="wcCollapseDemo" content="This is the content to be collapsed."></bs-collapse>
 ```
@@ -98,7 +98,7 @@ Collapse(props:ICollapseProps):ICollapse
 | onRender | _(props?: ICollapseProps, el?: HTMLDivElement) => void | The render event. |
 | options | _ICollapseOptions_ | The collapse options. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

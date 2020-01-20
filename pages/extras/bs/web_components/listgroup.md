@@ -65,7 +65,7 @@ let listGroup = Components.listGroup({
 </bs-list-group>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-list-group is-tabs="true" col-width="2">
     // Return the list group properties
     return {
@@ -130,7 +130,7 @@ ListGroup(props:IListGroupProps):IListGroup
 | isTabs | _boolean_ | True to render the list group as tabs. |
 | items | _Array&lt;IListGroupItem&gt;_ | An array of list group items. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

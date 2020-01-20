@@ -61,7 +61,7 @@ let modal = Components.Modal({
 </bs-modal>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-modal id="wcModalDemo" title="Modal Demo" body="This is the body of the modal.">
     // Return the modal properties
     return {
@@ -118,7 +118,7 @@ Modal(props:IModalProps):IModal
         margin-left: 0px;
     }
 </style>
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {

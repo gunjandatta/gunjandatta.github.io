@@ -55,7 +55,7 @@ let cbGroup = Components.CheckboxGroup({
 </bs-checkbox-group>
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <bs-checkbox-group>
     // Return the checkbox group properties
     return {
@@ -106,7 +106,7 @@ CheckboxGroup(props:ICheckboxGroupProps):ICheckboxGroup
 | name | _string_ | The name of the checkbox. |
 | onChange | _(item) => void_ | The on change event. |
 
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/wc/dist/gd-sprest-bs.js"></script>
 <script type="text/javascript">
     // Wait for the window to be loaded
     window.addEventListener("load", function() {
