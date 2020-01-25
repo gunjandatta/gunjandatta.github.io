@@ -30,7 +30,7 @@ The library can downloaded or referenced from github directly.
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest/dist/gd-sprest.min.js"></script>
 ```
-```html
+```js
 var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest/dist/gd-sprest.min.js"; document.head.appendChild(s);
 ```
 
@@ -38,7 +38,7 @@ var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest/d
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"></script>
 ```
-```html
+```js
 var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"; document.head.appendChild(s);
 ```
 
@@ -46,7 +46,7 @@ var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-b
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"></script>
 ```
-```html
+```js
 var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"; document.head.appendChild(s);
 ```
 
@@ -54,6 +54,6 @@ var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-b
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/dist/gd-sprest-bs.js"></script>
 ```
-```html
+```js
 var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"; document.head.appendChild(s);
 ```
