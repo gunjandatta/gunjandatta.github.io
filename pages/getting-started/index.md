@@ -30,18 +30,30 @@ The library can downloaded or referenced from github directly.
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest/dist/gd-sprest.min.js"></script>
 ```
+```html
+var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest/dist/gd-sprest.min.js"; document.head.appendChild(s);
+```
 
 **Bootstrap (No Icons) _(gd-sprest-bs)_**
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"></script>
+```
+```html
+var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"; document.head.appendChild(s);
 ```
 
 **Bootstrap (Includes Icons) _(gd-sprest-bs)_**
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"></script>
 ```
+```html
+var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"; document.head.appendChild(s);
+```
 
 **Bootstrap Web Components _(gd-sprest-bs)_**
 ```html
-<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"></script>
+<script type="text/javascript" src="https://unpkg.com/gd-sprest-bs-wc/dist/gd-sprest-bs.js"></script>
+```
+```html
+var s = document.createElement("script"); s.src = "https://unpkg.com/gd-sprest-bs/wc/dist/gd-sprest-bs.js"; document.head.appendChild(s);
 ```

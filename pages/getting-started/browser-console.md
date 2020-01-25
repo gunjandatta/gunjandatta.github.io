@@ -8,7 +8,7 @@ permalink: /getting-started/browser-console/
 
 **_Script Reference_**
 
-The library will need to be referenced. The latest version of the library can be [downloaded here](https://raw.githubusercontent.com/gunjandatta/development/master/dist/gd-sprest.min.js). Once uploaded to a SharePoint library, the script file can be referenced in various ways:
+The library will need to be referenced. The latest version of the library can be [downloaded here](https://unpkg.com/gd-sprest/dist/gd-sprest.min.js). Once uploaded to a SharePoint library, the script file can be referenced in various ways:
 
 **_SharePoint Designer_**
 
