@@ -24,7 +24,7 @@ $REST.Navigation()
     // Execute the request
     .execute(function(menu) {
         // Parse the menu nodes
-        var nodes = menu.Nodes.results;
+        var nodes = menu.MenuState.Nodes.results;
         for(var i=0; i<nodes.length; i++) {
             var node = nodes[i];
 
@@ -39,7 +39,7 @@ Navigation()
     // Execute the request
     .execute(menu => {
         // Parse the menu nodes
-        let nodes = menu.Nodes.results;
+        let nodes = menu.MenuState.Nodes.results;
         for(let i=0; i<nodes.length; i++) {
             let node = nodes[i];
 
@@ -58,7 +58,7 @@ $REST.Navigation()
     // Execute the request
     .execute(function(menu) {
         // Parse the menu nodes
-        var nodes = menu.Nodes.results;
+        var nodes = menu.MenuState.Nodes.results;
         for(var i=0; i<nodes.length; i++) {
             var node = nodes[i];
 
@@ -73,7 +73,7 @@ Navigation()
     // Execute the request
     .execute(menu => {
         // Parse the menu nodes
-        let nodes = menu.Nodes.results;
+        let nodes = menu.MenuState.Nodes.results;
         for(let i=0; i<nodes.length; i++) {
             let node = nodes[i];
 
