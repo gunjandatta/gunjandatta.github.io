@@ -4,8 +4,6 @@ title: "Web"
 category: examples
 permalink: /examples/web/
 ---
-### Web
-
 **_Reference the library_**
 
 ```js

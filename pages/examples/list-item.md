@@ -4,8 +4,6 @@ title: "List Item"
 category: examples
 permalink: /examples/list-item/
 ---
-### List Item
-
 **_Reference the library_**
 
 ```ts

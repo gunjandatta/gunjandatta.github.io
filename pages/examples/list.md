@@ -4,8 +4,6 @@ title: "List"
 category: examples
 permalink: /examples/list/
 ---
-### List
-
 **_Reference the library_**
 
 ```js

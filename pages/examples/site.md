@@ -4,8 +4,6 @@ title: "Site"
 category: examples
 permalink: /examples/site/
 ---
-### Site
-
 **_Reference the library_**
 
 ```js

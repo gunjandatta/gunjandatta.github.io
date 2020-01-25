@@ -4,8 +4,6 @@ title: "Utility"
 category: examples
 permalink: /examples/utility/
 ---
-### Utility
-
 **_Reference the library_**
 
 ```js

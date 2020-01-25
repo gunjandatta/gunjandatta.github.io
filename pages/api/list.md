@@ -4,7 +4,6 @@ title: "List"
 category: api
 permalink: /api/list
 ---
-## List
 [Documentation](https://msdn.microsoft.com/en-us/library/office/dn531433.aspx)
 
 ### [Code Example](/examples/list)

@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "List Data"
+title: "List Data as Stream"
 category: api
 permalink: /api/list-data
 ---
-## List Data as Stream
-
 The list data as stream allows you to get data from a list, using the REST API's SP.List.getDataAsStream endpoint. Since the absolute url of the list is required, data can be retrieved from other site collections. The context information of the other site collection is not required with this api.
 
 #### Properties

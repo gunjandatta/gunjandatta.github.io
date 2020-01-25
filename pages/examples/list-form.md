@@ -4,8 +4,6 @@ title: "List Form"
 category: examples
 permalink: /examples/list-form/
 ---
-### Form Example
-
 This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components. The modal dialog will be used for this example. We will use the button option to display the form when clicked.
 
 **_Code Example_**
