@@ -23,7 +23,7 @@ var wp = WebParts.WPSearch({
     onRenderItems: function(wpInfo, items) {
         // Render the display element
         wpInfo.el.innerHTML = [
-            '<h1>List: ' + wpInfo.ListName + '</h1>',
+            '<h1>List: ' + wpInfo.cfg.ListName + '</h1>',
             '<h5>List Items: ' + items.length + '</h5>'
         ].join('\n');
     }

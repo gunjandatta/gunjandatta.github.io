@@ -23,7 +23,7 @@ WebParts.WPTaxonomy({
     onRenderTermSetTerms: function(wpInfo, terms) {
         // Render the display element
         wpInfo.el.innerHTML = [
-            '<h1>Term Set: ' + wpInfo.TermSetName + '</h1>',
+            '<h1>Term Set: ' + wpInfo.cfg.TermSetName + '</h1>',
             '<h5>Terms: ' + terms.length + '</h5>'
         ].join('\n');
     }

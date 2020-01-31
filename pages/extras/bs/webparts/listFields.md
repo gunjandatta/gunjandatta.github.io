@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "List WebPart"
+title: "List Fields WebPart"
 category: bs
-permalink: /extras/bs/webparts/list/
+permalink: /extras/bs/webparts/list-fields/
 ---
-The list webpart should be used when targeting a list as a datasource.
+The list fields webpart should be used when targeting a list and fields as a datasource.
 
 #### Configuration
-The edit form includes a configurable web url textbox and list dropdown list. Additional form controls can be added to further customized.
+The edit form includes a configurable web url textbox, list dropdown list and fields multi-choice. Additional form controls can be added to further customized.
 
 #### [Examples](/examples/solutions)
 Refer to the custom solutions for examples of creating custom webparts.
@@ -18,14 +18,22 @@ var WebParts = require("gd-sprest-bs").WebParts;
 
 // Create the webpart
 WebParts.WPList({
-    elementId: "my-wpList",
-    cfgElementId: "my-wpList-cfg",
+    elementId: "my-wpListFields",
+    cfgElementId: "my-wpListFields-cfg",
     onRenderItems: function(wpInfo, items) {
         // Render the display element
         wpInfo.el.innerHTML = [
             '<h1>List: ' + wpInfo.cfg.ListName + '</h1>',
             '<h5>List Items: ' + items.length + '</h5>'
         ].join('\n');
+
+        // Parse the fields
+        for(var i=0; i<wpInfo.cfg.Fields.length; i++) {
+            var field = wpInfo.cfg.Fields;
+
+            // Render the field
+            wpInfo.el.innerHTML += '<h3>Field: ' + field.Title + '</h3>';
+        }
     }
 });
 ```
