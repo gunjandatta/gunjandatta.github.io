@@ -39,6 +39,14 @@ This solution will demonstrate how to create a custom Bootstrap menu for a list 
 * Learn how to create a Bootstrap PopOver and Dropdown menu component
 * Learn how to get selected items from a list view
 
+**_[Upgrade to SPFx](https://github.com/gunjandatta/spfx-listMenu/wiki)_**
+
+Next, we will upgrade the JSLink solution to a SPFx list customizer.
+
+* Learn how to create a SPFx list extension
+* Learn how to reference an external library
+* Learn how to test using the developer workbench
+
 **_[List WebPart](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
 
 This solution will demonstrate how to create a configurable webpart in SharePoint 2013 or Online (Classic) pages. 
