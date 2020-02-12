@@ -31,7 +31,7 @@ This solution will demonstrate how to render a custom ribbon button in SharePoin
 
 #### Intermediate Examples
 
-**_[JS Link Menu](https://github.com/gunjandatta/sp-jsLinkMenu/wiki)_**
+**_[JSLink Menu](https://github.com/gunjandatta/sp-jsLinkMenu/wiki)_**
 
 This solution will demonstrate how to create a custom Bootstrap menu for a list view.
 
@@ -39,7 +39,7 @@ This solution will demonstrate how to create a custom Bootstrap menu for a list 
 * Learn how to create a Bootstrap PopOver and Dropdown menu component
 * Learn how to get selected items from a list view
 
-**_[Upgrade to SPFx](https://github.com/gunjandatta/spfx-listMenu/wiki)_**
+**_[Upgrade 'JSLink Menu' to SPFx](https://github.com/gunjandatta/spfx-listMenu/wiki)_**
 
 Next, we will upgrade the JSLink solution to a SPFx list customizer.
 
@@ -51,13 +51,11 @@ Next, we will upgrade the JSLink solution to a SPFx list customizer.
 
 This solution will demonstrate how to create a configurable webpart in SharePoint 2013 or Online (Classic) pages. 
 
-**_[SharePoint 2013](https://github.com/gunjandatta/sp-listwebpart/wiki)_**
-
 * Learn how to add/remove client-side webparts to/from the webpart gallery
 * Learn how to create Bootstrap components in SharePoint
 * Learn how to create a list item edit form
 
-**_[Upgrade to SPFx](https://github.com/gunjandatta/sp-listwebpart/wiki/Step-9)_**
+**_[Upgrade 'List WebPart' to SPFx](https://github.com/gunjandatta/sp-listwebpart/wiki/Step-9)_**
 
 Next, we will upgrade the solution to a SPFx webpart.
 
