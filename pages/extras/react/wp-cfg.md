@@ -22,7 +22,7 @@ This component is used with the [WebPart](wp) component. This component renders 
 
 **_Additional Information_**
 
-Reference this [blog post](http://dattabase.com/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
+Reference this [blog post](https://dattabase.com/blog/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
 
 **_Interfaces_**
 

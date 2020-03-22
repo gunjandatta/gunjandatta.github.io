@@ -4,7 +4,7 @@ title: "Cross Site-Collection Requests"
 category: topics
 permalink: /topics/cross-sc/
 ---
-When making requests to other site collections, it's important to note that GET requests will work without any issues. When making a POST request, the request digest must be provided in order for the request to be completed. The [ContextInfo](context-info) class contains a helper method for getting this information.
+When making requests to other site collections, it's important to note that GET requests will work without any issues. When making a POST request, the request digest must be provided in order for the request to be completed. The [ContextInfo](/topics/context-info) class contains a helper method for getting this information.
 
 **_Domain Limitation_**
 
@@ -26,7 +26,7 @@ If you are executing a POST request to a different site collection, we will need
 
 **_Context Information_**
 
-The [Context Information](context-info) contains the **getWeb** method, which will return the request digest of the target web. The request digest value will allow us to execute POST requests against the target web.
+The [Context Information](/topics/context-info) contains the **getWeb** method, which will return the request digest of the target web. The request digest value will allow us to execute POST requests against the target web.
 
 ### Code Examples
 

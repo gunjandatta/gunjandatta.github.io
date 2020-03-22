@@ -4,7 +4,7 @@ title: "SharePoint Core JavaScript Library"
 category: topics
 permalink: /topics/sp/
 ---
-SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](http://dattabase.com/sharepoint-javascript-libraries/) for additional details.
+SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](https://dattabase.com/blog/sharepoint-javascript-libraries/) for additional details.
 
 #### Modal Dialog
 

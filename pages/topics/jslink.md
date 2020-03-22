@@ -4,7 +4,7 @@ title: "JS Link"
 category: topics
 permalink: /topics/jslink/
 ---
-The JSLink feature allows the developer to customize list forms and views. Refer to this [blog post](http://dattabase.com/js-links/) for a detailed overview of this helper class.
+The JSLink feature allows the developer to customize list forms and views. Refer to this [blog post](https://dattabase.com/blog/js-links) for a detailed overview of this helper class.
 
 **_Template Overrides_**
 To create a list template override, simply create an instance of the JSLink class.

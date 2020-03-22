@@ -4,7 +4,7 @@ title: "People Picker"
 category: api
 permalink: /api/people-picker
 ---
-[Documentation](http://dattabase.com/sharepoint-people-picker-rest-api/)
+[Documentation](https://dattabase.com/blog/sharepoint-people-picker-rest-api/)
 
 ### Code Example
 

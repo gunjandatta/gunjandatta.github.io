@@ -4,7 +4,7 @@ title: "WebPart"
 category: react
 permalink: /extras/react/wp/
 ---
-Reference this [blog post](http://dattabase.com/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
+Reference this [blog post](https://dattabase.com/blog/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
 
 The webpart component allows the developer to easily assign a component to be rendered based on the page's current state (Display/Edit). The component supports the following page types:
 * Publishing Pages
