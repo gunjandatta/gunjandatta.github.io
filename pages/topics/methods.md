@@ -4,6 +4,15 @@ title: "Helper Methods"
 category: topics
 permalink: /topics/methods/
 ---
+
+**_createContentType_**
+
+Creates a content type in a web or specified list.
+
+```ts
+createContentType(ctInfo: SP.ContentTypeCreationInformation, parentInfo: { Id: string, Url?: string }, webUrl?: string, listName?: string) => PromiseLike<SP.ContentType>
+```
+
 **_createDocSet_**
 
 Creates a document set folder using the _vti_bin/listdata.svc endpoint.
@@ -26,6 +35,14 @@ A generic method for creating requests using the XMLHttpRequest object.
 
 ```ts
 request(props:IRequest}) => PromiseLike<IListResult>
+```
+
+**_setContentTypeFields_**
+
+Sets the field links associated with a content type.
+
+```ts
+setContentTypeFields(ctInfo: { id: string, fields: Array<string>, listName?: string, webUrl?: string }) => PromiseLike<void>
 ```
 
 **_IRequest_**
