@@ -6,6 +6,12 @@ permalink: /examples/solutions/
 ---
 Step-by-Step tutorial for creating SharePoint 2013/Online solutions. If you would like additional examples, feel free to post them as an issue for help [here](https://github.com/gunjandatta/sprest/issues).
 
+#### Starter Solutions
+
+**_[BootStrap](https://github.com/gunjandatta/sprest-bs-starter/wiki)_**
+
+This is a basic starter solution for building project using the gd-sprest and bootstrap libraries.
+
 #### Basic Examples
 
 **_[Ribbon Button](https://github.com/gunjandatta/sp-ribbonbtn/wiki)_**
