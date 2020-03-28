@@ -13,7 +13,7 @@ The people picker component uses the People Picker REST API endpoint to search b
 var Components = require("gd-sprest-bs").Components;
 
 // Create the panel
-var el = document.querySelector("#picker");
+var el = document.querySelector("#people-picker");
 var picker = Components.PeoplePicker({
     el: el,
     allowGroups: false,
@@ -27,9 +27,36 @@ var picker = Components.PeoplePicker({
 import { Components } from "gd-sprest-bs";
 
 // Create the panel
-let el = document.querySelector("#panel");
+let el = document.querySelector("#people-picker");
 let picker = Components.PeoplePicker({
     el: el,
+    allowGroups: false,
+    label: "Select User:"
+});
+```
+
+#### Form Control Example
+
+```ts
+import { ContextInfo, Components } from "gd-sprest-bs";
+
+// Create the panel
+let el = document.querySelector("#people-picker");
+let form = Components.Form({
+    el: el,
+    rows: [
+        // Other controls go here
+        {
+            control: {
+                allowGroups: false,
+                label: "Select User:",
+                multi: true,
+                name: "User",
+                type: Components.FormControlTypes.PeoplePicker
+                value: ContextInfo.userId // Default to the current user
+            } as Components.IFormControlPropsPeoplePicker
+        }
+    ]
     allowGroups: false,
     label: "Select User:"
 });
