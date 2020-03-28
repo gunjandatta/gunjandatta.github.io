@@ -57,5 +57,6 @@ PeoplePicker(props:IPeoplePickerProps):IPeoplePicker
 | className | _string_ | The class name to apply to panel. |
 | el | _HTMLElement_ | The element to render the panel to. |
 | label | _string_ | The component label. |
-| searchLocal | _boolean_ | Searches the local Users list before searching the REST API. |
+| multi | _boolean_ | True to allow multiple users to be selected. |
+| searchLocal | _boolean_ | True to search the local Users list before searching the REST API. |
 | value | _number \| string \| IPeoplePickerUser \| Array<number \| string \| IPeoplePickerUser>_ | The default value. |
