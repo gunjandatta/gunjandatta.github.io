@@ -8,7 +8,7 @@ Step-by-Step tutorial for creating SharePoint 2013/Online solutions. If you woul
 
 #### Starter Solutions
 
-**_[BootStrap](https://github.com/gunjandatta/sprest-bs-starter/wiki)_**
+**_[gd-sprest-bs](https://github.com/gunjandatta/sprest-bs-starter/wiki)_**
 
 This is a basic starter solution for building project using the gd-sprest and bootstrap libraries.
 
