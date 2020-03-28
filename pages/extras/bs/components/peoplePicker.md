@@ -57,8 +57,6 @@ let form = Components.Form({
             } as Components.IFormControlPropsPeoplePicker
         }
     ]
-    allowGroups: false,
-    label: "Select User:"
 });
 ```
 
