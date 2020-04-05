@@ -100,6 +100,16 @@ This solution will demonstrate how to create custom new/display/edit forms for a
 * Learn how to create a calculated field
 * Learn how to display modal loading dialogs
 
+**_[Document WebPart](https://github.com/gunjandatta/sp-docview/wiki)_**
+
+This solution will demonstrate how to create a list webpart that targets document libraries, and renders a grid for each file in the file in the library.
+
+* Learn how to inherit the List WebPart component
+* Learn how to filter the List WebPart to target document libraries
+* Learn how to set the List WebPart oData query to include file information
+* Learn how to create a callout using the SharePoint Callout Manager
+* Learn how to create a document preview
+
 **_[IE Banner](https://github.com/gunjandatta/sp-banner-2013/wiki)_**
 
 This solution will demonstrate how to create a custom banner for IE only. This solution will target both [classic](https://github.com/gunjandatta/sp-banner-2013/wiki) and [modern](https://github.com/gunjandatta/sp-banner/wiki) pages, without duplication of code.
