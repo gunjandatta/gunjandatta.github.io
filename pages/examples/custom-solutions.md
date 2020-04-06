@@ -100,7 +100,7 @@ This solution will demonstrate how to create custom new/display/edit forms for a
 * Learn how to create a calculated field
 * Learn how to display modal loading dialogs
 
-**_[Document WebPart](https://github.com/gunjandatta/sp-docview/wiki)_**
+**_[Document View WebPart](https://github.com/gunjandatta/sp-docview/wiki)_**
 
 This solution will demonstrate how to create a list webpart that targets document libraries, and renders a grid for each file in the file in the library.
 
