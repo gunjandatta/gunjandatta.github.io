@@ -90,6 +90,14 @@ This solution will demonstrate how to create a basic dashboard for a document se
 
 #### Advanced Examples
 
+**_[Basic Dashboard](https://github.com/gunjandatta/sp-dashboard/wiki)_**
+
+This solution will use the `gd-sprest-bs-starter` solution and build a basic dashboard using Bootstrap and Datatables.net plugins.
+
+* Learn how to create a solution from the `gd-sprest-bs-starter` solution
+* Learn how to configure datatables.net plugin
+* Learn how to create events to connect components together
+
 **_[Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)_**
 
 This solution will demonstrate how to create custom new/display/edit forms for a SharePoint list. This solution will work in 2013+ environments.
