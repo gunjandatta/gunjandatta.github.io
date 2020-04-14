@@ -10,6 +10,8 @@ main:
     url: /blog
   - title: "REST API"
     url: /api
+  - title: "Library Docs"
+    url: /docs/sprest/globals.html
   - title: "Dev Topics"
     url: /topics
   - title: "Framework Docs"
