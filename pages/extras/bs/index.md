@@ -10,6 +10,8 @@ If you like this library, please [Star it](https://github.com/gunjandatta/sprest
 
 ### Getting Started
 
+#### [Code Documentation](/docs/sprest-bs/globals.html)
+
 #### Installation
 
 ```js
