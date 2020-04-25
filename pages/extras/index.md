@@ -15,6 +15,6 @@ The [Office Fabric-UI](https://developer.microsoft.com/en-us/fabric) is the offi
 
 The Office Fabric-UI React framework provides the components used in the O365 user experience. Unfortunately, the components still need to be connected to SharePoint. The [gd-sprest-react](react) library extends the Office Fabric-UI React framework to include components like the People Picker or List Form.
 
-### [Bootstrap](bs)
+### [Bootstrap](/docs/sprest-bs/globals.html)
 
 The Office Fabric-UI JavaScript framework is unfortunately no longer being maintained by Microsoft. It was also extended to include SharePoint components ([Documentation Link](js)). Since it's no longer being updated, this framework has extended Bootstrap to create SharePoint solutions.
