@@ -4,8 +4,6 @@ title: "Code Examples"
 category: examples
 permalink: /examples/
 ---
-Step-by-Step tutorial for creating SharePoint 2013/Online solutions. If you would like additional examples, feel free to post them as an issue for help [here](https://github.com/gunjandatta/sprest/issues).
-
 #### Starter Solutions
 
 **_[gd-sprest-bs](https://github.com/gunjandatta/sprest-bs-starter/wiki)_**
