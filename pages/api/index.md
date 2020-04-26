@@ -2,7 +2,7 @@
 layout: archive
 title: "REST API"
 category: api
-permalink: /api
+permalink: /api/
 ---
 The SharePoint Representational State Transfer (REST) API allows developers to perform CRUD (Create, Read, Update & Delete) operations from client-side code. These operations are similar to the SSOM (Server-Side Object Model), which was how developers created solutions in SharePoint 2007 & 2010 environments. The REST API was initially introduced in SharePoint 2013, but has been expanded in SharePoint 2016/2019/Online.
 
