@@ -32,21 +32,7 @@ layout: default
       {% endfor %}
     </ul>
   </nav>
-  <!--
-  <div class="sidebar sticky">
-    <ul class="side-nav">
-      {% if page.url != "/" %}
-        <li><a class="nav-back" href="..">Back</a></li>
-      {% endif %}
-      {% assign current = page %}
-      {% for page in site.pages %}
-        {% if page.category == current.category and page.name != "index.md" %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-  -->
+
   {% if page.url != "/" and site.breadcrumbs %}
   {% endif %}
 
@@ -56,4 +42,16 @@ layout: default
     {% endunless %}
     {{ content }}
   </div>
+
+  <script type="text/javascript">
+    let nav = document.querySelector(".sidebar.nav__list");
+    var navItems = nav.querySelectorAll("a");
+    if (navItems.length < 2) {
+      // Hide the navigation
+      nav.style.display = "none";
+
+      // Update the main element width
+      document.querySelector(".archive").style.width = "100%";
+    }
+  </script>
 </div>
