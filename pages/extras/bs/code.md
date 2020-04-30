@@ -2,7 +2,7 @@
 layout: archive
 title: "Code Playground"
 category: 
-permalink: /extras/bs/
+permalink: /extras/bs/code
 ---
 
 ### Code Playground
