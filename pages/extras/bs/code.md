@@ -1,11 +1,9 @@
 ---
-layout: archive
-title: "Code Playground"
-category: 
+layout: splash
 permalink: /extras/bs/code/
 ---
 
-### Code Playground
+## Code Playground
 
 The 'app' global variable is a reference to the output window's main element. Click the 'Run' button when you are ready to update the output panel w/ the code from the editor.
 
