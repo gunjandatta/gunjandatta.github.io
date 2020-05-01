@@ -15,7 +15,7 @@ permalink: /extras/bs/accordion
 
 <style>
     #editor {
-        min-height: 60vh;
+        min-height: 40vh;
         min-width: 40vw;
     }
 </style>
@@ -25,7 +25,7 @@ permalink: /extras/bs/accordion
     // Wait for the page to load
     window.addEventListener("load", function() {
         // Create the code editor
-        var editor = CodeEditor(document.getElementById("playground"));
+        var editor = CodeEditor(document.getElementById("playground"), true);
         // Update the default code
         editor.setValue([
             '// Create the accordion',
@@ -40,5 +40,7 @@ permalink: /extras/bs/accordion
             '\t]',
             '});'
         ].join('\n'));
+        // Run the code
+        document.querySelector("btnRun").click();
     });
 </script>
