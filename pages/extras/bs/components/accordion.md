@@ -37,7 +37,7 @@ permalink: /extras/bs/accordion
             '\t\t{ btnProps: { text: "Item 1" }, content: "This is the content for item 1." },',
             '\t\t{ btnProps: { text: "Item 2" }, content: "This is the content for item 2." },',
             '\t\t{ btnProps: { text: "Item 3" }, content: "This is the content for item 3." },'
-            '\t]',
+            '\t],'
             '});'
         ].join('\n'));
     });
