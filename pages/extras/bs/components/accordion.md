@@ -24,7 +24,6 @@ permalink: /extras/bs/accordion
 <script type="text/javascript">
     // Create the code editor
     var editor = CodeEditor(document.getElementById("playground"));
-
     // Update the default code
     editor.setValue([
         '// Create the accordion',
