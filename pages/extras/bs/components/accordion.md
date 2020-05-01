@@ -28,9 +28,7 @@ permalink: /extras/bs/accordion
     // Wait for the page to load
     window.addEventListener("load", function() {
         // Create the code editor
-        var editor = CodeEditor(document.getElementById("playground"), true);
-        // Update the default code
-        editor.setValue([
+        var editor = CodeEditor(document.getElementById("playground"), true, [
             '// Create the accordion',
             'Components.Accordion({',
             '\tautoCollapse: true,',
@@ -43,7 +41,5 @@ permalink: /extras/bs/accordion
             '\t]',
             '});'
         ].join('\n'));
-        // Run the code
-        document.querySelector("#btnRun > button").click();
     });
 </script>
