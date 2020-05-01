@@ -41,6 +41,6 @@ permalink: /extras/bs/accordion
             '});'
         ].join('\n'));
         // Run the code
-        document.querySelector("#btnRun > input").click();
+        document.querySelector("#btnRun > button").click();
     });
 </script>
