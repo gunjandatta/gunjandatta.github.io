@@ -22,20 +22,23 @@ permalink: /extras/bs/accordion
 <div id="playground" class="bs"></div>
 <script src="/code/dist/code-editor.js"></script>
 <script type="text/javascript">
-    // Create the code editor
-    var editor = CodeEditor(document.getElementById("playground"));
-    // Update the default code
-    editor.setValue([
-        '// Create the accordion',
-        'Components.Accordion({',
-        '\tautoCollapse: true,',
-        '\tel: app',
-        '\tid: "demoAccordion",',
-        '\titems: [',
-        '\t\t{ btnProps: { text: "Item 1" }, content: "This is the content for item 1." },',
-        '\t\t{ btnProps: { text: "Item 2" }, content: "This is the content for item 2." },',
-        '\t\t{ btnProps: { text: "Item 3" }, content: "This is the content for item 3." },'
-        '\t]',
-        '});'
-    ].join('\n'));
+    // Wait for the page to load
+    window.addEventListener("load", function() {
+        // Create the code editor
+        var editor = CodeEditor(document.getElementById("playground"), true);
+        // Update the default code
+        editor.setValue([
+            '// Create the accordion',
+            'Components.Accordion({',
+            '\tautoCollapse: true,',
+            '\tel: app',
+            '\tid: "demoAccordion",',
+            '\titems: [',
+            '\t\t{ btnProps: { text: "Item 1" }, content: "This is the content for item 1." },',
+            '\t\t{ btnProps: { text: "Item 2" }, content: "This is the content for item 2." },',
+            '\t\t{ btnProps: { text: "Item 3" }, content: "This is the content for item 3." },'
+            '\t]',
+            '});'
+        ].join('\n'));
+    });
 </script>
