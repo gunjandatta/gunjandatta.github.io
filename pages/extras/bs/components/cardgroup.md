@@ -50,6 +50,7 @@ permalink: /extras/bs/cardgroup
             '\t\t\t\t}',
             '\t\t\t]',
             '\t\t}',
+            '\t]',
             '});'
         ].join('\n'));
     });
