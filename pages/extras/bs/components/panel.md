@@ -39,7 +39,7 @@ permalink: /extras/bs/panel
             '\ttype: $REST.Components.PanelTypes.Large,',
             '\tmodalProps: {',
             '\t\tid: "bsPanelDemo",',
-            '\t\ttitle: "Modal Demo",',
+            '\t\ttitle: "Panel Demo",',
             '\t\tonClose: function() {',
             '\t\t\t// Remove the element',
             '\t\t\telPanel.remove();',
