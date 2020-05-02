@@ -43,7 +43,7 @@ permalink: /extras/bs/panel
             '\t\tonClose: function() {',
             '\t\t\t// Remove the element',
             '\t\t\telPanel.remove();',
-            '\t\t}',
+            '\t\t},',
             '\t\tonRenderBody: function(el) {',
             '\t\t\t// Render the body',
             '\t\t\tel.innerHTML = "<p>This is the content of the panel</p>";',
@@ -52,8 +52,7 @@ permalink: /extras/bs/panel
             '});',
             '',
             '// Modals require some styling',
-            '//panel.el.style.margin = "0";',
-            '//panel.el.style.position = "relative";'
+            'panel.modal.el.style.margin = "0";'
         ].join('\n'));
     });
 </script>
