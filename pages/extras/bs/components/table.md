@@ -22,8 +22,8 @@ permalink: /extras/bs/table
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the',
-            'Components.({',
+            '// Create the table',
+            'Components.Table({',
             '\tel: app,',
             '\tclassName: "table-sm is-striped",',
             '\tcolumns: [',
