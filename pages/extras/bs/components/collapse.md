@@ -1,7 +1,41 @@
 ---
-layout: archive
+layout: bs
 title: "Collapse"
 category: bs
 permalink: /docs/sprest-bs/modules/_components_collapse_d_.html
 ---
-[Documentation](https://getbootstrap.com/docs/4.4/components/collapse)
+
+### References
+
+<div class="bs">
+    <div class="list-group">
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/collapse">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_accordion_d_.html">Code Documentation</a>
+    </div>
+</div>
+
+### Code Playground
+
+<div id="playground" class="bs"></div>
+<script type="text/javascript">
+    // Wait for the page to load
+    window.addEventListener("load", function() {
+        // Create the code editor
+        var editor = CodeEditor(document.getElementById("playground"), true, [
+            '// Create the button to toggle the collapse',
+            'let btn = Components.Button({',
+            '\tel: app,',
+            '\ttarget: "#demoCollapse",',
+            '\ttoggle: "collapse",',
+            '\ttext: "Collapse Demo"',
+            '});',
+            '',
+            '// Create the collapse',
+            'Components.Collapse({',
+            '\tel: app,',
+            '\tid: "demoCollapse",',
+            '\tcontent: "This is the content to be collapsed."',
+            '});'
+        ].join('\n'));
+    });
+</script>

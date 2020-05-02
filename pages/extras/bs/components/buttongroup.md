@@ -1,7 +1,37 @@
 ---
-layout: archive
+layout: bs
 title: "Button Group"
 category: bs
 permalink: /docs/sprest-bs/modules/_components_buttongroup_d_.html
 ---
-[Documentation](https://getbootstrap.com/docs/4.4/components/button-group)
+
+### References
+
+<div class="bs">
+    <div class="list-group">
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/button-group">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_accordion_d_.html">Code Documentation</a>
+    </div>
+</div>
+
+### Code Playground
+
+<div id="playground" class="bs"></div>
+<script type="text/javascript">
+    // Wait for the page to load
+    window.addEventListener("load", function() {
+        // Create the code editor
+        var editor = CodeEditor(document.getElementById("playground"), true, [
+            '// Create the button group',
+            'Components.ButtonGroup({',
+            '\tel: app,',
+            '\tbuttonType: Components.ButtonTypes.Primary,',
+            '\tbuttons: [',
+            '\t\t{ text: "Left" },',
+            '\t\t{ text: "Middle" },',
+            '\t\t{ text: "Right" }',
+            '\t]',
+            '});'
+        ].join('\n'));
+    });
+</script>

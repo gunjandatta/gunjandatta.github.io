@@ -24,8 +24,8 @@ permalink: /extras/bs/accordion
         var editor = CodeEditor(document.getElementById("playground"), true, [
             '// Create the accordion',
             'Components.Accordion({',
-            '\tautoCollapse: true,',
             '\tel: app,',
+            '\tautoCollapse: true,',
             '\tid: "demoAccordion",',
             '\titems: [',
             '\t\t{ btnProps: { text: "Item 1" }, content: "This is the content for item 1." },',
