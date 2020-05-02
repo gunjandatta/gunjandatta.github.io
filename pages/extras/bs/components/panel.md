@@ -58,7 +58,7 @@ permalink: /extras/bs/panel
             '\t\t\t\t{ text: "Cancel", type: Components.ButtonTypes.Danger, className: "mr-3" },',
             '\t\t\t\t{ text: "Submit", type: Components.ButtonTypes.Primary }',
             '\t\t\t]',
-            '\t\t});'
+            '\t\t});',
             '\t}',
             '});',
             '',
