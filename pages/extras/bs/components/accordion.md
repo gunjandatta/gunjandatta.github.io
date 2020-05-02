@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: bs
 title: "Accordion"
 category: bs
 permalink: /extras/bs/accordion
@@ -16,14 +16,7 @@ permalink: /extras/bs/accordion
 
 ### Code Playground
 
-<style>
-    #editor {
-        min-height: 40vh;
-        min-width: 40vw;
-    }
-</style>
 <div id="playground" class="bs"></div>
-<script src="/code/dist/code-editor.js"></script>
 <script type="text/javascript">
     // Wait for the page to load
     window.addEventListener("load", function() {
