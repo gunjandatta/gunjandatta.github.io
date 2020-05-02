@@ -23,7 +23,7 @@ permalink: /extras/bs/form
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
             '// Create the form',
-            'Components.({',
+            'Components.Form({',
             '\tel: app,',
             '\trows: [',
             '\t\t{',
