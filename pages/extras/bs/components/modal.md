@@ -36,7 +36,10 @@ permalink: /extras/bs/modal
             '\tid: "bsModalDemo",',
             '\ttitle: "Modal Demo",',
             '\tbody: "This is the body of the modal."',
-            '});'
+            '});',
+            '',
+            '// Modals require some styling',
+            'modal.el.style.top = "25vh";'
         ].join('\n'));
     });
 </script>
