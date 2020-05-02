@@ -10,7 +10,7 @@ permalink: /extras/bs/form
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/forms">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/accordion">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_form_d_.html">Code Documentation</a>
     </div>
 </div>
 
@@ -22,7 +22,7 @@ permalink: /extras/bs/form
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the',
+            '// Create the form',
             'Components.({',
             '\tel: app,',
             '\trows: [',

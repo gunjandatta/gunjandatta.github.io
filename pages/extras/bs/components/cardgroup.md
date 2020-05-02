@@ -10,7 +10,7 @@ permalink: /extras/bs/cardgroup
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/card/#card-styles">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/accordion">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_cardgroup_d_.html">Code Documentation</a>
     </div>
 </div>
 
