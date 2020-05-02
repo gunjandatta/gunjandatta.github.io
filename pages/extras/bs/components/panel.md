@@ -31,7 +31,7 @@ permalink: /extras/bs/panel
             '',
             '// Get the panel element',
             'var elPanel = document.querySelector("#panel-demo");',
-            'if(elPanel == null) {',
+            'if(elPanel === null) {',
             '\t// Create the element to contain the panel',
             '\telPanel = document.createElement("div");',
             '\telPanel.id = "panel-demo";',
