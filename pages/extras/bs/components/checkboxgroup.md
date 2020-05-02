@@ -2,7 +2,7 @@
 layout: bs
 title: "Checkbox Group"
 category: bs
-permalink: /docs/sprest-bs/modules/_components_checkboxgroup_d_.html
+permalink: /extras/bs/checkboxgroup
 ---
 
 ### References
@@ -10,7 +10,7 @@ permalink: /docs/sprest-bs/modules/_components_checkboxgroup_d_.html
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_accordion_d_.html">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/accordion">Code Documentation</a>
     </div>
 </div>
 
