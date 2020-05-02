@@ -39,7 +39,7 @@ permalink: /extras/bs/modal
             '});',
             '',
             '// Modals require some styling',
-            'modal.el.style.margin = "0";'
+            'modal.el.style.margin = "0";',
             'modal.el.style.position = "relative";'
         ].join('\n'));
     });
