@@ -22,8 +22,8 @@ permalink: /extras/bs/navbar
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the',
-            'Components.({',
+            '// Create the navigation bar',
+            'Components.Navbar({',
             '\tel: app,',
             '\tbrand: "Navbar",',
             '\titems: [',
