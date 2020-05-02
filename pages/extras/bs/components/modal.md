@@ -31,7 +31,7 @@ permalink: /extras/bs/modal
             '});',
             '',
             '// Create the modal',
-            'Components.Modal({',
+            'var modal = Components.Modal({',
             '\tel: app,',
             '\tid: "bsModalDemo",',
             '\ttitle: "Modal Demo",',
