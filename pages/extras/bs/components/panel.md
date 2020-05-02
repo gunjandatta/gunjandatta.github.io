@@ -47,7 +47,7 @@ permalink: /extras/bs/panel
             '\t\tonRenderBody: function(el) {',
             '\t\t\t// Render the body',
             '\t\t\tel.innerHTML = "<p>This is the content of the panel</p>";',
-            '\t\t}',
+            '\t\t},',
             '\t\tonRenderFooter: function(el) {',
             '\t\t\t// Create the button group',
             '\t\t\tComponents.ButtonGroup({',
