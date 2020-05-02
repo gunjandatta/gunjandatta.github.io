@@ -32,7 +32,7 @@ permalink: /extras/bs/media
             '\tbody: [',
             '\t\t"<h5>Media Object Example</h5>",',
             '\t\t"This is an example of a media object."',
-            '\t].join("\n")',
+            '\t].join("\\n")',
             '});'
         ].join('\n'));
     });
