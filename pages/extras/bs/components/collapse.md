@@ -23,7 +23,7 @@ permalink: /extras/bs/collapse
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
             '// Create the button to toggle the collapse',
-            'let btn = Components.Button({',
+            'Components.Button({',
             '\tel: app,',
             '\ttarget: "#demoCollapse",',
             '\ttoggle: "collapse",',
