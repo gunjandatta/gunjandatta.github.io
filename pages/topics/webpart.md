@@ -18,15 +18,4 @@ The webpart component allows the developer to easialy assign react components to
 
 **_Creating Modern WebParts for SharePoint 2013_**
 
-Although this is designed for SharePoint 2013, this is also designed to work for SharePoint Online.
-
-**[Blog Series](https://dattabase.com/blog/sharepoint-2013-modern-webpart/)**
-
-A series of blog posts have been created to help give an overview of creating webparts in SharePoint 2013.
-
-1. [JavaScript Example](https://dattabase.com/blog/sharepoint-2013-modern-webpart/)
-2. [TypeScript Example](https://dattabase.com/blog/sharepoint-2013-modern-webpart-1-4/)
-3. [React Example](https://dattabase.com/blog/sharepoint-2013-modern-webpart-2-4/)
-4. [VueJS Example](https://dattabase.com/blog/sharepoint-2013-modern-webpart-3-4/)
-5. [Angular](https://dattabase.com/blog/sharepoint-2013-modern-webpart-4-4/)
-    _This post is still TBD (to be developed)_
+Reference the [Code Examples](/examples/) for examples of creating webparts and upgrading them to SPFx.
