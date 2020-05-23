@@ -15,4 +15,4 @@ node_modules
 npm-debug.log*
 vendor/bundle
 
-old_*
+old

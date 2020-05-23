@@ -1,3 +1,2 @@
 # SharePoint REST Framework
-## GitHub Pages Site
-
+## GitHub pages site for dattabase.com
