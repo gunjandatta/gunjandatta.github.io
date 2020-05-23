@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Tooltip"
 category: bs-wc
-permalink: /extras/bs/webcomponents/tooltip/
+permalink: /extras/bs/components/webcomponents/tooltip/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/tooltips)
 

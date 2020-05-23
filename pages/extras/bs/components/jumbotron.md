@@ -2,7 +2,7 @@
 layout: bs
 title: "Jumbotron"
 category: bs
-permalink: /extras/bs/jumbotron
+permalink: /extras/bs/components/jumbotron/
 ---
 
 ### References

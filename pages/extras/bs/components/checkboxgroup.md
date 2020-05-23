@@ -2,7 +2,7 @@
 layout: bs
 title: "Checkbox Group"
 category: bs
-permalink: /extras/bs/checkboxgroup
+permalink: /extras/bs/components/checkboxgroup/
 ---
 
 ### References

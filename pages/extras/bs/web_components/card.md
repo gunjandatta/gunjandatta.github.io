@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Card"
 category: bs-wc
-permalink: /extras/bs/webcomponents/card/
+permalink: /extras/bs/components/webcomponents/card/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/cards)
 

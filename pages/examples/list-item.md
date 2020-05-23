@@ -1,10 +1,9 @@
 ---
-layout: archive
 title: "List Item"
 category: examples
 permalink: /examples/list-item/
 ---
-**_Reference the library_**
+## Reference the library
 
 ```ts
 // JavaScript
@@ -14,7 +13,7 @@ var $REST = require("gd-sprest");
 import { List } from "gd-sprest";
 ```
 
-**_Get a list item by ID from the current web_**
+## Get a list item by ID from the current web
 
 ```js
 // Get the list
@@ -36,7 +35,7 @@ List("Site Assets")
     });
 ```
 
-**_Get a list item by ID on the root web_**
+## Get a list item by ID on the root web
 
 ```js
 // Get the root web
@@ -62,7 +61,7 @@ Web("/")
     });
 ```
 
-**_Add a list item_**
+## Add a list item
 
 ```js
 // Get the list
@@ -94,7 +93,7 @@ List("My List")
     });
 ```
 
-**_Update a list item_**
+## Update a list item
 
 ```js
 // Get the list
@@ -126,7 +125,7 @@ List("My List")
     });
 ```
 
-**_Delete a list item_**
+## Delete a list item
 
 ```js
 // Get the list

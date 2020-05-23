@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Table"
 category: js
 permalink: /extras/js/fabric/table/

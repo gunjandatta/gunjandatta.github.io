@@ -6,35 +6,3 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-#main {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#site-nav {
-    .site-title {
-        margin-left: 0px;
-    }
-}
-
-.side-nav {
-    list-style-type: none;
-    a {
-        color: inherit;
-        font-size: $type-size-6;
-        font-weight: bold;
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-
-        &.nav-back {
-            font-weight: inherit;
-        }
-    }
-}
-
-.archive {
-    padding-right: 0;
-}

@@ -1,12 +1,11 @@
 ---
-layout: archive
 title: "Batch Requests"
 category: topics
 permalink: /topics/batch-requests/
 ---
 SharePoint Online contains the $batch api endpoint. This will enable multiple requests to be sent in one request to the server. Additional documentation is available [here](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/make-batch-requests-with-the-rest-apis).
 
-**_Creating Batches_**
+## Creating Batches
 
 Instead of using the ```execute``` method, use the ```batch``` method to bulk multiple requests in a single execution to the server. The method properties are similar to the ```execute``` method:
 
@@ -14,11 +13,11 @@ Instead of using the ```execute``` method, use the ```batch``` method to bulk mu
 * batch(_appendFl: boolean_)
 * batch(_callback: (value) => void, appendFl: boolean_)
 
-**_Callback Method_**
+## Callback Method
 
 The callback method will be triggered after the request executes.
 
-**_Append Flag_**
+## Append Flag
 
 The append flag will create the request in a new batch request.
 

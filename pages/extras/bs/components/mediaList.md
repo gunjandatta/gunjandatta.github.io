@@ -2,7 +2,7 @@
 layout: bs
 title: "Media List"
 category: bs
-permalink: /extras/bs/medialist
+permalink: /extras/bs/components/medialist/
 ---
 
 ### References

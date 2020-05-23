@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Number Field"
 category: js
 permalink: /extras/js/fabric/numberfield/

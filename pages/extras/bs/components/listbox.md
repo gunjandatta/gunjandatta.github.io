@@ -2,7 +2,7 @@
 layout: bs
 title: "List Box"
 category: bs
-permalink: /extras/bs/listbox
+permalink: /extras/bs/components/listbox/
 ---
 
 ### References

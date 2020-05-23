@@ -2,7 +2,7 @@
 layout: bs
 title: "Badge"
 category: bs
-permalink: /extras/bs/badge
+permalink: /extras/bs/components/badge/
 ---
 
 ### References

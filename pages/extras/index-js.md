@@ -1,6 +1,5 @@
 ---
-layout: archive
-title: "Office Fabric-UI (JS)"
+title: "Office Fabric-UI JavaScript"
 category: extras
 permalink: /extras/js/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Command Button"
 category: js
 permalink: /extras/js/fabric/commandbtn/

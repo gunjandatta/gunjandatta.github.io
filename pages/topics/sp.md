@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "SharePoint Core JavaScript Library"
 category: topics
 permalink: /topics/sp/
@@ -10,7 +9,7 @@ SharePoint contains many core javascript files that can be used to customize the
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
 
-**_Code Reference_**
+## Code Reference
 
 ```ts
 // JavaScript
@@ -22,7 +21,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.ModalDialog
 ```
 
-**_Dialog Options_**
+## Dialog Options
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -40,7 +39,7 @@ Helper.SP.ModalDialog
 | x | number | An integer value that specifies the x-offset of the dialog. This value works like the CSS left value. |
 | y | number | An integer value that specifies the y-offset of the dialog. This value works like the CSS top value. |
 
-**_Methods_**
+## Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
@@ -59,7 +58,7 @@ Helper.SP.ModalDialog
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
 
-**_Code Reference_**
+## Code Reference
 
 ```ts
 // JavaScript
@@ -71,7 +70,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.Notify
 ```
 
-**_Methods_**
+## Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
@@ -83,7 +82,7 @@ Helper.SP.Notify
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
 
-**_Code Reference_**
+## Code Reference
 
 ```ts
 // JavaScript
@@ -95,7 +94,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.Status
 ```
 
-**_Methods_**
+## Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |

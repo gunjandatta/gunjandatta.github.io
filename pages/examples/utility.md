@@ -1,10 +1,9 @@
 ---
-layout: archive
 title: "Utility"
 category: examples
 permalink: /examples/utility/
 ---
-**_Reference the library_**
+## Reference the library
 
 ```js
 // JavaScript
@@ -14,7 +13,7 @@ var $REST = require("gd-sprest");
 import { Utility } from "gd-sprest";
 ```
 
-**_Send an email_**
+## Send an email
 
 ```js
 // Send the email
@@ -36,7 +35,7 @@ Utility().sendEmail({
 });
 ```
 
-**_Resolve a principal user_**
+## Resolve a principal user
 
 ```js
 // Resolve a principal user
@@ -62,7 +61,7 @@ Utility().resolvePrincipal({
 });
 ```
 
-**_Search principals_**
+## Search principals
 
 ```js
 // Search the principals

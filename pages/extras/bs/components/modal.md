@@ -2,7 +2,7 @@
 layout: bs
 title: "Modal"
 category: bs
-permalink: /extras/bs/modal
+permalink: /extras/bs/components/modal/
 ---
 
 ### References

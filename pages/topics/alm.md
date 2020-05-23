@@ -1,10 +1,11 @@
 ---
-layout: archive
 title: "Application Lifecycle Management"
 category: topics
 permalink: /topics/alm/
 ---
-**_Add App to Catalog (Code Example)_**
+## Add App to Catalog
+
+### Code Example
 
 ```js
 // Get the sppkg file

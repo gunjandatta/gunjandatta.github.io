@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Text Field"
 category: js
 permalink: /extras/js/fabric/textfield/

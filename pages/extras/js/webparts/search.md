@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Search WebPart"
 category: js
 permalink: /extras/js/webparts/search/

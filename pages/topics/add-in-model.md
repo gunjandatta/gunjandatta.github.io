@@ -1,18 +1,17 @@
 ---
-layout: archive
 title: "Add-In Model"
 category: topics
 permalink: /topics/add-in-model/
 ---
 The following helper methods are available for solutions utilizing the Add-In Model.
 
-**_App Web vs Host Web_**
+## App Web vs Host Web
 When developing in the app web, the request url will need to be formatted when executing a request to the host web. The _DefaultRequestToHostFl_ is available to control the target web associated with the REST API request. This will allow you to develop code once, and use it in any solution (Add-In, WebPart, SPFx, etc).
 
-**_Global Variable (DefaultReqeustToHostFl)_**
+## Global Variable (DefaultReqeustToHostFl)
 The _DefaultRequestToHostFl_ is false by default, so it will target the current web unless a url is provided.
 
-**_Code Example_**
+### Code Example
 
 ```ts
 import { $REST } from "gd-sprest";

@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Jumbotron"
 category: bs-wc
-permalink: /extras/bs/webcomponents/jumbotron/
+permalink: /extras/bs/components/webcomponents/jumbotron/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/jumbotron)
 

@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "JavaScript"
 category: dev-docs
 permalink: /dev/js/

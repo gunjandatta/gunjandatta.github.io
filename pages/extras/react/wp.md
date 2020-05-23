@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "WebPart"
 category: react
 permalink: /extras/react/wp/
@@ -11,32 +10,32 @@ The webpart component allows the developer to easily assign a component to be re
 * WebPart Pages
 * Wiki Pages
 
-**_Component Logic_**
+## Component Logic
 
 This webpart allows the developer to control what component to display, based on the page mode (Display/Edit). This flexibility allows the developer to create smaller components, based on the page mode.
 
-**_Properties_**
+## Properties
 
-* _**cfgElementId**_
+* cfgElementId## 
     * The webpart configuration target element id.
-* _**displayElement**_
+* displayElement## 
     * The react component to display in "Display" mode.
-* _**editElement**_
+* editElement## 
     * The react component to display in "Edit" mode.
-* _**elementId**_
+* elementId## 
     * The webpart target element id.
-* _**helpProps**_
-    * _**title**_
+* helpProps## 
+    * title## 
         * The help title link name.
-    * _**url**_
+    * url## 
         * The help title link url.
-* _**onPostRender**_
+* onPostRender## 
     * Event executed after the webpart is rendered.
-* _**onRenderDisplay**_
+* onRenderDisplay## 
     * Event used in-place of defining the "displayElement" property.
-* _**onRenderEdit**_
+* onRenderEdit## 
     * Event used in-place of defining the "editElement" property.
 
-**_Fabric Component_**
+## Fabric Component
 
 The [Fabric Component](https://github.com/OfficeDev/office-ui-fabric-react/wiki/The-Fabric-Component) should be used to wrap the Fluent UI react components. By default the WebPart will wrap the display and edit elements in a Fabric component, so there is no need to add this to you application.

@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "OData"
 category: dev-docs
 permalink: /dev/odata/
@@ -32,16 +31,7 @@ The REST API allows for OData requests to be made to each request. This will all
     * 5000 is the max limit
     * Setting the "GetAllItems" flag will get past the 5k limit
 
-### Browser Console
-
-#### Get the web, expanding the field, lists and root folder
-
-```js
-var web = $REST.Web().query({ Expand: ["Fields", "Lists", "RootFolder"] }).executeAndWait();
-var fields = web.Fields.results;
-var lists = web.Lists.results;
-var rootFolder = web.RootFolder;
-```
+## Code Examples
 
 ### JavaScript
 

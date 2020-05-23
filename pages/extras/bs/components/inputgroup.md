@@ -2,7 +2,7 @@
 layout: bs
 title: "Input Group"
 category: bs
-permalink: /extras/bs/inputgroup
+permalink: /extras/bs/components/inputgroup/
 ---
 
 ### References

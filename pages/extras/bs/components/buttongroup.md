@@ -2,7 +2,7 @@
 layout: bs
 title: "Button Group"
 category: bs
-permalink: /extras/bs/buttongroup
+permalink: /extras/bs/components/buttongroup/
 ---
 
 ### References

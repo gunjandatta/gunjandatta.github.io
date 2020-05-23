@@ -1,11 +1,10 @@
 ---
-layout: archive
 title: "Helper Methods"
 category: topics
 permalink: /topics/methods/
 ---
 
-**_createContentType_**
+## createContentType
 
 Creates a content type in a web or specified list.
 
@@ -13,7 +12,7 @@ Creates a content type in a web or specified list.
 createContentType(ctInfo: SP.ContentTypeCreationInformation, parentInfo: { Id: string, Url?: string }, webUrl?: string, listName?: string) => PromiseLike<SP.ContentType>
 ```
 
-**_createDocSet_**
+## createDocSet
 
 Creates a document set folder using the _vti_bin/listdata.svc endpoint.
 
@@ -21,7 +20,7 @@ Creates a document set folder using the _vti_bin/listdata.svc endpoint.
 createDocSet(name: string, listName: string, webUrl?: string) => PromiseLike<IListItemResult>
 ```
 
-**_parse_**
+## parse
 
 Each object returned from this library contains a "stringify" method. This parse method will convert the string result back to the object.
 
@@ -29,7 +28,7 @@ Each object returned from this library contains a "stringify" method. This parse
 parse<T>(jsonString: string) => PromiseLike<T>
 ```
 
-**_request_**
+## request
 
 A generic method for creating requests using the XMLHttpRequest object.
 
@@ -37,7 +36,7 @@ A generic method for creating requests using the XMLHttpRequest object.
 request(props:IRequest}) => PromiseLike<IListResult>
 ```
 
-**_setContentTypeFields_**
+## setContentTypeFields
 
 Sets the field links associated with a content type.
 
@@ -45,7 +44,7 @@ Sets the field links associated with a content type.
 setContentTypeFields(ctInfo: { id: string, fields: Array<string>, listName?: string, webUrl?: string }) => PromiseLike<void>
 ```
 
-**_IRequest_**
+## IRequest
 
 * data?:any - The data to pass in the request.
 * headers?:object - The request headers.

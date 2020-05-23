@@ -2,7 +2,7 @@
 layout: bs
 title: "Dropdown"
 category: bs
-permalink: /extras/bs/dropdown
+permalink: /extras/bs/components/dropdown/
 ---
 
 ### References

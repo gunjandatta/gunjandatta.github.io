@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Media List"
 category: bs-wc
-permalink: /extras/bs/webcomponents/media-list/
+permalink: /extras/bs/components/webcomponents/media-list/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/media-object/#media-list)
 

@@ -2,7 +2,7 @@
 layout: bs
 title: "Form"
 category: bs
-permalink: /extras/bs/form
+permalink: /extras/bs/components/form/
 ---
 
 ### References

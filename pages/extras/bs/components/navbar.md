@@ -2,7 +2,7 @@
 layout: bs
 title: "Navbar"
 category: bs
-permalink: /extras/bs/navbar
+permalink: /extras/bs/components/navbar/
 ---
 
 ### References

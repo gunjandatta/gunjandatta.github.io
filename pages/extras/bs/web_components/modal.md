@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Modal"
 category: bs-wc
-permalink: /extras/bs/webcomponents/modal/
+permalink: /extras/bs/components/webcomponents/modal/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/modal)
 

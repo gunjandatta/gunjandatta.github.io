@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Toggle"
 category: js
 permalink: /extras/js/fabric/toggle/

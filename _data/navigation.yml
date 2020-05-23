@@ -6,16 +6,16 @@ main:
     url: /examples
   - title: "Dev Docs"
     url: /dev
-  - title: "Blog"
-    url: /blog
-  - title: "REST API"
-    url: /api
-  - title: "Library Docs"
-    url: /docs/sprest/globals.html
   - title: "Dev Topics"
     url: /topics
+  - title: "REST API"
+    url: /api
   - title: "Framework Docs"
     url: /extras
+  - title: "Blog"
+    url: /blog
+  - title: "Library Docs"
+    url: /docs/sprest/globals.html
 #  - title: "Request Generator"
 #    url: /request
   - title: "GitHub"

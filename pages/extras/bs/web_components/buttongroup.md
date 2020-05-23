@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Button Group"
 category: bs-wc
-permalink: /extras/bs/webcomponents/buttongroup/
+permalink: /extras/bs/components/webcomponents/buttongroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/button-group)
 

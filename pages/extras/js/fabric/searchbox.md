@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Search Box"
 category: js
 permalink: /extras/js/fabric/searchbox/

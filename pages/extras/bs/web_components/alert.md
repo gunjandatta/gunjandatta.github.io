@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Alert"
 category: bs-wc
-permalink: /extras/bs/webcomponents/alert/
+permalink: /extras/bs/components/webcomponents/alert/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/alerts)
 

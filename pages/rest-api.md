@@ -1,20 +1,25 @@
 ---
-layout: archive
 title: "REST API"
 category: api
 permalink: /api/
 ---
 The SharePoint Representational State Transfer (REST) API allows developers to perform CRUD (Create, Read, Update & Delete) operations from client-side code. These operations are similar to the SSOM (Server-Side Object Model), which was how developers created solutions in SharePoint 2007 & 2010 environments. The REST API was initially introduced in SharePoint 2013, but has been expanded in SharePoint 2016/2019/Online.
 
-**_References_**
-
 _[2013 Documentation](https://msdn.microsoft.com/en-us/library/office/jj860569.aspx)_
 
 _[Online Documentation](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service)_
 
-**_Available End Points_**
+## Global Variable
 
-The SharePoint REST API can be accessed by ```https://sp.site.url/_api/[endpoint]```. The table below displays a list of the supported REST API endpoints in this library.
+The gd-sprest library will add a **$REST** global variable to the DOM. The **$REST** variable contains the following properties and helper libraries, shown below.
+
+### Version Control
+
+The `$REST.__ver` property will display the version number being used. If multiple versions are loaded, the latest version will automatically take precedence.
+
+## Available Endpoints
+
+The SharePoint REST API can be accessed by ```https://[tenant].sharepoint.com/_api/[endpoint]```. The table below displays a list of the supported REST API endpoints in this library.
 
 | Name | Description | Library Reference |
 | --- | --- | --- |

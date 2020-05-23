@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "List Form Field"
 category: js
 permalink: /extras/js/components/listformfield/

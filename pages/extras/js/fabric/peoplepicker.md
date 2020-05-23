@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "People Picker"
 category: js
 permalink: /extras/js/fabric/peoplepicker/

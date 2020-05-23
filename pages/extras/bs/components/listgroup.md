@@ -2,7 +2,7 @@
 layout: bs
 title: "List Group"
 category: bs
-permalink: /extras/bs/listgroup
+permalink: /extras/bs/components/listgroup/
 ---
 
 ### References

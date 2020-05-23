@@ -2,7 +2,7 @@
 layout: bs
 title: "Media Object"
 category: bs
-permalink: /extras/bs/media
+permalink: /extras/bs/components/media/
 ---
 
 ### References

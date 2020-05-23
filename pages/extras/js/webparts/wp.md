@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "WebPart"
 category: js
 permalink: /extras/js/webparts/wp/

@@ -2,7 +2,7 @@
 layout: bs
 title: "Alert"
 category: bs
-permalink: /extras/bs/alert
+permalink: /extras/bs/components/alert/
 ---
 
 ### References

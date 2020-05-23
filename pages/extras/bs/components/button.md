@@ -2,7 +2,7 @@
 layout: bs
 title: "Button"
 category: bs
-permalink: /extras/bs/button
+permalink: /extras/bs/components/button/
 ---
 
 ### References

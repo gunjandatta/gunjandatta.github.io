@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Navigation"
 category: bs-wc
-permalink: /extras/bs/webcomponents/navigation/
+permalink: /extras/bs/components/webcomponents/navigation/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/navs)
 

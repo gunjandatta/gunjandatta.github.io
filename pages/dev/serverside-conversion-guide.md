@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Server-Side Guide"
 category: dev-docs
 permalink: /dev/serverside-conversion-guide/

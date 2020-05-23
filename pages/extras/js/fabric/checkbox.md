@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "CheckBox"
 category: js
 permalink: /extras/js/fabric/checkbox/

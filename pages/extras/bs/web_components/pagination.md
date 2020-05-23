@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Pagination"
 category: bs-wc
-permalink: /extras/bs/webcomponents/pagination/
+permalink: /extras/bs/components/webcomponents/pagination/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/pagination)
 

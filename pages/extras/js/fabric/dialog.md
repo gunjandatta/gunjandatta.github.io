@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Dialog"
 category: js
 permalink: /extras/js/fabric/dialog/

@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "WebPart Tabs"
 category: js
 permalink: /extras/js/webparts/tabs/

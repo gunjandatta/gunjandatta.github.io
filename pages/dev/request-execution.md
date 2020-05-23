@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Request Execution"
 category: dev-docs
 permalink: /dev/request-execution/

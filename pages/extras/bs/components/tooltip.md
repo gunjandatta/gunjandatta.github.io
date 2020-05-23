@@ -2,7 +2,7 @@
 layout: bs
 title: "Tooltip"
 category: bs
-permalink: /extras/bs/tooltip
+permalink: /extras/bs/components/tooltip/
 ---
 
 ### References

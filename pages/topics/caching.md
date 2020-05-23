@@ -1,16 +1,15 @@
 ---
-layout: archive
 title: "Caching"
 category: topics
 permalink: /topics/caching/
 ---
 Storing data in the local and session storage has its limitations. You can't simply stringify an class object and store it. This library was designed to create the SharePoint object types, from the response of the REST API request. This will allow the parsed JSON data, to include methods based on the object type.
 
-**_stringify_**
+## stringify
 
 Each object result contains a "stringify" method, which combines the target information of the request and the response from the REST API.
 
-**_parse_**
+## parse
 
 The helper class contains a "parse" method, to generate the SharePoint object from the JSON data.
 

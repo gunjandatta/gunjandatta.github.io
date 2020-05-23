@@ -2,7 +2,7 @@
 layout: bs
 title: "Collapse"
 category: bs
-permalink: /extras/bs/collapse
+permalink: /extras/bs/components/collapse/
 ---
 
 ### References

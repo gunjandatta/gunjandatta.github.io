@@ -1,12 +1,9 @@
 ---
-layout: archive
 title: "List Form"
 category: examples
 permalink: /examples/list-form/
 ---
 This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components. The modal dialog will be used for this example. We will use the button option to display the form when clicked.
-
-**_Code Example_**
 
 ```ts
 import { Components } from "gd-sprest-bs";
@@ -38,7 +35,7 @@ let dialog = Components.ModalDialog({
 });
 ```
 
-**_Built-In Methods_**
+## Built-In Methods
 
 The form control has built in methods to help with customizing it. The ```name``` property must be defined for the value to be returned.
 
@@ -46,7 +43,7 @@ The form control has built in methods to help with customizing it. The ```name``
 - getValues() - Returns an object of key-value pairs, for all controls with the ```name``` property defined.
 - isValid() - Returns true/false of the form's validation state. The validation is determined by the ```required``` property or the ```onValidate``` event.
 
-**_Control Examples_**
+## Control Examples
 
 Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
 
@@ -62,7 +59,7 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 * TextArea
 * TextField
 
-**_Basic Example_**
+## Basic Example
 
 ```js
 {
@@ -75,7 +72,7 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 }
 ```
 
-**_Columns_**
+## Columns
 
 The columns property allows you to render form controls in a bootstrap table. The size of the columns should follow bootstrap's rules.
 
@@ -102,7 +99,7 @@ The columns property allows you to render form controls in a bootstrap table. Th
 }
 ```
 
-**_Rendering Event_**
+## Rendering Event
 
 The control properties can be manipulated in the rendering event. The properties or a promise must be returned.
 
@@ -127,7 +124,7 @@ The control properties can be manipulated in the rendering event. The properties
 }
 ```
 
-**_Loading Message_**
+## Loading Message
 
 The use of a promise can be used to display a loading message, until the control is rendered.
 
@@ -153,7 +150,7 @@ The use of a promise can be used to display a loading message, until the control
 }
 ```
 
-**_Custom Controls_**
+## Custom Controls
 
 The ability to create custom controls can be done, using the rendered event.
 
@@ -174,7 +171,7 @@ The ability to create custom controls can be done, using the rendered event.
 }
 ```
 
-**_Validation_**
+## Validation
 
 The ability to display valid and invalid messages can easily be done by the validation event.
 

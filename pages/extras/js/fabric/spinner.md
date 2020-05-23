@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Spinner"
 category: js
 permalink: /extras/js/fabric/spinner/

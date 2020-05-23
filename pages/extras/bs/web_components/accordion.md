@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Accordion"
 category: bs-wc
-permalink: /extras/bs/webcomponents/accordion/
+permalink: /extras/bs/components/webcomponents/accordion/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/collapse/#accordion-example)
 [Component](/extras/bs/components/accordion)

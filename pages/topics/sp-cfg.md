@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "SharePoint Configuration"
 category: topics
 permalink: /topics/sp-cfg/
@@ -8,7 +7,7 @@ The "SharePoint Configuration" class allows the developer to define configuratio
 
 ![Automation](/assets/images/demo-spcfg.gif)
 
-**_Code Deployment_**
+## Code Deployment
 
 ```ts
 import { Helper } from "gd-sprest";
@@ -25,7 +24,7 @@ spCfg.install();
 spCfg.uninstall();
 ```
 
-**_Multiple Configurations_**
+## Multiple Configurations
 
 The ability to define multiple configurations is easy to setup. This approach allows the configuration to specific groups of components.
 
@@ -61,12 +60,12 @@ export const Configuration = {
 
 ### SPConfig Class
 
-**_Constructor_**
+## Constructor
 
 * configuration:ISPConfigProps
 * webUrl?:string
 
-**_Methods_**
+## Methods
 
 _install(callback?: function)_
 
@@ -88,7 +87,7 @@ This method will remove the objects defined in the configuration file. The order
 4. Content Types
 5. Fields
 
-**_Properties_**
+## Properties
 
 * ContentTypes - A collection of content type configurations.
 * CustomActionCfg - A collection of custom action configurations.
@@ -106,7 +105,7 @@ This method will remove the objects defined in the configuration file. The order
 
 _Note - Intellisense is available for defining the custom properties of the various field types._
 
-**_Custom Action_**
+## Custom Action
 
 ```ts
 // Export the configuration
@@ -140,7 +139,7 @@ export const Configuration = Helper.SPConfig({
 });
 ```
 
-**_List_**
+## List
 
 ```ts
 // Export the configuration
@@ -181,7 +180,7 @@ export const Configuration = Helper.SPConfig({
 });
 ```
 
-**_Site Field_**
+## Site Field
 
 ```ts
 // Export the configuration

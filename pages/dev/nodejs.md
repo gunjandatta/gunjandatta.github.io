@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "NodeJS"
 category: dev-docs
 permalink: /dev/nodejs/

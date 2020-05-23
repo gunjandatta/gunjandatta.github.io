@@ -2,7 +2,7 @@
 layout: bs
 title: "Breadcrumb"
 category: bs
-permalink: /extras/bs/breadcrumb
+permalink: /extras/bs/components/breadcrumb/
 ---
 
 ### References

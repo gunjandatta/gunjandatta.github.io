@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Pivot"
 category: js
 permalink: /extras/js/fabric/pivot/

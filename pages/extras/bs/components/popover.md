@@ -2,7 +2,7 @@
 layout: bs
 title: "Popover"
 category: bs
-permalink: /extras/bs/popover
+permalink: /extras/bs/components/popover/
 ---
 
 ### References

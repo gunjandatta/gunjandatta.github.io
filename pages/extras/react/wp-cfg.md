@@ -1,12 +1,11 @@
 ---
-layout: archive
 title: "WebPart Configuration"
 category: react
 permalink: /extras/react/wp-cfg/
 ---
 This component is used with the [WebPart](wp) component. This component renders a button to the page, displaying a configuration panel displaying the webpart's custom properties. This component can be extended for further customizations.
 
-**_Available Components_**
+## Available Components
 
 * _WebPartCfgPanel_
   * The base component rendering a button and panel
@@ -20,11 +19,11 @@ This component is used with the [WebPart](wp) component. This component renders 
   * Filters the list of fields to specific types allowed for the search webpart
   * Inherits from the WebPartFieldCfg component
 
-**_Additional Information_**
+## Additional Information
 
 Reference this [blog post](https://dattabase.com/blog/sharepoint-react-webparts/) for additional details of developing modern webparts in SharePoint 2013.
 
-**_Interfaces_**
+## Interfaces
 
 IWebPartCfg (WebPart Configuration)
 * WebPartId:string

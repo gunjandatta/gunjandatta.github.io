@@ -2,7 +2,7 @@
 layout: bs
 title: "Panel"
 category: bs
-permalink: /extras/bs/panel
+permalink: /extras/bs/components/panel/
 ---
 
 ### References

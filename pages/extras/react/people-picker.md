@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "People Picker"
 category: react
 permalink: /extras/react/peoplepicker/
@@ -8,7 +7,7 @@ This people picker components searches the user information list by default. The
 
 _Reference this [github project](https://github.com/gunjandatta/sprest-webparts/tree/master/src/email) for an example of using the SharePoint People Picker component._
 
-**_Code Example_**
+## Code Example
 
 ```tsx
 import * as React from "react";

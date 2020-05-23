@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Command Bar"
 category: js
 permalink: /extras/js/fabric/commandbar/

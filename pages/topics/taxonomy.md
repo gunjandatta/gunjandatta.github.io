@@ -1,48 +1,47 @@
 ---
-layout: archive
 title: "Taxonomy"
 category: topics
 permalink: /topics/taxonomy/
 ---
 The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.
 
-**_Getting Term Groups_**
+## Getting Term Groups
 
 The ```getTermGroups()``` method will return the available term groups from the available term store. The data returned will also include the Site Collection term groups.
 
-**_Getting a Term Group_**
+## Getting a Term Group
 
 The ```getTermGroup(name:string)``` method will return a specific term group.
 
-**_Getting Term Sets_**
+## Getting Term Sets
 
 The ```getTermSets(groupName:string)``` method will return the available term sets from a specified term group stored in the global term store. The ```getTermSetsFromDefaultSC()``` method will return the available term sets from the default site collection's term group.
 
 #### Getting a Term Set
 
-**_By Group Name_**
+## By Group Name
 
 The ```getTermSetByGroupName(name:string, groupName:string)``` method will return a term set, from a specified term group stored in the global term store. 
 
-**_From Default Site Collection_**
+## From Default Site Collection
 
 The ```getTermSetFromDefaultSC(name:string)``` method will return a term set from the default site collection's term group.
 
-**_By ID_**
+## By ID
 
 The ```getTermSetById(termStoreId:string, termSetId:string)``` method will return a term set.
 
 #### Getting Terms
 
-**_By Group Name_**
+## By Group Name
 
 The ```getTermsByGroupName(name:string, groupName:string)``` method will return an array of terms, from a specified term set located from a specified term group. 
 
-**_From Default Site Collection_**
+## From Default Site Collection
 
 The ```getTermsFromDefaultSC(name:string)``` method will return an array of terms, from the specified term set located in the default site collection's term group.
 
-**_By ID_**
+## By ID
 
 The ```getTermsById(termStoreId:string, termSetId:string)``` method will return an array of terms.
 
@@ -80,7 +79,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 });
 ```
 
-**_Methods_**
+## Methods
 
 | Name | Return Type | Description |
 | --- | --- | --- |
@@ -100,14 +99,14 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | toFieldMultiValue(_term: Array&lt;ITerm \| ITermInfo&gt;_) | _any_ | Converts an array of terms to the multi-field value, formatted for updating an item in the REST API. |
 | toObject(_Array&lt;ITermInfo&gt;_) | _ITerm_ | Converts an array of term information to a term. |
 
-**_ITerm_**
+## ITerm
 
 | Property | Type | Description |
 | --- | --- | --- |
 | info | _ITermInfo_ | The term information. |
 | parent | _ITerm_ | The parent term. |
 
-**_ITermGroupInfo_**
+## ITermGroupInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -115,7 +114,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | id | _string_ | The term id |
 | name | _string_ | The term name |
 
-**_ITermInfo_**
+## ITermInfo
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -127,7 +126,7 @@ Helper.Taxonomy.getTermGroups().then(groups => {
 | pathAsString | _string_ | The term path as a string |
 | props | _{ [key: string]: string; }_ | The term custom properties
 
-**_ITermSetInfo_**
+## ITermSetInfo
 
 | Property | Type | Description |
 | --- | --- | --- |

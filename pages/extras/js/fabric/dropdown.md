@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Dropdown"
 category: js
 permalink: /extras/js/fabric/dropdown/

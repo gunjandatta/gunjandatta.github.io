@@ -2,7 +2,7 @@
 layout: bs
 title: "Progress"
 category: bs
-permalink: /extras/bs/progress
+permalink: /extras/bs/components/progress/
 ---
 
 ### References

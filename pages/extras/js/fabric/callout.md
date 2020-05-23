@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Callout"
 category: js
 permalink: /extras/js/fabric/callout/

@@ -1,19 +1,18 @@
 ---
-layout: archive
 title: "Panel"
 category: react
 permalink: /extras/react/panel/
 ---
 This component extends the Office Fluent UI Panel, and adds show/hide public methods.
 
-**_Methods_**
+## Methods
 
 * **hide()**
     * Method to hide the panel
 * **show()**
     * Method to show the panel
 
-**_Code Example_**
+## Code Example
 
 ```tsx
 import * as React from "react";

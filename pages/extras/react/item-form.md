@@ -1,59 +1,58 @@
 ---
-layout: archive
 title: "Item Form"
 category: react
 permalink: /extras/react/item-form/
 ---
 The item form component queries the target list's default content type, in order to render the form fields based on the configuration.
 
-**_Configuration_**
+## Configuration
 
-* _**className**_
+* className## 
     The class name to apply to the item form.
-* _**controlMode**_
+* controlMode## 
     * The mode to render the item form in.
-    * _**Control Modes**_
+    * Control Modes## 
         * _Display - Displays the field value as a string_
         * _Edit - Does not default the field value, based on the default value defined in SharePoint_
         * _New - Defaults the field value, based on the default value defined in SharePoint_
-* _**excludeFields**_
+* excludeFields## 
     * An array of string representing the internal field names to exclude from the form.
-* _**fields**_
+* fields## 
     _If this values is note defined, then the fields will be loaded from the list's default content types._
     * An array of field information objects representing the fields to display in the form.
     * controlMode - The control mode to render the field in.
     * name - The internal field name.
     * onChange - The field value change event.
     * onRender - The render method to override the form field.
-* _**item**_
+* item## 
     * An object representing the list item.
-* _**listName**_
+* listName## 
     * The list name
-* _**onAttachmentAdded**_
+* onAttachmentAdded## 
     * Optional event triggered when an attachment is added.
-* _**onAttachmentClick**_
+* onAttachmentClick## 
     * Optional event triggered when an attachment is clicked.
-* _**onAttachmentRender**_
+* onAttachmentRender## 
     * Optional event to override the rendering of an attachment.
-* _**onFieldRender**_
+* onFieldRender## 
     * Optional event to override the field component being rendered.
-* _**onRender**_
+* onRender## 
     * Optional event used to customize the form.
     * _The FormFields property must be set for the save method to work._
-* _**onRenderAttachments**_
+* onRenderAttachments## 
     * Optional event to override the rendering of the attachments.
-* _**query**_
+* query## 
     * The OData query, used when refreshing the item.
-* _**queryTop**_
+* queryTop## 
     * Parameter to default the query's top value for field queries.
-* _**readOnlyFields**_
+* readOnlyFields## 
     * An array of string representing the internal field names to make "read-only" in the form.
-* _**showAttachments**_
+* showAttachments## 
     * Flag to display the item attachments.
-* _**webUrl**_
+* webUrl## 
     * Optional string representing the relative url of the site containing the list.
 
-**_Global Methods/Variables_**
+## Global Methods/Variables
 
 * **AttachmentField**
     * Reference to the attachment's field component.
@@ -75,7 +74,7 @@ The item form component queries the target list's default content type, in order
 * **update(itemValues)**
     * Method to update the item.
 
-**_Code Example_**
+## Code Example
 
 ```tsx
 import * as React from "react";

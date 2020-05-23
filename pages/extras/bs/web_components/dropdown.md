@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Dropdown"
 category: bs-wc
-permalink: /extras/bs/webcomponents/dropdown/
+permalink: /extras/bs/components/webcomponents/dropdown/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/dropdowns)
 

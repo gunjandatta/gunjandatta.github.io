@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Icons"
 category: bs
 permalink: /docs/sprest-bs/modules/_icons_d_.html

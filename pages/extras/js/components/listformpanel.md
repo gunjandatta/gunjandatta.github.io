@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "List Form Panel"
 category: js
 permalink: /extras/js/components/listformpanel/

@@ -1,0 +1,32 @@
+<div class="sidebar sticky">
+    <nav class="nav__list">
+        {% if page.sidebar.title %}
+        <h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>
+        {% endif %}
+        <input id="ac-toc" name="accordion-toc" type="checkbox" />
+        <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+        <ul class="nav__items">
+            <li>
+                <a href=".." class="nav__sub-title">Back</a>
+            </li>
+
+            <!-- Autogenerate from Category -->
+            {% if(page.sidebar-auto) %}
+            <li>
+                <ul>
+                    {% for sp in site.pages %}
+                    {% if sp.category == page.category and sp.title != page.title %}
+                    <li>
+                        <a href="{{ sp.permalink }}" class="nav__sub-title">{{ sp.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endif %}
+
+            <!-- Autogenerate from Page -->
+            {% include toc.html html=content sanitize=true class="nav__items" anchor_class="nav__sub-title" h_min=2 h_max=3 %}
+        </ul>
+    </nav>
+</div>

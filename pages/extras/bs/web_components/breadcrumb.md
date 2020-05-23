@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Breadcrumb"
 category: bs-wc
-permalink: /extras/bs/webcomponents/breadcrumb/
+permalink: /extras/bs/components/webcomponents/breadcrumb/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/breadcrumbs)
 

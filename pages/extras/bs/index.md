@@ -1,35 +1,37 @@
 ---
-layout: archive
 title: "Bootstrap"
 category: bs
 permalink: /extras/bs/
+sidebar-auto: true
 ---
 This library extends the [gd-bs library](https://github.com/gunjandatta/gd-bs), which uses the [Bootstrap Framework](https://getbootstrap.com/) to create modern components in SharePoint 2013/Online (Classic) environments. Reference the [gd-sprest-bs library](https://github.com/gunjandatta/sprest-bs) to view the source code.
 
 If you like this library, please [Star it](https://github.com/gunjandatta/sprest-bs). If there are any issues/bugs/requests, create an _[issue here](https://github.com/gunjandatta/spest-bs/issues)_.
 
-### Getting Started
+## Getting Started
 
-#### [Code Documentation](/docs/sprest-bs/globals.html)
+### [Components](components)
+### [Web Parts](webparts)
+### [Code Documentation](/docs/sprest-bs/globals.html)
 
-#### Installation
+### Installation
 
 ```js
 npm i --save gd-sprest-bs
 ```
 
-#### Reference the Script
+### Reference the Script
 
 No Icons
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs.min.js"></script>
 ```
 
-Icons
+Including Icons
 ```html
 <script type="text/javascript" src="https://unpkg.com/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js"></script>
 ```
-### Styling
+## Styling
 
 The bootstrap css will only be applied to elements with a parent element containing the ```bs``` class. This will ensure that other elements on the page will not be affected.
 
@@ -39,13 +41,13 @@ The bootstrap css will only be applied to elements with a parent element contain
 </div>
 ```
 
-### Project Configuration
+## Project Configuration
 
-#### SPFx
+### SPFx
 
 Edit the  ```config/config.js``` file and set the externals property. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Now references to both libraries will reference the global $REST variable.
 
-##### No Icons
+#### No Icons
 
 ```js
 "externals": {
@@ -60,7 +62,7 @@ Edit the  ```config/config.js``` file and set the externals property. Since the 
 }
 ```
 
-##### Icons
+#### Icons
 
 ```js
 "externals": {
@@ -75,11 +77,11 @@ Edit the  ```config/config.js``` file and set the externals property. Since the 
 }
 ```
 
-#### WebPack
+### WebPack
 
 Edit the ```webpack.config.js``` file and reference the library manually. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Since we are loading the library manually, we want to exclude the library from the bundle by setting the ```externals``` property.
 
-##### No Icons
+#### No Icons
 
 ```js
 // WebPack Configuration
@@ -99,7 +101,7 @@ module.exports = {
 }
 ```
 
-##### Icons
+#### Icons
 
 ```js
 // WebPack Configuration
@@ -118,7 +120,3 @@ module.exports = {
     }
 }
 ```
-
-### [Web Components](/extras/bs/webcomponents/accordion)
-
-The stencil framework was used to create web components from the bootstrap library. This project was for dev purposed. Code examples can be found [here](/extras/bs/webcomponents/accordion).

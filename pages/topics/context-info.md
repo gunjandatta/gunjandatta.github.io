@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Context Information"
 category: topics
 permalink: /topics/context-info/

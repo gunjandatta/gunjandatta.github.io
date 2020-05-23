@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "WebPart"
 category: topics
 permalink: /topics/webpart/
@@ -16,6 +15,6 @@ The webpart component allows the developer to easialy assign react components to
 * Search - Inherits the list webpart, adding a search textbox. Based on the configuration fields, a mapper is created based on the item data. This feature will automatically filter the items displayed.
 * Tabs - Displays all associated webparts within the same zone in tabs.
 
-**_Creating Modern WebParts for SharePoint 2013_**
+## Creating Modern WebParts for SharePoint 2013
 
 Reference the [Code Examples](/examples/) for examples of creating webparts and upgrading them to SPFx.

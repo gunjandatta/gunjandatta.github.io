@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Link Field"
 category: js
 permalink: /extras/js/fabric/linkfield/

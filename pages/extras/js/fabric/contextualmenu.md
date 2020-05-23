@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Contextual Menu"
 category: js
 permalink: /extras/js/fabric/contextualmenu/

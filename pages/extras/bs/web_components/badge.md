@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Badge"
 category: bs-wc
-permalink: /extras/bs/webcomponents/badge/
+permalink: /extras/bs/components/webcomponents/badge/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/badge)
 

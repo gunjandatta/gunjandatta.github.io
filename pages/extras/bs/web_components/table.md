@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Table"
 category: bs-wc
-permalink: /extras/bs/webcomponents/table/
+permalink: /extras/bs/components/webcomponents/table/
 ---
 [Documentation](http://getbootstrap.com/docs/4.1/content/tables/)
 

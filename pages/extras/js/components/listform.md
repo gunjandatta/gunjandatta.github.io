@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "List Form"
 category: js
 permalink: /extras/js/components/listform/

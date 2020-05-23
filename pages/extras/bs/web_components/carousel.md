@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Carousel"
 category: bs-wc
-permalink: /extras/bs/webcomponents/carousel/
+permalink: /extras/bs/components/webcomponents/carousel/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/carousel)
 

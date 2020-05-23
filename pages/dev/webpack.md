@@ -1,12 +1,11 @@
 ---
-layout: archive
 title: "WebPack"
 category: dev-docs
 permalink: /dev/webpack/
 ---
 This page will give a basic overview setting up a TypeScript project using Babel and WebPack.
 
-#### TypeScript Configuration
+## TypeScript Configuration
 
 The `tsconfig.json` file contains the TypeScript configuration. Below is a basic example for this library.
 
@@ -25,21 +24,21 @@ The `tsconfig.json` file contains the TypeScript configuration. Below is a basic
 }
 ```
 
-#### NPM Installation Command
+## NPM Installation Command
 
 ```
 npm i --save-dev @babel/core @babel/preset-env webpack webpack-cli ts-loader babel-loader
 ```
 
-##### [Babel](https://babeljs.io/)
+### [Babel](https://babeljs.io/)
 
 The `@babel/core`, `babel-loader` and `@babel/preset-env` are required to compile the code to ESCurrent, which helps ensure the JavaScript code is supported in the current browsers. The `ts-loader` plugin is required for compiling TypeScript code to JavaScript.
 
-##### [WebPack](https://webpack.js.org/)
+### [WebPack](https://webpack.js.org/)
 
 The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
-#### Promise Library Dependency
+## Promise Library Dependency
 
 The `gd-sprest` library does depend on the Promise library. As browsers support web components, it may or maynot be necessary to include an additional library in the bundle. If you do need to, then you can reference the distribution file which includes the promise library from the `core-js` library.
 
@@ -93,16 +92,16 @@ module.exports = {
 }
 ```
 
-#### CSS/SASS Support
+## CSS/SASS Support
 
 The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
 
-##### NPM Install
+### NPM Install
 ```
 npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader ts-loader node-sass sass-loader css-loader style-loader
 ```
 
-#### webpack.config.js
+### webpack.config.js
 
 ```js
 var path = require("path");

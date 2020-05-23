@@ -2,7 +2,7 @@
 layout: bs
 title: "Card Group"
 category: bs
-permalink: /extras/bs/cardgroup
+permalink: /extras/bs/components/cardgroup/
 ---
 
 ### References

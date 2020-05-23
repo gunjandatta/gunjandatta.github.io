@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Field"
 category: js
 permalink: /extras/js/components/field/

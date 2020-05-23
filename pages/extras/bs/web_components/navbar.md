@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Navbar"
 category: bs-wc
-permalink: /extras/bs/webcomponents/navbar/
+permalink: /extras/bs/components/webcomponents/navbar/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/navbar)
 

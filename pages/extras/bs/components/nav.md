@@ -2,7 +2,7 @@
 layout: bs
 title: "Navigation"
 category: bs
-permalink: /extras/bs/nav
+permalink: /extras/bs/components/nav/
 ---
 
 ### References

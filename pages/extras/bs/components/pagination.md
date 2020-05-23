@@ -2,7 +2,7 @@
 layout: bs
 title: "Pagination"
 category: bs
-permalink: /extras/bs/pagination
+permalink: /extras/bs/components/pagination/
 ---
 
 ### References

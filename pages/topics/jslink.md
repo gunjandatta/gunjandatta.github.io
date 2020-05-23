@@ -1,15 +1,14 @@
 ---
-layout: archive
 title: "JS Link"
 category: topics
 permalink: /topics/jslink/
 ---
 The JSLink feature allows the developer to customize list forms and views. Refer to this [blog post](https://dattabase.com/blog/js-links) for a detailed overview of this helper class.
 
-**_Template Overrides_**
+## Template Overrides
 To create a list template override, simply create an instance of the JSLink class.
 
-**_Configuration_**
+## Configuration
 - BaseViewID: number \| string
 - ListTemplateType: number
 - OnPostRender
@@ -29,7 +28,7 @@ To create a list template override, simply create an instance of the JSLink clas
     - OnPostRender
     - OnPreRender
 
-**_Helper Methods_**
+## Helper Methods
 
 The library contains helper methods for JSLinks.
 - disableEdit(ctx, field, requiredValueValueFl) - Disables the field in "Edit" mode.
@@ -43,7 +42,7 @@ The library contains helper methods for JSLinks.
 - removeField(ctx, field, formType) - Removes the field element from the DOM.
 - renderField(ctx, field, formType) - Renders the default html for the field.
 
-**_Code Example_**
+## Code Example
 
 ```ts
 // JavaScript

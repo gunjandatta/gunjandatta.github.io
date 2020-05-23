@@ -2,7 +2,7 @@
 layout: bs
 title: "Carousel"
 category: bs
-permalink: /extras/bs/carousel
+permalink: /extras/bs/components/carousel/
 ---
 
 ### References

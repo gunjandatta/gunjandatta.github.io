@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "List"
 category: js
 permalink: /extras/js/fabric/list/

@@ -2,7 +2,7 @@
 layout: bs
 title: "Accordion"
 category: bs
-permalink: /extras/bs/accordion
+permalink: /extras/bs/components/accordion/
 ---
 
 ### References

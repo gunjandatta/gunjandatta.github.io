@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Popover"
 category: bs-wc
-permalink: /extras/bs/webcomponents/popover/
+permalink: /extras/bs/components/webcomponents/popover/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/popovers)
 

@@ -1,9 +1,8 @@
 ---
-layout: archive
 title: "Components"
 category: bs
 permalink: /extras/bs/components/
+sidebar-auto: true
 ---
-<script>
-    document.location = "/extras/bs";
-</script>
+
+Click on a component from the side navigation.

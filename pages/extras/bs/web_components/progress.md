@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Progress"
 category: bs-wc
-permalink: /extras/bs/webcomponents/progress/
+permalink: /extras/bs/components/webcomponents/progress/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/collapse/#progress)
 

@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Checkbox Group"
 category: bs-wc
-permalink: /extras/bs/webcomponents/checkboxgroup/
+permalink: /extras/bs/components/webcomponents/checkboxgroup/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios)
 

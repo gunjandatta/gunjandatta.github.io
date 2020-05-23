@@ -2,7 +2,7 @@
 layout: bs
 title: "Card"
 category: bs
-permalink: /extras/bs/card
+permalink: /extras/bs/components/card/
 ---
 
 ### References

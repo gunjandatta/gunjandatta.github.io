@@ -1,10 +1,9 @@
 ---
-layout: archive
 title: "Navigation"
 category: examples
 permalink: /examples/nav/
 ---
-**_Reference the library_**
+## Reference the library
 
 ```js
 // JavaScript
@@ -14,7 +13,7 @@ var $REST = require("gd-sprest");
 import { Navigation } from "gd-sprest";
 ```
 
-**_Get the navigation_**
+## Get the navigation
 
 ```js
 // Get the navigation
@@ -48,7 +47,7 @@ Navigation()
     });
 ```
 
-**_Get a navigation node_**
+## Get a navigation node
 
 ```js
 // Get the navigation

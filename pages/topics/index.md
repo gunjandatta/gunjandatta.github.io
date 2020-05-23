@@ -1,61 +1,61 @@
 ---
-layout: archive
 title: "Dev Topics"
 category: topics
 permalink: /topics/
+sidebar-auto: true
 ---
-**_Add-In Model_**
+#### [Add-In Model](add-in-model)
 
 Information related to developing a SharePoint Hosted Add-In.
 
-**_Application Lifecycle Management_**
+#### [Application Lifecycle Management](alm)
 
 Information related to app deployment.
 
-**_Batch Requests_**
+#### [Batch Requests](batch-requests)
 
 Information related to the execution of multiple requests in a single execution to the server.
 
-**_Caching_**
+#### [Caching](caching)
 
 Information related to saving the object data to the user or session storage.
 
-**_Cross Site-Collection Requests_**
+#### [Cross Site-Collection Requests](cross-sc)
 
 Information related to cross site-collection requests.
 
-**_Executor_**
+#### [Executor](executor)
 
 Information related to the helper function for executing various functions against an array of data.
 
-**_Helper Methods_**
+#### [Helper Methods](methods)
 
 The available helper methods available in the core library.
 
-**_JS Links_**
+#### [JS Links](jslink)
 
 Information related to developing custom JS Link solutions.
 
-**_List Forms_**
+#### [List Forms](list-form)
 
 Information related to developing custom list item forms.
 
-**_Loading the Library_**
+#### [Loading the Library](loading-the-lib)
 
 Information related code execution when waiting for the library to be made available.
 
-**_SharePoint Configuration_**
+#### [SharePoint Configuration](sp-cfg)
 
 Information related to deploying or retracting SharePoint assets within a site collection.
 
-**_SharePoint Core Library Components_**
+#### [SharePoint Core Library Components](sp)
 
 References to the internal core SharePoint library components.
 
-**_Taxonomy_**
+#### [Taxonomy](taxonomy)
 
 Information related to getting data from the Managed Metadata Service.
 
-**_WebPart_**
+#### [WebPart](webpart)
 
 Information related to developing custom webparts.

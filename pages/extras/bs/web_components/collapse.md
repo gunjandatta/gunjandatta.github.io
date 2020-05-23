@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Collapse"
 category: bs-wc
-permalink: /extras/bs/webcomponents/collapse/
+permalink: /extras/bs/components/webcomponents/collapse/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/collapse)
 

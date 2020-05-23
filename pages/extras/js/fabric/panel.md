@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Panel"
 category: js
 permalink: /extras/js/fabric/panel/

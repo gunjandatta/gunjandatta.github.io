@@ -1,10 +1,9 @@
 ---
-layout: archive
 title: "Field"
 category: react
 permalink: /extras/react/field/
 ---
-**_Supported Types_**
+## Supported Types
 The field components currently supported are:
 * Attachments
 * Boolean
@@ -21,12 +20,12 @@ The field components currently supported are:
 * Url
 * User
 
-**_Configuration_**
+## Configuration
 The field component queries the target list to get the configuration. Based on the type, the appropriate field component is rendered. This ensures minor code changes to the field type are no longer require.
 * Info - The field information.
 * Value - The field value.
 
-**_Code Example_**
+## Code Example
 
 ```tsx
 import * as React from "react";

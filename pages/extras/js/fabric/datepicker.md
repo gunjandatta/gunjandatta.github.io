@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Date Picker"
 category: js
 permalink: /extras/js/fabric/datepicker/

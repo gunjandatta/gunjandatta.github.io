@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Progress Group"
 category: bs-wc
-permalink: /extras/bs/webcomponents/progressgroup/
+permalink: /extras/bs/components/webcomponents/progressgroup/
 ---
 [Documentation](http://getbootstrap.com/docs/4.1/components/progress/#multiple-bars)
 

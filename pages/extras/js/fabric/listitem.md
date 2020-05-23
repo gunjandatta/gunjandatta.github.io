@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "List Item"
 category: js
 permalink: /extras/js/fabric/listitem/

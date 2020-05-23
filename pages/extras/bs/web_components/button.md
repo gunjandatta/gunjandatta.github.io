@@ -1,8 +1,7 @@
 ---
-layout: archive
 title: "Button"
 category: bs-wc
-permalink: /extras/bs/webcomponents/button/
+permalink: /extras/bs/components/webcomponents/button/
 ---
 [Documentation](https://getbootstrap.com/docs/4.4/components/buttons)
 

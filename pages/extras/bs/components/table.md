@@ -2,7 +2,7 @@
 layout: bs
 title: "Table"
 category: bs
-permalink: /extras/bs/table
+permalink: /extras/bs/components/table/
 ---
 
 ### References

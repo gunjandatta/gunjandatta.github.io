@@ -1,18 +1,13 @@
 ---
-layout: archive
 title: "Permissions"
 category: examples
 permalink: /examples/permissions/
 ---
 The ```SPTypes``` contains the BasePermissionTypes enumerator which is used to determine what permissions a user has to a web, list or list item. The ```Helper``` class contains a ```hasPermissions(permissionMask, permissions)``` method returns true/false, based on the requested permission(s). The ```permissions``` property may be a single permission type or an array or permission types.
 
-#### Getting Permissions for Current User
+## Getting Permissions for Current User
 
-The web, list and list item components have a ```EffectiveBasePermissions``` property that can be queried.
-
-**_Get Web Permissions_**
-
-The code example below will check if a user has manage permissions to a web.
+The web, list and list item components have a ```EffectiveBasePermissions``` property that can be queried. The code example below will check if a user has manage permissions to a web.
 
 ```ts
 // JavaScript
@@ -52,13 +47,9 @@ function hasPermissions(): PromiseLike<boolean> {
 }
 ```
 
-#### Getting Permissions for Another User
+## Getting Permissions for Another User
 
-The web, list and list item components have the ability to get the permissions by a user's login name.
-
-**_Get List Permissions_**
-
-The code example below will check if a user has edit permissions to a list.
+The web, list and list item components have the ability to get the permissions by a user's login name. The code example below will check if a user has edit permissions to a list.
 
 ```ts
 // JavaScript
