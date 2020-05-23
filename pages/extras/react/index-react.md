@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Office Fabric-UI (React)"
+title: "Office Fluent-UI (React)"
 category: extras
 permalink: /extras/react/
 ---

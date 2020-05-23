@@ -39,4 +39,4 @@ This webpart allows the developer to control what component to display, based on
 
 **_Fabric Component_**
 
-The [Fabric Component](https://github.com/OfficeDev/office-ui-fabric-react/wiki/The-Fabric-Component) should be used to wrap the Fabric UI react components. By default the WebPart will wrap the display and edit elements in a Fabric component, so there is no need to add this to you application.
+The [Fabric Component](https://github.com/OfficeDev/office-ui-fabric-react/wiki/The-Fabric-Component) should be used to wrap the Fluent UI react components. By default the WebPart will wrap the display and edit elements in a Fabric component, so there is no need to add this to you application.

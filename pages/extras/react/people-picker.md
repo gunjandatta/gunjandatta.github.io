@@ -13,7 +13,7 @@ _Reference this [github project](https://github.com/gunjandatta/sprest-webparts/
 ```tsx
 import * as React from "react";
 import { SPPeoplePicker } from "gd-sprest-react";
-import { PrimaryButton } from "office-ui-fabric-react";
+import { PrimaryButton } from "@fluentui/react/lib/Button";
 
 class MyClass extends React.Component<null, null> {
     private _spPicker: SPPeoplePicker = null;

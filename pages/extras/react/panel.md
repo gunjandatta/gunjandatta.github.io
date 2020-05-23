@@ -4,7 +4,7 @@ title: "Panel"
 category: react
 permalink: /extras/react/panel/
 ---
-This component extends the Office Fabric Panel, and adds show/hide public methods.
+This component extends the Office Fluent UI Panel, and adds show/hide public methods.
 
 **_Methods_**
 
@@ -18,7 +18,7 @@ This component extends the Office Fabric Panel, and adds show/hide public method
 ```tsx
 import * as React from "react";
 import { Panel } from "gd-sprest-react";
-import { PrimaryButton } from "office-ui-fabric-react";
+import { PrimaryButton } from "@fluentui/react/lib/Button";
 
 class MyPanel extends React.Component<null, null> {
     let _panel:Panel = null;

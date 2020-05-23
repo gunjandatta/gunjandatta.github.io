@@ -80,7 +80,7 @@ The item form component queries the target list's default content type, in order
 ```tsx
 import * as React from "react";
 import { ItemForm } from "gd-sprest-react";
-import { PrimaryButton } from "office-ui-fabric-react";
+import { PrimaryButton } from "@fluentui/react/lib/Button";
 
 class MyForm extends React.Component<null, null> {
     private _form:ItemForm = null;

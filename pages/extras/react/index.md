@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Office Fabric-UI (React)"
+title: "Office Fluent-UI (React)"
 category: react
 permalink: /extras/react/
 ---
-The [gd-sprest-react](https://github.com/gunjandatta/sprest-react) library contains React components designed for SharePoint 2013/Online, using the [Office Fabric UI React Framework](https://dev.office.com/fabric) to create an Office 365 modern experience.
+The [gd-sprest-react](https://github.com/gunjandatta/sprest-react) library contains React components designed for SharePoint 2013/Online, using the [Office Fluent UI React Framework](https://dev.office.com/fluentui) to create an Office 365 modern experience.
 
 **_Code Examples_**
 
