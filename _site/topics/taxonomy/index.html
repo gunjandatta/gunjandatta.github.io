@@ -1,0 +1,617 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Taxonomy - gd-sprest</title>
+<meta name="description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+  <meta name="author" content="Gunjan Datta">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="gd-sprest">
+<meta property="og:title" content="Taxonomy">
+<meta property="og:url" content="http://localhost:4000/topics/taxonomy/">
+
+
+  <meta property="og:description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/topics/taxonomy/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Dattabase",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="OQUBqgGhFiepr6bOALJ18e1GG6ti7E3ZGyDzAAM9yos" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="gd-sprest Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          gd-sprest
+          <span class="site-subtitle">SharePoint REST Framework</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/getting-started">Getting Started</a>
+            </li><li class="masthead__menu-item">
+              <a href="/examples">Code Examples</a>
+            </li><li class="masthead__menu-item">
+              <a href="/dev">Dev Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/topics">Dev Topics</a>
+            </li><li class="masthead__menu-item">
+              <a href="/api">REST API</a>
+            </li><li class="masthead__menu-item">
+              <a href="/extras">Framework Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/sprest/globals.html">Library Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/gunjandatta/sprest">GitHub</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <div class="sidebar sticky">
+    <nav class="nav__list">
+        
+        <input id="ac-toc" name="accordion-toc" type="checkbox" />
+        <label for="ac-toc">Toggle Menu</label>
+        <ul class="nav__items">
+            <li>
+                <a href=".." class="nav__sub-title">Back</a>
+            </li>
+
+            <!-- Autogenerate from Category -->
+            
+        </ul>
+
+        <!-- Autogenerate from Page -->
+        <ul class="nav__items">
+  <li><a href="#getting-term-groups" class="nav__sub-title">Getting Term Groups</a></li>
+  <li><a href="#getting-a-term-group" class="nav__sub-title">Getting a Term Group</a></li>
+  <li><a href="#getting-term-sets" class="nav__sub-title">Getting Term Sets</a></li>
+  <li><a href="#by-group-name" class="nav__sub-title">By Group Name</a></li>
+  <li><a href="#from-default-site-collection" class="nav__sub-title">From Default Site Collection</a></li>
+  <li><a href="#by-id" class="nav__sub-title">By ID</a></li>
+  <li><a href="#by-group-name-1" class="nav__sub-title">By Group Name</a></li>
+  <li><a href="#from-default-site-collection-1" class="nav__sub-title">From Default Site Collection</a></li>
+  <li><a href="#by-id-1" class="nav__sub-title">By ID</a>
+    <ul>
+      <li><a href="#code-examples" class="nav__sub-title">Code Examples</a></li>
+    </ul>
+  </li>
+  <li><a href="#methods" class="nav__sub-title">Methods</a></li>
+  <li><a href="#iterm" class="nav__sub-title">ITerm</a></li>
+  <li><a href="#itermgroupinfo" class="nav__sub-title">ITermGroupInfo</a></li>
+  <li><a href="#iterminfo" class="nav__sub-title">ITermInfo</a></li>
+  <li><a href="#itermsetinfo" class="nav__sub-title">ITermSetInfo</a></li>
+</ul>
+
+    </nav>
+</div>
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Taxonomy">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Taxonomy
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The taxonomy class is designed to return the managed metadata term set data as an array of term information, or as a tree.</p>
+
+<h2 id="getting-term-groups">Getting Term Groups</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermGroups()</code> method will return the available term groups from the available term store. The data returned will also include the Site Collection term groups.</p>
+
+<h2 id="getting-a-term-group">Getting a Term Group</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermGroup(name:string)</code> method will return a specific term group.</p>
+
+<h2 id="getting-term-sets">Getting Term Sets</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermSets(groupName:string)</code> method will return the available term sets from a specified term group stored in the global term store. The <code class="language-plaintext highlighter-rouge">getTermSetsFromDefaultSC()</code> method will return the available term sets from the default site collection’s term group.</p>
+
+<h4 id="getting-a-term-set">Getting a Term Set</h4>
+
+<h2 id="by-group-name">By Group Name</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermSetByGroupName(name:string, groupName:string)</code> method will return a term set, from a specified term group stored in the global term store.</p>
+
+<h2 id="from-default-site-collection">From Default Site Collection</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermSetFromDefaultSC(name:string)</code> method will return a term set from the default site collection’s term group.</p>
+
+<h2 id="by-id">By ID</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermSetById(termStoreId:string, termSetId:string)</code> method will return a term set.</p>
+
+<h4 id="getting-terms">Getting Terms</h4>
+
+<h2 id="by-group-name-1">By Group Name</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermsByGroupName(name:string, groupName:string)</code> method will return an array of terms, from a specified term set located from a specified term group.</p>
+
+<h2 id="from-default-site-collection-1">From Default Site Collection</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermsFromDefaultSC(name:string)</code> method will return an array of terms, from the specified term set located in the default site collection’s term group.</p>
+
+<h2 id="by-id-1">By ID</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">getTermsById(termStoreId:string, termSetId:string)</code> method will return an array of terms.</p>
+
+<h4 id="convert-to-tree">Convert to Tree</h4>
+
+<p>The data returned is an array of terms. To convert the terms to a tree object, use the <code class="language-plaintext highlighter-rouge">toObject(terms:Array&lt;ITermInfo&gt;)</code>. To convert the object back to an array, use the <code class="language-plaintext highlighter-rouge">toArray(term:ITerm)</code> method to convert the tree back to an array of terms.</p>
+
+<h4 id="searching-for-data">Searching For Data</h4>
+
+<p>The <code class="language-plaintext highlighter-rouge">findById(term:ITerm, termId:string)</code> method can be used to find a term by its id. The <code class="language-plaintext highlighter-rouge">findByName(term:ITerm, name:string)</code> method can be used to find a term by its name. Both methods will require the data to be converted to a tree object first.</p>
+
+<h3 id="code-examples">Code Examples</h3>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// JavaScript</span>
+<span class="kd">var</span> <span class="nx">$REST</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">gd-sprest</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Get the term groups</span>
+<span class="nx">$REST</span><span class="p">.</span><span class="nx">Helper</span><span class="p">.</span><span class="nx">Taxonomy</span><span class="p">.</span><span class="nx">getTermGroups</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">groups</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Parse the groups</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">groups</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Code goes here</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="c1">// TypeScript</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">Helper</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">gd-sprest</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="c1">// Get the term groups</span>
+<span class="nx">Helper</span><span class="p">.</span><span class="nx">Taxonomy</span><span class="p">.</span><span class="nx">getTermGroups</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">groups</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// Parse the groups</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">groups</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Code goes here</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h2 id="methods">Methods</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Return Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findById(<em>term: ITerm, termId: string</em>)</td>
+      <td><em>ITerm</em></td>
+      <td>Searches a term for the specified id.</td>
+    </tr>
+    <tr>
+      <td>findByName(<em>term: ITerm, termName: string</em>)</td>
+      <td><em>ITerm</em></td>
+      <td>Searches a term for the specified name.</td>
+    </tr>
+    <tr>
+      <td>getTermGroups()</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermGroupInfo&gt;&gt;</em></td>
+      <td>Gets the term groups from the available term stores.</td>
+    </tr>
+    <tr>
+      <td>getTermSets(<em>groupName: string</em>)</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt;</em></td>
+      <td>Gets the term sets for a specified term group name.</td>
+    </tr>
+    <tr>
+      <td>getTermSetsFromDefaultSC()</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermSetInfo&gt;&gt;</em></td>
+      <td>Gets the term sets, from the site collection’s term store.</td>
+    </tr>
+    <tr>
+      <td>getTermsById(<em>termStoreId: string, termSetId: string</em>)</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;</em></td>
+      <td>Gets the terms of a terms set.</td>
+    </tr>
+    <tr>
+      <td>getTermSetById(<em>termStoreId: string, termSetId: string</em>)</td>
+      <td><em>PromiseLike&lt;Array&lt;ITerm&gt;&gt;</em></td>
+      <td>Gets the terms of a terms set.</td>
+    </tr>
+    <tr>
+      <td>getTermsFromDefaultSC(<em>termSetName: string</em>)</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;</em></td>
+      <td>Gets the terms of a term set, from the site collection’s term store.</td>
+    </tr>
+    <tr>
+      <td>getTermSetFromDefaultSC(<em>termSetName: string</em>)</td>
+      <td><em>PromiseLike&lt;ITerm&gt;</em></td>
+      <td>Gets the terms of a term set, from the site collection’s term store.</td>
+    </tr>
+    <tr>
+      <td>getTermsByGroupName(<em>termSetName: string, groupName: string</em>)</td>
+      <td><em>PromiseLike&lt;Array&lt;ITermInfo&gt;&gt;</em></td>
+      <td>Gets the terms of a term set.</td>
+    </tr>
+    <tr>
+      <td>getTermSetByGroupName(<em>termSetName: string, groupName: string</em>)</td>
+      <td><em>PromiseLike&lt;ITerm&gt;</em></td>
+      <td>Gets the terms of a term set.</td>
+    </tr>
+    <tr>
+      <td>toArray(<em>term: ITerm</em>)</td>
+      <td><em>Array&lt;ITermInfo&gt;</em></td>
+      <td>Converts a term to an array of term information.</td>
+    </tr>
+    <tr>
+      <td>toFieldValue(<em>term: ITerm | ITermInfo</em>)</td>
+      <td><em>any</em></td>
+      <td>Converts the term to the field value, formatted for updating an item in the REST API.</td>
+    </tr>
+    <tr>
+      <td>toFieldMultiValue(<em>term: Array&lt;ITerm | ITermInfo&gt;</em>)</td>
+      <td><em>any</em></td>
+      <td>Converts an array of terms to the multi-field value, formatted for updating an item in the REST API.</td>
+    </tr>
+    <tr>
+      <td>toObject(<em>Array&lt;ITermInfo&gt;</em>)</td>
+      <td><em>ITerm</em></td>
+      <td>Converts an array of term information to a term.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="iterm">ITerm</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>info</td>
+      <td><em>ITermInfo</em></td>
+      <td>The term information.</td>
+    </tr>
+    <tr>
+      <td>parent</td>
+      <td><em>ITerm</em></td>
+      <td>The parent term.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="itermgroupinfo">ITermGroupInfo</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>description</td>
+      <td><em>string</em></td>
+      <td>The term description</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td><em>string</em></td>
+      <td>The term id</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td><em>string</em></td>
+      <td>The term name</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="iterminfo">ITermInfo</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>description</td>
+      <td><em>string</em></td>
+      <td>The term description</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td><em>string</em></td>
+      <td>The term id</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td><em>string</em></td>
+      <td>The term name</td>
+    </tr>
+    <tr>
+      <td>parent</td>
+      <td><em>ITerm</em></td>
+      <td>The parent term</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td><em>Array&lt;string&gt;</em></td>
+      <td>The term path</td>
+    </tr>
+    <tr>
+      <td>pathAsString</td>
+      <td><em>string</em></td>
+      <td>The term path as a string</td>
+    </tr>
+    <tr>
+      <td>props</td>
+      <td><em>{ [key: string]: string; }</em></td>
+      <td>The term custom properties</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="itermsetinfo">ITermSetInfo</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>description</td>
+      <td><em>string</em></td>
+      <td>The term description</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td><em>string</em></td>
+      <td>The term id</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td><em>string</em></td>
+      <td>The term name</td>
+    </tr>
+    <tr>
+      <td>props</td>
+      <td><em>{ [key: string]: string; }</em></td>
+      <td>The term custom properties</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Taxonomy%20http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Ftaxonomy%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Ftaxonomy%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Ftaxonomy%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Dattabase. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

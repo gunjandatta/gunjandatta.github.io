@@ -1,0 +1,402 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Request Execution - gd-sprest</title>
+<meta name="description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+  <meta name="author" content="Gunjan Datta">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="gd-sprest">
+<meta property="og:title" content="Request Execution">
+<meta property="og:url" content="http://localhost:4000/dev/request-execution/">
+
+
+  <meta property="og:description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/dev/request-execution/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Dattabase",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="OQUBqgGhFiepr6bOALJ18e1GG6ti7E3ZGyDzAAM9yos" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="gd-sprest Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          gd-sprest
+          <span class="site-subtitle">SharePoint REST Framework</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/getting-started">Getting Started</a>
+            </li><li class="masthead__menu-item">
+              <a href="/examples">Code Examples</a>
+            </li><li class="masthead__menu-item">
+              <a href="/dev">Dev Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/topics">Dev Topics</a>
+            </li><li class="masthead__menu-item">
+              <a href="/api">REST API</a>
+            </li><li class="masthead__menu-item">
+              <a href="/extras">Framework Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/sprest/globals.html">Library Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/gunjandatta/sprest">GitHub</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <div class="sidebar sticky">
+    <nav class="nav__list">
+        
+        <input id="ac-toc" name="accordion-toc" type="checkbox" />
+        <label for="ac-toc">Toggle Menu</label>
+        <ul class="nav__items">
+            <li>
+                <a href=".." class="nav__sub-title">Back</a>
+            </li>
+
+            <!-- Autogenerate from Category -->
+            
+        </ul>
+
+        <!-- Autogenerate from Page -->
+        <ul class="nav__items">
+  <li><a href="#request-execution" class="nav__sub-title">Request Execution</a>
+    <ul>
+      <li><a href="#intellisense" class="nav__sub-title">Intellisense</a></li>
+      <li><a href="#options" class="nav__sub-title">Options</a></li>
+      <li><a href="#method-logic" class="nav__sub-title">Method Logic</a></li>
+      <li><a href="#code-example-typescript" class="nav__sub-title">Code Example (TypeScript)</a></li>
+    </ul>
+  </li>
+</ul>
+
+    </nav>
+</div>
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Request Execution">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Request Execution
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="request-execution">Request Execution</h2>
+
+<p>The library’s base object contains an “execute” method. This method has been designed to provide intellisense to the requested object, and reduce the amount of code required to get and post data from SharePoint 2013/Online.</p>
+
+<h3 id="intellisense">Intellisense</h3>
+
+<p>The execution method is designed to automatically determine the type interface, so the developer doesn’t have to specify it. This is designed to work in JavaScript, NodeJS and TypeScript solutions. No additional libraries are required to be downloaded.</p>
+<ul>
+  <li><a href="/dev/js">JavaScript</a></li>
+  <li><a href="/dev/ts">TypeScript</a></li>
+</ul>
+
+<h3 id="options">Options</h3>
+
+<ul>
+  <li><strong>execute(<em>resolve:function</em>)</strong>
+    <ul>
+      <li>The resolve method is executed if the request is successful</li>
+    </ul>
+  </li>
+  <li><strong>execute(<em>waitFl:boolean</em>)</strong>
+    <ul>
+      <li>The request is executed after the previous is completed</li>
+    </ul>
+  </li>
+  <li><strong>execute(<em>resolve:function, waitFl:boolean</em>)</strong>
+    <ul>
+      <li>Executes the request asynchronously</li>
+      <li>The resolve method is executed after the request execution is completed</li>
+    </ul>
+  </li>
+  <li><strong>execute(<em>resolve:function, reject:function, waitFl:boolean</em>)</strong>
+    <ul>
+      <li>Executes the request asynchronously</li>
+      <li>The resolve method is executed after the request execution is completed</li>
+      <li>The reject method is executed if the request is not successful</li>
+    </ul>
+  </li>
+  <li><strong>executeAndWait()</strong>
+    <ul>
+      <li>Executes the request synchronously</li>
+      <li>This is not recommended to use in production solutions, unless absolutely necessary.</li>
+      <li>This method was designed to be used to create scripts and to execute live requests in the browser console.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="method-logic">Method Logic</h3>
+
+<p><a href="/assets/images/execution-method.png"><img src="/assets/images/execution-method.png" alt="Execute Method" style="max-width:100%" /></a></p>
+
+<h3 id="code-example-typescript">Code Example (TypeScript)</h3>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">List</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">gd-sprest</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="k">export</span> <span class="kd">const</span> <span class="nx">createListData</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// Get the list</span>
+    <span class="kd">let</span> <span class="nx">list</span> <span class="o">=</span> <span class="nx">List</span><span class="p">(</span><span class="dl">"</span><span class="s2">Test List</span><span class="dl">"</span><span class="p">);</span>
+    
+    <span class="c1">// Create a loop to generate items</span>
+    <span class="kd">let</span> <span class="nx">items</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;=</span><span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// Get the item collection</span>
+      <span class="nx">list</span><span class="p">.</span><span class="nx">Items</span><span class="p">()</span>
+        <span class="c1">// Add an item</span>
+        <span class="p">.</span><span class="nx">add</span><span class="p">({</span>
+            <span class="na">Title</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Test Item </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">i</span>
+        <span class="p">})</span>
+        <span class="c1">// Execute the request</span>
+        <span class="p">.</span><span class="nx">execute</span><span class="p">(</span>
+            <span class="c1">// Success</span>
+            <span class="nx">item</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                <span class="c1">// If you return a promise here,</span>
+                <span class="c1">// it will wait for the promise to complete before executing the next request</span>
+
+                <span class="c1">// Save a reference to the item</span>
+                <span class="nx">items</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span>
+            <span class="p">},</span>
+            <span class="c1">// Error</span>
+            <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                <span class="c1">// Log</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Error creating item.</span><span class="dl">"</span><span class="p">);</span>
+            <span class="p">},</span>
+            <span class="c1">// True will wait for the previous request to complete before executing</span>
+            <span class="kc">true</span>
+        <span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="c1">// Wait for the items to be created</span>
+    <span class="nx">list</span><span class="p">.</span><span class="nx">done</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="c1">// Do something</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Request+Execution%20http%3A%2F%2Flocalhost%3A4000%2Fdev%2Frequest-execution%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdev%2Frequest-execution%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdev%2Frequest-execution%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Dattabase. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,444 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Executor - gd-sprest</title>
+<meta name="description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+  <meta name="author" content="Gunjan Datta">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="gd-sprest">
+<meta property="og:title" content="Executor">
+<meta property="og:url" content="http://localhost:4000/topics/executor/">
+
+
+  <meta property="og:description" content="An easy way to develop solutions for SharePoint 2013+/Online environments. ">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/topics/executor/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Dattabase",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="OQUBqgGhFiepr6bOALJ18e1GG6ti7E3ZGyDzAAM9yos" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="gd-sprest Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          gd-sprest
+          <span class="site-subtitle">SharePoint REST Framework</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/getting-started">Getting Started</a>
+            </li><li class="masthead__menu-item">
+              <a href="/examples">Code Examples</a>
+            </li><li class="masthead__menu-item">
+              <a href="/dev">Dev Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/topics">Dev Topics</a>
+            </li><li class="masthead__menu-item">
+              <a href="/api">REST API</a>
+            </li><li class="masthead__menu-item">
+              <a href="/extras">Framework Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs/sprest/globals.html">Library Docs</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/gunjandatta/sprest">GitHub</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <div class="sidebar sticky">
+    <nav class="nav__list">
+        
+        <input id="ac-toc" name="accordion-toc" type="checkbox" />
+        <label for="ac-toc">Toggle Menu</label>
+        <ul class="nav__items">
+            <li>
+                <a href=".." class="nav__sub-title">Back</a>
+            </li>
+
+            <!-- Autogenerate from Category -->
+            
+        </ul>
+
+        <!-- Autogenerate from Page -->
+        <ul class="nav__items">
+  <li><a href="#method-parameters" class="nav__sub-title">Method Parameters</a></li>
+  <li><a href="#reference-interfacedata" class="nav__sub-title">Reference Interface/Data</a></li>
+  <li><a href="#simple-for-loop" class="nav__sub-title">Simple For-Loop</a></li>
+  <li><a href="#handling-promises" class="nav__sub-title">Handling Promises</a></li>
+  <li><a href="#onexecuted-event" class="nav__sub-title">onExecuted Event</a></li>
+</ul>
+
+    </nav>
+</div>
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Executor">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Executor
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The executor is a reusable method for executing code based on an array of data.</p>
+
+<h2 id="method-parameters">Method Parameters</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>methodParams</td>
+      <td><em>Array&lt;any&gt;</em></td>
+      <td>Yes</td>
+      <td>An array of parameters to send to the <em>method</em>.</td>
+    </tr>
+    <tr>
+      <td>method</td>
+      <td><em>() =&gt; void | PromiseLike&lt;any&gt;</em></td>
+      <td>Yes</td>
+      <td>The method to execute, based on the length of the <em>methodParams</em>.</td>
+    </tr>
+    <tr>
+      <td>onExecuted</td>
+      <td><em>() =&gt; void | PromiseLike&lt;any&gt;</em></td>
+      <td>No</td>
+      <td>The event triggered after the <em>method</em> completes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="reference-interfacedata">Reference Interface/Data</h2>
+
+<p>Below is the sample data and interface being used for the code examples.</p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Helper</span><span class="p">,</span> <span class="nx">Types</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">gd-sprest</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="c1">// The method parameter interface</span>
+<span class="kr">interface</span> <span class="nx">IMethodParam</span> <span class="p">{</span>
+    <span class="nl">src</span><span class="p">:</span> <span class="nx">string</span><span class="p">;</span>
+    <span class="nl">srcList</span><span class="p">:</span> <span class="nx">string</span><span class="p">;</span>
+
+    <span class="nl">dst</span><span class="p">:</span> <span class="nx">string</span><span class="p">;</span>
+    <span class="nl">dstList</span><span class="p">:</span> <span class="nx">string</span><span class="p">;</span>
+
+    <span class="nl">files</span><span class="p">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="nx">Types</span><span class="p">.</span><span class="nx">SP</span><span class="p">.</span><span class="nx">IFileResult</span><span class="o">&gt;</span><span class="p">;</span>
+    <span class="nl">subFolders</span><span class="p">:</span> <span class="nb">Array</span><span class="o">&lt;</span><span class="nx">Types</span><span class="p">.</span><span class="nx">SP</span><span class="p">.</span><span class="nx">IFolderResult</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// The method parameters</span>
+<span class="kd">let</span> <span class="nx">methodParams</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="na">srcList</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Style Library</span><span class="dl">"</span><span class="p">,</span> <span class="na">dst</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/sites/dev</span><span class="dl">"</span><span class="p">,</span> <span class="na">dstList</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Style Library</span><span class="dl">"</span> <span class="p">},</span>
+    <span class="p">{</span> <span class="na">src</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/</span><span class="dl">"</span><span class="p">,</span> <span class="na">srcList</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Site Assets</span><span class="dl">"</span><span class="p">,</span> <span class="na">dst</span><span class="p">:</span> <span class="dl">"</span><span class="s2">/sites/dev</span><span class="dl">"</span><span class="p">,</span> <span class="na">dstList</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Site Assets</span><span class="dl">"</span> <span class="p">}</span>
+<span class="p">];</span>
+</code></pre></div></div>
+
+<h2 id="simple-for-loop">Simple For-Loop</h2>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">methodParams</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">methodParam</span> <span class="o">=</span> <span class="nx">methodParams</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+
+    <span class="c1">// Copy the files</span>
+    <span class="nx">copyFiles</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The code example below mirrors the for-loop above.</p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Run the executor</span>
+<span class="nx">Helper</span><span class="p">.</span><span class="nx">Executor</span><span class="o">&lt;</span><span class="nx">IMethodParam</span><span class="o">&gt;</span><span class="p">(</span><span class="nx">methodParams</span><span class="p">,</span>
+    <span class="c1">// Main Method</span>
+    <span class="nx">methodParam</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// Copy the files</span>
+        <span class="nx">copyFiles</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="handling-promises">Handling Promises</h2>
+
+<p>The executor will wait for promises to be resolved, before executing the next method.
+The code example below will assume the <em>copyFiles</em> method returns a promise.
+This will wait for the copyFiles method to complete, before executing the next method parameter.</p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Run the executor</span>
+<span class="nx">Helper</span><span class="p">.</span><span class="nx">Executor</span><span class="o">&lt;</span><span class="nx">IMethodParam</span><span class="o">&gt;</span><span class="p">(</span><span class="nx">methodParams</span><span class="p">,</span>
+    <span class="c1">// Main Method</span>
+    <span class="nx">methodParam</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// Copy the files</span>
+        <span class="k">return</span> <span class="nx">copyFiles</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="onexecuted-event">onExecuted Event</h2>
+
+<p>The optional onExecute event can be used for more complex logic.
+The code example below will query the source location for files and folders.
+The onExecuted event will be used to copy the files and sub-folders.
+Returning a promise in the event will cause the copyFiles method to complete, before executing the next method parameter.</p>
+
+<div class="language-ts highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Run the executor</span>
+<span class="nx">Helper</span><span class="p">.</span><span class="nx">Executor</span><span class="o">&lt;</span><span class="nx">IMethodParam</span><span class="o">&gt;</span><span class="p">(</span><span class="nx">methodParams</span><span class="p">,</span>
+    <span class="c1">// Main Method</span>
+    <span class="nx">methodParam</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// Return a promise</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="c1">// Get the source web</span>
+            <span class="nx">Web</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">.</span><span class="nx">src</span><span class="p">)</span>
+                <span class="c1">// Get the list</span>
+                <span class="p">.</span><span class="nx">Lists</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">.</span><span class="nx">srcList</span><span class="p">)</span>
+                <span class="c1">// Get the root folder</span>
+                <span class="p">.</span><span class="nx">RootFolder</span><span class="p">()</span>
+                <span class="c1">// Set the query</span>
+                <span class="p">.</span><span class="nx">query</span><span class="p">({</span>
+                    <span class="na">Expand</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">Files</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Folders</span><span class="dl">"</span><span class="p">]</span>
+                <span class="p">})</span>
+                <span class="c1">// Execute the request</span>
+                <span class="p">.</span><span class="nx">execute</span><span class="p">(</span><span class="nx">folder</span> <span class="o">=&gt;</span> <span class="p">{</span>
+                    <span class="c1">// Update the url information</span>
+                    <span class="nx">methodParam</span><span class="p">.</span><span class="nx">files</span> <span class="o">=</span> <span class="nx">folder</span><span class="p">.</span><span class="nx">Files</span><span class="p">.</span><span class="nx">results</span><span class="p">;</span>
+                    <span class="nx">methodParam</span><span class="p">.</span><span class="nx">folders</span> <span class="o">=</span> <span class="nx">folder</span><span class="p">.</span><span class="nx">Folders</span><span class="p">.</span><span class="nx">results</span><span class="p">;</span>
+
+                    <span class="c1">// Resolve the promise, passing the updated method parameters to the onExecuted event</span>
+                    <span class="nx">resolve</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">);</span>
+                <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">},</span>
+    <span class="c1">// Method triggered after the main method completes</span>
+    <span class="nx">methodParam</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="c1">// Copy the files</span>
+        <span class="k">return</span> <span class="nx">copyFiles</span><span class="p">(</span><span class="nx">methodParam</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">);</span>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Executor%20http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Fexecutor%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Fexecutor%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftopics%2Fexecutor%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Dattabase. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
