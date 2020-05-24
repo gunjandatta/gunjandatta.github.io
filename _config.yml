@@ -285,7 +285,7 @@ defaults:
       path: "/posts/"
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
       read_time: true
       comments: # true
@@ -296,7 +296,7 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: page
       author_profile: false
       classes: wide
       comments: false
