@@ -5,11 +5,11 @@ permalink: /topics/sp/
 ---
 SharePoint contains many core javascript files that can be used to customize the experience for the user, while keeping things native to SharePoint. Refer to this [blog post](https://dattabase.com/blog/sharepoint-javascript-libraries/) for additional details.
 
-#### Modal Dialog
+## Modal Dialog
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff408909(v=office.14).aspx)
 
-## Code Reference
+### Code Reference
 
 ```ts
 // JavaScript
@@ -21,7 +21,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.ModalDialog
 ```
 
-## Dialog Options
+### Dialog Options
 
 | Property | Type | Description |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ Helper.SP.ModalDialog
 | x | number | An integer value that specifies the x-offset of the dialog. This value works like the CSS left value. |
 | y | number | An integer value that specifies the y-offset of the dialog. This value works like the CSS top value. |
 
-## Methods
+### Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
@@ -54,11 +54,11 @@ Helper.SP.ModalDialog
 | showWaitScreenSize | _(title: string, message: string, callback: () => void, height: number, width: number)_ | Displays a wait screen dialog that has a Cancel button using the specified parameters. |
 | showWaitScreenWithNoClose | _(title: string, message: string, height: number, width: number)_ | Displays a wait screen dialog that does not have a Cancel button using the specified parameters. |
 
-#### Notify
+## Notify
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff408137(v=office.14).aspx)
 
-## Code Reference
+### Code Reference
 
 ```ts
 // JavaScript
@@ -70,7 +70,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.Notify
 ```
 
-## Methods
+### Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
@@ -78,11 +78,11 @@ Helper.SP.Notify
 | load | | Method to ensure the core script is loaded. |
 | removeNotification | _(id: string)_ | Removes the specified notification from the page. |
 
-#### Status
+## Status
 
 [Documentation](https://msdn.microsoft.com/en-us/library/office/ff407795(v=office.14).aspx)
 
-## Code Reference
+### Code Reference
 
 ```ts
 // JavaScript
@@ -94,7 +94,7 @@ import { Helper } from "gd-sprest";
 Helper.SP.Status
 ```
 
-## Methods
+### Methods
 
 | Name | Parameters | Description |
 | --- | --- | --- |
