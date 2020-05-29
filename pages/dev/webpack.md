@@ -24,7 +24,7 @@ The `tsconfig.json` file contains the TypeScript configuration. Below is a basic
 }
 ```
 
-## NPM Installation Command
+## Dev Libraries
 
 ```
 npm i --save-dev @babel/core @babel/preset-env webpack webpack-cli ts-loader babel-loader
@@ -38,9 +38,83 @@ The `@babel/core`, `babel-loader` and `@babel/preset-env` are required to compil
 
 The `webpack` and `webpack-cli` libraries are required to bundle the code.
 
-## Promise Library Dependency
+### CSS/SASS Support
 
-The `gd-sprest` library does depend on the Promise library. As browsers support web components, it may or maynot be necessary to include an additional library in the bundle. If you do need to, then you can reference the distribution file which includes the promise library from the `core-js` library.
+The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
+
+```
+npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader ts-loader node-sass sass-loader css-loader style-loader
+```
+
+#### WebPack Configuration Updates
+
+Add a rule for compiling sass/css in the webpack configuration.
+
+```
+    // Loaders
+    module: {
+        rules: [
+            // SASS to JavaScript
+            {
+                // Target the sass and css files
+                test: /\.s?css$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            }
+        ]
+    }
+```
+
+### [React](https://reactjs.org/)
+
+The `@types/react` and `@types/react-dom` are optional, but recommended to provide intellisense for react. The `react` and `react-dom` are both required for react projects. The `@babel/preset-react` will be required for the webpack configuration for compiling react to JavaScript.
+
+```
+npm i --save-dev @types/react @types/react-dom react react-dom @babel/preset-react
+```
+
+#### WebPack Configuration Updates
+
+Update the TypeScript rule to include the react preset library.
+
+```
+    // Loaders
+    module: {
+        rules: [
+            // Handle TypeScript Files
+            {
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: "babel-loader",
+                        options: {
+                            presets: [
+                                "@babel/preset-env", "@babel/preset-react"
+                            ]
+                        }
+                    },
+                    {
+                        loader: "ts-loader"
+                    }
+                ]
+            }
+        ]
+    }
+```
+
+## WebPack Configurations
+
+### gd-sprest
+
+Below is a sample configuration for a project using `gd-sprest`.
 
 ```js
 var path = require("path");
@@ -75,7 +149,7 @@ module.exports = {
             // TypeScript to JavaScript
             {
                 // Target TypeScript files
-                test: /\.tsx?$/,
+                test: /\.ts$/,
                 exclude: /node_modules/,
                 use: [
                     // JavaScript (ES5) -> JavaScript (Current)
@@ -92,31 +166,23 @@ module.exports = {
 }
 ```
 
-## CSS/SASS Support
-
-The `node-sass` and `sass-loader` libraries are required if you are using `.sass` code. The `css-loader` and `style-loader` libraries are required if you want to include `.css` code in the bundle.
-
-### NPM Install
-```
-npm i --save-dev webpack webpack-cli @babel/core @babel/preset-env babel-loader ts-loader node-sass sass-loader css-loader style-loader
-```
-
-### webpack.config.js
+### gd-sprest-bs
 
 ```js
 var path = require("path");
 
 // Return the configuration
 module.exports = {
-    // Include the gd-sprest global library
+    // Include the gd-sprest-bs icons global library
     entry: [
-        "./node_modules/gd-sprest/dist/gd-sprest.min.js",
+        "./node_modules/gd-sprest/dist/gd-sprest-bs-icons.min.js",
         "./src/index.ts"
     ],
 
     // Exclude the gd-sprest reference from the bundle
     externals: {
         "gd-sprest": "$REST"
+        "gd-sprest-bs": "$REST"
     },
 
     // Output location
@@ -150,13 +216,71 @@ module.exports = {
             // TypeScript to JavaScript
             {
                 // Target TypeScript files
-                test: /\.tsx?$/,
+                test: /\.ts$/,
                 exclude: /node_modules/,
                 use: [
                     // JavaScript (ES5) -> JavaScript (Current)
                     {
                         loader: "babel-loader",
                         options: { presets: ["@babel/preset-env"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
+    }
+}
+```
+
+### gd-sprest-bsx
+
+```js
+var path = require("path");
+
+// Return the configuration
+module.exports = {
+    // Include the gd-sprest-bs icons global library
+    entry: "./src/index.ts",
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".js", ".jsx", ".css", ".scss", ".ts", ".tsx"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
+            // SASS to JavaScript
+            {
+                // Target the sass and css files
+                test: /\.s?css$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            },
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env", "@babel/preset-react"] }
                     },
                     // TypeScript -> JavaScript (ES5)
                     { loader: "ts-loader" }
