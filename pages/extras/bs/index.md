@@ -22,15 +22,10 @@ npm i --save gd-sprest-bs
 
 ### Reference the Script
 
-No Icons
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.5.7/gd-sprest-bs.min.js"></script>
 ```
 
-Including Icons
-```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs-icons.min.js"></script>
-```
 ## Styling
 
 The bootstrap css will only be applied to elements with a parent element containing the ```bs``` class. This will ensure that other elements on the page will not be affected.
@@ -47,31 +42,16 @@ The bootstrap css will only be applied to elements with a parent element contain
 
 Edit the  ```config/config.js``` file and set the externals property. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Now references to both libraries will reference the global $REST variable.
 
-#### No Icons
-
-```js
-"externals": {
-    "gd-sprest": {
-        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-        "globalName": "$REST"
-    },
-    "gd-sprest-bs": {
-        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-        "globalName": "$REST"
-    }
-}
-```
-
 #### Icons
 
 ```js
 "externals": {
     "gd-sprest": {
-        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
+        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
         "globalName": "$REST"
     },
     "gd-sprest-bs": {
-        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
+        "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
         "globalName": "$REST"
     }
 }
@@ -81,34 +61,12 @@ Edit the  ```config/config.js``` file and set the externals property. Since the 
 
 Edit the ```webpack.config.js``` file and reference the library manually. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Since we are loading the library manually, we want to exclude the library from the bundle by setting the ```externals``` property.
 
-#### No Icons
-
 ```js
 // WebPack Configuration
 module.exports = {
     // Package the bundled file from the dist folder
     entry = [
         "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-        "./src/index.ts"
-    ],
-
-    // Exclude the gd-sprest-bs reference from the bundle
-    // List the libraries you have referenced in your code here
-    externals = {
-        "gd-sprest": "$REST",
-        "gd-sprest-bs": "$REST"
-    }
-}
-```
-
-#### Icons
-
-```js
-// WebPack Configuration
-module.exports = {
-    // Package the bundled file from the dist folder
-    entry = [
-        "./node_modules/gd-sprest-bs/dist/gd-sprest-bs-icons.min.js",
         "./src/index.ts"
     ],
 

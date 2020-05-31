@@ -173,9 +173,9 @@ var path = require("path");
 
 // Return the configuration
 module.exports = {
-    // Include the gd-sprest-bs icons global library
+    // Include the gd-sprest-bs global library
     entry: [
-        "./node_modules/gd-sprest/dist/gd-sprest-bs-icons.min.js",
+        "./node_modules/gd-sprest/dist/gd-sprest-bs.min.js",
         "./src/index.ts"
     ],
 

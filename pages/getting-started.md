@@ -35,18 +35,10 @@ var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/
 
 ### Bootstrap
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs-icons.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.5.7/gd-sprest-bs.min.js"></script>
 ```
 ```js
-var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs-icons.min.js"; document.head.appendChild(s);
-```
-
-### Bootstrap (No Icons)
-```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs.min.js"></script>
-```
-```js
-var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.4.5/gd-sprest-bs.min.js"; document.head.appendChild(s);
+var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.5.7/gd-sprest-bs.min.js"; document.head.appendChild(s);
 ```
 
 ## Browser Console
