@@ -112,9 +112,9 @@ Update the TypeScript rule to include the react preset library.
 
 ## WebPack Configurations
 
-### gd-sprest
+Each library will have a `build` and `dist` folder containing the JavaScript source code and as a bundle. By default, each package will default to the `build\index.js` source file. Below are examples for loading the library as an **external source**.
 
-Below is a sample configuration for a project using `gd-sprest`.
+### gd-sprest
 
 ```js
 var path = require("path");
@@ -175,7 +175,7 @@ var path = require("path");
 module.exports = {
     // Include the gd-sprest-bs global library
     entry: [
-        "./node_modules/gd-sprest/dist/gd-sprest-bs.min.js",
+        "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
         "./src/index.ts"
     ],
 
@@ -199,7 +199,7 @@ module.exports = {
     // Loaders
     module: {
         rules: [
-            // SASS to JavaScript
+            // SASS to JavaScript (Optional)
             {
                 // Target the sass and css files
                 test: /\.s?css$/,
@@ -241,7 +241,10 @@ var path = require("path");
 // Return the configuration
 module.exports = {
     // Include the gd-sprest-bs icons global library
-    entry: "./src/index.ts",
+    entry: [
+        "./node_modules/gd-sprest-bsx/dist/gd-sprest-bsx.min.js",
+        "./src/index.ts"
+    ],
 
     // Output location
     output: {
