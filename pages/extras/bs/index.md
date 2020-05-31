@@ -4,9 +4,7 @@ category: bs
 permalink: /extras/bs/
 sidebar-auto: true
 ---
-This library extends the [gd-bs library](https://github.com/gunjandatta/gd-bs), which uses the [Bootstrap Framework](https://getbootstrap.com/) to create modern components in SharePoint 2013/Online (Classic) environments. Reference the [gd-sprest-bs library](https://github.com/gunjandatta/sprest-bs) to view the source code.
-
-If you like this library, please [Star it](https://github.com/gunjandatta/sprest-bs). If there are any issues/bugs/requests, create an _[issue here](https://github.com/gunjandatta/spest-bs/issues)_.
+The [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs) library extends the [gd-bs library](https://github.com/gunjandatta/gd-bs), which includes the [Bootstrap Framework w/ Icons](https://getbootstrap.com/) to create modern components in SharePoint 2013/Online (Classic) environments. For React projects, you can use the [gd-sprest-bsx](https://github.com/gunjandatta/sprest-bsx) library.
 
 ## Getting Started
 
@@ -16,14 +14,30 @@ If you like this library, please [Star it](https://github.com/gunjandatta/sprest
 
 ### Installation
 
+#### JavaScript/TypeScript
+
 ```js
 npm i --save gd-sprest-bs
 ```
 
+#### React
+
+```js
+npm i --save gd-sprest-bsx
+```
+
 ### Reference the Script
+
+#### JavaScript/TypeScript
 
 ```html
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.5.7/gd-sprest-bs.min.js"></script>
+```
+
+#### React
+
+```html
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bsx/[Coming Soon]/gd-sprest-bsx.min.js"></script>
 ```
 
 ## Styling
@@ -36,13 +50,11 @@ The bootstrap css will only be applied to elements with a parent element contain
 </div>
 ```
 
-## Project Configuration
-
-### SPFx
+## SPFx Configuration
 
 Edit the  ```config/config.js``` file and set the externals property. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Now references to both libraries will reference the global $REST variable.
 
-#### Icons
+### External Reference (config/config.js)
 
 ```js
 "externals": {
@@ -53,28 +65,6 @@ Edit the  ```config/config.js``` file and set the externals property. Since the 
     "gd-sprest-bs": {
         "path": "node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
         "globalName": "$REST"
-    }
-}
-```
-
-### WebPack
-
-Edit the ```webpack.config.js``` file and reference the library manually. Since the gd-sprest-bs library contains the gd-sprest core library, we can point both references to the same file. Since we are loading the library manually, we want to exclude the library from the bundle by setting the ```externals``` property.
-
-```js
-// WebPack Configuration
-module.exports = {
-    // Package the bundled file from the dist folder
-    entry = [
-        "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-        "./src/index.ts"
-    ],
-
-    // Exclude the gd-sprest-bs reference from the bundle
-    // List the libraries you have referenced in your code here
-    externals = {
-        "gd-sprest": "$REST",
-        "gd-sprest-bs": "$REST"
     }
 }
 ```
