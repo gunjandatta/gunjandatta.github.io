@@ -24,7 +24,7 @@ The `tsconfig.json` file contains the TypeScript configuration. Below is a basic
 }
 ```
 
-## Dev Libraries
+## Import the Libraries
 
 ```
 npm i --save-dev @babel/core @babel/preset-env webpack webpack-cli ts-loader babel-loader
@@ -110,9 +110,13 @@ Update the TypeScript rule to include the react preset library.
     }
 ```
 
-## WebPack Configurations
+## Example Configurations
 
-Each library will have a `build` and `dist` folder containing the JavaScript source code and as a bundle. By default, each package will default to the `build\index.js` source file. Below are examples for loading the library as an **external source**.
+Each library contains a `build` and `dist` folder containing the JavaScript source code and as a bundle. By default, each package will default to the `build\index.js` source file. Any non-JavaScript file (.html, .scss, .css, .svg) has been compiled into JavaScript to ensure the consumption of the library is easier.
+
+**External Resources**
+
+WebPack allows you to reference libraries as an external resource. Below are examples for loading the libraries as an **external source**.
 
 ### gd-sprest
 
