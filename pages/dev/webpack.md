@@ -112,7 +112,7 @@ Update the TypeScript rule to include the react preset library.
 
 ## Example Configurations
 
-Each library contains a `build` and `dist` folder containing the JavaScript source code and as a bundle. By default, each package will default to the `build\index.js` source file. Any non-JavaScript file (.html, .scss, .css, .svg) has been compiled into JavaScript to ensure the consumption of the library is easier.
+Each library contains a `build` folder containing the JavaScript source code and a `dist` folder containing the bundled library. By default, each package will default to the `build\index.js` source file. Any non-JavaScript file (.html, .scss, .css, .svg) has been compiled into JavaScript to ensure the consumption of the library is easier.
 
 **External Resources**
 
