@@ -116,7 +116,7 @@ Each library contains a `build` folder containing the JavaScript source code and
 
 **External Resources**
 
-WebPack allows you to reference libraries as an external resource. Below are examples for loading the libraries as an **external source**.
+WebPack allows you to reference libraries as an external resource. Below are examples for loading the libraries as an external source.
 
 ### gd-sprest
 
