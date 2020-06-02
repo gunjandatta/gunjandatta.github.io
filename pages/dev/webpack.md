@@ -112,11 +112,7 @@ Update the TypeScript rule to include the react preset library.
 
 ## Example Configurations
 
-Each library contains a `build` folder containing the JavaScript source code and a `dist` folder containing the bundled library. By default, each package will default to the `build\index.js` source file. Any non-JavaScript file (.html, .scss, .css, .svg) has been compiled into JavaScript to ensure the consumption of the library is easier.
-
-**External Resources**
-
-WebPack allows you to reference libraries as an external resource. Below are examples for loading the libraries as an external source.
+Each `gd-*` npm package contains a `build` folder containing the JavaScript source code and a `dist` folder containing the bundled library. By default, each package will default to the `build\index.js` source file. Any non-JavaScript file (.html, .scss, .css, .svg) has been compiled into JavaScript to ensure the consumption of the library is easier.
 
 ### gd-sprest
 
@@ -125,11 +121,52 @@ var path = require("path");
 
 // Return the configuration
 module.exports = {
-    // Include the gd-sprest global library
-    entry: [
-        "./node_modules/gd-sprest/dist/gd-sprest.min.js",
-        "./src/index.ts"
-    ],
+    // Main entry point of the application
+    entry: "./src/index.ts",
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".js", ".ts"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
+    }
+}
+```
+
+#### External Resource
+
+```js
+var path = require("path");
+
+// Return the configuration
+module.exports = {
+    // Main entry point of the application
+    entry: "./src/index.ts",
 
     // Exclude the gd-sprest reference from the bundle
     externals: {
@@ -177,11 +214,66 @@ var path = require("path");
 
 // Return the configuration
 module.exports = {
-    // Include the gd-sprest-bs global library
-    entry: [
-        "./node_modules/gd-sprest-bs/dist/gd-sprest-bs.min.js",
-        "./src/index.ts"
-    ],
+    // Main entry point of the application
+    entry: "./src/index.ts",
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".css", ".js", ".scss", ".ts"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
+            // SASS to JavaScript
+            {
+                // Target the sass and css files
+                test: /\.s?css$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            },
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.ts$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
+    }
+}
+```
+
+#### External Resource
+
+```js
+var path = require("path");
+
+// Return the configuration
+module.exports = {
+    // Main entry point of the application
+    entry: "./src/index.ts",
 
     // Exclude the gd-sprest reference from the bundle
     externals: {
@@ -197,13 +289,13 @@ module.exports = {
 
     // Resolve the file names
     resolve: {
-        extensions: [".js", ".css", ".scss", ".ts"]
+        extensions: [".css", ".js", ".scss", ".ts"]
     },
 
     // Loaders
     module: {
         rules: [
-            // SASS to JavaScript (Optional)
+            // SASS to JavaScript
             {
                 // Target the sass and css files
                 test: /\.s?css$/,
@@ -244,11 +336,66 @@ var path = require("path");
 
 // Return the configuration
 module.exports = {
-    // Include the gd-sprest-bs icons global library
-    entry: [
-        "./node_modules/gd-sprest-bsx/dist/gd-sprest-bsx.min.js",
-        "./src/index.ts"
-    ],
+    // Main entry point of the application
+    entry: "./src/index.tsx",
+
+    // Output location
+    output: {
+        path: path.resolve(__dirname, "dist"),
+        filename: "app.js"
+    },
+
+    // Resolve the file names
+    resolve: {
+        extensions: [".js", ".jsx", ".css", ".scss", ".ts", ".tsx"]
+    },
+
+    // Loaders
+    module: {
+        rules: [
+            // SASS to JavaScript
+            {
+                // Target the sass and css files
+                test: /\.s?css$/,
+                // Define the compiler to use
+                use: [
+                    // Create style nodes from the CommonJS code
+                    { loader: "style-loader" },
+                    // Translate css to CommonJS
+                    { loader: "css-loader" },
+                    // Compile sass to css
+                    { loader: "sass-loader" }
+                ]
+            },
+            // TypeScript to JavaScript
+            {
+                // Target TypeScript files
+                test: /\.tsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    // JavaScript (ES5) -> JavaScript (Current)
+                    {
+                        loader: "babel-loader",
+                        options: { presets: ["@babel/preset-env", "@babel/preset-react"] }
+                    },
+                    // TypeScript -> JavaScript (ES5)
+                    { loader: "ts-loader" }
+                ]
+            }
+        ]
+    }
+}
+```
+
+#### External Resource
+
+```js
+var path = require("path");
+
+// Return the configuration
+module.exports = {
+    // Main entry point of the application
+    entry: "./src/index.tsx",
 
     // Output location
     output: {
