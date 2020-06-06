@@ -14,7 +14,7 @@ permalink: /extras/bs/components/card/
     </div>
 </div>
 
-#### React
+### React
 
 ```tsx
 import * as React from "react";

@@ -14,7 +14,7 @@ permalink: /extras/bs/components/medialist/
     </div>
 </div>
 
-#### React
+### React
 
 ```tsx
 import * as React from "react";

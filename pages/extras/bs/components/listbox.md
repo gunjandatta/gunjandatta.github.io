@@ -13,7 +13,7 @@ permalink: /extras/bs/components/listbox/
     </div>
 </div>
 
-#### React
+### React
 
 ```tsx
 import * as React from "react";
