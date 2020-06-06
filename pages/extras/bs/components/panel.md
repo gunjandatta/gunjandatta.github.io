@@ -31,7 +31,7 @@ export class IDemo extends React.Component {
                 />
                 <Panel
                     type={Components.PanelTypes.Large}
-                    modalProps={{
+                    modalProps={\{
                         id: "bsPanelDemo",
                         title: "Panel Demo",
                         onRenderBody: el => {
