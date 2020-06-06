@@ -14,6 +14,24 @@ permalink: /extras/bs/components/pagination/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import { Pagination } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Pagination
+                numberOfPages={5}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

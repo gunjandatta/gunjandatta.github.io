@@ -14,6 +14,28 @@ permalink: /extras/bs/components/tooltip/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import { Tooltip } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Tooltip
+                text="Tooltip"
+                options={{
+                    html: true,
+                    title: "My Title"
+                }}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

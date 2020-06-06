@@ -13,6 +13,47 @@ permalink: /extras/bs/components/panel/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import { Button, Components, Panel } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <div>
+                <Button
+                    target="#bsPanelDemo"
+                    toggle="modal"
+                    text="Show Panel"
+                />
+                <Panel
+                    type={Components.PanelTypes.Large}
+                    modalProps={{
+                        id: "bsPanelDemo",
+                        title: "Panel Demo",
+                        onRenderBody: el => {
+                            el.innerHTML = "<p>This is the content of the panel</p>"
+                        },
+                        onRenderFooter: el => {
+                            Components.ButtonGroup({
+                                el,
+                                buttons: [
+                                    { text: "Cancel", type: Components.ButtonTypes.Danger, className: "mr-3" },
+                                    { text: "Submit", type: Components.ButtonTypes.Primary }
+                                ]
+                            });
+                        }
+                    }}
+                />
+            </div>
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

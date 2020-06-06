@@ -14,6 +14,36 @@ permalink: /extras/bs/components/progressgroup/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import { ProgressGroup } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <ProgressGroup
+                progressbars={[
+                    {
+                        size: 25,
+                        isStriped: true,
+                        label: "25%"
+                    },
+                    {
+                        size: 50,
+                        isAnimated: true,
+                        isStriped: true,
+                        label: "50%"
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

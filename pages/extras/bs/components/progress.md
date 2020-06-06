@@ -14,6 +14,25 @@ permalink: /extras/bs/components/progress/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import {  } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Progress
+                size={25}
+                label="25%"
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

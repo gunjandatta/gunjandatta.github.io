@@ -14,6 +14,47 @@ permalink: /extras/bs/components/navbar/
     </div>
 </div>
 
+### React
+
+```tsx
+import * as React from "react";
+import { Navbar } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Navbar
+                brand="Navbar"
+                items={[
+                    {
+                        text: "Home",
+                        isActive: true
+                    },
+                    {
+                        text: "Link"
+                    },
+                    {
+                        text: "Disabled Link",
+                        isDisabled: true
+                    },
+                    {
+                        text: "Dropdown Link",
+                        items: [
+                            { text: "Link 1" },
+                            { text: "Link 2" },
+                            { text: "Link 3" },
+                            { text: "Link 4" },
+                            { text: "Link 5" }
+                        ]
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>
