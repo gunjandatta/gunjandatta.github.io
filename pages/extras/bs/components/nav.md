@@ -14,6 +14,31 @@ permalink: /extras/bs/components/nav/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Nav } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Nav
+                isPills={true}
+                items={[
+                    { title: "Nav 1", isActive: true },
+                    { title: "Nav 2" },
+                    { title: "Nav 3" },
+                    { title: "Nav 4" },
+                    { title: "Nav 5" }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

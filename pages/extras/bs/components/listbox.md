@@ -13,6 +13,34 @@ permalink: /extras/bs/components/listbox/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { ListBox } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <ListBox
+                label="Colors"
+                placeholder="Search Colors"
+                items={[
+                    { text: "Red", value: "red" },
+                    { text: "Blue", value: "blue" },
+                    { text: "Green", value: "green" },
+                    { text: "Purple", value: "purple" },
+                    { text: "Brown", value: "brown" },
+                    { text: "Yellow", value: "yellow" },
+                    { text: "Orange", value: "orange" }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

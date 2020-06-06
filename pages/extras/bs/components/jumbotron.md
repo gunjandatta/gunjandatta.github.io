@@ -14,6 +14,25 @@ permalink: /extras/bs/components/jumbotron/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Jumbotron } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Jumbotron
+                title="My Jumbotron"
+                lead="This is a jumbotron"
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

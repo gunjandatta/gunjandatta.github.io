@@ -14,6 +14,65 @@ permalink: /extras/bs/components/form/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Components, Form } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Form
+                rows={[
+                    {
+                        columns: [
+                            {
+                                control: {
+                                    label: "First Name:",
+                                    name: "FName",
+                                    type: Components.FormControlTypes.TextField
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        columns: [
+                            {
+                                control: {
+                                    label: "Last Name:",
+                                    name: "LName",
+                                    type: Components.FormControlTypes.TextField
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        columns: [
+                            {
+                                control: {
+                                    label: "Choices:",
+                                    name: "Choice",
+                                    type: Components.FormControlTypes.Dropdown,
+                                    items: [
+                                        { text: "Choice 1", value: 1 },
+                                        { text: "Choice 2", value: 2 },
+                                        { text: "Choice 3", value: 3 },
+                                        { text: "Choice 4", value: 4 },
+                                        { text: "Choice 5", value: 5 }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

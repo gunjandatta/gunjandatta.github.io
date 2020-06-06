@@ -14,6 +14,31 @@ permalink: /extras/bs/components/dropdown/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Dropdown } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Dropdown
+                label="Select a Choice"
+                items={[
+                    { text: "Choice 1", value: 1 },
+                    { text: "Choice 2", value: 2 },
+                    { text: "Choice 3", value: 3 },
+                    { text: "Choice 4", value: 4 },
+                    { text: "Choice 5", value: 5 }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

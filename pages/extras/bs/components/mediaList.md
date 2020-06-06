@@ -14,6 +14,64 @@ permalink: /extras/bs/components/medialist/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { MediaList, IconTypes } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <MediaList
+                items={[
+                    {
+                        icon: {
+                            icon: IconTypes.BootstrapReboot,
+                            className: "mr-3"
+                        },
+                        body: "<h5>Default Item</h5>This is the default media object."
+                    },
+                    {
+                        icon: {
+                            icon: IconTypes.BootstrapReboot,
+                            className: "mr-3",
+                            type: Components.MediaImageTypes.Top
+                        },
+                        body: "<h5>Top Aligned</h5>This is a media object."
+                    },
+                    {
+                        icon: {
+                            icon: IconTypes.BootstrapReboot,
+                            className: "mr-3",
+                            type: Components.MediaImageTypes.Center
+                        },
+                        body: "<h5>Center Aligned</h5>This is a media object."
+                    },
+                    {
+                        icon: {
+                            icon: IconTypes.BootstrapReboot,
+                            className: "mr-3",
+                            type: Components.MediaImageTypes.Bottom
+                        },
+                        body: "<h5>Bottom Aligned</h5>This is a media object."
+                    },
+                    {
+                        icon: {
+                            icon: IconTypes.BootstrapReboot,
+                            className: "mr-3",
+                            type: Components.MediaImageTypes.Right
+                        },
+                        body: "<h5>Right Aligned</h5>This is a media object."
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

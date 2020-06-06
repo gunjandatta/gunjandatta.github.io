@@ -14,6 +14,43 @@ permalink: /extras/bs/components/cardgroup/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { CardGroup } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <CardGroup
+                cards={[
+                    {
+                        body: [{
+                            title: "Card 1",
+                            text: "This is the first card."
+                        }]
+                    },
+                    {
+                        body: [{
+                            title: "Card 2",
+                            text: "This is the second card."
+                        }]
+                    },
+                    {
+                        body: [{
+                            title: "Card 3",
+                            text: "This is the third card."
+                        }]
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

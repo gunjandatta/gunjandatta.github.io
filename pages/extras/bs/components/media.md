@@ -14,6 +14,33 @@ permalink: /extras/bs/components/media/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Media, IconTypes } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Media
+                icon={{
+                    icon: IconTypes.BootstrapReboot,
+                    className: "mr-3"
+                }}
+                body={
+                    <div>
+                        <h5>Media Object</h5>
+                        <p>This is an example of a media object</p>
+                    </div>
+                }
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

@@ -14,6 +14,32 @@ permalink: /extras/bs/components/listgroup/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Components, ListGroup } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <ListGroup
+                colWidth={4}
+                isTabs={true}
+                items={[
+                    { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
+                    { tabName: "Tab 2", content: "This is the content for tab 2.", badge: { content: "10", type: Components.BadgeTypes.Primary } },
+                    { tabName: "Tab 3", content: "This is the content for tab 3." },
+                    { tabName: "Tab 4", content: "This is the content for tab 4." },
+                    { tabName: "Tab 5", content: "This is the content for tab 5." }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

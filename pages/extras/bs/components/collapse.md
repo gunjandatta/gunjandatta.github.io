@@ -14,6 +14,32 @@ permalink: /extras/bs/components/collapse/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Button, Collapse } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <div>
+                <Button
+                    target="#demoCollapse"
+                    toggle="collapse"
+                    text="Collapse Demo"
+                />
+                <Collapse
+                    id="demoCollapse"
+                    content="This is the content to be collapsed."
+                />
+            </div>
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

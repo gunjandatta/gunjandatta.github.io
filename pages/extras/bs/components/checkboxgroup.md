@@ -14,6 +14,28 @@ permalink: /extras/bs/components/checkboxgroup/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { CheckboxGroup } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <CheckboxGroup
+                items={[
+                    { label: "Option 1" },
+                    { label: "Option 2" },
+                    { label: "Option 3" }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

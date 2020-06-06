@@ -14,6 +14,33 @@ permalink: /extras/bs/components/modal/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Button, Components, Modal } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <div>
+                <Button
+                    target="#bsModalDemo"
+                    text="Show Modal"
+                    toggle="modal"
+                />
+                <Modal
+                    id="bsModalDemo"
+                    title="Modal Demo"
+                    body={<p>This is the body of the modal</p>}
+                />
+            </div>
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

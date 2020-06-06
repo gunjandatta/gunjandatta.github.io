@@ -14,6 +14,44 @@ permalink: /extras/bs/components/carousel/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Carousel } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Carousel
+                enableControls={true}
+                enableIndicators={true}
+                id="carouselDemo"
+                items={[
+                    {
+                        captions: "<h5>First Slide</h5>",
+                        imageUrl: "https://via.placeholder.com/400x200",
+                        imageAlt: "First Slide",
+                        isActive: true
+                    },
+                    {
+                        captions: "<h5>Second Slide</h5>",
+                        imageUrl: "https://via.placeholder.com/400x200",
+                        imageAlt: "Second Slide"
+                    },
+                    {
+                        captions: "<h5>Third Slide</h5>",
+                        imageUrl: "https://via.placeholder.com/400x200",
+                        imageAlt: "Third Slide"
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>
