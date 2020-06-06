@@ -14,6 +14,33 @@ permalink: /extras/bs/components/card/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Card, Components } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Card
+                body={[
+                    {
+                        title: "Card Title",
+                        text: "This is the card contents.",
+                        actions: [
+                            text: "Card Action",
+                            buttonType: Components.ButtonTypes.Primary
+                        ]
+                    }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>
