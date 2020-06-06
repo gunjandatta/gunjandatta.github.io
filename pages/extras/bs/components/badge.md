@@ -14,6 +14,24 @@ permalink: /extras/bs/components/badge/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Badge } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Badge
+                content="Badge"
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

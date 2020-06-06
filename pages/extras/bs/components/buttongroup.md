@@ -14,6 +14,29 @@ permalink: /extras/bs/components/buttongroup/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { ButtonGroup, Components } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <ButtonGroup
+                buttonType={Components.ButtonTypes.Primary}
+                buttons={[
+                    { text: "Left" },
+                    { text: "Middle" },
+                    { text: "Right" }
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

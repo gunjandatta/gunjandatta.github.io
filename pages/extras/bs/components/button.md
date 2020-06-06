@@ -14,6 +14,27 @@ permalink: /extras/bs/components/button/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Button } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Button
+                text="Button"
+                onClick={(ev) => {
+                    alert("The button was clicked.");
+                }}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

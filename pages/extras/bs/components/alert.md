@@ -14,6 +14,23 @@ permalink: /extras/bs/components/alert/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import {  } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

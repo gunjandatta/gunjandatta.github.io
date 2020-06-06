@@ -14,6 +14,30 @@ permalink: /extras/bs/components/accordion/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Accordion } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Accordion
+                autoCollapse={true}
+                id="demoAccordion"
+                items={[
+                    { btnProps: { text: "Item 1" }, content: "This is the content for item 1." },
+                    { btnProps: { text: "Item 2" }, content: "This is the content for item 2." },
+                    { btnProps: { text: "Item 3" }, content: "This is the content for item 3." },
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

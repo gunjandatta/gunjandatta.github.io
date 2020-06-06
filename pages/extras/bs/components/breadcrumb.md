@@ -14,6 +14,28 @@ permalink: /extras/bs/components/breadcrumb/
     </div>
 </div>
 
+#### React
+
+```tsx
+import * as React from "react";
+import { Breadcrumb } from "gd-sprest-bsx";
+
+export class IDemo extends React.Component {
+    // Render the component
+    render() {
+        return (
+            <Breadcrumb
+                items={[
+                    { text: "Root", href: "/" },
+                    { text: "Web 1", href: "/web" },
+                    { text: "Web 1-1", href: "/web/1" },
+                ]}
+            />
+        );
+    }
+}
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>
