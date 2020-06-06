@@ -90,6 +90,14 @@ This solution will use the `gd-sprest-bs-starter` solution and build a basic das
 * Learn how to configure datatables.net plugin
 * Learn how to create events to connect components together
 
+### [Basic Dashboard (React)](https://github.com/gunjandatta/sp-dashboard-react/wiki)
+
+This is the same solution as the `Basic Dashboard` example, but will use the `gd-sprest-bsx` react components
+
+* Learn how to create a React solution
+* Learn how to use the `gd-sprest-bsx` Bootstrap React components
+* Learn basic examples of the React event lifecycle
+
 ### [Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)
 
 This solution will demonstrate how to create custom new/display/edit forms for a SharePoint list. This solution will work in 2013+ environments.
