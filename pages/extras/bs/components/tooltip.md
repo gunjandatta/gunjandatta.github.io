@@ -11,7 +11,7 @@ permalink: /extras/bs/components/tooltip/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/tooltips">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_tooltip_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_tooltip_d_.itooltipprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_tooltip_d_.itooltipprops.html">Properties</a>
     </div>
 </div>
 

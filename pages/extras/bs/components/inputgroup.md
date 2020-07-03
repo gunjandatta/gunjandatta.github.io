@@ -11,7 +11,7 @@ permalink: /extras/bs/components/inputgroup/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/input-group">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_inputgroup_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_inputgroup_d_.iinputgroupprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_inputgroup_d_.iinputgroupprops.html">Properties</a>
     </div>
 </div>
 
