@@ -11,6 +11,7 @@ permalink: /extras/bs/components/modal/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/modal">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_modal_d_.html">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_modal_d_.imodalprops.html">Properties</a>
     </div>
 </div>
 

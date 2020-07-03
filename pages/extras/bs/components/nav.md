@@ -11,6 +11,7 @@ permalink: /extras/bs/components/nav/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/navs">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_nav_d_.html">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_nav_d_.inavprops.html">Properties</a>
     </div>
 </div>
 

@@ -11,6 +11,7 @@ permalink: /extras/bs/components/card/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/cards">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_card_d_.html">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_card_d_.icardprops.html">Properties</a>
     </div>
 </div>
 

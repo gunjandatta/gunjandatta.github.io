@@ -11,6 +11,7 @@ permalink: /extras/bs/components/listgroup/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/list-group">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_listgroup_d_.html">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_listgroup_d_.ilistgroupprops.html">Properties</a>
     </div>
 </div>
 
