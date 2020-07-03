@@ -31,7 +31,7 @@ npm i --save gd-sprest-bsx
 #### JavaScript/TypeScript
 
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/4.5.7/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/5.0.3/gd-sprest-bs.min.js"></script>
 ```
 
 #### React
