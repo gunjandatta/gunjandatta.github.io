@@ -56,7 +56,7 @@ Various form control types exist. Refer to the [documentation](/extras/bs/compon
 * List Box
 * Multi-Select Dropdown
 * Password
-* People Picker _(gd-sprest-bs library only)_
+* People Picker
 * Radio
 * Range
 * Readonly
