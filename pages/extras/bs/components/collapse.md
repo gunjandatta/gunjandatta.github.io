@@ -14,6 +14,28 @@ permalink: /extras/bs/components/collapse/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the button to toggle the collapse
+let btn = Components.Button({
+    el: document.querySelector("#btnCollapse"),
+    target: "#demoCollapse",
+    toggle: "collapse",
+    text: "Collapse Demo"
+});
+ * 
+// Create the collapse
+let el = document.querySelector("#collapse");
+let collapse = Components.Collapse({
+    el: el,
+     id: "demoCollapse",
+    content: "This is the content to be collapsed."
+});
+```
+
 ### React
 
 ```tsx

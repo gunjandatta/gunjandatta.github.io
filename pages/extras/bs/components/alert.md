@@ -14,6 +14,19 @@ permalink: /extras/bs/components/alert/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the alert
+let el = document.querySelector("#alert");
+let alert = Components.Alert({
+    el: el,
+    content: "This is an alert."
+});
+```
+
 ### React
 
 ```tsx

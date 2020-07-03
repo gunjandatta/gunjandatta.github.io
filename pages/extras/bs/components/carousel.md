@@ -14,6 +14,39 @@ permalink: /extras/bs/components/carousel/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the carousel
+let el = document.querySelector("#carousel");
+let carousel = Components.Carousel({
+    el: el,
+    enableControls: true,
+    enableIndicators: true,
+    id: "carouselDemo",
+    items: [
+        {
+            captions: "<h5>First Slide</h5>",
+            imageUrl: "https://via.placeholder.com/400x200",
+            imageAlt: "First Slide",
+            isActive: true
+        },
+        {
+            captions: "<h5>Second Slide</h5>",
+            imageUrl: "https://via.placeholder.com/400x200",
+            imageAlt: "Second Slide"
+        },
+        {
+            captions: "<h5>Third Slide</h5>",
+            imageUrl: "https://via.placeholder.com/400x200",
+            imageAlt: "Third Slide"
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

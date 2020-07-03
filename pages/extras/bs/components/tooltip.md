@@ -14,6 +14,23 @@ permalink: /extras/bs/components/tooltip/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the tooltip
+let el = document.querySelector("#tooltip");
+let tooltip = Components.Tooltip({
+    el: el,
+    text: "Tooltip Demo"
+    options: {
+        html: true,
+        title: "My Tooltip",
+    }
+});
+```
+
 ### React
 
 ```tsx

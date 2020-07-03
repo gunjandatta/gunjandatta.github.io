@@ -14,6 +14,20 @@ permalink: /extras/bs/components/progress/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the progress
+let el = document.querySelector("#progress");
+let progress = Components.Progress({
+    el: el,
+    size: 25,
+    label: "25%"
+});
+```
+
 ### React
 
 ```tsx

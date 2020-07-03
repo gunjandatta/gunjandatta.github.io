@@ -14,6 +14,23 @@ permalink: /extras/bs/components/breadcrumb/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the breadcrumb
+let el = document.querySelector("#breadcrumb");
+let breadcrumb = Components.Breadcrumb({
+    el: el,
+    items: [
+        { text: "Root", href: "/" },
+        { text: "Web 1", href: "/web" },
+        { text: "Web 1-1", href: "/web/1" }
+    ]
+});
+```
+
 ### React
 
 ```tsx

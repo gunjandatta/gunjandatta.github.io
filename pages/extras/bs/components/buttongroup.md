@@ -14,6 +14,24 @@ permalink: /extras/bs/components/buttongroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the buttonGroup
+let el = document.querySelector("#buttonGroup");
+let buttonGroup = Components.ButtonGroup({
+    el: el,
+    buttonType: $REST.Components.ButtonTypes.Primary,
+    buttons: [
+        { text: "Left" },
+        { text: "Middle" },
+        { text: "Right" }
+    ]
+});
+```
+
 ### React
 
 ```tsx

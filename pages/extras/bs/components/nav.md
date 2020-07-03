@@ -14,6 +14,26 @@ permalink: /extras/bs/components/nav/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the navigation
+let el = document.querySelector("#navigation");
+let nav = Components.Nav({
+    el: el,
+    isPills: true,
+    items: [
+        { title: "Nav 1", isActive: true },
+        { title: "Nav 2" },
+        { title: "Nav 3" },
+        { title: "Nav 4" },
+        { title: "Nav 5" }
+    ]
+});
+```
+
 ### React
 
 ```tsx

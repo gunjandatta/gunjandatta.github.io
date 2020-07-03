@@ -14,6 +14,31 @@ permalink: /extras/bs/components/progressgroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the progress group
+let el = document.querySelector("#progressGroup");
+let progressGroup = Components.ProgressGroup({
+    el: el,
+    progressbars: [
+        {
+            size: 25,
+            isStriped: true,
+            label: "25%"
+        },
+        {
+            size: 50,
+            isAnimated: true,
+            isStriped: true,
+            label: "50%"
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

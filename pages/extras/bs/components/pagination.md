@@ -14,6 +14,23 @@ permalink: /extras/bs/components/pagination/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the pagination
+let el = document.querySelector("#pagination");
+let pagination = Components.Pagination({
+    el: el,
+    numberOfPages: 5,
+    onClick: (index, ev) => {
+        // Log the index
+        console.log("The page number selected is: " + index);
+    }
+});
+```
+
 ### React
 
 ```tsx

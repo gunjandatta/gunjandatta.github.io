@@ -14,6 +14,30 @@ permalink: /extras/bs/components/card/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the card
+let el = document.querySelector("#card");
+let card = Components.Card({
+    el: el,
+    body: [
+        {
+            title: "Card Title",
+            text: "This is the card contents.",
+            actions: [
+                {
+                    text: "Card Action",
+                    buttonType: $REST.Components.ButtonTypes.Primary
+                }
+            ]
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

@@ -14,6 +14,20 @@ permalink: /extras/bs/components/jumbotron/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the jumbotron
+let el = document.querySelector("#jumbotron");
+let jumbotron = Components.Jumbotron({
+    el: el,
+    title: "My Jumbotron",
+    lead: "This is a jumbotron"
+});
+```
+
 ### React
 
 ```tsx

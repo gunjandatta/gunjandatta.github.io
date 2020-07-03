@@ -14,6 +14,20 @@ permalink: /extras/bs/components/inputgroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the inputGroup
+let el = document.querySelector("#inputGroup");
+let inputGroup = Components.InputGroup({
+    el: el,
+    label: "My Name:",
+    value: "First Last"
+});
+```
+
 ### React
 
 ```tsx

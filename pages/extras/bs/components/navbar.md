@@ -14,6 +14,52 @@ permalink: /extras/bs/components/navbar/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the navbar
+let el = document.querySelector("#navbar");
+let navbar = Components.Navbar({
+    el: el,
+    brand: "Navbar",
+    searchBox: {
+        onChange: (value) => {
+            // Log the value
+            console.log("The search value is: " + value);
+        },
+        onSearch: (value) => {
+            // Log the value
+            console.log("The search value is: " + value);
+        }
+    },
+    items: [
+        {
+            text: "Home",
+            isActive: true
+        },
+        {
+            text: "Link"
+        },
+        {
+            text: "Disabled Link",
+            isDisabled: true
+        },
+        {
+            text: "Dropdown Link",
+            items: [
+                { text: "Link 1" },
+                { text: "Link 2" },
+                { text: "Link 3" },
+                { text: "Link 4" },
+                { text: "Link 5" }
+            ]
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

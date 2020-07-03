@@ -14,6 +14,19 @@ permalink: /extras/bs/components/badge/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the badge
+let el = document.querySelector("#badge");
+let badge = Components.Badge({
+    el: el,
+    content: "Badge"
+});
+```
+
 ### React
 
 ```tsx

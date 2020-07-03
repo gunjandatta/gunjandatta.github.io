@@ -13,6 +13,12 @@ permalink: /extras/bs/components/listbox/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+```
+
 ### React
 
 ```tsx

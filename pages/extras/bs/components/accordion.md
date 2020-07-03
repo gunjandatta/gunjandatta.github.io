@@ -14,6 +14,34 @@ permalink: /extras/bs/components/accordion/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the accordion
+let el = document.querySelector("#accordion");
+let accordion = Components.Accordion({
+    autoCollapse: true,
+    el: el,
+    id: "demoAccordion",
+    items: [
+        {
+            btnProps: { text: "Item 1" },
+            content: "This is the content for item 1."
+        },
+        {
+            btnProps: { text: "Item 2" },
+            content: "This is the content for item 2."
+        },
+        {
+            btnProps: { text: "Item 3" },
+            content: "This is the content for item 3."
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

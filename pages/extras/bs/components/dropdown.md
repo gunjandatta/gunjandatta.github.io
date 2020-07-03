@@ -14,6 +14,29 @@ permalink: /extras/bs/components/dropdown/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the dropdown
+let el = document.querySelector("#dropdown");
+let dropdown = Components.Dropdown({
+    el: el,
+    label: "Select a Choice",
+    items: [
+        { text: "Choice 1", value: "1" },
+        { text: "Choice 2", value: "2" },
+        { text: "Choice 3", value: "3" },
+        { text: "Choice 4", value: "4" },
+        { text: "Choice 5", value: "5" }
+    ],
+    onChange: (item, ev) => {
+        console.log("The selected value is: " + item.text);
+    }
+});
+```
+
 ### React
 
 ```tsx

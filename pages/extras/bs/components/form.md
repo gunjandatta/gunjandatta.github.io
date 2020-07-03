@@ -14,6 +14,53 @@ permalink: /extras/bs/components/form/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the form
+let el = document.querySelector("#myForm");
+let form = Components.Form({
+    el: el,
+    rows: [
+        {
+            control: {
+                label: "First Name:",
+                name: "FName",
+                type: Components.FormControlTypes.TextField
+            }
+        },
+        {
+            control: {
+                label: "Last Name:",
+                name: "LName",
+                type: Components.FormControlTypes.TextField
+            }
+        },
+        {
+            control: {
+                label: "Choices:",
+                name: "Choice",
+                type: Components.FormControlTypes.Dropdown,
+                items: [
+                    { text: "Choice 1", value: "1" },
+                    { text: "Choice 2", value: "2" },
+                    { text: "Choice 3", value: "3" },
+                    { text: "Choice 4", value: "4" },
+                    { text: "Choice 5", value: "5" }
+                ]
+            }
+        }
+    ],
+    value: {
+        FName: "Gunjan",
+        LName: "Datta",
+        Choice: "3"
+    }
+});
+```
+
 ### React
 
 ```tsx

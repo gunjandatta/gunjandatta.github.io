@@ -14,6 +14,44 @@ permalink: /extras/bs/components/cardgroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the cardGroup
+let el = document.querySelector("#cardGroup");
+let cardGroup = Components.CardGroup({
+    el: el,
+    cards: [
+        {
+            body: [
+                {
+                    title: "Card 1",
+                    text: "This is the first card."
+                }
+            ]
+        },
+        {
+            body: [
+                {
+                    title: "Card 2",
+                    text: "This is the second card."
+                }
+            ]
+        },
+        {
+            body: [
+                {
+                    title: "Card 3",
+                    text: "This is the third card."
+                }
+            ]
+        }
+    ]
+});
+```
+
 ### React
 
 ```tsx

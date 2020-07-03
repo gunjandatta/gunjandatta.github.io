@@ -14,6 +14,27 @@ permalink: /extras/bs/components/listgroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the listGroup
+let el = document.querySelector("#listGroup");
+let listGroup = Components.listGroup({
+    el: el,
+    colWidth: 4,
+    isTabs: true,
+    items: [
+        { tabName: "Tab 1", content: "This is the content for tab 1.", isActive: true },
+        { tabName: "Tab 2", content: "This is the content for tab 2.", badge: { content: "10", type: 4 } },
+        { tabName: "Tab 3", content: "This is the content for tab 3." },
+        { tabName: "Tab 4", content: "This is the content for tab 4." },
+        { tabName: "Tab 5", content: "This is the content for tab 5." }
+    ]
+});
+```
+
 ### React
 
 ```tsx

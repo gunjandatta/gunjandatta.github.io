@@ -14,6 +14,12 @@ permalink: /extras/bs/components/button/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+```
+
 ### React
 
 ```tsx

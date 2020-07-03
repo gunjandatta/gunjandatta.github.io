@@ -14,6 +14,28 @@ permalink: /extras/bs/components/popover/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the popover
+let el = document.querySelector("#popover");
+let popover = Components.Popover({
+    el: el,
+    isDismissible: true,
+    btnProps: {
+        text: "Popover Demo"
+    },
+    options: {
+        container: "body",
+        content: "This is the popover content.",
+        title: "My Popover",
+        trigger: "hover"
+    }
+});
+```
+
 ### React
 
 ```tsx

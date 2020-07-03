@@ -14,6 +14,29 @@ permalink: /extras/bs/components/modal/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the button
+Components.Button({
+    el: document.querySelector("#modalDemo"),
+    target: "#bsModalDemo",
+    text: "Show Modal",
+    toggle: "modal"
+});
+ * 
+// Create the modal
+let el = document.querySelector("#modalDemo");
+let modal = Components.Modal({
+    el: el,
+    id: "bsModalDemo",
+    title: "Modal Demo",
+    body: "This is the body of the modal."
+});
+```
+
 ### React
 
 ```tsx

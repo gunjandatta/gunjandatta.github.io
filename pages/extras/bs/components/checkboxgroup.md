@@ -14,6 +14,23 @@ permalink: /extras/bs/components/checkboxgroup/
     </div>
 </div>
 
+### TypeScript
+
+```ts
+import { Components } from "gd-sprest-bs";
+
+// Create the buttonGroup
+let el = document.querySelector("#cbGroup");
+let cbGroup = Components.CheckboxGroup({
+    el: el,
+    items: [
+        { label: "Option 1" },
+        { label: "Option 2" },
+        { label: "Option 3" }
+    ]
+});
+```
+
 ### React
 
 ```tsx
