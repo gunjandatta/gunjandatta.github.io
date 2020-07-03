@@ -48,14 +48,19 @@ The form control has built in methods to help with customizing it. The ```name``
 Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
 
 * Checkbox
-* Email
+* Color Picker
+* Datalist
 * Dropdown
+* Email
 * File
-* Multi-Dropdown
+* List Box
+* Multi-Select Dropdown
 * Password
+* People Picker _(gd-sprest-bs library only)_
 * Radio
 * Range
 * Readonly
+* Switch
 * TextArea
 * TextField
 
