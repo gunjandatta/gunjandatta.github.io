@@ -33,16 +33,18 @@ export class IDemo extends React.Component {
 
 ```vue
 <template>
-    <Icons v-bind:type="iconType" />
+    <Icon v-bind:type="iconType" />
 </template>
 
 <script>
 import { IconTypes } from "gd-sprest-bs";
-import { Icons } from "gd-sprest-bs-vue";
+import { Icon } from "gd-sprest-bs-vue";
 export default {
-    components: { Icons },
-    data: {
-        iconType: IconTypes.Arrow
+    components: { Icon },
+    data() {
+        return {
+            iconType: IconTypes.Arrow
+        };
     }
 }
 </script>
