@@ -48,6 +48,21 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Progress size="25" label="25%" />
+</template>
+
+<script>
+import { Progress } from "gd-sprest-bs-vue";
+export default {
+    components: { Progress }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

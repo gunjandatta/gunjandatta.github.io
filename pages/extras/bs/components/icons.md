@@ -28,3 +28,22 @@ export class IDemo extends React.Component {
     }
 }
 ```
+
+### VueJS
+
+```vue
+<template>
+    <Icons v-bind:type="iconType" />
+</template>
+
+<script>
+import { IconTypes } from "gd-sprest-bs";
+import { Icons } from "gd-sprest-bs-vue";
+export default {
+    components: { Icons },
+    data: {
+        iconType: IconTypes.Arrow
+    }
+}
+</script>
+```

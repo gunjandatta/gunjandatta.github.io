@@ -90,6 +90,43 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <CardGroup v-bind:cards="cards" />
+</template>
+
+<script>
+import { CardGroup } from "gd-sprest-bs-vue";
+export default {
+    components: { CardGroup },
+    data: {
+        cards: [
+            {
+                body: [{
+                    title: "Card 1",
+                    text: "This is the first card."
+                }]
+            },
+            {
+                body: [{
+                    title: "Card 2",
+                    text: "This is the second card."
+                }]
+            },
+            {
+                body: [{
+                    title: "Card 3",
+                    text: "This is the third card."
+                }]
+            }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

@@ -54,6 +54,27 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Tooltip text="Tooltip" v-bind:options="options" />
+</template>
+
+<script>
+import { Tooltip } from "gd-sprest-bs-vue";
+export default {
+    components: { Tooltip },
+    data: {
+        options: {
+            html: true,
+            title: "My Title"
+        }
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

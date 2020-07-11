@@ -63,6 +63,24 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <div>
+        <Button target="#demoCollapse" toggle="collapse" text="Collapse Demo" />
+        <Collapse id="demoCollapse" content="This is the content to be collapsed." />
+    </div>
+</template>
+
+<script>
+import { Button, Collapse } from "gd-sprest-bs-vue";
+export default {
+    components: { Button, Collapse }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

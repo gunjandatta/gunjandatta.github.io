@@ -64,6 +64,32 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Popover isDismissible="true" v-bind:btnProps="btnProps" v-bind:options="options" />
+</template>
+
+<script>
+import { Popover } from "gd-sprest-bs-vue";
+export default {
+    components: { Popover },
+    data: {
+        btnProps: {
+            text: "Popover Demo"
+        },
+        options: {
+            container: "body",
+            content: "This is the popover content.",
+            title: "My Popover",
+            trigger: "hover"
+        }
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

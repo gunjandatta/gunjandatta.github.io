@@ -65,6 +65,24 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <div>
+        <Button target="#bsModalDemo" text="Show Modal" toggle="modal" />
+        <Modal id="bsModalDemo" title="Modal Demo" body="<p>This is the body of the modal</p>" />
+    </div>
+</template>
+
+<script>
+import { Alert } from "gd-sprest-bs-vue";
+export default {
+    components: { Alert }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

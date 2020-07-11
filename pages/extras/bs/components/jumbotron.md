@@ -48,6 +48,21 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Jumbotron title="My Jumbotron" lead="This is a jumbotron" />
+</template>
+
+<script>
+import { Jumbotron } from "gd-sprest-bs-vue";
+export default {
+    components: { Jumbotron }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

@@ -48,6 +48,21 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <InputGroup label="My Name" value="First Last" />
+</template>
+
+<script>
+import { InputGroup } from "gd-sprest-bs-vue";
+export default {
+    components: { InputGroup }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

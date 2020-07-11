@@ -46,6 +46,21 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Alert content="This is an alert." />
+</template>
+
+<script>
+import { Alert } from "gd-sprest-bs-vue";
+export default {
+    components: { Alert }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

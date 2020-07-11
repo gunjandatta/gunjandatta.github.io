@@ -66,6 +66,33 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Card v-bind:body="body" />
+</template>
+
+<script>
+import { Card } from "gd-sprest-bs-vue";
+export default {
+    components: { Card },
+    data: {
+        body: [
+            {
+                title: "Card Title",
+                text: "This is the card contents.",
+                actions: [
+                    text: "Card Action",
+                    buttonType: Components.ButtonTypes.Primary
+                ]
+            }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

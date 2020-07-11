@@ -54,6 +54,28 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Breadcrumb v-bind:items="demoItems" />
+</template>
+
+<script>
+import { Breadcrumb } from "gd-sprest-bs-vue";
+export default {
+    components: { Breadcrumb },
+    data: {
+        demoItems: [
+            { text: "Root", href: "/" },
+            { text: "Web 1", href: "/web" },
+            { text: "Web 1-1", href: "/web/1" },
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

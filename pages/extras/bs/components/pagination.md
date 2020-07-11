@@ -50,6 +50,21 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Pagination numberOfPages="5" />
+</template>
+
+<script>
+import { Pagination } from "gd-sprest-bs-vue";
+export default {
+    components: { Pagination }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

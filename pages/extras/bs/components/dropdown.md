@@ -63,6 +63,30 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Dropdown label="Select a Choice" v-bind:items="ddlItems" />
+</template>
+
+<script>
+import { Dropdown } from "gd-sprest-bs-vue";
+export default {
+    components: { Dropdown },
+    data: {
+        ddlItems: [
+            { text: "Choice 1", value: 1 },
+            { text: "Choice 2", value: 2 },
+            { text: "Choice 3", value: 3 },
+            { text: "Choice 4", value: 4 },
+            { text: "Choice 5", value: 5 }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

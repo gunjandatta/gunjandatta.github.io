@@ -60,6 +60,30 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Nav isPills="true" v-bind:items="navItems" />
+</template>
+
+<script>
+import { Nav } from "gd-sprest-bs-vue";
+export default {
+    components: { Nav },
+    data: {
+        navItems: [
+            { title: "Nav 1", isActive: true },
+            { title: "Nav 2" },
+            { title: "Nav 3" },
+            { title: "Nav 4" },
+            { title: "Nav 5" }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

@@ -47,6 +47,32 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <ListBox label="Colors" placeholder="Search Colors" v-bind:items="listItems" />
+</template>
+
+<script>
+import { ListBox } from "gd-sprest-bs-vue";
+export default {
+    components: { ListBox },
+    data: {
+        listItems: [
+            { text: "Red", value: "red" },
+            { text: "Blue", value: "blue" },
+            { text: "Green", value: "green" },
+            { text: "Purple", value: "purple" },
+            { text: "Brown", value: "brown" },
+            { text: "Yellow", value: "yellow" },
+            { text: "Orange", value: "orange" }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

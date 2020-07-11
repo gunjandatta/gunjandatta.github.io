@@ -54,6 +54,28 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <CheckboxGroup v-bind:items="checkboxes" />
+</template>
+
+<script>
+import { CheckboxGroup } from "gd-sprest-bs-vue";
+export default {
+    components: { CheckboxGroup },
+    data: {
+        checkboxes: [
+            { label: "Option 1" },
+            { label: "Option 2" },
+            { label: "Option 3" }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

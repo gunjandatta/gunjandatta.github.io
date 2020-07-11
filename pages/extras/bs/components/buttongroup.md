@@ -56,6 +56,30 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <ButtonGroup v-bind:button-type="buttonType" v-bind:buttons="buttons" />
+</template>
+
+<script>
+import { Components } from "gd-sprest-bs";
+import { ButtonGroup } from "gd-sprest-bs-vue";
+export default {
+    components: { ButtonGroup },
+    data: {
+        buttonType: Components.ButtonTypes.Primary,
+        buttons: [
+            { text: "Left" },
+            { text: "Middle" },
+            { text: "Right" }
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

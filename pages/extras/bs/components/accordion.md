@@ -67,6 +67,28 @@ export class IDemo extends React.Component {
 }
 ```
 
+### VueJS
+
+```vue
+<template>
+    <Accordion auto-collapse="true" id="demoAccordion" v-bind:items="demoItems" />
+</template>
+
+<script>
+import { Accordion } from "gd-sprest-bs-vue";
+export default {
+    components: { Accordion },
+    data: {
+        demoItems: [
+            { btnProps: { text: "Item 1" }, content: "This is the content for item 1." },
+            { btnProps: { text: "Item 2" }, content: "This is the content for item 2." },
+            { btnProps: { text: "Item 3" }, content: "This is the content for item 3." },
+        ]
+    }
+}
+</script>
+```
+
 ### Code Playground
 
 <div id="playground" class="bs"></div>

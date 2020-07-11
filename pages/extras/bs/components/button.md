@@ -32,14 +32,34 @@ export class IDemo extends React.Component {
     render() {
         return (
             <Button
-                text="Button"
-                onClick={(ev) => {
-                    alert("The button was clicked.");
+                text="Demo"
+                onClick={(btn, ev) => {
+                    alert("The " + btn.text + " button was clicked.");
                 }}
             />
         );
     }
 }
+```
+
+### VueJS
+
+```vue
+<template>
+    <Button text="Demo" v-bind:on-click="showAlert" />
+</template>
+
+<script>
+import { Button } from "gd-sprest-bs-vue";
+export default {
+    components: { Button },
+    methods: {
+        showAlert(btn, ev) {
+            alert("The " + btn.text + " button was clicked.");
+        }
+    }
+}
+</script>
 ```
 
 ### Code Playground
