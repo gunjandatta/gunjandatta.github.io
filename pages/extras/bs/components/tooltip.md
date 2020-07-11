@@ -65,11 +65,13 @@ export class IDemo extends React.Component {
 import { Tooltip } from "gd-sprest-bs-vue";
 export default {
     components: { Tooltip },
-    data: {
-        options: {
-            html: true,
-            title: "My Title"
-        }
+    data() {
+        return {
+            options: {
+                html: true,
+                title: "My Title"
+            }
+        };
     }
 }
 </script>

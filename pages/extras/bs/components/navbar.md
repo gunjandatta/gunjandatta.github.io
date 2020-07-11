@@ -113,30 +113,32 @@ export class IDemo extends React.Component {
 import { Navbar } from "gd-sprest-bs-vue";
 export default {
     components: { Navbar },
-    data: {
-        navItems: [
-            {
-                text: "Home",
-                isActive: true
-            },
-            {
-                text: "Link"
-            },
-            {
-                text: "Disabled Link",
-                isDisabled: true
-            },
-            {
-                text: "Dropdown Link",
-                items: [
-                    { text: "Link 1" },
-                    { text: "Link 2" },
-                    { text: "Link 3" },
-                    { text: "Link 4" },
-                    { text: "Link 5" }
-                ]
-            }
-        ]
+    data() {
+        return {
+            navItems: [
+                {
+                    text: "Home",
+                    isActive: true
+                },
+                {
+                    text: "Link"
+                },
+                {
+                    text: "Disabled Link",
+                    isDisabled: true
+                },
+                {
+                    text: "Dropdown Link",
+                    items: [
+                        { text: "Link 1" },
+                        { text: "Link 2" },
+                        { text: "Link 3" },
+                        { text: "Link 4" },
+                        { text: "Link 5" }
+                    ]
+                }
+            ]
+        };
     }
 }
 </script>

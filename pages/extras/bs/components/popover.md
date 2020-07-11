@@ -75,16 +75,18 @@ export class IDemo extends React.Component {
 import { Popover } from "gd-sprest-bs-vue";
 export default {
     components: { Popover },
-    data: {
-        btnProps: {
-            text: "Popover Demo"
-        },
-        options: {
-            container: "body",
-            content: "This is the popover content.",
-            title: "My Popover",
-            trigger: "hover"
-        }
+    data() {
+        return {
+            btnProps: {
+                text: "Popover Demo"
+            },
+            options: {
+                container: "body",
+                content: "This is the popover content.",
+                title: "My Popover",
+                trigger: "hover"
+            }
+        };
     }
 }
 </script>

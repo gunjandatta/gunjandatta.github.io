@@ -74,14 +74,16 @@ export class IDemo extends React.Component {
 import { Dropdown } from "gd-sprest-bs-vue";
 export default {
     components: { Dropdown },
-    data: {
-        ddlItems: [
-            { text: "Choice 1", value: 1 },
-            { text: "Choice 2", value: 2 },
-            { text: "Choice 3", value: 3 },
-            { text: "Choice 4", value: 4 },
-            { text: "Choice 5", value: 5 }
-        ]
+    data() {
+        return {
+            ddlItems: [
+                { text: "Choice 1", value: 1 },
+                { text: "Choice 2", value: 2 },
+                { text: "Choice 3", value: 3 },
+                { text: "Choice 4", value: 4 },
+                { text: "Choice 5", value: 5 }
+            ]
+        };
     }
 }
 </script>

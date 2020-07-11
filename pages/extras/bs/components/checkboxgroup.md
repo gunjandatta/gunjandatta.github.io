@@ -65,12 +65,14 @@ export class IDemo extends React.Component {
 import { CheckboxGroup } from "gd-sprest-bs-vue";
 export default {
     components: { CheckboxGroup },
-    data: {
-        checkboxes: [
-            { label: "Option 1" },
-            { label: "Option 2" },
-            { label: "Option 3" }
-        ]
+    data() {
+        return {
+            checkboxes: [
+                { label: "Option 1" },
+                { label: "Option 2" },
+                { label: "Option 3" }
+            ]
+        };
     }
 }
 </script>

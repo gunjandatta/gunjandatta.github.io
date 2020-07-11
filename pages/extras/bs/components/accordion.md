@@ -78,12 +78,14 @@ export class IDemo extends React.Component {
 import { Accordion } from "gd-sprest-bs-vue";
 export default {
     components: { Accordion },
-    data: {
-        demoItems: [
-            { btnProps: { text: "Item 1" }, content: "This is the content for item 1." },
-            { btnProps: { text: "Item 2" }, content: "This is the content for item 2." },
-            { btnProps: { text: "Item 3" }, content: "This is the content for item 3." },
-        ]
+    data() {
+        return {
+            demoItems: [
+                { btnProps: { text: "Item 1" }, content: "This is the content for item 1." },
+                { btnProps: { text: "Item 2" }, content: "This is the content for item 2." },
+                { btnProps: { text: "Item 3" }, content: "This is the content for item 3." },
+            ]
+        };
     }
 }
 </script>

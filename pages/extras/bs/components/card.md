@@ -77,17 +77,19 @@ export class IDemo extends React.Component {
 import { Card } from "gd-sprest-bs-vue";
 export default {
     components: { Card },
-    data: {
-        body: [
-            {
-                title: "Card Title",
-                text: "This is the card contents.",
-                actions: [
-                    text: "Card Action",
-                    buttonType: Components.ButtonTypes.Primary
-                ]
-            }
-        ]
+    data() {
+        return {
+            body: [
+                {
+                    title: "Card Title",
+                    text: "This is the card contents.",
+                    actions: [
+                        text: "Card Action",
+                        buttonType: Components.ButtonTypes.Primary
+                    ]
+                }
+            ]
+        };
     }
 }
 </script>

@@ -68,13 +68,15 @@ import { Components } from "gd-sprest-bs";
 import { ButtonGroup } from "gd-sprest-bs-vue";
 export default {
     components: { ButtonGroup },
-    data: {
-        buttonType: Components.ButtonTypes.Primary,
-        buttons: [
-            { text: "Left" },
-            { text: "Middle" },
-            { text: "Right" }
-        ]
+    data() {
+        return {
+            buttonType: Components.ButtonTypes.Primary,
+            buttons: [
+                { text: "Left" },
+                { text: "Middle" },
+                { text: "Right" }
+            ]
+        };
     }
 }
 </script>

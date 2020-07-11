@@ -58,16 +58,18 @@ export class IDemo extends React.Component {
 import { ListBox } from "gd-sprest-bs-vue";
 export default {
     components: { ListBox },
-    data: {
-        listItems: [
-            { text: "Red", value: "red" },
-            { text: "Blue", value: "blue" },
-            { text: "Green", value: "green" },
-            { text: "Purple", value: "purple" },
-            { text: "Brown", value: "brown" },
-            { text: "Yellow", value: "yellow" },
-            { text: "Orange", value: "orange" }
-        ]
+    data() {
+        return {
+            listItems: [
+                { text: "Red", value: "red" },
+                { text: "Blue", value: "blue" },
+                { text: "Green", value: "green" },
+                { text: "Purple", value: "purple" },
+                { text: "Brown", value: "brown" },
+                { text: "Yellow", value: "yellow" },
+                { text: "Orange", value: "orange" }
+            ]
+        };
     }
 }
 </script>

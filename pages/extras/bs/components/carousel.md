@@ -100,25 +100,27 @@ export class IDemo extends React.Component {
 import { Carousel } from "gd-sprest-bs-vue";
 export default {
     components: { Carousel },
-    data: {
-        carouselItems: [
-            {
-                captions: "<h5>First Slide</h5>",
-                imageUrl: "https://via.placeholder.com/400x200",
-                imageAlt: "First Slide",
-                isActive: true
-            },
-            {
-                captions: "<h5>Second Slide</h5>",
-                imageUrl: "https://via.placeholder.com/400x200",
-                imageAlt: "Second Slide"
-            },
-            {
-                captions: "<h5>Third Slide</h5>",
-                imageUrl: "https://via.placeholder.com/400x200",
-                imageAlt: "Third Slide"
-            }
-        ]
+    data() {
+        return {
+            carouselItems: [
+                {
+                    captions: "<h5>First Slide</h5>",
+                    imageUrl: "https://via.placeholder.com/400x200",
+                    imageAlt: "First Slide",
+                    isActive: true
+                },
+                {
+                    captions: "<h5>Second Slide</h5>",
+                    imageUrl: "https://via.placeholder.com/400x200",
+                    imageAlt: "Second Slide"
+                },
+                {
+                    captions: "<h5>Third Slide</h5>",
+                    imageUrl: "https://via.placeholder.com/400x200",
+                    imageAlt: "Third Slide"
+                }
+            ]
+        };
     }
 }
 </script>

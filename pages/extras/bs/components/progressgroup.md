@@ -81,20 +81,22 @@ export class IDemo extends React.Component {
 import { ProgressGroup } from "gd-sprest-bs-vue";
 export default {
     components: { ProgressGroup },
-    data: {
-        progressbars: [
-            {
-                size: 25,
-                isStriped: true,
-                label: "25%"
-            },
-            {
-                size: 50,
-                isAnimated: true,
-                isStriped: true,
-                label: "50%"
-            }
-        ]
+    data() {
+        return {
+            progressbars: [
+                {
+                    size: 25,
+                    isStriped: true,
+                    label: "25%"
+                },
+                {
+                    size: 50,
+                    isAnimated: true,
+                    isStriped: true,
+                    label: "50%"
+                }
+            ]
+        };
     }
 }
 </script>
