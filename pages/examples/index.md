@@ -98,6 +98,15 @@ This is the same solution as the `Basic Dashboard` example, but will use the `gd
 * Learn how to use the `gd-sprest-bsx` Bootstrap React components
 * Learn basic examples of the React event lifecycle
 
+### [Basic Dashboard (VueJS)](https://github.com/gunjandatta/sp-dashboard-vue/wiki)
+
+This is the same solution as the `Basic Dashboard` example, but will use the `gd-sprest-bs-vue` vue components
+
+* Learn how to create a VueJS solution
+* Learn how to use the `gd-sprest-bs-vue` VueJS components
+* Learn how to implement basic routing of views
+* Learn how to implement a basic store for the components
+
 ### [Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)
 
 This solution will demonstrate how to create custom new/display/edit forms for a SharePoint list. This solution will work in 2013+ environments.
