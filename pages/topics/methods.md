@@ -60,6 +60,13 @@ A generic method for creating requests using the XMLHttpRequest object.
 request(props:IRequest}) => PromiseLike<IListResult>
 ```
 
+### IRequest
+
+* data?:any - The data to pass in the request.
+* headers?:object - The request headers.
+* method?: string - The request method. (Default is 'GET')
+* url: string - The request url.
+
 ## setContentTypeFields
 
 Sets the field links associated with a content type.
@@ -75,10 +82,3 @@ Updates the owner to a group or user. The REST API currently does not work if a 
 ```ts
 setGroupOwner(groupName: string, ownerName: string) => PromiseLike<void>
 ```
-
-## IRequest
-
-* data?:any - The data to pass in the request.
-* headers?:object - The request headers.
-* method?: string - The request method. (Default is 'GET')
-* url: string - The request url.
