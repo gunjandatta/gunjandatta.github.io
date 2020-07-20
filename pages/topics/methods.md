@@ -4,6 +4,22 @@ category: topics
 permalink: /topics/methods/
 ---
 
+## addContentEditorWebPart
+
+Adds a content editor webpart to a specified webpart/wiki page.
+
+```ts
+addContentEditorWebPart(url: string, wpProps: IContentEditorWebPart) => PromiseLike<void>
+```
+
+## addScriptEditorWebPart
+
+Adds a script editor webpart to a specified webpart/wiki page.
+
+```ts
+addScriptEditorWebPart(url: string, wpProps: IContentEditorWebPart) => PromiseLike<void>
+```
+
 ## createContentType
 
 Creates a content type in a web or specified list.
@@ -18,6 +34,14 @@ Creates a document set folder using the _vti_bin/listdata.svc endpoint.
 
 ```ts
 createDocSet(name: string, listName: string, webUrl?: string) => PromiseLike<IListItemResult>
+```
+
+## hasPermissions
+
+Determines if a user has the correct permissions to a web/list.
+
+```ts
+hasPermissions(permissionMask: any, permissions: Array<number> | number) => boolean
 ```
 
 ## parse
@@ -42,6 +66,14 @@ Sets the field links associated with a content type.
 
 ```ts
 setContentTypeFields(ctInfo: { id: string, fields: Array<string>, listName?: string, webUrl?: string }) => PromiseLike<void>
+```
+
+## setGroupOwner
+
+Updates the owner to a group or user. The REST API currently does not work if a group id is specified, only a user id.
+
+```ts
+setGroupOwner(groupName: string, ownerName: string) => PromiseLike<void>
 ```
 
 ## IRequest
