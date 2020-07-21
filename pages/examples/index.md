@@ -141,6 +141,10 @@ This solution will build upon the basic examples created above, and utilize the 
 
 ## Starter Solutions
 
+### [gd-sprest](https://github.com/gunjandatta/sprest-starter/wiki)
+
+This is a basic starter solution for building SharePoint projects.
+
 ### [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs-starter/wiki)
 
-This is a basic starter solution for building project using the gd-sprest and bootstrap libraries.
+This is a basic starter solution for building SharePoint projects w/ bootstrap.
