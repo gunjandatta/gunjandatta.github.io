@@ -148,3 +148,7 @@ This is a basic starter solution for building SharePoint projects.
 ### [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs-starter/wiki)
 
 This is a basic starter solution for building SharePoint projects w/ bootstrap.
+
+### [gd-sprest-bs-vue](https://github.com/gunjandatta/sprest-vue-starter/wiki)
+
+This is a basic starter solution for building SharePoint projects w/ bootstrap and vuejs.
