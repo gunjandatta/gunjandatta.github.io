@@ -88,3 +88,33 @@ function hasPermissions(listName:string, loginName:string): PromiseLike<boolean>
     });
 }
 ```
+
+## Create a Permission Level
+
+```ts
+// JavaScript
+var $REST = require("gd-sprest");
+
+// Create a role definition
+$REST.Web().RoleDefinitions().add({
+    BasePermissions: { High: "2147483647", Low: "4294967295" },
+    Name: "Custom Admin",
+    Description: "This will copy the 'Full Control' permission level"
+}).execute(function(roleDef) {
+    // Log
+    console.log("Custom permission level '" + roleDef.Name + "' was created successfully.", roleDef);
+});
+
+// TypeScript
+import { Web } from "gd-sprest";
+
+// Create a role definition
+Web().RoleDefinitions().add({
+    BasePermissions: { High: "2147483647", Low: "4294967295" },
+    Name: "Custom Admin",
+    Description: "This will copy the 'Full Control' permission level"
+}).execute(roleDef => {
+    // Log
+    console.log("Custom permission level '" + roleDef.Name + "' was created successfully.", roleDef);
+});
+```
