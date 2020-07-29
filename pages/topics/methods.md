@@ -12,6 +12,26 @@ Adds a content editor webpart to a specified webpart/wiki page.
 addContentEditorWebPart(url: string, wpProps: IContentEditorWebPart) => PromiseLike<void>
 ```
 
+## addPermissionLevel
+
+Adds a permission level to the current or specified web.
+
+```ts
+addPermissionLevel(props) => PromiseLike<RoleDefinition>
+```
+
+### Properties
+
+```ts
+interface IaddPermissionLevelProps {
+    BasePermissions: Array<number>;
+    Description?: string;
+    Name: string;
+    Order?: number;
+    WebUrl?: string;
+}
+```
+
 ## addScriptEditorWebPart
 
 Adds a script editor webpart to a specified webpart/wiki page.
@@ -57,15 +77,23 @@ parse<T>(jsonString: string) => PromiseLike<T>
 A generic method for creating requests using the XMLHttpRequest object.
 
 ```ts
-request(props:IRequest}) => PromiseLike<IListResult>
+request(props) => PromiseLike<IListResult>
 ```
 
-### IRequest
+### Properties
 
-* data?:any - The data to pass in the request.
-* headers?:object - The request headers.
-* method?: string - The request method. (Default is 'GET')
-* url: string - The request url.
+```ts
+interface IRequest {
+    // The data to pass in the request.
+    data?:any;
+    // The request headers.
+    headers?:object;
+    // The request method. (Default is 'GET')
+    method?: string;
+    // The request url.
+    url: string;
+}
+```
 
 ## setContentTypeFields
 
