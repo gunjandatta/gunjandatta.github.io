@@ -42,7 +42,7 @@ function executeBatchRequests(list) {
         .batch(function (item) {
             // Log
             console.log("Item '" + item.Title + "' created.");
-        }, i > 0); 
+        }, i > 1); 
     }
 
     // Get the list after the items are created
