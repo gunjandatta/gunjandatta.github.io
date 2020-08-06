@@ -29,7 +29,6 @@ let popover = Components.Popover({
         text: "Popover Demo"
     },
     options: {
-        container: "body",
         content: "This is the popover content.",
         title: "My Popover",
         trigger: "hover"
@@ -53,7 +52,6 @@ export class IDemo extends React.Component {
                     text: "Popover Demo"
                 }}
                 options={{
-                    container: "body",
                     content: "This is the popover content.",
                     title: "My Popover",
                     trigger: "hover"
@@ -81,7 +79,6 @@ export default {
                 text: "Popover Demo"
             },
             options: {
-                container: "body",
                 content: "This is the popover content.",
                 title: "My Popover",
                 trigger: "hover"
@@ -108,7 +105,6 @@ export default {
             '\t\ttext: "Popover Demo"',
             '\t},',
             '\toptions: {',
-            '\t\tcontainer: "body",',
             '\t\tcontent: "This is the popover content.",',
             '\t\ttitle: "My Popover",',
             '\t\ttrigger: "hover"',
