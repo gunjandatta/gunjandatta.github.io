@@ -37,7 +37,7 @@ npm i --save gd-sprest-bs gd-sprest-bs-vue
 #### JavaScript/TypeScript
 
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/5.0.3/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/5.4.2/gd-sprest-bs.min.js"></script>
 ```
 
 #### React
