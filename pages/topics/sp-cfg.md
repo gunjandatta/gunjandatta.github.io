@@ -186,7 +186,7 @@ export const Configuration = Helper.SPConfig({
 // Export the configuration
 export const Configuration = Helper.SPConfig({
     // Site Fields
-    CustomFields: [
+    Fields: [
         // Boolean Field
         {
             defaultValue: "0",
