@@ -61,7 +61,7 @@ createDocSet(name: string, listName: string, webUrl?: string) => PromiseLike<ILi
 Determines if a user has the correct permissions to a web/list.
 
 ```ts
-hasPermissions(permissionMask: any, permissions: Array<number> | number) => boolean
+hasPermissions(permissionMask: any, permissions: Array<number> | number) => PromiseLike<boolean>
 ```
 
 ## parse

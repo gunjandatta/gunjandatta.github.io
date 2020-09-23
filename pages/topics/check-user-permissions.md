@@ -51,9 +51,11 @@ List("Site Assets").getUserEffectivePermissions(loginName).execute(perm => {
 import { Helper, SPTypes } from "gd-sprest";
 
 // Check for 1+ permission types
-if(Helper.hasPermissions(userEffectivePermissions, [SPTypes.BasePermissionTypes.AddListItems])) {
-    // Has permissions to add items to a list
-} else {
-    // Does not have permissions to add items to a list
-}
+Helper.hasPermissions(userEffectivePermissions, [SPTypes.BasePermissionTypes.AddListItems]).then(hasPermissions => {
+    if(hasPermissions) {
+        // Has permissions to add items to a list
+    } else {
+        // Does not have permissions to add items to a list
+    }
+});
 ```

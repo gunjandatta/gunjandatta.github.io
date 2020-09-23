@@ -3,7 +3,7 @@ title: "Permissions"
 category: examples
 permalink: /examples/permissions/
 ---
-The ```SPTypes``` contains the BasePermissionTypes enumerator which is used to determine what permissions a user has to a web, list or list item. The ```Helper``` class contains a ```hasPermissions(permissionMask, permissions)``` method returns true/false, based on the requested permission(s). The ```permissions``` property may be a single permission type or an array or permission types.
+The ```SPTypes``` contains the BasePermissionTypes enumerator which is used to determine what permissions a user has to a web, list or list item. The ```Helper``` class contains a ```hasPermissions(permissionMask, permissions)``` method returns a promise w/ a true/false value. The ```permissions``` property may be a single permission type or an array or permission types.
 
 ## Getting Permissions for Current User
 
@@ -20,10 +20,10 @@ function hasPermissions() {
         // Get the permissions for the user
         $REST.Web().query({ Select: ["EffectiveBasePermissions"] }).execute(function(web) {
             // Determine if the user has edit permissions
-            var hasPermissions = $REST.Helper.hasPermissions(web.EffectiveBasePermissions, $REST.SPTypes.BasePermissionTypes.ManagePermissions);
-
-            // Resolve the promise
-            resolve(hasPermissions);
+            $REST.Helper.hasPermissions(web.EffectiveBasePermissions, $REST.SPTypes.BasePermissionTypes.ManagePermissions).then(function(hasPermissions) {
+                // Resolve the promise
+                resolve(hasPermissions);
+            });
         });
     });
 }
@@ -38,10 +38,10 @@ function hasPermissions(): PromiseLike<boolean> {
         // Get the permissions for the user
         Web().query({ Select: ["EffectiveBasePermissions"] }).execute(web => {
             // Determine if the user has edit permissions
-            var hasPermissions = Helper.hasPermissions(web.EffectiveBasePermissions, SPTypes.BasePermissionTypes.ManagePermissions);
-
-            // Resolve the promise
-            resolve(hasPermissions);
+            Helper.hasPermissions(web.EffectiveBasePermissions, SPTypes.BasePermissionTypes.ManagePermissions).then(hasPermissions => {
+                // Resolve the promise
+                resolve(hasPermissions);
+            });
         });
     });
 }
@@ -62,10 +62,10 @@ function hasPermissions(listName, loginName) {
         // Get the permissions for the user
         $REST.List(listName).getUserEffectivePermissions(loginName).execute(function(permissions) {
             // Determine if the user has edit permissions
-            var hasPermissions = $REST.Helper.hasPermissions(permissions, $REST.SPTypes.BasePermissionTypes.EditListItems);
-
-            // Resolve the promise
-            resolve(hasPermissions);
+            $REST.Helper.hasPermissions(permissions, $REST.SPTypes.BasePermissionTypes.EditListItems).then(function(hasPermissions) {
+                // Resolve the promise
+                resolve(hasPermissions);
+            });
         });
     });
 }
@@ -80,10 +80,10 @@ function hasPermissions(listName:string, loginName:string): PromiseLike<boolean>
         // Get the permissions for the user
         List(listName).getUserEffectivePermissions(loginName).execute(permissions => {
             // Determine if the user has edit permissions
-            let hasPermissions = Helper.hasPermissions(permissions, SPTypes.BasePermissionTypes.EditListItems);
-
-            // Resolve the promise
-            resolve(hasPermissions);
+            Helper.hasPermissions(permissions, SPTypes.BasePermissionTypes.EditListItems).then(hasPermissions => {
+                // Resolve the promise
+                resolve(hasPermissions);
+            });
         });
     });
 }
