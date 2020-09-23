@@ -20,6 +20,10 @@ Information related to the execution of multiple requests in a single execution 
 
 Information related to saving the object data to the user or session storage.
 
+#### [Check User Permissions](permissions)
+
+Information on how to check a user's permission(s) against a web or list.
+
 #### [Cross Site-Collection Requests](cross-sc)
 
 Information related to cross site-collection requests.
