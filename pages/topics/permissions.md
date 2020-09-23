@@ -1,5 +1,5 @@
 ---
-title: "Permissions"
+title: "Check User Permissions"
 category: topics
 permalink: /topics/permissions/
 ---
