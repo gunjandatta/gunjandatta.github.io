@@ -13,7 +13,7 @@ This page will give an overview on how to check a user's permission(s) against a
 import { ContextInfo, Web } from "gd-sprest";
 
 // Get the current user from the context information
-let loginName = "i:0#.f|membership|" + ContextInfo.LoginName;
+let loginName = "i:0#.f|membership|" + ContextInfo.userLoginName;
 
 // Get the current user from the web
 Web().CurrentUser().execute(user => {
