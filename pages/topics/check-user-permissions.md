@@ -34,15 +34,15 @@ Web().getUserById(5).execute(user => {
 import { List, Web } from "gd-sprest";
 
 // Web
-Web().getUserEffectivePermissions(loginName).execute(perm => {
-    // Save the permissions
-    perm.GetUserEffectivePermissions;
+Web().getUserEffectivePermissions(loginName).execute(permissions => {
+    // Save the high/low permission values
+    permissions;
 });
 
 // List
-List("Site Assets").getUserEffectivePermissions(loginName).execute(perm => {
-    // Save the permissions
-    perm.GetUserEffectivePermissions;
+List("Site Assets").getUserEffectivePermissions(loginName).execute(permissions => {
+    // Save the high/low permission values
+    permissions;
 });
 ```
 
