@@ -49,6 +49,7 @@ The list form field class is designed to handle the interactions with getting li
 | --- | --- | --- |
 | field | _IFieldLookup_ | The lookup field. |
 | lookupField | _string_ | The internal name of the lookup field. |
+| lookupFilter | _string_ | Optional OData query to filter the lookup items |
 | lookupListId**| _string_ | The lookup list id. |
 | lookupWebId | _string_ | The lookup web id. |
 | multi | _boolean_ | True if this is a multi-lookup field. |
