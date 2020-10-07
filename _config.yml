@@ -20,7 +20,7 @@ title                    : "gd-sprest"
 title_separator          : "-"
 subtitle                 : "SharePoint REST Framework"
 name                     : "Dattabase"
-description              : "An easy way to develop solutions for SharePoint 2013+/Online environments."
+description              : "An opensource framework for SharePoint IT Consulting."
 url                      : "https://dattabase.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : gunjandatta/gunjandatta.github.io
