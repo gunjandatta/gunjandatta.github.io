@@ -16,7 +16,7 @@ main:
     url: /blog
   - title: "Library Docs"
     url: /docs/sprest/globals.html
-#  - title: "Request Generator"
-#    url: /request
+  - title: "Request Generator"
+    url: /request
   - title: "GitHub"
     url: "https://github.com/gunjandatta/sprest"
