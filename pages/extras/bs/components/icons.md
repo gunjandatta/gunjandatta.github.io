@@ -10,7 +10,6 @@ The library no longer includes all of the icons by default.
 ### TypeScript
 
 ```ts
-import { Components } from "gd-sprest-bs";
 import { filter } from "gd-sprest-bs/build/icons/svgs";
 
 // Returns an SVG Element
