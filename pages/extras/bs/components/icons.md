@@ -5,47 +5,16 @@ permalink: /docs/sprest-bs/modules/_icons_d_.html
 ---
 Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). Icons is a method using the IconTypes enumerator to render a specified icon. The default size rendered is 32x32, unless specified.
 
+The library no longer includes all of the icons by default.
+
 ### TypeScript
 
 ```ts
 import { Components } from "gd-sprest-bs";
-```
+import { filter } from "gd-sprest-bs/build/icons/svgs";
 
-### React
-
-```tsx
-import * as React from "react";
-import { Icons, IconTypes } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Icons
-                type={IconTypes.Arrow}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Icon v-bind:type="iconType" />
-</template>
-
-<script>
-import { IconTypes } from "gd-sprest-bs";
-import { Icon } from "gd-sprest-bs-vue";
-export default {
-    components: { Icon },
-    data() {
-        return {
-            iconType: IconTypes.Arrow
-        };
-    }
-}
-</script>
+// Returns an SVG Element
+let elIcon = filter();          // Renders a 32x32 icon
+let elIcon = filter(16);        // Renders a 16x16 icon
+let elIcon = filter(16, 32);    // Renders a 16x32 icon
 ```
