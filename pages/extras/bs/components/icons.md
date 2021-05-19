@@ -3,9 +3,7 @@ title: "Icons"
 category: bs
 permalink: /extras/bs/components/icons/
 ---
-Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). Icons is a method using the IconTypes enumerator to render a specified icon. The default size rendered is 32x32, unless specified.
-
-The library no longer includes all of the icons by default.
+Bootstrap provides a list of the [available icons](https://icons.getbootstrap.com/#icons). The library no longer includes all of the icons by default. The default size rendered is 32x32, unless specified.
 
 ### TypeScript
 
