@@ -9,7 +9,7 @@ permalink: /bs/components/carousel/
 
 <div class="bs">
     <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/carousel">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/carousel">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>

@@ -9,7 +9,7 @@ permalink: /bs/components/inputgroup/
 
 <div class="bs">
     <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/input-group">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/input-group">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#InputGroup">Code Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.IInputGroupProps.html">Properties</a>
     </div>
