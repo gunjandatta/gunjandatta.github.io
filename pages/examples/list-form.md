@@ -3,7 +3,7 @@ title: "List Form"
 category: examples
 permalink: /examples/list-form/
 ---
-This example will go over various ways to use the form component. Refer to the [Form Page](/extras/bs/components/form) for additional details of the form and form control components. The modal dialog will be used for this example. We will use the button option to display the form when clicked.
+This example will go over various ways to use the form component. Refer to the [Form Page](/bs/components/form) for additional details of the form and form control components. The modal dialog will be used for this example. We will use the button option to display the form when clicked.
 
 ```ts
 import { Components } from "gd-sprest-bs";
@@ -45,7 +45,7 @@ The form control has built in methods to help with customizing it. The ```name``
 
 ## Control Examples
 
-Various form control types exist. Refer to the [documentation](/extras/bs/components/form) for additional details on the form and form control components.
+Various form control types exist. Refer to the [documentation](/bs/components/form) for additional details on the form and form control components.
 
 * Checkbox
 * Color Picker

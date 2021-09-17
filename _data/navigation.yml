@@ -10,8 +10,8 @@ main:
     url: /topics
   - title: "REST API"
     url: /api
-  - title: "Framework Docs"
-    url: /extras
+  - title: "Bootstrap Docs"
+    url: /bs
   - title: "Blog"
     url: /blog
   - title: "Library Docs"

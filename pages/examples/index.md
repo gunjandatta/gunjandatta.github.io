@@ -137,7 +137,7 @@ This solution will demonstrate how to create a custom banner for IE only. This s
 
 ### [VueJS Project](https://github.com/gunjandatta/sp-vueDemo/wiki)
 
-This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/extras/bs/) library to build a SharePoint 2013/Online solution.
+This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/bs/) library to build a SharePoint 2013/Online solution.
 
 ## Starter Solutions
 

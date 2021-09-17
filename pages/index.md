@@ -15,12 +15,9 @@ The SharePoint REST Framework was designed for SharePoint 2013, but works in bot
 
 ### References
 
-- [gd-sprest](api) - An easy way to execute requests against the SharePoint 2013/Online REST api
+- [gd-sprest](api) - An easy way to execute requests against the SharePoint 2013/Online REST API
 - [gd-sprest-def](https://github.com/gunjandatta/sprest-def) - Generates TypeScript definition files from the $metadata SharePoint REST endpoint, for this library.
-- [gd-sprest-bs](extras/bs) - Extends the [Bootstrap Framework](https://getbootstrap.com) with components designed for SharePoint 2013/Online.
-- [gd-sprest-bsx](extras/bs) - Extends the [gd-sprest-bs](extras/bs) library for use with react projects.
-- [gd-sprest-bs-vue](extras/bs) - Extends the [gd-sprest-bs](extras/bs) library for use with vue projects.
-- [gd-sprest-react](extras/react) - Extends the [Office Fluent-UI React Framework](https://developer.microsoft.com/en-us/fluentui) with components designed for SharePoint 2013/Online.
+- [gd-sprest-bs](bs) - Extends the [Bootstrap Framework](https://getbootstrap.com) with components designed for SharePoint 2013/Online.
 
 ### Core Library
 
@@ -31,6 +28,7 @@ The gd-sprest library is similar to the pnp-js, with the main difference being t
 - Ability to create reusable scripts/solutions
 - Intellisense is available for JavaScript/TypeScript
 - Ability to execute live requests from the browser console, helps to debug issues in production
+- Ability to use pure JavaScript if NodeJS is not available to be installed for TypeScript/WebPack/Babel
 
 ### Bugs/Issues/Missing Functionality
 
