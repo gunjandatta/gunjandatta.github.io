@@ -90,23 +90,6 @@ This solution will use the `gd-sprest-bs-starter` solution and build a basic das
 * Learn how to configure datatables.net plugin
 * Learn how to create events to connect components together
 
-### [Basic Dashboard (React)](https://github.com/gunjandatta/sp-dashboard-react/wiki)
-
-This is the same solution as the `Basic Dashboard` example, but will use the `gd-sprest-bsx` react components
-
-* Learn how to create a React solution
-* Learn how to use the `gd-sprest-bsx` Bootstrap React components
-* Learn basic examples of the React event lifecycle
-
-### [Basic Dashboard (VueJS)](https://github.com/gunjandatta/sp-dashboard-vue/wiki)
-
-This is the same solution as the `Basic Dashboard` example, but will use the `gd-sprest-bs-vue` vue components
-
-* Learn how to create a VueJS solution
-* Learn how to use the `gd-sprest-bs-vue` VueJS components
-* Learn how to implement basic routing of views
-* Learn how to implement a basic store for the components
-
 ### [Custom List Forms](https://github.com/gunjandatta/sp-forms/wiki)
 
 This solution will demonstrate how to create custom new/display/edit forms for a SharePoint list. This solution will work in 2013+ environments.
@@ -135,10 +118,6 @@ This solution will demonstrate how to create a custom banner for IE only. This s
 * Learn how to reference external libraries in SPFx
 * Learn about the application customizer and custom placeholders
 
-### [VueJS Project](https://github.com/gunjandatta/sp-vueDemo/wiki)
-
-This solution will build upon the basic examples created above, and utilize the [VueJS](https://vuejs.org/) framework and [gd-sprest-bs](https://gunjandatta.github.io/bs/) library to build a SharePoint 2013/Online solution.
-
 ## Starter Solutions
 
 ### [gd-sprest](https://github.com/gunjandatta/sprest-starter/wiki)
@@ -148,7 +127,3 @@ This is a basic starter solution for building SharePoint projects.
 ### [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs-starter/wiki)
 
 This is a basic starter solution for building SharePoint projects w/ bootstrap.
-
-### [gd-sprest-bs-vue](https://github.com/gunjandatta/sprest-vue-starter/wiki)
-
-This is a basic starter solution for building SharePoint projects w/ bootstrap and vuejs.
