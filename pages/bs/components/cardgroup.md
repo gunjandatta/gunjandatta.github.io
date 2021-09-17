@@ -10,8 +10,8 @@ permalink: /bs/components/cardgroup/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/card/#card-styles">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_cardgroup_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_cardgroup_d_.icardgroupprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.ICardGroupProps.html">Properties</a>
     </div>
 </div>
 
@@ -51,82 +51,6 @@ let cardGroup = Components.CardGroup({
         }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { CardGroup } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <CardGroup
-                cards={[
-                    {
-                        body: [{
-                            title: "Card 1",
-                            text: "This is the first card."
-                        }]
-                    },
-                    {
-                        body: [{
-                            title: "Card 2",
-                            text: "This is the second card."
-                        }]
-                    },
-                    {
-                        body: [{
-                            title: "Card 3",
-                            text: "This is the third card."
-                        }]
-                    }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <CardGroup v-bind:cards="cards" />
-</template>
-
-<script>
-import { CardGroup } from "gd-sprest-bs-vue";
-export default {
-    components: { CardGroup },
-    data() {
-        return {
-            cards: [
-                {
-                    body: [{
-                        title: "Card 1",
-                        text: "This is the first card."
-                    }]
-                },
-                {
-                    body: [{
-                        title: "Card 2",
-                        text: "This is the second card."
-                    }]
-                },
-                {
-                    body: [{
-                        title: "Card 3",
-                        text: "This is the third card."
-                    }]
-                }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

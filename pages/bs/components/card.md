@@ -10,8 +10,8 @@ permalink: /bs/components/card/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/cards">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_card_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_card_d_.icardprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -37,62 +37,6 @@ let card = Components.Card({
         }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Card, Components } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Card
-                body={[
-                    {
-                        title: "Card Title",
-                        text: "This is the card contents.",
-                        actions: [
-                            text: "Card Action",
-                            buttonType: Components.ButtonTypes.Primary
-                        ]
-                    }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Card v-bind:body="body" />
-</template>
-
-<script>
-import { Card } from "gd-sprest-bs-vue";
-export default {
-    components: { Card },
-    data() {
-        return {
-            body: [
-                {
-                    title: "Card Title",
-                    text: "This is the card contents.",
-                    actions: [
-                        text: "Card Action",
-                        buttonType: Components.ButtonTypes.Primary
-                    ]
-                }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

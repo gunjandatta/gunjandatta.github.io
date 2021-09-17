@@ -1,8 +1,10 @@
 ---
 title: "WebParts"
-category: bs
+category: webparts
 permalink: /bs/webparts/
+sidebar-auto: true
 ---
-<script>
-    document.location = "/bs";
-</script>
+
+#### [Documentation](/sprest-bs/modules/webparts.html)
+
+Click on a component from the side navigation.

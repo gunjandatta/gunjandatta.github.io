@@ -10,8 +10,8 @@ permalink: /bs/components/collapse/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/collapse">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_collapse_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_collapse_d_.icollapseprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -35,50 +35,6 @@ let collapse = Components.Collapse({
      id: "demoCollapse",
     content: "This is the content to be collapsed."
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Button, Collapse } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <div>
-                <Button
-                    target="#demoCollapse"
-                    toggle="collapse"
-                    text="Collapse Demo"
-                />
-                <Collapse
-                    id="demoCollapse"
-                    content="This is the content to be collapsed."
-                />
-            </div>
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <div>
-        <Button target="#demoCollapse" toggle="collapse" text="Collapse Demo" />
-        <Collapse id="demoCollapse" content="This is the content to be collapsed." />
-    </div>
-</template>
-
-<script>
-import { Button, Collapse } from "gd-sprest-bs-vue";
-export default {
-    components: { Button, Collapse }
-}
-</script>
 ```
 
 ### Code Playground

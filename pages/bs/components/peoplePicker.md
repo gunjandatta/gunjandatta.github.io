@@ -1,5 +1,5 @@
 ---
 title: "People Picker"
 category: bs
-permalink: /docs/sprest-bs/modules/_components_peoplepicker_d_.html
+permalink: /sprest-bs/modules/components_peoplePicker.html
 ---

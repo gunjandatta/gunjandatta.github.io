@@ -10,8 +10,8 @@ permalink: /bs/components/nav/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/navs">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_nav_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_nav_d_.inavprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -33,57 +33,6 @@ let nav = Components.Nav({
         { title: "Nav 5" }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Nav } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Nav
-                isPills={true}
-                items={[
-                    { title: "Nav 1", isActive: true },
-                    { title: "Nav 2" },
-                    { title: "Nav 3" },
-                    { title: "Nav 4" },
-                    { title: "Nav 5" }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Nav isPills="true" v-bind:items="navItems" />
-</template>
-
-<script>
-import { Nav } from "gd-sprest-bs-vue";
-export default {
-    components: { Nav },
-    data() {
-        return {
-            navItems: [
-                { title: "Nav 1", isActive: true },
-                { title: "Nav 2" },
-                { title: "Nav 3" },
-                { title: "Nav 4" },
-                { title: "Nav 5" }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

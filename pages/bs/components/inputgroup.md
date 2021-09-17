@@ -10,8 +10,8 @@ permalink: /bs/components/inputgroup/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/input-group">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_inputgroup_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_inputgroup_d_.iinputgroupprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#InputGroup">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.IInputGroupProps.html">Properties</a>
     </div>
 </div>
 
@@ -27,40 +27,6 @@ let inputGroup = Components.InputGroup({
     label: "My Name:",
     value: "First Last"
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { InputGroup } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <InputGroup
-                label="My Name"
-                value="First Last"
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <InputGroup label="My Name" value="First Last" />
-</template>
-
-<script>
-import { InputGroup } from "gd-sprest-bs-vue";
-export default {
-    components: { InputGroup }
-}
-</script>
 ```
 
 ### Code Playground

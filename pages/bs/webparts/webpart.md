@@ -1,5 +1,5 @@
 ---
 title: "WebPart"
-category: bs
-permalink: /docs/sprest-bs/modules/_webparts_wp_d_.html
+category: webparts
+permalink: /sprest-bs/modules/webparts_base_wp.html#WebPart
 ---

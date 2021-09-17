@@ -10,8 +10,8 @@ permalink: /bs/components/button/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/buttons">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_button_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_button_d_.ibuttonprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -19,47 +19,6 @@ permalink: /bs/components/button/
 
 ```ts
 import { Components } from "gd-sprest-bs";
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Button } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Button
-                text="Demo"
-                onClick={(btn, ev) => {
-                    alert("The " + btn.text + " button was clicked.");
-                }}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Button text="Demo" v-bind:on-click="showAlert" />
-</template>
-
-<script>
-import { Button } from "gd-sprest-bs-vue";
-export default {
-    components: { Button },
-    methods: {
-        showAlert(btn, ev) {
-            alert("The " + btn.text + " button was clicked.");
-        }
-    }
-}
-</script>
 ```
 
 ### Code Playground

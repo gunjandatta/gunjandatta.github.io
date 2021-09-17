@@ -10,8 +10,8 @@ permalink: /bs/components/progress/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/collapse/#progress">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_progress_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_progress_d_.iprogressprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -29,40 +29,6 @@ let progress = Components.Progress({
 });
 ```
 
-### React
-
-```tsx
-import * as React from "react";
-import {  } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Progress
-                size={25}
-                label="25%"
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Progress size="25" label="25%" />
-</template>
-
-<script>
-import { Progress } from "gd-sprest-bs-vue";
-export default {
-    components: { Progress }
-}
-</script>
-```
-
 ### Code Playground
 
 <div id="playground" class="bs"></div>
@@ -75,7 +41,9 @@ export default {
             'Components.Progress({',
             '\tel: app,',
             '\tsize: 25,',
-            '\tlabel: "25%"',
+            '\tlabel: "25%",',
+            '\tisAnimated: true,',
+            '\tisStriped: true',
             '});'
         ].join('\n'));
     });

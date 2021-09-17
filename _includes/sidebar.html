@@ -14,13 +14,11 @@
             {% if(page.sidebar-auto) %}
             <li>
                 <ul>
-                    {% for sp in site.pages %}
-                    {% if sp.category == page.category and sp.title != page.title %}
+                    {% for sp in site.pages %} {% if sp.category == page.category and sp.title != page.title %}
                     <li>
                         <a href="{{ sp.permalink }}" class="nav__sub-title">{{ sp.title }}</a>
                     </li>
-                    {% endif %}
-                    {% endfor %}
+                    {% endif %} {% endfor %}
                 </ul>
             </li>
             {% endif %}

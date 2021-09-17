@@ -11,15 +11,26 @@ The [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs) library includes th
 
 ### [Components](components)
 ### [Web Parts](webparts)
-### [Code Documentation](/docs/sprest-bs/globals.html)
 
 ### Installation
 
-```js
+```
 npm i --save gd-sprest-bs
 ```
 
-### Reference the Script
+**JavaScript Reference**
+
+```js
+var $REST = require("gd-sprest-bs");
+```
+
+**TypeScript Reference**
+
+```ts
+import { Components, WebParts } from "gd-sprest-bs";
+```
+
+**Reference the Script**
 
 ```html
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/8.3.5/gd-sprest-bs.min.js"></script>
@@ -27,7 +38,7 @@ npm i --save gd-sprest-bs
 
 ## Styling
 
-The bootstrap css will only be applied to elements with a parent element containing the ```bs``` class. This will ensure that other elements on the page will not be affected.
+The bootstrap css will only be applied to elements with a parent element containing the ```bs``` class. This will ensure that other elements on the page are not be affected.
 
 ```html
 <div class="bs">

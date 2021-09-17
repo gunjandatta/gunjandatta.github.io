@@ -10,8 +10,8 @@ permalink: /bs/components/checkboxgroup/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/forms/#checkboxes-and-radios">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_checkboxgroup_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_checkboxgroup_d_.icheckboxgroupprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#CheckboxGroup">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.ICheckboxGroupProps.html">Properties</a>
     </div>
 </div>
 
@@ -30,52 +30,6 @@ let cbGroup = Components.CheckboxGroup({
         { label: "Option 3" }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { CheckboxGroup } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <CheckboxGroup
-                items={[
-                    { label: "Option 1" },
-                    { label: "Option 2" },
-                    { label: "Option 3" }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <CheckboxGroup v-bind:items="checkboxes" />
-</template>
-
-<script>
-import { CheckboxGroup } from "gd-sprest-bs-vue";
-export default {
-    components: { CheckboxGroup },
-    data() {
-        return {
-            checkboxes: [
-                { label: "Option 1" },
-                { label: "Option 2" },
-                { label: "Option 3" }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

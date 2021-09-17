@@ -1,5 +1,5 @@
 ---
 title: "Search WebPart"
-category: bs
-permalink: /docs/sprest-bs/modules/_webparts_wpsearch_d_.html
+category: webparts
+permalink: /sprest-bs/modules/webparts_search_wp.html#WPSearch
 ---

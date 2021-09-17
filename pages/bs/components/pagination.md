@@ -10,8 +10,8 @@ permalink: /bs/components/pagination/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/pagination">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_pagination_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_pagination_d_.ipaginationprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -30,39 +30,6 @@ let pagination = Components.Pagination({
         console.log("The page number selected is: " + index);
     }
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Pagination } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Pagination
-                numberOfPages={5}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Pagination numberOfPages="5" />
-</template>
-
-<script>
-import { Pagination } from "gd-sprest-bs-vue";
-export default {
-    components: { Pagination }
-}
-</script>
 ```
 
 ### Code Playground

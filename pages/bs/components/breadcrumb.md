@@ -10,8 +10,8 @@ permalink: /bs/components/breadcrumb/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/breadcrumb">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_breadcrumb_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_breadcrumb_d_.ibreadcrumbprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -30,52 +30,6 @@ let breadcrumb = Components.Breadcrumb({
         { text: "Web 1-1", href: "/web/1" }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Breadcrumb } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Breadcrumb
-                items={[
-                    { text: "Root", href: "/" },
-                    { text: "Web 1", href: "/web" },
-                    { text: "Web 1-1", href: "/web/1" },
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Breadcrumb v-bind:items="demoItems" />
-</template>
-
-<script>
-import { Breadcrumb } from "gd-sprest-bs-vue";
-export default {
-    components: { Breadcrumb },
-    data() {
-        return {
-            demoItems: [
-                { text: "Root", href: "/" },
-                { text: "Web 1", href: "/web" },
-                { text: "Web 1-1", href: "/web/1" },
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

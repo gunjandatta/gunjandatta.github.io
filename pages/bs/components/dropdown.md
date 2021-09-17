@@ -10,8 +10,8 @@ permalink: /bs/components/dropdown/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/dropdowns">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_dropdown_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_dropdown_d_.idropdownprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -36,57 +36,6 @@ let dropdown = Components.Dropdown({
         console.log("The selected value is: " + item.text);
     }
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Dropdown } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Dropdown
-                label="Select a Choice"
-                items={[
-                    { text: "Choice 1", value: 1 },
-                    { text: "Choice 2", value: 2 },
-                    { text: "Choice 3", value: 3 },
-                    { text: "Choice 4", value: 4 },
-                    { text: "Choice 5", value: 5 }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Dropdown label="Select a Choice" v-bind:items="ddlItems" />
-</template>
-
-<script>
-import { Dropdown } from "gd-sprest-bs-vue";
-export default {
-    components: { Dropdown },
-    data() {
-        return {
-            ddlItems: [
-                { text: "Choice 1", value: 1 },
-                { text: "Choice 2", value: 2 },
-                { text: "Choice 3", value: 3 },
-                { text: "Choice 4", value: 4 },
-                { text: "Choice 5", value: 5 }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

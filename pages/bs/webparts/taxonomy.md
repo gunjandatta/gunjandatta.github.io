@@ -1,5 +1,5 @@
 ---
 title: "Taxonomy WebPart"
-category: bs
-permalink: /docs/sprest-bs/modules/_webparts_wptaxonomy_d_.html
+category: webparts
+permalink: /sprest-bs/modules/webparts_taxonomy_wp.html#WPTaxonomy
 ---

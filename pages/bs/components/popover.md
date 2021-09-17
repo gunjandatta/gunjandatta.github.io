@@ -10,8 +10,8 @@ permalink: /bs/components/popover/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/popovers">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_popover_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_popover_d_.ipopoverprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -36,59 +36,6 @@ let popover = Components.Popover({
 });
 ```
 
-### React
-
-```tsx
-import * as React from "react";
-import { Popover } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Popover
-                isDismissible={true}
-                btnProps={{
-                    text: "Popover Demo"
-                }}
-                options={{
-                    content: "This is the popover content.",
-                    title: "My Popover",
-                    trigger: "hover"
-                }}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Popover isDismissible="true" v-bind:btnProps="btnProps" v-bind:options="options" />
-</template>
-
-<script>
-import { Popover } from "gd-sprest-bs-vue";
-export default {
-    components: { Popover },
-    data() {
-        return {
-            btnProps: {
-                text: "Popover Demo"
-            },
-            options: {
-                content: "This is the popover content.",
-                title: "My Popover",
-                trigger: "hover"
-            }
-        };
-    }
-}
-</script>
-```
-
 ### Code Playground
 
 <div id="playground" class="bs"></div>
@@ -97,17 +44,20 @@ export default {
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
+            '// Create the popover content',
+            'var elContent = document.createElement("div");',
+            'elContent.classList.add("m-2");',
+            'elContent.innerHTML = "This is the popover content.";\n',
             '// Create the popover',
             'Components.Popover({',
             '\tel: app,',
-            '\tisDismissible: true,',
+            '\ttitle: "My Popover",',
             '\tbtnProps: {',
             '\t\ttext: "Popover Demo"',
             '\t},',
             '\toptions: {',
-            '\t\tcontent: "This is the popover content.",',
-            '\t\ttitle: "My Popover",',
-            '\t\ttrigger: "hover"',
+            '\t\tcontent: elContent,',
+            '\t\ttrigger: "focus"',
             '\t}',
             '});'
         ].join('\n'));

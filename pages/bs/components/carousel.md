@@ -10,8 +10,8 @@ permalink: /bs/components/carousel/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/carousel">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_carousel_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_carousel_d_.icarouselprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -46,84 +46,6 @@ let carousel = Components.Carousel({
         }
     ]
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Carousel } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Carousel
-                enableControls={true}
-                enableIndicators={true}
-                id="carouselDemo"
-                items={[
-                    {
-                        captions: "<h5>First Slide</h5>",
-                        imageUrl: "https://via.placeholder.com/400x200",
-                        imageAlt: "First Slide",
-                        isActive: true
-                    },
-                    {
-                        captions: "<h5>Second Slide</h5>",
-                        imageUrl: "https://via.placeholder.com/400x200",
-                        imageAlt: "Second Slide"
-                    },
-                    {
-                        captions: "<h5>Third Slide</h5>",
-                        imageUrl: "https://via.placeholder.com/400x200",
-                        imageAlt: "Third Slide"
-                    }
-                ]}
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Carousel
-        enableControls="true" enableIndicators="true"
-        id="carouselDemo" v-bind:items="carouselItems"
-    />
-</template>
-
-<script>
-import { Carousel } from "gd-sprest-bs-vue";
-export default {
-    components: { Carousel },
-    data() {
-        return {
-            carouselItems: [
-                {
-                    captions: "<h5>First Slide</h5>",
-                    imageUrl: "https://via.placeholder.com/400x200",
-                    imageAlt: "First Slide",
-                    isActive: true
-                },
-                {
-                    captions: "<h5>Second Slide</h5>",
-                    imageUrl: "https://via.placeholder.com/400x200",
-                    imageAlt: "Second Slide"
-                },
-                {
-                    captions: "<h5>Third Slide</h5>",
-                    imageUrl: "https://via.placeholder.com/400x200",
-                    imageAlt: "Third Slide"
-                }
-            ]
-        };
-    }
-}
-</script>
 ```
 
 ### Code Playground

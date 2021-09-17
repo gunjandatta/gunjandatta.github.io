@@ -10,8 +10,8 @@ permalink: /bs/components/alert/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/alerts">Bootstrap Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/modules/_components_alert_d_.html">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/docs/sprest-bs/interfaces/_components_alert_d_.ialertprops.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
 </div>
 
@@ -26,39 +26,6 @@ let alert = Components.Alert({
     el: el,
     content: "This is an alert."
 });
-```
-
-### React
-
-```tsx
-import * as React from "react";
-import { Alert } from "gd-sprest-bsx";
-
-export class IDemo extends React.Component {
-    // Render the component
-    render() {
-        return (
-            <Alert
-                content="This is an alert."
-            />
-        );
-    }
-}
-```
-
-### VueJS
-
-```vue
-<template>
-    <Alert content="This is an alert." />
-</template>
-
-<script>
-import { Alert } from "gd-sprest-bs-vue";
-export default {
-    components: { Alert }
-}
-</script>
 ```
 
 ### Code Playground
