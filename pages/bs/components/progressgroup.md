@@ -11,7 +11,7 @@ permalink: /bs/components/progressgroup/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/progress/#multiple-bars">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#ProgressGroup">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.IProgressGroupProps.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.IProgressGroupProps.html">Properties</a>
     </div>
 </div>
 

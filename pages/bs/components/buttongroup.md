@@ -11,7 +11,7 @@ permalink: /bs/components/buttongroup/
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/4.4/components/button-group">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.IButtonGroup.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.IButtonGroup.html">Properties</a>
     </div>
 </div>
 

@@ -10,7 +10,7 @@ permalink: /bs/components/listbox/
 <div class="bs">
     <div class="list-group">
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#ListBox">Code Documentation</a>
-        <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.IListBoxProps.html">Properties</a>
+        <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.IListBoxProps.html">Properties</a>
     </div>
 </div>
 
