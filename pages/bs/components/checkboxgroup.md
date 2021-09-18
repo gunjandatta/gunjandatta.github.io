@@ -43,9 +43,11 @@ let cbGroup = Components.CheckboxGroup({
             '// Create the checkbox group',
             'Components.CheckboxGroup({',
             '\tel: app,',
+            '\tmulti: false,',
+            '\ttype: Components.CheckboxGroupTypes.Switch,',
             '\titems: [',
             '\t\t{ label: "Option 1" },',
-            '\t\t{ label: "Option 2" },',
+            '\t\t{ label: "Option 2", isSelected: true },',
             '\t\t{ label: "Option 3" }',
             '\t]',
             '});'

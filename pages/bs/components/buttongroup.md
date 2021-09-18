@@ -46,9 +46,9 @@ let buttonGroup = Components.ButtonGroup({
             '\tel: app,',
             '\tbuttonType: Components.ButtonTypes.Primary,',
             '\tbuttons: [',
-            '\t\t{ text: "Left" },',
-            '\t\t{ text: "Middle" },',
-            '\t\t{ text: "Right" }',
+            '\t\t{ text: "Left", onClick: function() { alert("Left button was clicked."); } },',
+            '\t\t{ text: "Middle", onClick: function() { alert("Middle button was clicked."); } },',
+            '\t\t{ text: "Right", onClick: function() { alert("Right button was clicked."); } }',
             '\t]',
             '});'
         ].join('\n'));

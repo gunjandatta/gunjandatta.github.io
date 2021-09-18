@@ -57,9 +57,9 @@ let accordion = Components.Accordion({
             '\tautoCollapse: true,',
             '\tid: "demoAccordion",',
             '\titems: [',
-            '\t\t{ btnProps: { text: "Item 1" }, content: "This is the content for item 1." },',
-            '\t\t{ btnProps: { text: "Item 2" }, content: "This is the content for item 2." },',
-            '\t\t{ btnProps: { text: "Item 3" }, content: "This is the content for item 3." },',
+            '\t\t{ header: "Item 1", content: "This is the content for item 1.", showFl: true },',
+            '\t\t{ header: "Item 2", content: "This is the content for item 2." },',
+            '\t\t{ header: "Item 3", content: "This is the content for item 3." },',
             '\t]',
             '});'
         ].join('\n'));

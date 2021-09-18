@@ -45,19 +45,19 @@ let collapse = Components.Collapse({
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
+            '// Create the collapse',
+            'var collapse = Components.Collapse({',
+            '\tel: app,',
+            '\tid: "demoCollapse",',
+            '\tcontent: "This is the content to be collapsed.",',
+            '\toptions: { toggle: true }',
+            '});',
+            '',
             '// Create the button to toggle the collapse',
             'Components.Button({',
             '\tel: app,',
-            '\ttarget: "#demoCollapse",',
-            '\ttoggle: "collapse",',
+            '\ttoggleObj: collapse,',
             '\ttext: "Collapse Demo"',
-            '});',
-            '',
-            '// Create the collapse',
-            'Components.Collapse({',
-            '\tel: app,',
-            '\tid: "demoCollapse",',
-            '\tcontent: "This is the content to be collapsed."',
             '});'
         ].join('\n'));
     });

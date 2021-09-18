@@ -39,7 +39,10 @@ let alert = Components.Alert({
             '// Create the alert',
             'Components.Alert({',
             '\tel: app,',
-            '\tcontent: "This is an alert."',
+            '\theader: "Demo",',
+            '\tcontent: "This is an alert.",',
+            '\tisDismissible: true,',
+            '\ttype: Components.AlertTypes.Success',
             '});'
         ].join('\n'));
     });

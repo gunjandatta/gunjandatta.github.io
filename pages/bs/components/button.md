@@ -33,7 +33,9 @@ import { Components } from "gd-sprest-bs";
             'Components.Button({',
             '\tel: app,',
             '\ttext: "Button",',
-            '\tonClick: (ev) => {',
+            '\ttype: Components.ButtonTypes.OutlineSuccess,',
+            '\tisLarge: true,',
+            '\tonClick: function(ev) {',
             '\t\talert("The button was clicked.");',
             '\t}',
             '});'

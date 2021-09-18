@@ -39,7 +39,9 @@ let badge = Components.Badge({
             '// Create the badge',
             'Components.Badge({',
             '\tel: app,',
-            '\tcontent: "Badge"',
+            '\tcontent: "Badge Content",',
+            '\tisPill: true,',
+            '\ttype: Components.BadgeTypes.Success',
             '});'
         ].join('\n'));
     });

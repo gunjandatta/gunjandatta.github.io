@@ -46,7 +46,7 @@ let breadcrumb = Components.Breadcrumb({
             '\titems: [',
             '\t\t{ text: "Root", href: "/" },',
             '\t\t{ text: "Web 1", href: "/web" },',
-            '\t\t{ text: "Web 1-1", href: "/web/1" }',
+            '\t\t{ text: "Web 1-1", href: "/web/1", isActive: true }',
             '\t]',
             '});'
         ].join('\n'));
