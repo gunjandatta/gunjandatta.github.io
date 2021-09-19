@@ -1,15 +1,15 @@
 ---
 layout: bs
-title: "Tooltip"
+title: "Spinner"
 category: bs
-permalink: /bs/components/tooltip/
+permalink: /bs/components/spinner/
 ---
 
 ### References
 
 <div class="bs">
     <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/tooltips">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/spinners/">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
@@ -20,15 +20,12 @@ permalink: /bs/components/tooltip/
 ```ts
 import { Components } from "gd-sprest-bs";
 
-// Create the tooltip
-let el = document.querySelector("#tooltip");
-let tooltip = Components.Tooltip({
+// Create the spinner
+let el = document.querySelector("#spinner");
+let spinner = Components.Spinner({
     el: el,
-    text: "Tooltip Demo"
-    options: {
-        html: true,
-        title: "My Tooltip",
-    }
+    text: "Loading...",
+    type: Components.SpinnerTypes.Danger
 });
 ```
 
@@ -40,16 +37,11 @@ let tooltip = Components.Tooltip({
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the tooltip',
-            'Components.Tooltip({',
+            '// Create the spinner',
+            'Components.Spinner({',
             '\tel: app,',
-            '\tcontent: "This is the tooltip content.",',
-            '\tplacement: Components.TooltipPlacements.Top,',
-            '\ttheme: Components.TooltipTypes.LightBorder,',
-            '\tbtnProps: {',
-            '\t\ttext: "My Button",',
-            '\t\ttype: Components.ButtonTypes.OutlineDark',
-            '\t}',
+            '\ttext: "Loading...",',
+            '\ttype: Components.SpinnerTypes.Danger',
             '});'
         ].join('\n'));
     });

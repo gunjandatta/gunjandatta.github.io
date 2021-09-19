@@ -43,7 +43,9 @@ let pagination = Components.Pagination({
             '// Create the pagination',
             'Components.Pagination({',
             '\tel: app,',
-            '\tnumberOfPages: 5',
+            '\talignment: Components.PaginationAlignment.Center,',
+            '\tnumberOfPages: 5,',
+            '\tonClick: function(pageNumber, ev) { alert(pageNumber + " was clicked."); }',
             '});'
         ].join('\n'));
     });

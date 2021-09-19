@@ -41,30 +41,44 @@ let modal = Components.Modal({
 ### Code Playground
 
 <div id="playground" class="bs"></div>
+<style>
+    /* Fix for bs4 conflict */
+    #modalDemo {
+        margin-left: inherit;
+        margin-top: inherit;
+        background: inherit;
+    }
+</style>
 <script type="text/javascript">
     // Wait for the page to load
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the button',
-            'Components.Button({',
-            '\tel: app,',
-            '\ttarget: "#bsModalDemo",',
-            '\ttext: "Show Modal",',
-            '\ttoggle: "modal"',
-            '});',
+            '// Modal elements should be added to the body',
+            'var elModal = document.querySelector("#modal-demo");',
+            'if(elModal === null) {',
+            '\telModal = document.createElement("div");',
+            '\telModal.id = "modal-demo";',
+            '\tdocument.body.appendChild(elModal);',
+            '}',
             '',
             '// Create the modal',
             'var modal = Components.Modal({',
-            '\tel: app,',
-            '\tid: "bsModalDemo",',
+            '\tel: elModal,',
+            '\tid: "modalDemo",',
             '\ttitle: "Modal Demo",',
-            '\tbody: "This is the body of the modal."',
+            '\ttype: Components.ModalTypes.Small,',
+            '\tonRenderBody: function(el) { el.innerHTML = "This is the body of the modal."; },',
+            '\tonRenderFooter: function(el) { el.innerHTML = "This is the footer of the modal."; }',
             '});',
             '',
-            '// Modals require some styling',
-            'modal.el.style.margin = "0";',
-            'modal.el.style.position = "relative";'
+            '// Create the button',
+            'Components.Button({',
+            '\tel: app,',
+            '\ttoggleObj: modal,',
+            '\ttext: "Show Modal",',
+            '\ttype: Components.ButtonTypes.OutlinePrimary',
+            '});',
         ].join('\n'));
     });
 </script>

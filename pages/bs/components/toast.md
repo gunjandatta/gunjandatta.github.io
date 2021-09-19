@@ -1,15 +1,15 @@
 ---
 layout: bs
-title: "Tooltip"
+title: "Toast"
 category: bs
-permalink: /bs/components/tooltip/
+permalink: /bs/components/toast/
 ---
 
 ### References
 
 <div class="bs">
     <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/tooltips">Bootstrap Documentation</a>
+        <a class="list-group-item list-group-item-action" href="https://getbootstrap.com/docs/5.1/components/toasts/">Bootstrap Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/modules/components_components.html#{{ page.title }}">Code Documentation</a>
         <a class="list-group-item list-group-item-action" href="/sprest-bs/interfaces/components_components.I{{ page.title }}Props.html">Properties</a>
     </div>
@@ -20,15 +20,14 @@ permalink: /bs/components/tooltip/
 ```ts
 import { Components } from "gd-sprest-bs";
 
-// Create the tooltip
-let el = document.querySelector("#tooltip");
-let tooltip = Components.Tooltip({
+// Create the toast
+let el = document.querySelector("#toast");
+let spinner = Components.Toast({
     el: el,
-    text: "Tooltip Demo"
-    options: {
-        html: true,
-        title: "My Tooltip",
-    }
+    headerText: "Header",
+    body: "This is the body of the toast.",
+    mutedText: "2 seconds ago",
+    options: { autohide: false }
 });
 ```
 
@@ -40,16 +39,13 @@ let tooltip = Components.Tooltip({
     window.addEventListener("load", function() {
         // Create the code editor
         var editor = CodeEditor(document.getElementById("playground"), true, [
-            '// Create the tooltip',
-            'Components.Tooltip({',
+            '// Create the toast',
+            'Components.Toast({',
             '\tel: app,',
-            '\tcontent: "This is the tooltip content.",',
-            '\tplacement: Components.TooltipPlacements.Top,',
-            '\ttheme: Components.TooltipTypes.LightBorder,',
-            '\tbtnProps: {',
-            '\t\ttext: "My Button",',
-            '\t\ttype: Components.ButtonTypes.OutlineDark',
-            '\t}',
+            '\theaderText: "Header",',
+            '\tbody: "This is the body of the toast.",',
+            '\tmutedText: "2 seconds ago",',
+            '\toptions: { autohide: true }',
             '});'
         ].join('\n'));
     });
