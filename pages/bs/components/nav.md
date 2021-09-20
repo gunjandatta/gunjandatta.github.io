@@ -54,7 +54,7 @@ let nav = Components.Nav({
             '\t\t{ title: "Nav 2", tabContent: "This is the content for tab 2." },',
             '\t\t{ title: "Nav 3", tabContent: "This is the content for tab 3." },',
             '\t\t{ title: "Nav 4", tabContent: "This is the content for tab 4." },',
-            '\t\t{ title: "Nav 5", onTabRendered: function(el) { el.innerHTML = "This is the content for tab 5."; } }',
+            '\t\t{ title: "Nav 5", onRenderTab: function(el) { el.innerHTML = "This is the content for tab 5."; } }',
             '\t]',
             '});'
         ].join('\n'));
