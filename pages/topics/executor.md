@@ -5,13 +5,7 @@ permalink: /topics/executor/
 ---
 The executor is a reusable method for executing code based on an array of data.
 
-## Method Parameters
-
-| Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| methodParams | _Array&lt;any&gt;_ | Yes | An array of parameters to send to the _method_. |
-| method | _() => void \| PromiseLike&lt;any&gt;_ | Yes | The method to execute, based on the length of the _methodParams_. |
-| onExecuted | _() => void \| PromiseLike&lt;any&gt;_ | No | The event triggered after the _method_ completes. |
+## [Documentation](https://dattabase.com/docs/sprest/interfaces/__types_helper_executor_d_.iexecutor.html)
 
 ## Reference Interface/Data
 
