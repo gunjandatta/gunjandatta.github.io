@@ -60,6 +60,14 @@ Next, we will upgrade the solution to a SPFx webpart.
 * Learn how to create a SPFx webpart
 * Learn how to develop against the developer workbench
 
+### [Documents View Webpart](https://github.com/datta-framework/documents-wp/wiki)
+
+This solution will demonstrate how to create a basic view for a document library.
+
+* Learn how to create a document library view
+* Learn how to create filters
+* Learn how to create a SPFx webpart
+
 ### [Webpart Configuration Panel](https://github.com/gunjandatta/sp-wp-editform/wiki)
 
 This solution will demonstrate how to create custom webpart configuration in SharePoint 2013 or Online (Classic) pages.
