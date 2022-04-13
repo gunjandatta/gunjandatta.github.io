@@ -126,6 +126,10 @@ This solution will demonstrate how to create a custom banner for IE only. This s
 * Learn how to reference external libraries in SPFx
 * Learn about the application customizer and custom placeholders
 
+### [SPFx Upgrade](https://github.com/gunjandatta/spfx-upgrade/wiki)
+
+This code walkthrough will demonstrate how to upgrade a classic solution to SPFx. The sample solution will use DataTables.net, jQuery and Bootstrap to render a simple datatable in a webpart.
+
 ## Starter Solutions
 
 ### [gd-sprest](https://github.com/gunjandatta/sprest-starter/wiki)
