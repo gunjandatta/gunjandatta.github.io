@@ -10,16 +10,16 @@ SharePoint Online contains the $batch api endpoint. This will enable multiple re
 Instead of using the ```execute``` method, use the ```batch``` method to bulk multiple requests in a single execution to the server. The method properties are similar to the ```execute``` method:
 
 * batch(_callback: (value) => void_)
-* batch(_appendFl: boolean_)
-* batch(_callback: (value) => void, appendFl: boolean_)
+* batch(_createFl: boolean_)
+* batch(_callback: (value) => void, createFl: boolean_)
 
 ## Callback Method
 
 The callback method will be triggered after the request executes.
 
-## Append Flag
+## Create Flag
 
-The append flag will create the request in a new batch request.
+The create flag will put the request in a new batch request. Each batch request will be executed as a single request to the server, but has a limitation of 100 requests per batch.
 
 ### Code Example
 
@@ -32,8 +32,8 @@ import { SPTypes, Web } from "gd-sprest";
 function executeBatchRequests(list) {
     var web = Web();
 
-    // Loop 10 times
-    for(let i=1; i<=10; i++) {
+    // Create 1500 items
+    for(let i=1; i<=1500; i++) {
         // Add a new item
         web.Lists("BatchList").Items().add({
             Title: "Batch Item " + i
@@ -42,7 +42,7 @@ function executeBatchRequests(list) {
         .batch(function (item) {
             // Log
             console.log("Item '" + item.Title + "' created.");
-        }, i > 1); 
+        }, i > 1 || i%100 == 0); // Limitation of 100 requests per batch, so this will create 15 batch requests
     }
 
     // Get the list after the items are created
@@ -55,7 +55,7 @@ function executeBatchRequests(list) {
             // Log
             console.log("Error getting the list.");
         }
-    });
+    }, true); // Setting true here will create a new batch request
 
     // Delete the list
     web.Lists("BatchList").delete().batch(function () {
