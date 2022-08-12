@@ -38,7 +38,6 @@ The default cloud environment used is the https://graph.microsoft.com environmen
 import { ContextInfo, Graph } from "gd-sprest";
 
 // Get the access token
-
 Graph.getAccessToken().execute(token => {
     // Set the default token for the api requests
     Graph.Token = token.access_token;
@@ -51,7 +50,6 @@ Graph.getAccessToken().execute(token => {
 import { ContextInfo, Graph, SPTypes } from "gd-sprest";
 
 // Get the access token
-
 Graph.getAccessToken(SPTypes.CloudEnvironment.China).execute(token => {
     // Set the default token for the api requests
     Graph.Token = token.access_token;
@@ -64,7 +62,6 @@ Graph.getAccessToken(SPTypes.CloudEnvironment.China).execute(token => {
 import { ContextInfo, Graph, SPTypes } from "gd-sprest";
 
 // Get the access token
-
 Graph.getAccessToken(SPTypes.CloudEnvironment.USL4).execute(token => {
     // Set the default token for the api requests
     Graph.Token = token.access_token;
@@ -77,7 +74,6 @@ Graph.getAccessToken(SPTypes.CloudEnvironment.USL4).execute(token => {
 import { ContextInfo, Graph, SPTypes } from "gd-sprest";
 
 // Get the access token
-
 Graph.getAccessToken(SPTypes.CloudEnvironment.USL5).execute(token => {
     // Set the default token for the api requests
     Graph.Token = token.access_token;
@@ -93,10 +89,26 @@ The [ContextInfo](/topics/context-info) will be used to reference the current si
 | Name | Description |
 | --- | --- |
 | accessToken | The access token. Defaults to the Graph.Token value if not presented. |
-| cloud | The cloud environment to access. |
+| cloud | The cloud environment to access. Defaults to the Graph.Cloud or Default cloud environment if not presented. |
 | requestType | The GET/POST request type. |
 | url | The graph api url for the request. |
-| version | The version of the graph api to access. |
+| version | The version of the graph api to access. Defaults to the Graph.Version or 1.0 version if not presented. |
+
+### Setting the Default Request Properties
+
+To set the properties, simples reference the Graph library and set the property.
+
+```ts
+import { Graph, SPTypes } from "gd-sprest";
+
+// Get the access token
+Graph.getAccessToken().execute(token => {
+    // Set the default properties
+    Graph.Cloud = SPTypes.CloudEnvironment.USL5;
+    Graph.Token = token.access_token;
+    Graph.Version = "2.0";
+});
+```
 
 ## Code Examples
 
