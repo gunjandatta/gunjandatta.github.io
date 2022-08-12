@@ -5,6 +5,10 @@ permalink: /topics/graph-api/
 ---
 The graph api library will help you make requests from SharePoint under the context of the user. A benefit of this method is that it will not require you to register the app.
 
+### Security
+
+All requests will be made under the user context. The `securityEnabledOnly` flag will be set to `true` for the graph api request.
+
 ## Token
 
 The first step is to get an access token for the graph api requests. The graph library has a `Token` property that can be set, so you do not need to pass it for each request.
@@ -94,13 +98,9 @@ The [ContextInfo](/topics/context-info) will be used to reference the current si
 | url | The graph api url for the request. |
 | version | The version of the graph api to access. |
 
-### Security
+## Code Examples
 
-All requests will be made under the user context. The `securityEnabledOnly` flag will be set to `true` for the request.
-
-### Code Examples
-
-#### Get the User Information
+### Get the User Information
 
 ```ts
 import { Graph } from "gd-sprest";
@@ -121,7 +121,7 @@ Graph({ url: "me" }).execute(userInfo => {
 });
 ```
 
-#### Get the root site
+### Get the root site
 
 ```ts
 import { Graph } from "gd-sprest";
@@ -139,7 +139,7 @@ Graph({ url: "/sites/root" }).execute(rootSite => {
 });
 ```
 
-#### Get the Current Site
+### Get the Current Site
 
 ```ts
 import { ContextInfo, Graph } from "gd-sprest";
@@ -157,7 +157,7 @@ Graph({ url: "/sites/" + ContextInfo.siteId }).execute(siteInfo => {
 });
 ```
 
-#### Get the Lists in the Current Site Collection
+### Get the Lists in the Current Site Collection
 
 ```ts
 import { ContextInfo, Graph } from "gd-sprest";
@@ -182,7 +182,7 @@ Graph({ url: "/sites/" + ContextInfo.siteId + "/lists" }).execute(lists => {
 });
 ```
 
-#### Create a List in the Current Site Collection
+### Create a List in the Current Site Collection
 
 ```ts
 import { ContextInfo, Graph } from "gd-sprest";
