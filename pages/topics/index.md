@@ -32,6 +32,10 @@ Information related to cross site-collection requests.
 
 Information related to the helper function for executing various functions against an array of data.
 
+#### [Graph API](graph-api)
+
+The library for requests made to the Graph API.
+
 #### [Helper Methods](methods)
 
 The available helper methods available in the core library.
