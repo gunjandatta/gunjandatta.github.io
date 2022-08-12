@@ -101,12 +101,14 @@ To set the properties, simples reference the Graph library and set the property.
 ```ts
 import { Graph, SPTypes } from "gd-sprest";
 
+// Set the default properties
+Graph.Cloud = SPTypes.CloudEnvironment.USL5;
+Graph.Version = "2.0";
+
 // Get the access token
 Graph.getAccessToken().execute(token => {
-    // Set the default properties
-    Graph.Cloud = SPTypes.CloudEnvironment.USL5;
+    // Set the default token value
     Graph.Token = token.access_token;
-    Graph.Version = "2.0";
 });
 ```
 
