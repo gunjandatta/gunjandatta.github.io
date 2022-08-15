@@ -5,13 +5,9 @@ permalink: /topics/graph-api/
 ---
 The graph api library will help you make requests from SharePoint under the context of the user. A benefit of this method is that it will not require you to register the app.
 
-## Security
-
-All requests will be made under the user context. The `securityEnabledOnly` flag will be set to `true` for the graph request.
-
 ## Token
 
-The first step is to get an access token for the graph api requests. The graph library has a `Token` property that can be set, so you do not need to pass it for each request.
+The first step is to get an access token for the graph api requests. The graph library has a `Token` property that can be set, so you do not need to pass it for each request. All requests will be made under the user context.
 
 ### Token Properties
 
