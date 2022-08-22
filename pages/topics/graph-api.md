@@ -198,7 +198,7 @@ Graph({ url: "/sites/" + ContextInfo.siteId + "/lists" }).execute(lists => {
 import { ContextInfo, Graph } from "gd-sprest";
 
 // Create a list in the current site collection
-Graph({ url: "/sites/" + ContextInfo.siteId + "/lists", data: {
+Graph({ url: "/sites/" + ContextInfo.siteId + "/lists", requestType: "POST", data: {
   "displayName": "Books",
   "columns": [
     {
