@@ -42,7 +42,7 @@ function executeBatchRequests(list) {
         .batch(function (item) {
             // Log
             console.log("Item '" + item.Title + "' created.");
-        }, i > 1 || i%100 == 0); // Limitation of 100 requests per batch, so this will create 15 batch requests
+        }, i > 1 || Math.ceil(i/100)); // Limitation of 100 requests per batch, so this will create 15 batch requests
     }
 
     // Get the list after the items are created
