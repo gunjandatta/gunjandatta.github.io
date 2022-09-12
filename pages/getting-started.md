@@ -27,10 +27,10 @@ The library can downloaded or referenced from github directly.
 
 ### Core REST API
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/6.0.2/gd-sprest.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.2.5/gd-sprest.min.js"></script>
 ```
 ```js
-var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/6.0.2/gd-sprest.min.js"; document.head.appendChild(s);
+var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.2.5/gd-sprest.min.js"; document.head.appendChild(s);
 ```
 
 ### Bootstrap
@@ -52,7 +52,7 @@ The library allows the developer to execute both synchronous and asynchronous re
 ```js
 // Reference the library
 var s = document.createElement("script");
-s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/6.0.2/gd-sprest.min.js";
+s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.2.5/gd-sprest.min.js";
 document.head.appendChild(s);
 
 // Execute a request
