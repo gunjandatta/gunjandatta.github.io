@@ -34,6 +34,9 @@ function executeBatchRequests(list) {
 
     // Create 1500 items
     for(let i=1; i<=1500; i++) {
+        // Limitation of 100 requests per batch, so this will create 15 batch requests
+        var newBatch = i>0 && i%100==0 ? true : false;
+
         // Add a new item
         web.Lists("BatchList").Items().add({
             Title: "Batch Item " + i
@@ -42,7 +45,7 @@ function executeBatchRequests(list) {
         .batch(function (item) {
             // Log
             console.log("Item '" + item.Title + "' created.");
-        }, i > 1 || Math.ceil(i/100)); // Limitation of 100 requests per batch, so this will create 15 batch requests
+        }, newBatch);
     }
 
     // Get the list after the items are created
