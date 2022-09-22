@@ -134,6 +134,14 @@ This code walkthrough will demonstrate how to upgrade a classic solution to SPFx
 * Learn how to use NodeJS to import libraries
 * Learn how to create a SPFx and Teams solution
 
+### [SPFx Modern List Forms](https://github.com/gunjandatta/spfx-forms/wiki)
+
+This code walkthrough will demonstrate how to create custom modern list forms. The sample solution will use the [gd-sprest-bs](https://github.com/gunjandatta/sprest-bs) SharePoint REST Framework w/ Bootstrap to render a custom form.
+
+* Learn how to create a SPFx List Form Extension
+* Learn how to create a SPFx WebPart
+* Learn how to create custom list forms using the ListForm component
+
 ## Starter Solutions
 
 ### [gd-sprest](https://github.com/gunjandatta/sprest-starter/wiki)
