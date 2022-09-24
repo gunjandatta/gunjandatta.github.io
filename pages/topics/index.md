@@ -64,6 +64,6 @@ References to the internal core SharePoint library components.
 
 Information related to getting data from the Managed Metadata Service.
 
-#### [WebPart](webpart)
+#### [WebParts](webparts)
 
-Information related to developing custom webparts.
+Information related to developing custom classic and modern webparts.
