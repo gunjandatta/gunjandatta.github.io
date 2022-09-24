@@ -1,7 +1,7 @@
 ---
 title: "WebParts"
 category: topics
-permalink: /topics/webpart/
+permalink: /topics/webparts/
 ---
 
 ## Classic WebParts
