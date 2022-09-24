@@ -1,6 +1,6 @@
 ---
 title: "Classic WebParts"
-category: topics
+category: webparts
 permalink: /topics/classic-webparts/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "WebParts"
-category: topics
+category: webparts
 permalink: /topics/modern-webparts/
 ---
 
