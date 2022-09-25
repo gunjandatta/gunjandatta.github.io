@@ -8,7 +8,7 @@ permalink: /topics/webparts/
 
 ### [Classic](./webparts-classic.md)
 
-The framework has pre-configured webparts to help generate minimize code so you only need to focus on the main application and not the configuration or data source. The webparts are pre-configured content/script editor webparts that are added/removed from a site collection's webpart gallery.
+The framework has pre-configured webparts to help minimize code so you only need to focus on the main application and not the configuration or data source. The webparts are pre-configured content/script editor webparts that are added/removed from a site collection's webpart gallery.
 
 ### [Modern](./webparts-modern.md)
 
