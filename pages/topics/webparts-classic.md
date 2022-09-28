@@ -4,8 +4,6 @@ category: webparts
 permalink: /topics/classic-webparts/
 ---
 
-## Classic WebParts
-
 ### Starter WebParts
 
 The `gd-sprest-bs` framework has pre-built reusable webparts that can be used for various configurations. This will simplify and minimize the amount of code you need to write, so you can focus on the application instead of the configuration and datasource. Each webpart is designed to be used as is, or further extended.
