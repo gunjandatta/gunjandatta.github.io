@@ -6,7 +6,7 @@ permalink: /topics/modern-webparts/
 
 ### Starter WebParts
 
-The base and list [Classic Webpart](./webparts-classic.md) types have been upgraded to SPFx.
+The `Base` and `List` [Classic Webpart](./webparts-classic.md) types have been upgraded to SPFx. A new `List Form` webpart has been created for creating custom modern list forms.
 
 #### Base
 
