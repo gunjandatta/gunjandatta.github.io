@@ -144,6 +144,8 @@ The edit form footer event will require you to return the tooltips group propert
 
 This simple walkthrough will give a high-level overview of creating a basic list webpart.
 
+### Basic Setup
+
 #### Add Library
 
 After creating the SPFx project and adding a webpart to it, you will first need to reference the `gd-sprest-bs` library.
@@ -170,9 +172,9 @@ export interface IExampleWebPartProps {
 }
 ```
 
-#### Set Render Method
+#### Set SPFx onRender Method
 
-The render method will call the webpart component, passing the required properties.
+The SPFx `onRender` method will incude the following code to render the webpart contents.
 
 ```ts
 // Render the custom form webpart
@@ -182,22 +184,11 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-#### Set Render Method
+### WebPart Configuration
 
-The `render` property will provide the webpart dom element and configuration properties.
+To add a custom property, simply set the `onConfigFormRendering` event to customize the webpart's configuration form.
 
-```ts
-// Render the custom form webpart
-WebParts.SPFxListFormWebPart({
-    envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
-    spfx: this as any,
-    render: (el, cfg) =&gt; {
-        // Your code goes here
-    }
-});
-```
-
-#### Set Custom Property
+#### Add Custom WebPart Properties
 
 The `onConfigFormRendering` property will provide the ability to add custom form properties.
 
@@ -251,7 +242,26 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-#### Set CAML Query
+### Render List Data
+
+The list webpart will query the list and return its data to the render method. This will help ensure you do not need to write additional code to query this data.
+
+#### Render Methods
+
+The `render` method will provide the webpart dom element and configuration properties. The `renderItems` method will include the list items as well. The ODATA query is used by default, but a CAML query can also be provided.
+
+```ts
+// Render the custom form webpart
+WebParts.SPFxListFormWebPart({
+    envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
+    spfx: this as any,
+    render: (el, cfg) =&gt; {
+        // Your code goes here
+    }
+});
+```
+
+#### Setting the CAML Query
 
 To specify the CAML query used to get the list items for rendering the webpart, use the `onListItemCAMLQuery` event.
 
@@ -276,7 +286,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-#### Set OData Query
+#### Setting the OData Query
 
 To specify the ODATA query used to get the list items for rendering the webpart, use the `onListItemODataQuery` event.
 
@@ -304,7 +314,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-#### Set Render Items Method
+#### Render Items Example
 
 The `renderItems` property will provide the webpart dom element, configuration properties and list items. This event will trigger when the page is being displayed. This list item default query can be customized by using the `onListItemCAMLQuery` or `onListItemODataQuery` events.
 
