@@ -4,23 +4,23 @@ category: webparts
 permalink: /topics/modern-webparts/
 ---
 
-### Starter WebParts
+## Starter WebParts
 
 The `Base` and `List` [Classic Webpart](./webparts-classic.md) types have been upgraded to SPFx. A new `List Form` webpart has been created for creating custom modern list forms.
 
-#### Base
+### Base
 
 The base SPFx webpart inherited by all of the webparts. The webpart will require the `spfx` instance to be provided to it. This will allow the framework to configure a webpart property that renders a button to display a configuration modal. This modal will contain a form that can be further customized by the developer. The properties are stored in a `configuration` webpart property as a JSON string. This is similar to how the classic webpart would store the JSON string within the classic webpart's hidden configuration element.
 
 **WebPart Configuration**
 
-The base webpart doesn't have any default configuration value.
+The base webpart doesn't have any default configuration values.
 
 | Name | Type | Description |
 | --- | --- | --- |
 | | | |
 
-##### Webpart Properties
+#### Webpart Properties
 
 The base properties for all webparts are shown below.
 
@@ -39,7 +39,7 @@ The base properties for all webparts are shown below.
 | renderEdit | _(el?: HTMLElement, cfg?: ISPFxWebPartCfg) =&gt; void_ | The render event for the webpart when the page is being edited. |
 | spfx | _any_ | The SPFx instance. |
 
-#### List
+### List
 
 The list webpart will have a configuration form pre-configured to allow the user to set the web url containing the target list, where the default would be the current web. A dropdown list will contain the lists available. A render method will be available that contains the list items.
 
@@ -51,7 +51,7 @@ The list webpart will have a configuration form pre-configured to allow the user
 | ListName | _string_ | The list name. |
 | WebUrl | _string_ | The web containing the list. If blank, defaults to the current web. |
 
-##### Webpart Properties
+#### Webpart Properties
 
 The relevant properties for the base list webpart.
 
@@ -64,7 +64,7 @@ The relevant properties for the base list webpart.
 | onListsLoaded | _(wpInfo: IListInfo, lists?: [Types.SP.IListQuery | Types.SP.List]) =&gt; [Types.SP.IListQuery | Types.SP.List]_ | Event to customize the lists to display. |
 | renderItems | _(el?: HTMLElement, cfg?: ISPFxListWebPartCfg, items?: [Types.SP.IListItemQuery]) =&gt; void_ | The render event including the list items. |
 
-#### List Form
+### List Form
 
 The list form webpart inherits the list webpart component, to allow the developer to create custom modern list forms. Refer to the [Code Examples](../examples) for a walkthrough of creating custom SPFx list forms. The code example will walk through creating the custom list form extension, and helper webpart to deploy/retract the solution from a list.
 
@@ -76,7 +76,7 @@ The list form webpart inherits the list webpart component, to allow the develope
 | ListName | _string_ | The list name. |
 | WebUrl | _string_ | The web containing the list. If blank, defaults to the current web. |
 
-##### Webpart Properties
+#### Webpart Properties
 
 The relevant properties for customizing a list form are shown below.
 
@@ -140,11 +140,11 @@ To further customize the list form, you can use the following properties.
 
 The edit form footer event will require you to return the tooltips group properties that is passed into the event. This will allow you to modify, add and/or remove tooltip buttons from the bottom of the form.
 
-### Code Example
+## Code Example
 
 This simple walkthrough will give a high-level overview of creating a basic list webpart.
 
-##### Add Library
+#### Add Library
 
 After creating the SPFx project and adding a webpart to it, you will first need to reference the `gd-sprest-bs` library.
 
@@ -152,7 +152,7 @@ After creating the SPFx project and adding a webpart to it, you will first need 
 npm i --save gd-sprest-bs
 ```
 
-##### Import Library
+#### Import Library
 
 In the webpart code file, import the `WebParts` from the library.
 
@@ -160,7 +160,7 @@ In the webpart code file, import the `WebParts` from the library.
 import { WebParts } from "gd-sprest-bs";
 ```
 
-##### Set Configuration
+#### Set Configuration
 
 Update the webpart property interface and ensure the `configuration` property is set. This will hold any custom properties you will need for your solution.
 
@@ -170,7 +170,7 @@ export interface IExampleWebPartProps {
 }
 ```
 
-##### Set Render Method
+#### Set Render Method
 
 The render method will call the webpart component, passing the required properties.
 
@@ -182,7 +182,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-##### Set Render Method
+#### Set Render Method
 
 The `render` property will provide the webpart dom element and configuration properties.
 
@@ -197,7 +197,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-##### Set Custom Property
+#### Set Custom Property
 
 The `onConfigFormRendering` property will provide the ability to add custom form properties.
 
@@ -251,7 +251,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-##### Set CAML Query
+#### Set CAML Query
 
 To specify the CAML query used to get the list items for rendering the webpart, use the `onListItemCAMLQuery` event.
 
@@ -276,7 +276,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-##### Set OData Query
+#### Set OData Query
 
 To specify the ODATA query used to get the list items for rendering the webpart, use the `onListItemODataQuery` event.
 
@@ -304,7 +304,7 @@ WebParts.SPFxListFormWebPart({
 });
 ```
 
-##### Set Render Items Method
+#### Set Render Items Method
 
 The `renderItems` property will provide the webpart dom element, configuration properties and list items. This event will trigger when the page is being displayed. This list item default query can be customized by using the `onListItemCAMLQuery` or `onListItemODataQuery` events.
 
