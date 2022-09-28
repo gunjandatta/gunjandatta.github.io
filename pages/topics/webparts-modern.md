@@ -199,10 +199,10 @@ import { Components } from "gd-sprest-bs";
 WebParts.SPFxListFormWebPart({
     envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
     spfx: this as any,
-    render: (el, cfg) =&gt; {
+    render: (el, cfg) => {
         // Your code goes here
     },
-    onConfigFormRendering: (props: IFormProps) =&gt; {
+    onConfigFormRendering: (props: IFormProps) => {
         // Add a text property
         props.controls.push(
             {
@@ -255,7 +255,7 @@ The `render` method will provide the webpart dom element and configuration prope
 WebParts.SPFxListFormWebPart({
     envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
     spfx: this as any,
-    render: (el, cfg) =&gt; {
+    render: (el, cfg) => {
         // Your code goes here
     }
 });
@@ -270,7 +270,7 @@ To specify the CAML query used to get the list items for rendering the webpart, 
 WebParts.SPFxListFormWebPart({
     envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
     spfx: this as any,
-    onListItemCAMLQuery: (cfg, query) =&gt; {
+    onListItemCAMLQuery: (cfg, query) => {
         // Return the query
         return `
             <Query>
@@ -295,7 +295,7 @@ To specify the ODATA query used to get the list items for rendering the webpart,
 WebParts.SPFxListFormWebPart({
     envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
     spfx: this as any,
-    onListItemODataQuery: (cfg, query) =&gt; {
+    onListItemODataQuery: (cfg, query) => {
         // Set Filter
         query.Filter = "Status ne 'Completed'";
 
@@ -323,7 +323,7 @@ The `renderItems` property will provide the webpart dom element, configuration p
 WebParts.SPFxListFormWebPart({
     envType: Environment.type, // Environment is imported from @microsoft/sp-core-library
     spfx: this as any,
-    onListItemODataQuery: (cfg, query) =&gt; {
+    onListItemODataQuery: (cfg, query) => {
         // Set Filter
         query.Filter = "Status ne 'Completed'";
 
@@ -339,7 +339,7 @@ WebParts.SPFxListFormWebPart({
         // Return the query
         return query;
     },
-    renderItems: (el, cfg, items) =&gt; {
+    renderItems: (el, cfg, items) => {
         // Your code goes here
     }
 });
