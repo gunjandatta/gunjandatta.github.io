@@ -60,9 +60,9 @@ The relevant properties for the base list webpart.
 | listQuery | _IOData_ | The odata query to use for populating the configuration's list dropdown. |
 | onListItemCAMLQuery | _(wpInfo: IListInfo, query: string) =&gt; Types.IODataQuery_ | Event to customize the list item CAML query. |
 | onListItemODataQuery | _(wpInfo: IListInfo, query: Types.IODataQuery) =&gt; Types.IODataQuery_ | Event to customize the list item ODATA query. By default, the ODATA query will be used unless the CAML event is specified. |
-| onListsChanged | _(wpInfo: IListInfo, list?: Types.SP.IListQuery | Types.SP.List) =&gt; void_ | The change event for the configuration list dropdown. |
-| onListsLoaded | _(wpInfo: IListInfo, lists?: [Types.SP.IListQuery | Types.SP.List]) =&gt; [Types.SP.IListQuery | Types.SP.List]_ | Event to customize the lists to display. |
-| renderItems | _(el?: HTMLElement, cfg?: ISPFxListWebPartCfg, items?: [Types.SP.IListItemQuery]) =&gt; void_ | The render event including the list items. |
+| onListsChanged | _(wpInfo: IListInfo, list?: Types.SP.IListQuery \| Types.SP.List) =&gt; void_ | The change event for the configuration list dropdown. |
+| onListsLoaded | _(wpInfo: IListInfo, lists?: [Types.SP.IListQuery \| Types.SP.List]) =&gt; [Types.SP.IListQuery | Types.SP.List]_ | Event to customize the lists to display. |
+| renderItems | _(el?: HTMLElement, cfg?: ISPFxListWebPartCfg, items?: [Types.SP.IListItem \| Types.SP.IListItemQuery]) =&gt; void_ | The render event including the list items. |
 
 ### List Form
 
