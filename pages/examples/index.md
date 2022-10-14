@@ -126,6 +126,14 @@ This solution will demonstrate how to create a custom banner for IE only. This s
 * Learn how to reference external libraries in SPFx
 * Learn about the application customizer and custom placeholders
 
+### [SPFx Banner](https://github.com/gunjandatta/spfx-banner/wiki)
+
+This solution will demonstrate how to create a global banner using the SharePoint Framework (SPFx). This solution is designed to work with both SharePoint 2019 and Online environments. For SharePoint 2019 environments, this solution provides an example of how to deploy SPFx extensions globally which is currently not supported by the framework.
+
+* Learn how to create a banner targeting all pages in a tenant
+* Learn how to load a configuration file and store data in cache
+* Learn how to deploy SPFx extensions globally in SharePoint 2019 environments
+
 ### [SPFx Upgrade](https://github.com/gunjandatta/spfx-upgrade/wiki)
 
 This code walkthrough will demonstrate how to upgrade a classic solution to SPFx. The sample solution will use DataTables.net, jQuery and Bootstrap to render a simple datatable in a webpart.
