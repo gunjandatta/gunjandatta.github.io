@@ -101,9 +101,6 @@ social:
 analytics:
   provider               : google-gtag
   google:
-    tracking_id          : UA-88636936-1
-    anonymize_ip         : # true, false (default)
-  google-gtag:
     tracking_id          : G-PRFYQ204L0
     anonymize_ip         : # true, false (default)
 
