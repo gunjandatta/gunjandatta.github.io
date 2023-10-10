@@ -27,18 +27,18 @@ The library can downloaded or referenced from github directly.
 
 ### Core REST API
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.1/gd-sprest.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.4/gd-sprest.min.js"></script>
 ```
 ```js
-var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.1/gd-sprest.min.js"; document.head.appendChild(s);
+var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.4/gd-sprest.min.js"; document.head.appendChild(s);
 ```
 
 ### Bootstrap
 ```html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/10.10.57/gd-sprest-bs.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/10.10.59/gd-sprest-bs.min.js"></script>
 ```
 ```js
-var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/10.10.57/gd-sprest-bs.min.js"; document.head.appendChild(s);
+var s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest-bs/10.10.59/gd-sprest-bs.min.js"; document.head.appendChild(s);
 ```
 
 ## Browser Console
@@ -52,7 +52,7 @@ The library allows the developer to execute both synchronous and asynchronous re
 ```js
 // Reference the library
 var s = document.createElement("script");
-s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.1/gd-sprest.min.js";
+s.src = "https://cdnjs.cloudflare.com/ajax/libs/gd-sprest/7.7.4/gd-sprest.min.js";
 document.head.appendChild(s);
 
 // Execute a request
