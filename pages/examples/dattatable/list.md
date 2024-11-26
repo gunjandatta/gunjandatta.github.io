@@ -31,24 +31,25 @@ The list component can be used to load a list on any site. It will contain the l
 | Name | Type | Description |
 | --- | --- | --- |
 | __Properties__ |
-| EditForm | [ListForm](list-form) | A reference to the list form. |
-| EditForms | [ListForm](list-form)[] |  |
-| ListContentTypes |  |  |
-| ListFields |  |  |
-| ListInfo |  |  |
-| ListViews |  |  |
-| ViewForm | [ListForm](list-form) |  |
+| EditForm | [ListForm](list-form) | A reference to the list edit form. |
+| EditForms | [ListForm](list-form)[] | A reference to the list edit forms, if using tabs. |
+| ListContentTypes | ContentType[] | A reference to the list content types. |
+| ListFields | Field[] | A reference to the list fields. |
+| ListInfo | List | A reference to the list properties. |
+| ListViews | View[] | A reference to the list views. |
+| ViewForm | [ListForm](list-form) | A reference to the list view form. |
+| ViewForms | [ListForm](list-form)[] | A reference to the list view forms, if using tabs. |
 | __Methods__ |
-| createItem |  |  |
-| deleteItem |  |  |
-| editForm | (props) => void |  |
-| getChanges |  |  |
-| getField |  |  |
-| getFieldById |  |  |
-| getItem |  |  |
-| newForm | (props) => void |  |
-| refresh |  |  |
-| refreshItem |  |  |
-| save |  |  |
-| updateItem |  |  |
-| viewForm | (props) => void |  |
+| createItem | (values: object) => Promise<ListItem> | Method to create a new item in the list. |
+| deleteItem | (itemId: number) => Promise<void> | Method to delete an item in the list. |
+| editForm | (props) => void | Method to display an edit form. |
+| getChanges | (itemId: number, defaultFields: string[]) => PromiseLike<any> | Method to get a list item's version history. |
+| getField | (name:string) => Field | Method to get a list field by it's internal or display name. |
+| getFieldById | (id:string) => Field | Method to get a list field by it's id. |
+| getItem | (itemId: number) => ListItem | Method to get a list item by it's id. |
+| newForm | (props) => void | Method to display a new form. |
+| refresh | (query: [IODataQuery](/dev/odata/)) => PromiseLike<ListItem[]> | Method to refresh the list items. |
+| refreshItem | (itemId: number, query: [IODataQuery](/dev/odata/)) => PromiseLike<ListItem> | Method to refresh a list item. |
+| save | (bypassValidation?: boolean) => PromiseLike<ListItem> | Method to save trigger the save event for a new/edit form. |
+| updateItem | (itemId: number, values: any) => PromiseLike<ListItem> | Method to update an existing list item. |
+| viewForm | (props) => void | Method to display a view form. |
