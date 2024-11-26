@@ -21,13 +21,13 @@ The list form component allows you to generate a new/edit/display form for a lis
 | onFormRendered | (form) => void | No | Triggered after the form is rendered. |
 | onGetListInfo | (props) => props | No | Triggered before the list information is queried, allowing you to customize it. |
 | onResetForm | () => void | No | Triggered before the form is rendered. |
-| onSave | (values) => values \| PromiseLike<values> | No | Triggered before an item is saved, so you can futher customize it. |
+| onSave | (values) => values \| PromiseLike&lt;values&gt; | No | Triggered before an item is saved, so you can futher customize it. |
 | onSaveError | (error) => void | No | Triggered when saving the item fails. |
 | onSetFooter | (element) => void | No | Triggered after the footer is rendered. |
 | onSetHeader | (element) => void | No | Triggered after the header is rendered. |
 | onShowForm | (form) => void | No | Triggered when a form is displayed. |
 | onUpdate | (item) => void | No | Triggered after the item is saved/updated. |
-| onValidation | (values, isValid: boolean) => boolean \| PromiseLike<boolean> | No | Triggered after validation is completed, allowing you to add additional validation and/or cancel the save/update. |
+| onValidation | (values, isValid: boolean) => boolean \| PromiseLike&lt;boolean&gt; | No | Triggered after validation is completed, allowing you to add additional validation and/or cancel the save/update. |
 
 ### Edit Form Properties
 
@@ -46,13 +46,13 @@ The list form component allows you to generate a new/edit/display form for a lis
 | onFormRendered | (form) => void | No | Triggered after the form is rendered. |
 | onGetListInfo | (props) => props | No | Triggered before the list information is queried, allowing you to customize it. |
 | onResetForm | () => void | No | Triggered before the form is rendered. |
-| onSave | (values) => values \| PromiseLike<values> | No | Triggered before an item is saved, so you can futher customize it. |
+| onSave | (values) => values \| PromiseLike&lt;values&gt; | No | Triggered before an item is saved, so you can futher customize it. |
 | onSaveError | (error) => void | No | Triggered when saving the item fails. |
 | onSetFooter | (element) => void | No | Triggered after the footer is rendered. |
 | onSetHeader | (element) => void | No | Triggered after the header is rendered. |
 | onShowForm | (form) => void | No | Triggered when a form is displayed. |
 | onUpdate | (item) => void | No | Triggered after the item is saved/updated. |
-| onValidation | (values, isValid: boolean) => boolean \| PromiseLike<boolean> | No | Triggered after validation is completed, allowing you to add additional validation and/or cancel the save/update. |
+| onValidation | (values, isValid: boolean) => boolean \| PromiseLike&lt;boolean&gt; | No | Triggered after validation is completed, allowing you to add additional validation and/or cancel the save/update. |
 
 ### View Form Properties
 
