@@ -1,6 +1,6 @@
 ---
 title: "DattaTable"
-category: examples
+category: dattatable
 permalink: /examples/dattatable/
 sidebar-auto: true
 ---
