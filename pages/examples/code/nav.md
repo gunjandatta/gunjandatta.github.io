@@ -1,6 +1,6 @@
 ---
 title: "Navigation"
-category: examples
+category: code
 permalink: /examples/code/nav/
 ---
 ## Reference the library

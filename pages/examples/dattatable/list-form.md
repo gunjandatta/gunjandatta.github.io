@@ -1,6 +1,6 @@
 ---
 title: "List Form"
-category: examples
+category: dattatable
 permalink: /examples/dattatable/list-form/
 ---
 TBD

@@ -4,8 +4,6 @@ category: examples
 permalink: /examples/
 sidebar-auto: true
 ---
-## Code Examples
-
 ### [Code](code)
 
 ### [DattaTable](dattatable)

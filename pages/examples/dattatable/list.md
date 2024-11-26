@@ -1,6 +1,6 @@
 ---
 title: "List"
-category: examples
+category: dattatable
 permalink: /examples/dattatable/list/
 ---
 ## Overview

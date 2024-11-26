@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-category: examples
+category: dattatable
 permalink: /examples/dattatable/dashboard/
 ---
 TBD
