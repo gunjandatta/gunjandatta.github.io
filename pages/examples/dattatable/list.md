@@ -30,4 +30,25 @@ The list component can be used to load a list on any site. It will contain the l
 
 | Name | Type | Description |
 | --- | --- | --- |
-| __Filtering__ |
+| __Properties__ |
+| EditForm | [ListForm](list-form) | A reference to the list form. |
+| EditForms | [ListForm](list-form)[] |  |
+| ListContentTypes |  |  |
+| ListFields |  |  |
+| ListInfo |  |  |
+| ListViews |  |  |
+| ViewForm | [ListForm](list-form) |  |
+| __Methods__ |
+| createItem |  |  |
+| deleteItem |  |  |
+| editForm | (props) => void |  |
+| getChanges |  |  |
+| getField |  |  |
+| getFieldById |  |  |
+| getItem |  |  |
+| newForm | (props) => void |  |
+| refresh |  |  |
+| refreshItem |  |  |
+| save |  |  |
+| updateItem |  |  |
+| viewForm | (props) => void |  |
