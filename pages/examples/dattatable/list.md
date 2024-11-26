@@ -26,7 +26,7 @@ The list component can be used to load a list on any site. It will contain the l
 | onRefreshItems | (items) => void | No | Triggered when the items are refreshed. |
 | onResetForm | () => void | No | Triggered before the list form is rendered. |
 
-## Properties
+### Properties
 
 | Name | Type | Description |
 | --- | --- | --- |
