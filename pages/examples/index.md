@@ -8,6 +8,6 @@ sidebar-auto: true
 
 ### [Code](code)
 
-### [Library](library)
+### [DattaTable](dattatable)
 
 ### [Solutions](solutions)
