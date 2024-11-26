@@ -1,7 +1,7 @@
 ---
 title: "List Item"
 category: examples
-permalink: /examples/list-item/
+permalink: /examples/code/list-item/
 ---
 ## Reference the library
 

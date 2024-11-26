@@ -1,7 +1,7 @@
 ---
 title: "Navigation"
 category: examples
-permalink: /examples/nav/
+permalink: /examples/code/nav/
 ---
 ## Reference the library
 

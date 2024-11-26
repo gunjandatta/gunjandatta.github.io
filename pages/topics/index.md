@@ -44,7 +44,7 @@ The available helper methods available in the core library.
 
 Information related to developing custom JS Link solutions.
 
-#### [List Forms](list-form)
+#### [Form](form)
 
 Information related to developing custom list item forms.
 

@@ -1,7 +1,7 @@
 ---
 title: "Utility"
 category: examples
-permalink: /examples/utility/
+permalink: /examples/code/utility/
 ---
 ## Reference the library
 
