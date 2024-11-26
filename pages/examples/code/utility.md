@@ -1,6 +1,6 @@
 ---
 title: "Utility"
-category: code
+category: code-examples
 permalink: /examples/code/utility/
 ---
 ## Reference the library

@@ -1,6 +1,6 @@
 ---
 title: "Code Examples"
-category: examples
+category: code-examples
 permalink: /examples/
 sidebar-auto: true
 ---

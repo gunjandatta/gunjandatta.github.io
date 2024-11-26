@@ -1,6 +1,6 @@
 ---
 title: "List Item"
-category: code
+category: code-examples
 permalink: /examples/code/list-item/
 ---
 ## Reference the library

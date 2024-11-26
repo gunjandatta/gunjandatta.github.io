@@ -1,6 +1,6 @@
 ---
 title: "Permissions"
-category: code
+category: code-examples
 permalink: /examples/code/permissions/
 ---
 The ```SPTypes``` contains the BasePermissionTypes enumerator which is used to determine what permissions a user has to a web, list or list item. The ```Helper``` class contains a ```hasPermissions(permissionMask, permissions)``` method returns a promise w/ a true/false value. The ```permissions``` property may be a single permission type or an array or permission types.
